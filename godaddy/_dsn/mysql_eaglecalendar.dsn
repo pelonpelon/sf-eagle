@@ -1,0 +1,10 @@
+[ODBC]
+DRIVER=MySQL ODBC 3.51 Driver
+UID=eaglecalendar
+STMT=
+OPTION=
+PORT=
+PASSWORD=Eagle1@eagle
+SERVER=eaglecalendar.db.9803620.hostedresource.com
+DATABASE=eaglecalendar
+DESC=

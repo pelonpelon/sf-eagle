@@ -1,0 +1,218 @@
+/* Rounded Corners */
+.rc {border: 0px solid #fff; position: relative;
+  -webkit-border-radius: 4px; -moz-border-radius: 4px; -o-border-radius: 4px; border-radius: 4px;
+  box-shadow: 0 1px 4px rgba(0,0,0,.2); -webkit-box-shadow: 0 1px 4px rgba(0,0,0,.2); -moz-box-shadow: 0 1px 4px rgba(0,0,0,.2); -o-box-shadow: 0 1px 4px rgba(0,0,0,.2);
+  zoom: 1;}
+
+/* CLEARFIX */
+.cf:before,
+.cf:after { content: " "; display: table; }
+.cf:after { clear: both; }
+/**  * For IE 6/7 only
+ *   * Include this rule to trigger hasLayout and contain floats.  */
+.cf { *zoom: 1; }
+
+/* Buttons */
+.button {max-width:100%; margin: 0 0 0 0; padding:2%; text-align:center; color:#fff; background-color:#900; border:solid 4px #900;
+            line-height:1.3em;border: position: relative;
+            -webkit-border-radius: 8px; -moz-border-radius: 8px; -o-border-radius: 8px; border-radius: 8px;
+            zoom: 1;}
+.button:hover {background-color:#C00; border:solid 4px #C00;}
+.buttonless {max-width:100%; margin: 0 0 0 0; padding:2%; text-align:center; background-color:black; border:solid 4px black;
+                    line-height:1.3em;}
+/* Lightbox */
+.lb-close {visibility:hidden;}
+
+
+body {width:100%; background-color:black; color:white;}
+a {text-decoration:none}
+a:link, a:visited {color:inherit}
+h3 {font:1.5em bold;}
+
+/* IPhone 4 480 */
+#header {float:left; clear:right; width:100%; margin:3% 0;}
+img#logo {float:left; width:70%; height:auto;}
+ul#menu {float:right; width:25%; list-style:none; margin:0 auto 40px auto;}
+ul#menu .button {float:right; clear:right; width:100%; min-height:4.7em; margin:.2em; padding:1em 0 0 0; font-size:.9em; line-height:1.3em;}
+
+#tease {float:left; clear:right; min-width:98%; margin:0 0 20px 0; border:3px solid white;}
+#tease {text-align:left; color:#999999;}
+#tease img {display:block; margin:0 auto; max-width:52%;}
+#tease blockquote {min-width:85%; padding:3% 5%;} 
+#tease .button {max-width:40%; margin:0 0 10px 45%; font-size:1.2em;}
+
+#events {float:left; clear:right; width:100%; margin:0 0 20px 0;}
+#events ul {list-style:none;}
+#events h3 {margin:5px 0; padding:5px; background-color:#444444;}
+#events h4 {font-size:1.3em;}
+.events {float:left; width:100%;}
+.events p {padding:0; font-size:1.3em; margin:5px 0 0 0; text-align:center;}
+.event {margin:10px 3%;}
+.time {font-size:.8em; color:#f00; clear:left; margin:0 0;}
+.desc {font-size:1em; color:#cccccc;margin: 3px 0 0 10px; padding:3px 10px;}
+.event .button {float:left; width:55%; margin:0 10% 0 0; padding:10px 0;} 
+.event .buttonless {float:left; width:55%; margin:0 10% 0 0; padding:10px 0;} 
+#tnl {width:66%;}
+#tnl .button {width:95%;}
+#tnl .buttonless {width:95%;}
+#tnl_thumb {float:right; width:28%; margin:1%; border:solid 4px #400;}
+#tnl_thumb:hover {border:solid 4px #C00;}
+#tnl_thumb img {width:100%;}
+.thumb {max-width:25%; max-height:60px; border:solid 4px #900;}
+.thumb:hover {border:solid 4px #C00;}
+#events h4 {text-align:center; margin:10px 0;}
+#events ul ul li {max-width:60%; font-size: 1em;}
+
+#flyers {width:100%; clear:both;}
+.flexslider {display:none;}
+.nonFlexslider {display:none;}
+.nonFlexslider {display:block;}
+.slides li p {width:80%; margin:40px auto 10px auto; padding:20px; font-size:2em; font-weight:bold; text-align:center; background-color:#333; color:#c00;
+              -webkit-border-radius: 12px; -moz-border-radius: 12px; -o-border-radius: 12px; border-radius: 12px;}
+.slides img {width:100%; margin:0 auto;}
+
+.lb-outerContainer { max-width: 320px; max-height:480px; background-color:black;}
+.lb-outerContainer img { max-width: 300px; }
+.lb-dataContainer { max-width: 220px; /* For the text below image */ }
+
+/* 7" Tablets */
+@media screen and (min-width: 640px){
+#header {width:40%; clear:none;}
+img#logo {width:100%}
+ul#menu #thisweek {display:none;}
+ul#menu {clear:left; padding:7% 2%; width:100%; margin: 0 auto;}
+ul#menu .button {float:left; clear:none; width:5.3em;}
+#tease {float:right; min-width:40%; max-width:55%;}
+#tease blockquote {width: 85%; margin: 1em 5em 0 1em; font-size:1.2em} 
+#events {float:right; clear:right; width:90%; margin:50px 5%;}
+#events ul ul li {margin:16px auto; padding:16px 16px;}
+#events ul ul li {-webkit-border-radius: 10px; -moz-border-radius: 10px; -o-border-radius: 10px; border-radius: 10px;}
+.events {width:95%;}
+.event .button {font-size: 1.3em; width:50%;}
+.time {font:1.2em bold; color:#f44;}
+
+.lb-outerContainer { max-width: 607px; max-height:800px; background-color:black;}
+.lb-outerContainer img { max-width: 570px; max-height:700px; border:solid 5px white;}
+.lb-dataContainer { max-width: 400px; /* For the text below image */ }
+
+
+#merchemail p {font-size:1.5em;}
+}
+
+@media screen and (min-width: 800px){
+#header {width:30%; clear:none; margin:10px 3% 10px 2%;}
+img#logo {width:100%}
+ul#menu {clear:left; padding:7% 10%; width:90%;}
+ul#menu .button {float:left; clear:none; width:5.3em;}
+#tease {float:left; min-width:20%; max-width:30%; padding:20px 10px; margin:10px 0 0 0;}
+#tease blockquote {width: 85%; margin: 1em 5em 0 1em; font-size:1.2em} 
+#events {float:right; clear:right; width:30%; margin:10px 10px 50px 0;}
+#events ul ul li {margin:16px auto; padding:16px 16px;}
+#events ul ul li {-webkit-border-radius: 10px; -moz-border-radius: 10px; -o-border-radius: 10px; border-radius: 10px;}
+.events {width:100%;}
+.event .button {font-size: 1.3em; width:56%;}
+.time {font:1.2em bold; color:#f44;}
+
+div#flyers {clear:both;}
+.nonFlexslider {display:none;}
+.flexslider {margin: 0 0; background: #000; border: 0px solid #fff; position: relative; -webkit-border-radius: 4px; -moz-border-radius: 4px; -o-border-radius: 4px; border-radius: 4px; box-shadow: 0 1px 4px rgba(0,0,0,.2); -webkit-box-shadow: 0 1px 4px rgba(0,0,0,.2); -moz-box-shadow: 0 1px 4px rgba(0,0,0,.2); -o-box-shadow: 0 1px 4px rgba(0,0,0,.2); zoom: 1;}
+.flex-viewport {max-height: 2000px; -webkit-transition: all 1s ease; -moz-transition: all 1s ease; transition: all 1s ease;}
+.flexslider .slides {zoom: .3333;}
+.slides li p {width:80%; margin:0 auto 60px auto; padding:20px; font-size:4.5em; font-weight:bold; text-align:center; background-color:#333; color:#f00;
+              -webkit-border-radius: 12px; -moz-border-radius: 12px; -o-border-radius: 12px; border-radius: 12px;}
+.slides li a {}
+}
+
+
+@media screen and (min-width: 100000px){
+div#logo {width:50%; height:auto; float:left; margin:0 0 20px 0; padding:0;}
+div#logo img {max-width:100%; float:left; clear:right;}
+div#logo ul {list-style:none; margin:20px auto;}
+div#logo ul li {display:block; float:left; width:20%; height:3em; padding:9% 5%; margin:0 .5%;
+             font-size:.9em; text-align:center;  background-color:#900;
+             -webkit-border-radius: 8px; -moz-border-radius: 8px; -o-border-radius: 8px; border-radius: 8px;
+             box-shadow: 0 1px 4px rgba(c,c,c,.8); -webkit-box-shadow: 0 1px 4px rgba(c,c,c,.8); -moz-box-shadow: 0 1px 4px rgba(c,c,c,.8); -o-box-shadow: 0 1px 4px rgba(c,c,c,.8)
+           }
+div#logo ul li#thisweek {display:none;}
+div#logo ul li:hover {background-color:#c00;}
+
+div#tease {width:45%; float:left; margin:0; padding:0}
+div#tease {text-align:left; color:#999999;}
+div#tease img {display:block; margin:5% auto; max-width:80%;}
+div#tease p {margin: 0 auto; font-size:1.2em;}
+div#tease .button {max-width:40%; margin; 30px 0;}
+div#tease blockquote {width: 75%; margin: 10px 5em;} 
+div#tease blockquote+p {float:right; margin: 1em 20% 0 0; font-weight:bold;} 
+
+#events {width:30%; height:auto; float:left; margin:0 0 3em 0; padding:0; 
+         background-color:#222222;-webkit-border-radius: 8px; -moz-border-radius: 8px; -o-border-radius: 8px; border-radius: 8px;
+         box-shadow: 0 1px 4px rgba(0,0,0,.2); -webkit-box-shadow: 0 1px 4px rgba(0,0,0,.2); -moz-box-shadow: 0 1px 4px rgba(0,0,0,.2); -o-box-shadow: 0 1px 4px rgba(0,0,0,.2)}
+
+#events ul {list-style:none; margin:0; padding:0;}
+#events li {}
+div.event {margin:1% 0;}
+#events .button {float:left; width:60%; margin:0 2% 0 0;} 
+#events .buttonless {float:left; width:60%; margin:0 2% 0 0;} 
+.events {float:left; width:100%;}
+#tnl {width:66%;}
+#tnl .button {width:95%;}
+#tnl .buttonless {width:95%;}
+#tnl_flyer {float:right; width:28%; margin:1%; border:solid 4px #222;}
+#tnl_flyer:hover {border:solid 4px #C00;}
+#tnl_flyer img {width:100%;}
+.events>p {padding:0; font-size:1.3em; margin:5px 0 0 0; text-align:center;}
+.thumb {max-width:25%; max-height:60px; border:solid 4px #222;}
+.thumb:hover {border:solid 4px #C00;}
+div#events h3 {margin:10px 0 5px 0; padding:4px; background-color:#444444;}
+#events h4 {text-align:center; margin:10px 0;}
+div.time {font-size:.8em; color:#f00; clear:left; margin:0 0;}
+div.desc {font-size:1em; color:#cccccc;margin: 3px 0 0 10px; padding:3px 10px;}
+
+
+div#flyers {clear:both;}
+
+.nonFlexslider {display:none;}
+.flexslider {margin: 0 0; background: #000; border: 0px solid #fff; position: relative; -webkit-border-radius: 4px; -moz-border-radius: 4px; -o-border-radius: 4px; border-radius: 4px; box-shadow: 0 1px 4px rgba(0,0,0,.2); -webkit-box-shadow: 0 1px 4px rgba(0,0,0,.2); -moz-box-shadow: 0 1px 4px rgba(0,0,0,.2); -o-box-shadow: 0 1px 4px rgba(0,0,0,.2); zoom: 1;}
+.flex-viewport {max-height: 2000px; -webkit-transition: all 1s ease; -moz-transition: all 1s ease; transition: all 1s ease;}
+.flexslider .slides {zoom: .3333;}
+.slides li p {width:80%; margin:0 auto 60px auto; padding:20px; font-size:4.5em; font-weight:bold; text-align:center; background-color:#333; color:#f00;
+              -webkit-border-radius: 12px; -moz-border-radius: 12px; -o-border-radius: 12px; border-radius: 12px;}
+.slides li a {}
+
+/* torche.html */
+#torche {background-color:black;}
+#torche img {max-width:100%; max-height:100%;}
+#torche #eagle {position:fixed; top:0; left:0; max-width:25%;}
+#torche #content {max-width:50%; margin:0 auto; color:#FCC;}
+#torche #content img {margin:2em auto 3em auto;}
+
+/* merch-email.html */
+#merchemail div#logo>img {max-width:100%;}
+#merchemail div#logo {position:absolute; top:1%; left:1%; width:20%;}
+#merchemail div#content {margin:20% 0 50px 0;}
+#merchemail p {max-width:60%; margin:20px auto; text-align:center;}
+#merchemail div.rc {border:solid 5px yellow; max-width:100px; background-color:yellow;color:black; text-align:center; margin:50px auto;}
+#merchemail div.rc:hover {border:solid 5px red;}
+
+}
+/* IPAD Landscape 1024 */
+@media screen and (max-width: 1024px){
+div#logo ul li {font-size:.8em;}
+}
+
+/* Small Computer 800 */
+@media screen and (max-width: 800px){
+}
+
+/* IPAD Portrait 768 */
+@media screen and (max-width: 800px){
+div#logo ul li {padding:7% 3%; width:24%; }
+div#tease p {margin: 0 0 0 40%;}
+}
+
+
+
+/* IPhone 3g 320 */
+@media screen and (max-width: 322px){
+}
+

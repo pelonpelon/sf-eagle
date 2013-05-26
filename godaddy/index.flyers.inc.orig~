@@ -1,0 +1,63 @@
+<!--
+<a href="#"><img class="flyer" src="pics/events/rubber-showtunes-lite.jpg"></a>
+	<br />
+	<a href="http://www.sfbg.com/2011/06/28/girls-just-want-have-fun"><img class="flyer" src="pics/events/IMSL ShEagle April 17, 2013-800x612.jpg"></a>
+	<br />
+	<a href="#"><img class="flyer" src="pics/events/TNL041813-lite.jpg"></a>
+	<br />
+	<a href="#"><img class="flyer" src="pics/events/CBHS_Poster-lite.jpg"></a>
+	<br />
+-->
+
+<div class="flexslider">
+  <ul class="slides">
+	<!--
+    	<li>
+	<p>Wednesday</p>
+      	<a href="pics/events/ShEagle-lite.jpg" rel="lightbox"><img src="pics/events/ShEagle-lite.jpg" /></a>
+    	</li>
+	-->
+    	<li>
+	<p>Thursday</p>
+      	<a href="pics/events/TNL-lite.jpg" rel="lightbox"><img src="pics/events/TNL-lite.jpg" /></a>
+      	</li>
+	<!--
+	<li>
+	<p>Every 3rd Friday</p>
+      	<a href="pics/events/CBHS_Poster-lite.jpg" rel="lightbox"><img src="pics/events/CBHS_Poster-lite.jpg" /></a>
+    	</li>
+	-->
+	<li>
+	<p>Friday Cigar Nights</p>
+      	<a href="pics/events/cigar-lite.jpg" rel="lightbox"><img src="pics/events/cigar-lite.jpg" /></a>
+    	</li>
+	<!--
+    	<li>
+	<p>Saturday</p>
+      	<a href="pics/events/sfgmc_eagle_flier-lite.jpg" rel="lightbox"><img src="pics/events/sfgmc_eagle_flier-lite.jpg" /></a>
+    	</li>
+    	-->
+	<!--
+    	<li>
+	<p>Sunday Beer Bust</p>
+      	<a href="pics/events/heartthrob-lite.jpg" rel="lightbox"><img src="pics/events/heartthrob-lite.jpg" /></a>
+      	</li>
+      	-->
+    	<li>
+	<p>Saturday</p>
+      	<a href="pics/events/sadistic-lite.jpg" rel="lightbox"><img src="pics/events/sadistic-lite.jpg" /></a>
+    	</li>
+    	<!--
+    	<li>
+	<p>Every 2nd Sunday</p>
+      	<a href="pics/events/rubber-showtunes-lite.jpg" rel="lightbox"><img src="pics/events/rubber-showtunes-lite.jpg" /></a>
+    	</li>
+    	-->
+    	<!--
+    	<li>
+    	<p>Every 3rd Saturday</p>
+      	<a href="pics/events/bluf-lite.jpg" rel="lightbox"><img src="pics/events/bluf-lite.jpg" /></a>
+      	</li>
+      	-->
+  </ul>
+</div>
