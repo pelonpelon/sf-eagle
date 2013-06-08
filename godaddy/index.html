@@ -3,34 +3,31 @@
 <html>
 <head>
   <title>SF-Eagle | 398 12th Street</title>
-  <meta http-equiv="Content-Type" content=
-  "text/html; charset=utf-8">
-  <!--  <META HTTP-EQUIV="CACHE-CONTROL" CONTENT="NO-CACHE"> -->
-<meta name="viewport" content="width=device-width">
-<meta name="viewport" content="initial-scale=1.0">
-<link rel="stylesheet" href="wp/wp-content/themes/twentytwelve/style.css">
-<link rel="stylesheet" href="widgets/flexslider/flexslider.css">
-<!-- <link rel="stylesheet" type="text/css" href="widgets/slimbox/css/slimbox2.css" media="all" /> -->
-<link rel="stylesheet" href="widgets/lightbox/css/lightbox.css">
-<link rel="stylesheet" href="main.css">
-<!-- <script src= "https://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js"> </script> -->
-<!-- <script type="text/javascript" src="js/jquery-1.9.1-min.js"></script> -->
-<!-- <script type="text/javascript" src="widgets/slimbox/js/slimbox2.js"></script> -->
-<script src="widgets/lightbox/js/jquery-1.7.2.min.js"> </script>
-<script src="widgets/lightbox/js/lightbox.js"> </script>
+
+  <meta http-equiv="Content-Type" content="text/html" charset="utf-8">
+  <!-- <META HTTP-EQUIV="CACHE-CONTROL" CONTENT="NO-CACHE"> -->
+  <meta name="viewport" content="width=device-width">
+  <meta name="viewport" content="initial-scale=1.0">
+  <link rel="stylesheet" href="wp/wp-content/themes/twentytwelve/style.css">
+  <link rel="stylesheet" href="widgets/flexslider/flexslider.css">
+  <link rel="stylesheet" href="widgets/lightbox/css/lightbox.css">
+  <link rel="stylesheet" href="main.css">
+  <!-- <script src= "https://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js"> </script> -->
+  <script src="widgets/lightbox/js/jquery-1.7.2.min.js"> </script>
+  <script src="widgets/lightbox/js/lightbox.js"> </script>
   <script type="text/javascript" src="widgets/flexslider/jquery.flexslider.js"> </script>
   <script type="text/javascript" charset="utf-8">
       $(window).load(function() {
-
                 $('.flexslider').flexslider({
                         animation: "slide",
                         animationLoop: "true",
                 });
         });
-    <!-- Make lightbox close when clicked -->
   </script>
 </head>
 <body>
+  <div id="page">
+   
     <div id="mast">
       <img id="logo" class="cf" src="pics/logo-lite.gif" alt="logo" />
       <ul id="menu" class="cf">
@@ -39,34 +36,29 @@
         <li><a class="btn" href="tnl.html"><h3>Live Music</h3></a></li>
         <li><a class="jobs btn" href="staff.html"><h3>Barback needed</h3></a></li>
       </ul>
-      <a id="hankypic" class="btn cf" href="docs/GayHankyCodes.html"><img src="pics/hankycodes.jpeg" alt="hanky codes" /></a>
-      <p>Are you ready for the FLAG party on the 24th? Click on the Butt and choose your color(s)</p>
+      <a id="hankypic" class="btn cf" href="docs/GayHankyCodes.html"><img src="pics/hankycodes.jpeg" title="Hanky Codes" alt="hanky codes" /> <p>Hanky Codes</p></a>
     </div>
+    
 
-    <div id="tease" class="cf">
-        <a href="pics/events/flag1-lite.jpg" rel="lightbox"><img src="pics/events/flag1-lite.jpg" alt="FLAG" /></a>
-          <img src="pics/events/flag-cody-pouringabeer-lite.jpg" alt="cody" />
-        <blockquote>Break up your work week and have a hump day drink with me!</blockquote>
-          <a href="http://www.facebook.com/cody.joseph"><img src="pics/events/cody-thumb.jpg" alt="cody" /></a>
-
+    <div id="tease">
+      <div id="posters">
+        <a href="pics/events/TNL-lite.jpg" rel="lightbox"><img src="pics/events/TNL-lite.jpg" alt="TNL Flyer" />THU</a>
+        <a href="pics/events/TheOhSees060813-lite.jpg" rel="lightbox"><img src="pics/events/TheOhSees060813-lite.jpg" alt="The Oh Sees" />SAT</a>
+        <a href="pics/events/TNL130611-lite.jpg" rel="lightbox"><img src="pics/events/TNL130611-lite.jpg" alt="Sonny and the sunsets" />TUE <span class="time">(June 11)</span></a>
+      </div>
     </div>
 
     <div id="events" class="cf">
       <ul>
-
         <li id="monday" class="day">
             <h3>Monday</h3>
             <ul class="events">
-                <li class="event cf">
-                  <p class="time">3pm-7pm</p>
-                  <a class="btn" href="pics/events/memorialdayposter-lite.jpg" rel="lightbox">MEMORIAL DAY BBQ</a>
-                  <a href="pics/events/memorialday2013-lite.jpg" rel="lightbox"><img src="pics/events/memorialday2013-thumb.jpg" alt="Memorial Day 2013" /></a>
-                </li>
                 <li id="ronaritas" class="event cf">
                   <p class="time">4pm-7pm</p>
                   <a class="btnless" href="#">Happy Hour with Ron and his infamous Ronaritas</a>
                   <br />
                   <a class="btnless" href="#">Gage will finish you off into the wee hours...</a>
+                  <a href="http://www.facebook.com/gagefisher"><img src="pics/staff/gage-fisher-nice-thumb.jpg " alt="gage" title="Gage" /></a>
                 </li>
                 <li id="pools" class="event cf">
                   <p class="time">4pm-Midnight</p>
@@ -75,21 +67,31 @@
             </ul>
         </li>
 
-       <li id="thursday" class="day">
-          <h3>Thursday</h3>
-          <ul id="tnl" class="events">
-            <li class="event cf">
-              <p class="time">9pm</p> 
-              <div class="btnless">PPLS TMPL<br />(PEOPLE'S TEMPLE)</div>
-            </li>
-            <li class="event cf">
-              <a class="btn" href="http://www.facebook.com/pages/Feral-Ohms/249033581811919?fref=ts">FERAL OHMS</a>
-            </li>
-            <li class="event cf">
-              <a class="btn" href="http://peacecreep.bandcamp.com/track/interstellar-alimony">PEACE CREEP</a>
-            </li>
-          </ul>
-          <a href="pics/events/TNL-lite.jpg" rel="lightbox"><img src="pics/events/TNL-thumb.jpg" alt="TNL Flyer" /></a>
+        <li id="wednesday" class="day">
+            <h3>Wednesday</h3>
+            <ul class="events">
+                <li class="event cf">
+                  <p class="time">7pm-2am</p>
+                  <a class="btnless" href="#">Break up your work week and have a hump day drink with Cody!</a>
+                  <a href="http://www.facebook.com/cody.joseph"><img src="pics/staff/cody-joseph-virgin-mary-thumb.jpg" alt="cody" title="Cody" /></a>
+                </li>
+            </ul>
+        </li>
+
+        <li id="thursday" class="day">
+        <h3>Thursday</h3>
+            <ul class="events">
+              <li id="tnl" class="event">
+                <p class="time">9pm</p> 
+                <ul class="lineup">
+                  <li><a class="btnless" href="http://www.theeohsees.com/"><h4>SubliminalSF Presents:</h4></a></li>
+                  <li><a class="btn" href="https://www.facebook.com/sloughfegofficial">SLOUGH FEG</a></li>
+                  <li><a class="btn" href="https://www.facebook.com/owlbrotherhood">OWL</a></li>
+                  <li><a class="btn" href="https://www.facebook.com/pages/Wounded-Giant/156290301123402">WOUNDED GIANT (Seattle)</a></li>
+                </ul>
+                <a class="flyer" href="pics/events/TNL-lite.jpg" rel="lightbox"><img src="pics/events/TNL-thumb.jpg" alt="TNL Flyer" /></a>
+              </li>
+            </ul>
         </li>
 
         <li id="friday" class="day">
@@ -100,60 +102,84 @@
                   <a class="btn" href="http://www.facebook.com/events/518773901518847/">FLAG</a>
                   <a href="pics/events/flag1-lite.jpg" rel="lightbox"><img class="thumb" src="pics/events/flag1-thumb.jpg" alt="FLAG" /></a>
                 </li>
+                <li id="cachorro" class="event cf">
+                  <p class="time">9pm</p>
+                  <a class="btnless" href="#">Cachorro Negro<br>Our Monthly Latin Bear Party</a>
+                  <a href="pics/events/cachorronegro-lite.jpg" rel="lightbox"><img class="thumb" src="pics/events/cachorronegro-thumb.jpg" alt="Cachorro Negro Party" /></a>
+                </li>
                 <li id="cigar" class="event cf">
                     <a class="btnless" href="#">Cigar Night</a>
-                    <a href="pics/events/cigar-lite.jpg" rel="lightbox"><img class="thumb" src="pics/events/cigar-thumb.jpg" alt="cigar night" /></a>
+                    <a href="pics/events/cigar-lite.jpg" rel="lightbox"><img class="thumb" src="pics/events/cigar-thing.gif" alt="cigar night" /></a>
                 </li>
             </ul>
        </li>
 
-       <li id="saturday" class="day">
-            <h3>Saturday</h3>
+        <li id="saturday" class="day">
+        <h3>Saturday</h3>
             <ul class="events">
-                <li id="sadistic" class="event cf">
-                  <p class="time">10pm</p>
-                  <a class="btn" href= "http://www.facebook.com/Mr.MichaelBrandon">Sadistic Saturdays<br />with Michael Brandon</a> 
-                  <a href="pics/events/sadistic-lite.jpg" rel="lightbox"><img class="thumb" src="pics/events/sadistic-thumb.jpg" alt="Sadistic Saturday" /></a>
-                </li> 
-                <li id="bluff" class="event cf">
-                  <p class="time">10pm</p>
-                  <a class="btn" href="http://www.bluf.com/events.php?San+Francisco">BLUF</a>
-                  <a href="pics/events/bluf-lite.jpg" rel="lightbox"> <img class="thumb" src="pics/events/bluf-thumb.jpg" alt="bluf" /> </a>
-                </li>
+              <li class="event">
+                <p class="time">9pm</p> 
+                <ul class="lineup">
+                  <li><a class="btn" href="http://www.theeohsees.com/">THE OH SEES</a></li>
+                  <li><a class="btn" href="http://hengebeat.bandcamp.com/">TOTAL CONTROL</a></li>
+                  <li><a class="btn" href="http://troubleinmindrecs.com/bands/fuzz.html">FUZZ</a></li>
+                </ul>
+                <a class="flyer" href="pics/events/TheOhSees060813-lite.jpg" rel="lightbox"><img src="pics/events/TheOhSees060813-thumb.jpg" alt="TNL Flyer" /></a>
+              </li>
             </ul>
         </li>
-        
+
         <li id="sunday" class="day">
             <h3>Sunday</h3>
             <ul class="events">
                 <li id="bust" class="event cf">
                   <p class="time">3pm-6pm</p>
-                  <a href="http://www.thesisters.org/"><div class="btn">SISTER'S BEER BUST</div></a>
+                  <a href="http://www.dykesonbikes.org/"><div class="btn">Dykes on Bikes</div></a>
+                  <a href="pics/events/DykesOnBikes-lite.jpg " rel="lightbox"> <img class="thumb" src="pics/events/DykesOnBikes-thumb.jpg" alt="SF Ducal Court" /> </a>
                 </li>
                 <li id="after" class="event cf">
                   <p class="time">7pm</p>
                   <a class="btn" href="http://goldenbearsf.com/pages/gbc-events/">Golden Bear Classic<br />Baseball Party</a>
                 </li>
-                <li id="kareoke" class="event cf">
+                <li id="karaoke" class="event cf">
                   <p class="time">7pm</p>
                   <a class="btn" href="http://goldenbearsf.com/pages/gbc-events/">BB After Party:<br />Bouncer's BackYard</a>
                 </li>
             </ul>
         </li>
 
-     </ul>
-    </div>
+        <li id="special" class="day">
+        <h3>Tuesday <span class="time">(June 11)</span></h3>
+            <ul class="events">
+              <li class="event">
+                <p class="time">9pm</p> 
+                <ul class="lineup">
+                  <li><a class="btn" href="http://www.sonnysmith.com/">SONNY AND THE SUNSETS<br />(Record Release Party!)</a></li>
+                  <li><a class="btn" href="http://www.facebook.com/burntones">BURNT ONES</a></li>
+                  <li><a class="btn" href="http://www.facebook.com/coolghouls">COOL GHOULS</a></li>
+                </ul>
+                <a class="flyer" href="pics/events/TNL130611-lite.jpg" rel="lightbox"><img src="pics/events/TNL130611-thumb.jpg" alt="TNL Flyer" /></a>
+              </li>
+            </ul>
+        </li>
 
-  <div id="flyers" class="cf">
-    [flyers]
-  </div>
-  <script>
-$(document).ready(function(){
-  $.get('index.flyers.inc', function(data) {
-      $('#flyers').html(data);
+      </ul>
+    </div> <!-- events --> 
+
+   <div id="flyers" class="cf">
+      [flyers]
+    </div>
+  </div> <!-- page -->
+
+    <script>
+      $(document).ready(function(){
+        $.get('index.flyers.inc', function(data) {
+          $('#flyers').html(data);
         });
-  });
-    $('div.lb-nav').on('click', function(e) { window.close();return false;});
-  </script>
+      });
+      $('div.lb-nav').on('click', function(e) {
+        window.close();return false;});
+    </script>
+
 </body>
 </html>

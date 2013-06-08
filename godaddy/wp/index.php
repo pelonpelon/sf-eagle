@@ -13,5 +13,12 @@
  */
 define('WP_USE_THEMES', true);
 
+
+$length = ob_get_length();
+$last_modified = date ("F d Y H:i:s", getlastmod());
+header("Content-Length: $length");
+header("Last-Modified: $last_modified GMT time");
+
+
 /** Loads the WordPress Environment and Template */
 require('./wp-blog-header.php');

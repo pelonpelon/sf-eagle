@@ -6,53 +6,34 @@
 <div class="flexslider">
   <ul class="slides">
     	<li>
-	<p class="rc">Thursday</p>
-      	<a href="pics/events/TNL-lite.jpg" rel="lightbox"><img src="pics/events/TNL-lite.jpg" /></a>
-      	</li>
-        <li>
-	<p class="rc">Friday, May 24</p>
-    <a href="pics/events/flag1-lite.jpg" rel="lightbox"><img src="pics/events/flag1-lite.jpg" /></a>
-    	</li>
-        <li>
-	<p class="rc">Monday, May 27</p>
-    <a href="pics/events/memorialday2013-lite.jpg" rel="lightbox"><img src="pics/events/memorialday2013-lite.jpg" /></a>
+	<li>
+	    <p class="rc">Every 3rd Friday</p>
+      	    <a href="pics/events/CBHS_Poster-lite.jpg" rel="lightbox"><img src="pics/events/CBHS_Poster-lite.jpg" /></a>
     	</li>
 	<li>
-	<p class="rc">Every 3rd Friday</p>
-      	<a href="pics/events/CBHS_Poster-lite.jpg" rel="lightbox"><img src="pics/events/CBHS_Poster-lite.jpg" /></a>
-    	</li>
-	<li>
-	<p class="rc">Friday Cigar Nights</p>
-      	<a href="pics/events/cigar-lite.jpg" rel="lightbox"><img src="pics/events/cigar-lite.jpg" /></a>
+	    <p class="rc">Friday Cigar Nights</p>
+      	    <a href="pics/events/cigar-lite.jpg" rel="lightbox"><img src="pics/events/cigar-lite.jpg" /></a>
     	</li>
     	<li>
-	<p class="rc">Every 2nd Saturday</p>
-      	<a href="pics/events/sadistic-lite.jpg" rel="lightbox"><img src="pics/events/sadistic-lite.jpg" /></a>
+	    <p class="rc">Every 2nd Saturday</p>
+      	    <a href="pics/events/sadistic-lite.jpg" rel="lightbox"><img src="pics/events/sadistic-lite.jpg" /></a>
     	</li>
     	<li>
-	<p class="rc">Every 2nd Sunday</p>
-      	<a href="pics/events/rubber-showtunes-lite.jpg" rel="lightbox"><img src="pics/events/rubber-showtunes-lite.jpg" /></a>
+	    <p class="rc">Every 2nd Sunday</p>
+      	    <a href="pics/events/rubber-showtunes-lite.jpg" rel="lightbox"><img src="pics/events/rubber-showtunes-lite.jpg" /></a>
     	</li>
     	<li>
-  <p class="rc">Every 3rd Saturday</p>
-    <a href="pics/events/bluf-lite.jpg" rel="lightbox"><img src="pics/events/bluf-lite.jpg" /></a>
-    </li>
+            <p class="rc">Every 3rd Saturday</p>
+            <a href="pics/events/bluf-lite.jpg" rel="lightbox"><img src="pics/events/bluf-lite.jpg" /></a>
+        </li>
+    	<li>
+            <p class="rc">Every Now and Then</p>
+            <a href="pics/events/flag1-lite.jpg" rel="lightbox"><img src="pics/events/flag1-lite.jpg" /></a>
+        </li>
   </ul>
 </div>
 <div class="nonFlexslider">
   <ul class="slides">
-	<li>
-	    <p class="rc">Thursday</p>
-      	<img src="pics/events/TNL-lite.jpg" />
-    </li>
-	<li>
-	    <p class="rc">Friday, May 24</p>
-        <img src="pics/events/flag1-lite.jpg" />
-    </li>
-	<li>
-	    <p class="rc">Monday, May 27</p>
-        <img src="pics/events/memorialday2013-lite.jpg" />
-    </li>
     <li>
 	    <p class="rc">Every 3rd Friday</p>
       	<img src="pics/events/CBHS_Poster-lite.jpg" />
@@ -72,6 +53,10 @@
     <li>
         <p class="rc">Every 3rd Saturday</p>
         <img src="pics/events/bluf-lite.jpg" />
+    </li>
+    <li>
+        <p class="rc">Every Now and Then</p>
+        <img src="pics/events/flag1-lite.jpg" />
     </li>
   </ul>
 </div>

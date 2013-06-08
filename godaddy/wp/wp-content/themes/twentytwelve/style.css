@@ -483,7 +483,7 @@ html {
 }
 body {
 	font-size: 14px;
-	font-size: 1rem;
+	font-size: 1em;
 	font-family: Helvetica, Arial, sans-serif;
 	text-rendering: optimizeLegibility;
 	color: #444;
