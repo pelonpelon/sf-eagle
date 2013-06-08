@@ -1,0 +1,189 @@
+!!! 5
+html
+  head
+    title SF-Eagle | 398 12th Street
+    meta(http-equiv='Content-Type', content='text/html', charset='utf-8')
+    // <META HTTP-EQUIV="CACHE-CONTROL" CONTENT="NO-CACHE">
+    meta(name='viewport', content='width=device-width')
+    meta(name='viewport', content='initial-scale=1.0')
+    link(rel='stylesheet', href='wp/wp-content/themes/twentytwelve/style.css')
+    link(rel='stylesheet', href='widgets/flexslider/flexslider.css')
+    link(rel='stylesheet', href='widgets/lightbox/css/lightbox.css')
+    link(rel='stylesheet', href='main.css')
+    // <script src= "https://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js"> </script>
+    script(src='widgets/lightbox/js/jquery-1.7.2.min.js')
+       
+    script(src='widgets/lightbox/js/lightbox.js')
+       
+    script(type='text/javascript', src='widgets/flexslider/jquery.flexslider.js')
+       
+    script(type='text/javascript', charset='utf-8')
+      $(window).load(function() {
+      $('.flexslider').flexslider({
+      animation: "slide",
+      animationLoop: "true",
+      });
+      });
+  body
+    #page
+      #mast
+        img#logo.cf(src='pics/logo-lite.gif', alt='logo')
+        ul#menu.cf
+          li#thisweek
+            a.btn(href='#events')
+              h3 This Week
+          li
+            a.btn(href='merch.html')
+              h3
+                | Hoodies
+                br
+                | Tanks
+                br
+                | & Tees
+          li
+            a.btn(href='tnl.html')
+              h3 Live Music
+          li
+            a.jobs.btn(href='staff.html')
+              h3 Barback needed
+        a#hankypic.btn.cf(href='docs/GayHankyCodes.html')
+          img(src='pics/hankycodes.jpeg', title='Hanky Codes', alt='hanky codes')
+          p Hanky Codes
+      #tease
+        #posters
+          a(href='pics/events/TNL-lite.jpg', rel='lightbox')
+            img(src='pics/events/TNL-lite.jpg', alt='TNL Flyer')
+            | THU
+          a(href='pics/events/TheOhSees060813-lite.jpg', rel='lightbox')
+            img(src='pics/events/TheOhSees060813-lite.jpg', alt='The Oh Sees')
+            | SAT
+          a(href='pics/events/TNL130611-lite.jpg', rel='lightbox')
+            img(src='pics/events/TNL130611-lite.jpg', alt='Sonny and the sunsets')
+            | TUE
+            span.time (June 11)
+      #events.cf
+        ul
+          li#monday.day
+            h3 Monday
+            ul.events
+              li#ronaritas.event.cf
+                p.time 4pm-7pm
+                a.btnless(href='#') Happy Hour with Ron and his infamous Ronaritas
+                br
+                a.btnless(href='#') Gage will finish you off into the wee hours...
+                a(href='http://www.facebook.com/gagefisher')
+                  img(src='pics/staff/gage-fisher-nice-thumb.jpg ', alt='gage', title='Gage')
+              li#pools.event.cf
+                p.time 4pm-Midnight
+                a.btnless(href='#') FREE POOL and $2 pints of BIG DADDY
+          li#wednesday.day
+            h3 Wednesday
+            ul.events
+              li.event.cf
+                p.time 7pm-2am
+                a.btnless(href='#') Break up your work week and have a hump day drink with Cody!
+                a(href='http://www.facebook.com/cody.joseph')
+                  img(src='pics/staff/cody-joseph-virgin-mary-thumb.jpg', alt='cody', title='Cody')
+          li#thursday.day
+            h3 Thursday
+            ul.events
+              li#tnl.event
+                p.time 9pm
+                ul.lineup
+                  li
+                    a.btnless(href='http://www.theeohsees.com/')
+                      h4 SubliminalSF Presents:
+                  li
+                    a.btn(href='https://www.facebook.com/sloughfegofficial') SLOUGH FEG
+                  li
+                    a.btn(href='https://www.facebook.com/owlbrotherhood') OWL
+                  li
+                    a.btn(href='https://www.facebook.com/pages/Wounded-Giant/156290301123402') WOUNDED GIANT (Seattle)
+                a.flyer(href='pics/events/TNL-lite.jpg', rel='lightbox')
+                  img(src='pics/events/TNL-thumb.jpg', alt='TNL Flyer')
+          li#friday.day
+            h3 Friday
+            ul.events
+              li#flag.event.cf
+                p.time 9pm
+                a.btn(href='http://www.facebook.com/events/518773901518847/') FLAG
+                a(href='pics/events/flag1-lite.jpg', rel='lightbox')
+                  img.thumb(src='pics/events/flag1-thumb.jpg', alt='FLAG')
+              li#cachorro.event.cf
+                p.time 9pm
+                a.btnless(href='#')
+                  | Cachorro Negro
+                  br
+                  | Our Monthly Latin Bear Party
+                a(href='pics/events/cachorronegro-lite.jpg', rel='lightbox')
+                  img.thumb(src='pics/events/cachorronegro-thumb.jpg', alt='Cachorro Negro Party')
+              li#cigar.event.cf
+                a.btnless(href='#') Cigar Night
+                a(href='pics/events/cigar-lite.jpg', rel='lightbox')
+                  img.thumb(src='pics/events/cigar-thing.gif', alt='cigar night')
+          li#saturday.day
+            h3 Saturday
+            ul.events
+              li.event
+                p.time 9pm
+                ul.lineup
+                  li
+                    a.btn(href='http://www.theeohsees.com/') THE OH SEES
+                  li
+                    a.btn(href='http://hengebeat.bandcamp.com/') TOTAL CONTROL
+                  li
+                    a.btn(href='http://troubleinmindrecs.com/bands/fuzz.html') FUZZ
+                a.flyer(href='pics/events/TheOhSees060813-lite.jpg', rel='lightbox')
+                  img(src='pics/events/TheOhSees060813-thumb.jpg', alt='TNL Flyer')
+          li#sunday.day
+            h3 Sunday
+            ul.events
+              li#bust.event.cf
+                p.time 3pm-6pm
+                a(href='http://www.dykesonbikes.org/')
+                  .btn Dykes on Bikes
+                a(href='pics/events/DykesOnBikes-lite.jpg ', rel='lightbox')
+                  img.thumb(src='pics/events/DykesOnBikes-thumb.jpg', alt='SF Ducal Court')
+              li#after.event.cf
+                p.time 7pm
+                a.btn(href='http://goldenbearsf.com/pages/gbc-events/')
+                  | Golden Bear Classic
+                  br
+                  | Baseball Party
+              li#karaoke.event.cf
+                p.time 7pm
+                a.btn(href='http://goldenbearsf.com/pages/gbc-events/')
+                  | BB After Party:
+                  br
+                  | Bouncer's BackYard
+          li#special.day
+            h3
+              | Tuesday
+              span.time (June 11)
+            ul.events
+              li.event
+                p.time 9pm
+                ul.lineup
+                  li
+                    a.btn(href='http://www.sonnysmith.com/')
+                      | SONNY AND THE SUNSETS
+                      br
+                      | (Record Release Party!)
+                  li
+                    a.btn(href='http://www.facebook.com/burntones') BURNT ONES
+                  li
+                    a.btn(href='http://www.facebook.com/coolghouls') COOL GHOULS
+                a.flyer(href='pics/events/TNL130611-lite.jpg', rel='lightbox')
+                  img(src='pics/events/TNL130611-thumb.jpg', alt='TNL Flyer')
+      // events
+      #flyers.cf
+        | [flyers]
+    // page
+    script
+      $(document).ready(function(){
+      $.get('index.flyers.inc', function(data) {
+      $('#flyers').html(data);
+      });
+      });
+      $('div.lb-nav').on('click', function(e) {
+      window.close();return false;});

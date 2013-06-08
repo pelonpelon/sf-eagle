@@ -1,0 +1,15 @@
+@import "_foundation.scss";
+@import "_home.scss";
+
+@mixin mq($point) {
+  @if $point == netbook {
+    @media (max-width: 1024px) { @content; }
+  }
+  @else if $point == tablet {
+    @media (max-width: 820px) { @content; }
+  }
+  @else if $point == phone {
+    @media (max-width: 480px)  { @content; }
+  }
+}
+/* @include mq(netbook) {width: 80px;}*/

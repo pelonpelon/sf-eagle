@@ -1,0 +1,65 @@
+/*
+Theme Name: foundation
+Layout: Sidebar-Content-Sidebar
+*/
+
+
+.content-area {
+	float: left;
+	width: 100%;
+}
+.site-content {
+  float:left;
+  background:red;
+	margin: 0 35% 0 25%;
+}
+#mast {
+    background:purple;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 25%;
+  height: 100%;
+}
+#logo {
+  float: left;
+}
+.navigation-main{
+  background:#fff;
+  width: 100%;
+  li {
+    background:orange;
+    display: block;
+    float: right;
+    width: 80px;
+    height: 65px;
+    margin: 1px;
+    padding: 15px 2%;
+    font-size: .8em;
+	  overflow: hidden;
+	  
+  }
+}
+.site-main .widget-area {
+  background:yellow;
+	overflow: hidden;
+	width: 100%;
+}
+.site-main .info-area {
+  background:green;
+	float: left;
+	margin: 0 0 0 -35%;
+	overflow: hidden;
+	width: 35%;
+}
+.site-footer {
+	clear: both;
+	width: 100%;
+}
+@import "_mast.scss";
+@import "_tease.scss";
+@import "_events.scss";
+@import "_flyers.scss";
+
+
+/* vim set nobackup nowritebackup noswapfile: */

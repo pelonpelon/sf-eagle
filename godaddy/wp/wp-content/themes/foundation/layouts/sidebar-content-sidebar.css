@@ -1,0 +1,31 @@
+/*
+Theme Name: foundation
+Layout: Sidebar-Content-Sidebar
+*/
+
+.content-area {
+	float: left;
+	width: 100%;
+}
+.site-content {
+  background: yellow;
+	margin: 0 20%;
+}
+.site-main .widget-area {
+  background: red;
+	float: left;
+	margin: 0 0 0 -100%;
+	overflow: hidden;
+	width: 20%;
+}
+.site-main .info-area {
+  background: green;
+	float: left;
+	margin: 0 0 0 -65%;
+	overflow: hidden;
+	width: 35%;
+}
+.site-footer {
+	clear: both;
+	width: 100%;
+}

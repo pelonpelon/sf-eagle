@@ -1,0 +1,33 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.8	//
+BACKGROUND_COLOR	wp-content/themes/foundation/functions.php	/^		define( 'BACKGROUND_COLOR', $args['default-color'] );$/;"	d
+BACKGROUND_IMAGE	wp-content/themes/foundation/functions.php	/^			define( 'BACKGROUND_IMAGE', $args['default-image'] );$/;"	d
+HEADER_IMAGE	wp-content/themes/foundation/inc/custom-header.php	/^		define( 'HEADER_IMAGE',        $args['default-image'] );$/;"	d
+HEADER_IMAGE_HEIGHT	wp-content/themes/foundation/inc/custom-header.php	/^		define( 'HEADER_IMAGE_HEIGHT', $args['height'] );$/;"	d
+HEADER_IMAGE_WIDTH	wp-content/themes/foundation/inc/custom-header.php	/^		define( 'HEADER_IMAGE_WIDTH',  $args['width'] );$/;"	d
+HEADER_TEXTCOLOR	wp-content/themes/foundation/inc/custom-header.php	/^		define( 'HEADER_TEXTCOLOR',    $args['default-text-color'] );$/;"	d
+foundation_admin_header_image	wp-content/themes/foundation/inc/custom-header.php	/^function foundation_admin_header_image() {$/;"	f
+foundation_admin_header_style	wp-content/themes/foundation/inc/custom-header.php	/^function foundation_admin_header_style() {$/;"	f
+foundation_body_classes	wp-content/themes/foundation/inc/extras.php	/^function foundation_body_classes( $classes ) {$/;"	f
+foundation_categorized_blog	wp-content/themes/foundation/inc/template-tags.php	/^function foundation_categorized_blog() {$/;"	f
+foundation_category_transient_flusher	wp-content/themes/foundation/inc/template-tags.php	/^function foundation_category_transient_flusher() {$/;"	f
+foundation_comment	wp-content/themes/foundation/inc/template-tags.php	/^function foundation_comment( $comment, $args, $depth ) {$/;"	f
+foundation_content_nav	wp-content/themes/foundation/inc/template-tags.php	/^function foundation_content_nav( $nav_id ) {$/;"	f
+foundation_custom_header_setup	wp-content/themes/foundation/inc/custom-header.php	/^function foundation_custom_header_setup() {$/;"	f
+foundation_customize_preview_js	wp-content/themes/foundation/inc/customizer.php	/^function foundation_customize_preview_js() {$/;"	f
+foundation_customize_register	wp-content/themes/foundation/inc/customizer.php	/^function foundation_customize_register( $wp_customize ) {$/;"	f
+foundation_enhanced_image_navigation	wp-content/themes/foundation/inc/extras.php	/^function foundation_enhanced_image_navigation( $url, $id ) {$/;"	f
+foundation_header_style	wp-content/themes/foundation/inc/custom-header.php	/^function foundation_header_style() {$/;"	f
+foundation_jetpack_setup	wp-content/themes/foundation/inc/jetpack.php	/^function foundation_jetpack_setup() {$/;"	f
+foundation_page_menu_args	wp-content/themes/foundation/inc/extras.php	/^function foundation_page_menu_args( $args ) {$/;"	f
+foundation_posted_on	wp-content/themes/foundation/inc/template-tags.php	/^function foundation_posted_on() {$/;"	f
+foundation_register_custom_background	wp-content/themes/foundation/functions.php	/^function foundation_register_custom_background() {$/;"	f
+foundation_scripts	wp-content/themes/foundation/functions.php	/^function foundation_scripts() {$/;"	f
+foundation_setup	wp-content/themes/foundation/functions.php	/^function foundation_setup() {$/;"	f
+foundation_widgets_init	wp-content/themes/foundation/functions.php	/^function foundation_widgets_init() {$/;"	f
+foundation_wp_title	wp-content/themes/foundation/inc/extras.php	/^function foundation_wp_title( $title, $sep ) {$/;"	f
+get_custom_header	wp-content/themes/foundation/inc/custom-header.php	/^	function get_custom_header() {$/;"	f

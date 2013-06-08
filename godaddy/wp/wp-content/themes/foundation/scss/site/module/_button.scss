@@ -1,0 +1,32 @@
+@import "compass/css3/border-radius";
+$default-border-radius: 20px;
+
+@mixin button {
+  @include border-radius;
+  background:red;
+  display: block;
+  float: left;
+  width: 25%;
+  height:0;
+  padding: 7% 3% 28% 3%;
+  margin: 1px;
+  font-size: 1.2em;
+  font-weight: 700;
+  text-align: center;
+  overflow: hidden;
+  color: white;
+}
+
+@mixin button-pic ($image) {
+  @include border-radius;
+  background:url($image);
+  display: block;
+  float: left;
+  width: 28%;
+  height:0;
+  padding-bottom: 28%;
+  margin: 1px;
+  font-size: .8em;
+  text-align: center;
+  overflow: hidden;
+}

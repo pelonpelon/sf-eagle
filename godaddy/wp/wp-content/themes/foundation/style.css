@@ -1,0 +1,703 @@
+/*
+Theme Name: foundation
+Theme URI: http://underscores.me/
+Author: Underscores.me
+Author URI: http://underscores.me/
+Description: Description
+Version: 1.0
+License: GNU General Public License
+License URI: license.txt
+Tags:
+
+This theme, like WordPress, is licensed under the GPL.
+Use it to make something cool, have fun, and share what you've learned with others.
+
+ _s is based on Underscores http://underscores.me/, (C) 2012-2013 Automattic, Inc.
+
+Resetting and rebuilding styles have been helped along thanks to the fine work of
+Eric Meyer http://meyerweb.com/eric/tools/css/reset/index.html
+along with Nicolas Gallagher and Jonathan Neal http://necolas.github.com/normalize.css/
+and Blueprint http://www.blueprintcss.org/
+*/
+/* =Reset
+-------------------------------------------------------------- */
+/* line 26, scss/_foundation.scss */
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, font, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td {
+  border: 0;
+  font-family: inherit;
+  font-size: 100%;
+  font-style: inherit;
+  font-weight: inherit;
+  margin: 0;
+  outline: 0;
+  padding: 0;
+  vertical-align: baseline; }
+
+/* line 38, scss/_foundation.scss */
+html {
+  font-size: 62.5%;
+  /* Corrects text resizing oddly in IE6/7 when body font-size is set using em units http://clagnut.com/blog/348/#c790 */
+  overflow-y: scroll;
+  /* Keeps page centred in all browsers regardless of content height */
+  -webkit-text-size-adjust: 100%;
+  /* Prevents iOS text size adjust after orientation change, without disabling user zoom */
+  -ms-text-size-adjust: 100%;
+  /* www.456bereastreet.com/archive/201012/controlling_text_size_in_safari_for_ios_without_disabling_user_zoom/ */ }
+
+/* line 49, scss/_foundation.scss */
+body {
+  background: #fff; }
+
+/* line 53, scss/_foundation.scss */
+article, aside, details, figcaption, figure, footer, header, nav, section {
+  display: block; }
+
+/* line 57, scss/_foundation.scss */
+ol, ul {
+  list-style: none; }
+
+/* line 61, scss/_foundation.scss */
+table {
+  /* tables still need 'cellspacing="0"' in the markup */
+  border-collapse: separate;
+  border-spacing: 0; }
+
+/* line 67, scss/_foundation.scss */
+caption, th, td {
+  font-weight: normal;
+  text-align: left; }
+
+/* line 73, scss/_foundation.scss */
+blockquote:before, blockquote:after {
+  content: ""; }
+
+/* line 79, scss/_foundation.scss */
+q:before, q:after {
+  content: ""; }
+
+/* line 84, scss/_foundation.scss */
+blockquote, q {
+  quotes: "" ""; }
+
+/* line 89, scss/_foundation.scss */
+a:focus {
+  outline: thin dotted; }
+/* line 92, scss/_foundation.scss */
+a:hover, a:active {
+  /* Improves readability when focused and also mouse hovered in all browsers people.opera.com/patrickl/experiments/keyboard/test */
+  outline: 0; }
+/* line 96, scss/_foundation.scss */
+a img {
+  border: 0; }
+
+/* =Global
+----------------------------------------------- */
+/* line 104, scss/_foundation.scss */
+body, button, input, select, textarea {
+  color: #404040;
+  font-family: sans-serif;
+  font-size: 16px;
+  font-size: 1.6rem;
+  line-height: 1.5; }
+
+/* Headings */
+/* line 114, scss/_foundation.scss */
+h1, h2, h3, h4, h5, h6 {
+  clear: both; }
+
+/* line 118, scss/_foundation.scss */
+hr {
+  background-color: #ccc;
+  border: 0;
+  height: 1px;
+  margin-bottom: 1.5em; }
+
+/* Text elements */
+/* line 127, scss/_foundation.scss */
+p {
+  margin-bottom: 1.5em; }
+
+/* line 131, scss/_foundation.scss */
+ul, ol {
+  margin: 0 0 1.5em 3em; }
+
+/* line 135, scss/_foundation.scss */
+ul {
+  list-style: disc; }
+
+/* line 139, scss/_foundation.scss */
+ol {
+  list-style: decimal; }
+
+/* line 144, scss/_foundation.scss */
+li > ul, li > ol {
+  margin-bottom: 0;
+  margin-left: 1.5em; }
+
+/* line 150, scss/_foundation.scss */
+dt {
+  font-weight: bold; }
+
+/* line 154, scss/_foundation.scss */
+dd {
+  margin: 0 1.5em 1.5em; }
+
+/* line 158, scss/_foundation.scss */
+b, strong {
+  font-weight: bold; }
+
+/* line 162, scss/_foundation.scss */
+dfn, cite, em, i {
+  font-style: italic; }
+
+/* line 166, scss/_foundation.scss */
+blockquote {
+  margin: 0 1.5em; }
+
+/* line 170, scss/_foundation.scss */
+address {
+  margin: 0 0 1.5em; }
+
+/* line 174, scss/_foundation.scss */
+pre {
+  background: #eee;
+  font-family: "Courier 10 Pitch", Courier, monospace;
+  font-size: 15px;
+  font-size: 1.5rem;
+  line-height: 1.6;
+  margin-bottom: 1.6em;
+  padding: 1.6em;
+  overflow: auto;
+  max-width: 100%; }
+
+/* line 186, scss/_foundation.scss */
+code, kbd, tt, var {
+  font: 15px Monaco, Consolas, "Andale Mono", "DejaVu Sans Mono", monospace; }
+
+/* line 190, scss/_foundation.scss */
+abbr, acronym {
+  border-bottom: 1px dotted #666;
+  cursor: help; }
+
+/* line 195, scss/_foundation.scss */
+mark, ins {
+  background: #fff9c0;
+  text-decoration: none; }
+
+/* line 200, scss/_foundation.scss */
+sup, sub {
+  font-size: 75%;
+  height: 0;
+  line-height: 0;
+  position: relative;
+  vertical-align: baseline; }
+
+/* line 208, scss/_foundation.scss */
+sup {
+  bottom: 1ex; }
+
+/* line 212, scss/_foundation.scss */
+sub {
+  top: .5ex; }
+
+/* line 216, scss/_foundation.scss */
+small {
+  font-size: 75%; }
+
+/* line 220, scss/_foundation.scss */
+big {
+  font-size: 125%; }
+
+/* line 224, scss/_foundation.scss */
+figure {
+  margin: 0; }
+
+/* line 228, scss/_foundation.scss */
+table {
+  margin: 0 0 1.5em;
+  width: 100%; }
+
+/* line 233, scss/_foundation.scss */
+th {
+  font-weight: bold; }
+
+/* line 237, scss/_foundation.scss */
+img {
+  height: auto;
+  /* Make sure images are scaled correctly. */
+  max-width: 100%;
+  /* Adhere to container width. */ }
+
+/* line 244, scss/_foundation.scss */
+button, input, select, textarea {
+  font-size: 100%;
+  /* Corrects font size not being inherited in all browsers */
+  margin: 0;
+  /* Addresses margins set differently in IE6/7, F3/4, S5, Chrome */
+  vertical-align: baseline;
+  /* Improves appearance and consistency in all browsers */
+  *vertical-align: middle;
+  /* Improves appearance and consistency in all browsers */ }
+
+/* line 255, scss/_foundation.scss */
+button, input {
+  line-height: normal;
+  /* Addresses FF3/4 setting line-height using !important in the UA stylesheet */ }
+
+/* line 260, scss/_foundation.scss */
+button, html input[type="button"] {
+  border: 1px solid #ccc;
+  border-color: #ccc #ccc #bbb #ccc;
+  border-radius: 3px;
+  background: #e6e6e6;
+  box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.5), inset 0 15px 17px rgba(255, 255, 255, 0.5), inset 0 -5px 12px rgba(0, 0, 0, 0.05);
+  color: rgba(0, 0, 0, 0.8);
+  cursor: pointer;
+  /* Improves usability and consistency of cursor style between image-type 'input' and others */
+  -webkit-appearance: button;
+  /* Corrects inability to style clickable 'input' types in iOS */
+  font-size: 12px;
+  font-size: 1.2rem;
+  line-height: 1;
+  padding: .6em 1em .4em;
+  text-shadow: 0 1px 0 rgba(255, 255, 255, 0.8); }
+
+/* line 279, scss/_foundation.scss */
+input[type="reset"], input[type="submit"] {
+  border: 1px solid #ccc;
+  border-color: #ccc #ccc #bbb #ccc;
+  border-radius: 3px;
+  background: #e6e6e6;
+  box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.5), inset 0 15px 17px rgba(255, 255, 255, 0.5), inset 0 -5px 12px rgba(0, 0, 0, 0.05);
+  color: rgba(0, 0, 0, 0.8);
+  cursor: pointer;
+  /* Improves usability and consistency of cursor style between image-type 'input' and others */
+  -webkit-appearance: button;
+  /* Corrects inability to style clickable 'input' types in iOS */
+  font-size: 12px;
+  font-size: 1.2rem;
+  line-height: 1;
+  padding: .6em 1em .4em;
+  text-shadow: 0 1px 0 rgba(255, 255, 255, 0.8); }
+
+/* line 298, scss/_foundation.scss */
+button:hover, html input[type="button"]:hover {
+  border-color: #ccc #bbb #aaa #bbb;
+  box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.8), inset 0 15px 17px rgba(255, 255, 255, 0.8), inset 0 -5px 12px rgba(0, 0, 0, 0.02); }
+
+/* line 304, scss/_foundation.scss */
+input[type="reset"]:hover, input[type="submit"]:hover {
+  border-color: #ccc #bbb #aaa #bbb;
+  box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.8), inset 0 15px 17px rgba(255, 255, 255, 0.8), inset 0 -5px 12px rgba(0, 0, 0, 0.02); }
+
+/* line 310, scss/_foundation.scss */
+button:focus, html input[type="button"]:focus {
+  border-color: #aaa #bbb #bbb #bbb;
+  box-shadow: inset 0 -1px 0 rgba(255, 255, 255, 0.5), inset 0 2px 5px rgba(0, 0, 0, 0.15); }
+
+/* line 316, scss/_foundation.scss */
+input[type="reset"]:focus, input[type="submit"]:focus {
+  border-color: #aaa #bbb #bbb #bbb;
+  box-shadow: inset 0 -1px 0 rgba(255, 255, 255, 0.5), inset 0 2px 5px rgba(0, 0, 0, 0.15); }
+
+/* line 322, scss/_foundation.scss */
+button:active, html input[type="button"]:active {
+  border-color: #aaa #bbb #bbb #bbb;
+  box-shadow: inset 0 -1px 0 rgba(255, 255, 255, 0.5), inset 0 2px 5px rgba(0, 0, 0, 0.15); }
+
+/* line 328, scss/_foundation.scss */
+input[type="reset"]:active, input[type="submit"]:active {
+  border-color: #aaa #bbb #bbb #bbb;
+  box-shadow: inset 0 -1px 0 rgba(255, 255, 255, 0.5), inset 0 2px 5px rgba(0, 0, 0, 0.15); }
+/* line 332, scss/_foundation.scss */
+input[type="checkbox"], input[type="radio"] {
+  box-sizing: border-box;
+  /* Addresses box sizing set to content-box in IE8/9 */
+  padding: 0;
+  /* Addresses excess padding in IE8/9 */ }
+/* line 338, scss/_foundation.scss */
+input[type="search"] {
+  -webkit-appearance: textfield;
+  /* Addresses appearance set to searchfield in S5, Chrome */
+  -webkit-box-sizing: content-box;
+  /* Addresses box sizing set to border-box in S5, Chrome (include -moz to future-proof) */
+  -moz-box-sizing: content-box;
+  box-sizing: content-box; }
+  /* line 345, scss/_foundation.scss */
+  input[type="search"]::-webkit-search-decoration {
+    /* Corrects inner padding displayed oddly in S5, Chrome on OSX */
+    -webkit-appearance: none; }
+
+/* line 352, scss/_foundation.scss */
+button::-moz-focus-inner {
+  /* Corrects inner padding and border displayed oddly in FF3/4 www.sitepen.com/blog/2008/05/14/the-devils-in-the-details-fixing-dojos-toolbar-buttons/ */
+  border: 0;
+  padding: 0; }
+
+/* line 359, scss/_foundation.scss */
+input::-moz-focus-inner {
+  /* Corrects inner padding and border displayed oddly in FF3/4 www.sitepen.com/blog/2008/05/14/the-devils-in-the-details-fixing-dojos-toolbar-buttons/ */
+  border: 0;
+  padding: 0; }
+/* line 364, scss/_foundation.scss */
+input[type="text"], input[type="email"], input[type="password"], input[type="search"] {
+  color: #666;
+  border: 1px solid #ccc;
+  border-radius: 3px; }
+
+/* line 371, scss/_foundation.scss */
+textarea {
+  color: #666;
+  border: 1px solid #ccc;
+  border-radius: 3px; }
+
+/* line 378, scss/_foundation.scss */
+input[type="text"]:focus, input[type="email"]:focus, input[type="password"]:focus, input[type="search"]:focus {
+  color: #111; }
+
+/* line 383, scss/_foundation.scss */
+textarea:focus {
+  color: #111; }
+
+/* line 388, scss/_foundation.scss */
+input[type="text"], input[type="email"], input[type="password"], input[type="search"] {
+  padding: 3px; }
+
+/* line 393, scss/_foundation.scss */
+textarea {
+  overflow: auto;
+  /* Removes default vertical scrollbar in IE6/7/8/9 */
+  padding-left: 3px;
+  vertical-align: top;
+  /* Improves readability and alignment in all browsers */
+  width: 98%; }
+
+/* Links */
+/* line 404, scss/_foundation.scss */
+a {
+  color: royalblue; }
+  /* line 406, scss/_foundation.scss */
+  a:visited {
+    color: purple; }
+  /* line 409, scss/_foundation.scss */
+  a:hover, a:focus, a:active {
+    color: midnightblue; }
+
+/* Alignment */
+/* line 416, scss/_foundation.scss */
+.alignleft {
+  display: inline;
+  float: left;
+  margin-right: 1.5em; }
+
+/* line 422, scss/_foundation.scss */
+.alignright {
+  display: inline;
+  float: right;
+  margin-left: 1.5em; }
+
+/* line 428, scss/_foundation.scss */
+.aligncenter {
+  clear: both;
+  display: block;
+  margin: 0 auto; }
+
+/* Text meant only for screen readers */
+/* line 436, scss/_foundation.scss */
+.screen-reader-text {
+  clip: rect(1px, 1px, 1px, 1px);
+  position: absolute !important; }
+  /* line 439, scss/_foundation.scss */
+  .screen-reader-text:hover, .screen-reader-text:active, .screen-reader-text:focus {
+    background-color: #f1f1f1;
+    border-radius: 3px;
+    box-shadow: 0 0 2px 2px rgba(0, 0, 0, 0.6);
+    clip: auto !important;
+    color: #21759b;
+    display: block;
+    font-size: 14px;
+    font-weight: bold;
+    height: auto;
+    left: 5px;
+    line-height: normal;
+    padding: 15px 23px 14px;
+    text-decoration: none;
+    top: 5px;
+    width: auto;
+    z-index: 100000;
+    /* Above WP toolbar */ }
+
+/* Clearing */
+/* line 463, scss/_foundation.scss */
+.clear:before, .clear:after {
+  content: '';
+  display: table; }
+
+/* line 470, scss/_foundation.scss */
+[class*="content"]:before, [class*="content"]:after {
+  content: '';
+  display: table; }
+
+/* line 477, scss/_foundation.scss */
+[class*="site"]:before, [class*="site"]:after {
+  content: '';
+  display: table; }
+
+/* line 483, scss/_foundation.scss */
+.clear:after, [class*="content"]:after, [class*="site"]:after {
+  clear: both; }
+
+/* =Menu
+----------------------------------------------- */
+/* line 490, scss/_foundation.scss */
+.navigation-main {
+  clear: both;
+  display: block;
+  float: left;
+  width: 100%; }
+  /* line 495, scss/_foundation.scss */
+  .navigation-main ul {
+    list-style: none;
+    margin: 0;
+    padding-left: 0; }
+  /* line 500, scss/_foundation.scss */
+  .navigation-main li {
+    float: left;
+    position: relative; }
+  /* line 504, scss/_foundation.scss */
+  .navigation-main a {
+    display: block;
+    text-decoration: none; }
+  /* line 508, scss/_foundation.scss */
+  .navigation-main ul ul {
+    box-shadow: 0 3px 3px rgba(0, 0, 0, 0.2);
+    display: none;
+    float: left;
+    position: absolute;
+    top: 1.5em;
+    left: 0;
+    z-index: 99999; }
+    /* line 516, scss/_foundation.scss */
+    .navigation-main ul ul ul {
+      left: 100%;
+      top: 0; }
+    /* line 520, scss/_foundation.scss */
+    .navigation-main ul ul a {
+      width: 200px; }
+  /* line 530, scss/_foundation.scss */
+  .navigation-main ul li:hover > ul {
+    display: block; }
+
+/* Small menu */
+/* line 541, scss/_foundation.scss */
+.menu-toggle {
+  display: none;
+  cursor: pointer; }
+
+/* line 546, scss/_foundation.scss */
+.main-small-navigation ul {
+  display: none; }
+
+@media screen and (max-width: 600px) {
+  /* line 551, scss/_foundation.scss */
+  .menu-toggle, .main-small-navigation ul.nav-menu.toggled-on {
+    display: block; }
+
+  /* line 554, scss/_foundation.scss */
+  .navigation-main ul {
+    display: none; } }
+/* =Content
+----------------------------------------------- */
+/* line 564, scss/_foundation.scss */
+.hentry {
+  margin: 0 0 1.5em; }
+
+/* line 568, scss/_foundation.scss */
+.byline {
+  display: none; }
+
+/* line 572, scss/_foundation.scss */
+.single .byline, .group-blog .byline {
+  display: inline; }
+
+/* line 576, scss/_foundation.scss */
+.entry-content, .entry-summary {
+  margin: 1.5em 0 0; }
+
+/* line 580, scss/_foundation.scss */
+.page-links {
+  clear: both;
+  margin: 0 0 1.5em; }
+
+/* =Asides
+----------------------------------------------- */
+/* line 588, scss/_foundation.scss */
+.blog .format-aside .entry-title, .archive .format-aside .entry-title {
+  display: none; }
+
+/* =Media
+----------------------------------------------- */
+/* line 595, scss/_foundation.scss */
+.entry-content img.wp-smiley, .comment-content img.wp-smiley {
+  border: none;
+  margin-bottom: 0;
+  margin-top: 0;
+  padding: 0; }
+
+/* line 602, scss/_foundation.scss */
+.wp-caption {
+  border: 1px solid #ccc;
+  margin-bottom: 1.5em;
+  max-width: 100%; }
+  /* line 606, scss/_foundation.scss */
+  .wp-caption img[class*="wp-image-"] {
+    display: block;
+    margin: 1.2% auto 0;
+    max-width: 98%; }
+
+/* line 613, scss/_foundation.scss */
+.wp-caption-text {
+  text-align: center; }
+
+/* line 617, scss/_foundation.scss */
+.wp-caption .wp-caption-text {
+  margin: 0.8075em 0; }
+
+/* line 621, scss/_foundation.scss */
+.site-content .gallery {
+  margin-bottom: 1.5em; }
+
+/* line 629, scss/_foundation.scss */
+.site-content .gallery a img {
+  border: none;
+  height: auto;
+  max-width: 90%; }
+/* line 634, scss/_foundation.scss */
+.site-content .gallery dd {
+  margin: 0; }
+
+/* Make sure embeds and iframes fit their containers */
+/* line 643, scss/_foundation.scss */
+embed, iframe, object {
+  max-width: 100%; }
+
+/* =Navigation
+----------------------------------------------- */
+/* line 650, scss/_foundation.scss */
+.site-content [class*="navigation"] {
+  margin: 0 0 1.5em;
+  overflow: hidden; }
+
+/* line 656, scss/_foundation.scss */
+[class*="navigation"] .nav-previous {
+  float: left;
+  width: 50%; }
+/* line 660, scss/_foundation.scss */
+[class*="navigation"] .nav-next {
+  float: right;
+  text-align: right;
+  width: 50%; }
+
+/* =Comments
+----------------------------------------------- */
+/* line 670, scss/_foundation.scss */
+.comment-content a {
+  word-wrap: break-word; }
+
+/* =Widgets
+----------------------------------------------- */
+/* line 679, scss/_foundation.scss */
+.widget {
+  margin: 0 0 1.5em; }
+  /* line 681, scss/_foundation.scss */
+  .widget select {
+    max-width: 100%; }
+
+/* Make sure select elements fit in widgets */
+/* Search widget */
+/* line 690, scss/_foundation.scss */
+.widget_search .submit {
+  display: none; }
+
+/* =Infinite Scroll
+----------------------------------------------- */
+/* Globally hidden elements when Infinite Scroll is supported and in use. */
+/* line 700, scss/_foundation.scss */
+.infinite-scroll .navigation-paging, .infinite-scroll.neverending .site-footer {
+  /* Theme Footer (when set to scrolling) */
+  display: none; }
+
+/* When Infinite Scroll has reached its end we need to re-display elements that were hidden (via .neverending) before */
+/* line 708, scss/_foundation.scss */
+.infinity-end.neverending .site-footer {
+  display: block; }
+
+/* line 3, scss/_home.scss */
+.content-area {
+  float: left;
+  width: 100%; }
+
+/* line 7, scss/_home.scss */
+.site-content {
+  float: left;
+  background: red;
+  margin: 0 30% 0 25%; }
+
+/* line 12, scss/_home.scss */
+#mast {
+  background: purple;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 25%;
+  height: 100%; }
+
+/* line 20, scss/_home.scss */
+#logo {
+  float: left; }
+
+/* line 23, scss/_home.scss */
+.navigation-main {
+  background: #ccc;
+  width: 100%; }
+  /* line 26, scss/_home.scss */
+  .navigation-main li {
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    -ms-border-radius: 20px;
+    -o-border-radius: 20px;
+    border-radius: 20px;
+    background: red;
+    display: block;
+    float: left;
+    width: 25%;
+    height: 0;
+    padding: 7% 3% 28% 3%;
+    margin: 1px;
+    font-size: 1.2em;
+    font-weight: 700;
+    text-align: center;
+    overflow: hidden;
+    color: white; }
+
+/* line 30, scss/_home.scss */
+.site-main .widget-area {
+  background: yellow;
+  overflow: hidden;
+  width: 100%; }
+
+/* line 35, scss/_home.scss */
+.site-main .info-area {
+  background: green;
+  float: left;
+  margin: 0 0 0 -30%;
+  overflow: hidden;
+  width: 30%; }
+
+/* line 42, scss/_home.scss */
+.site-footer {
+  clear: both;
+  width: 100%; }
+
+/* vim set nobackup nowritebackup noswapfile: */
+/* @include mq(netbook) {width: 80px;}*/

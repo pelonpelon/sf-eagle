@@ -1,0 +1,52 @@
+@import "site/module/_button.scss";
+
+.content-area {
+	float: left;
+	width: 100%;
+}
+.site-content {
+  float:left;
+  background:red;
+	margin: 0 30% 0 25%;
+}
+#mast {
+  background:purple;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 25%;
+  height: 100%;
+}
+#logo {
+  float: left;
+}
+.navigation-main{
+  background:#ccc;
+  width: 100%;
+  li {
+    @include button;
+  }
+}
+.site-main .widget-area {
+  background:yellow;
+	overflow: hidden;
+	width: 100%;
+}
+.site-main .info-area {
+  background:green;
+	float: left;
+	margin: 0 0 0 -30%;
+	overflow: hidden;
+	width: 30%;
+}
+.site-footer {
+	clear: both;
+	width: 100%;
+}
+@import "_mast.scss";
+@import "_tease.scss";
+@import "_events.scss";
+@import "_flyers.scss";
+
+
+/* vim set nobackup nowritebackup noswapfile: */
