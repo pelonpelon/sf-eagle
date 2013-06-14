@@ -23,7 +23,6 @@ $content-dark: #999;
 $content-highlight: #099;
 
 .rc {
-  border: 0px solid #fff;
   position: relative;
   -webkit-border-radius: $rounded-corner-border-radius;
   -moz-border-radius: $rounded-corner-border-radius;
@@ -148,22 +147,32 @@ img {
 #events { width: 27%; float: left; }
 #flyers { clear: both; width: 80%; margin: 0 10%; }
 
+//
+
 #monday {display:none;}
 #tuesday {display:none;}
 #wednesday {display:none;}
-/* #thursday {display:none;} */
-/* #friday {display:none;} */
-/* #saturday {display:none;} */
-/* #sunday {display:none;} */
 
-/* #special {display:none;} */
-#charliehorse {display:none;}
+.special {display:none;}
+
+//#thursday {display:none;}
+//#tnl {display:none;}
+
+//#friday {display:none;}
+//#cigar {display:none;}
+#cubhouse {display:none;}
 #cachorro {display:none;}
-#after {display:none;}
-#karaoke {display:none;}
 #flag {display:none;}
+
+//#saturday {display:none;}
+#charliehorse {display:none;}
 #sadistic {display:none;}
-#bluff {display:none;}
+//#after {display:none;}
+//#bluff {display:none;}
+
+//#sunday {display:none;}
+//#bust {display:none;}
+#karaoke {display:none;}
 
 /* mast */
 #mast {
@@ -254,14 +263,8 @@ img {
 
 /* tease */
 #tease {
-  h3 {
-    @media screen and (max-width:$phone) {
-      font-size: 2em;
-    } 
-  }
 }
 #posters {
-  background-color:yellow;
   width: 80%;
   height:auto;
   margin: 60px auto;
@@ -270,22 +273,45 @@ img {
     height:300px;
   }
   @media screen and (max-width:$netbook) {
-    #posters {
-      width: 100%;
-      margin-top: 50px; }
+    width: 100%;
+    margin-top: 50px;
+  }
+  h4 {
+    color: red;
+    font-size: .9em;
+    line-height: 1.3em;
+    font-weight: 700;
   }
   >a {
     float: left;
     margin: 0 auto;
     max-width: 30%;
     max-height: 40%;
-    color: red;
-    font-weight: 900;
-    line-height: 1.3em;
     &:nth-child(1), &:nth-child(2) {
       margin: 0 10%; }
     &:nth-child(3) {
       margin: 30px 33%; }
+  }
+  .bigimage {
+    display: block;
+    float: left;
+    clear: both;
+    color: red;
+    font-weight: 700;
+    line-height: 1.3em;
+    width: 100%;
+    height:auto;
+    >img {
+      border: 0; }
+    @media screen and (max-width:$netbook) {
+      width: 80%;
+      margin: 0 auto;
+    }
+    @media screen and (max-width:$phone) {
+      float: middle;
+      width: 25%;
+      margin: 0 auto;
+    }
   }
 }
 
@@ -409,7 +435,7 @@ img {
     -moz-border-radius: 12px;
     -o-border-radius: 12px;
     border-radius: 12px; }
-  a {} }
+  }
 
 /* torche.html */
 
@@ -628,7 +654,7 @@ img {
     display: block; }
   .slides {
     li p {
-      font-size: 2em;
+      font-size: 1.5em;
       margin: 40px auto 10px auto; }
     img {
       margin: 0 auto;

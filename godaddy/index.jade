@@ -6,22 +6,23 @@ html
     // <META HTTP-EQUIV="CACHE-CONTROL" CONTENT="NO-CACHE">
     meta(name='viewport', content='width=device-width')
     meta(name='viewport', content='initial-scale=1.0')
-    link(rel='stylesheet', href='wp/wp-content/themes/twentytwelve/style.css')
+      // FIXX combine css files
+    link(rel='stylesheet', href='twenty-twelve-style.css')
     link(rel='stylesheet', href='widgets/flexslider/flexslider.css')
     link(rel='stylesheet', href='widgets/lightbox/css/lightbox.css')
     link(rel='stylesheet', href='main.css')
     // <script src= "https://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js"> </script>
-    script(src='widgets/lightbox/js/jquery-1.7.2.min.js')
+    script(src='widgets/lightbox/js/jquery-1.7.2.min.js').
        
-    script(src='widgets/lightbox/js/lightbox.js')
+    script(src='widgets/lightbox/js/lightbox.js').
        
-    script(type='text/javascript', src='widgets/flexslider/jquery.flexslider.js')
+    script(type='text/javascript', src='widgets/flexslider/jquery.flexslider.js').
        
-    script(type='text/javascript', charset='utf-8')
+    script.
       $(window).load(function() {
       $('.flexslider').flexslider({
       animation: "slide",
-      animationLoop: "true",
+      animationLoop: "true"
       });
       });
   body
@@ -51,16 +52,18 @@ html
           p Hanky Codes
       #tease
         #posters
-          a(href='pics/events/TNL-lite.jpg', rel='lightbox')
-            img(src='pics/events/TNL-lite.jpg', alt='TNL Flyer')
-            | THU
-          a(href='pics/events/TheOhSees060813-lite.jpg', rel='lightbox')
-            img(src='pics/events/TheOhSees060813-lite.jpg', alt='The Oh Sees')
-            | SAT
           a(href='pics/events/TNL130611-lite.jpg', rel='lightbox')
-            img(src='pics/events/TNL130611-lite.jpg', alt='Sonny and the sunsets')
-            | TUE
-            span.time (June 11)
+            img(src='pics/events/TNL130611-thumb.jpg', alt='Sonny and the sunsets')
+            h4 TUE
+          a(href='pics/events/TNL-lite.jpg', rel='lightbox')
+            img(src='pics/events/TNL-thumb.jpg', alt='TNL Flyer')
+            h4 THU
+          a(href='pics/events/TNL130620-lite.jpg', rel='lightbox')
+            img(src='pics/events/TNL130620-thumb.jpg', alt='TNL Flyer')
+            h4 THU (June 20)
+          .bigimage
+            h4 SAT (June 15) 2pm-7pm
+            img(src='pics/events/Aids-Emergency-Fund---Dark-Days-lite.jpg', alt='Aids Emergency Fund')
       #events.cf
         ul
           li#monday.day
@@ -76,6 +79,23 @@ html
               li#pools.event.cf
                 p.time 4pm-Midnight
                 a.btnless(href='#') FREE POOL and $2 pints of BIG DADDY
+          li#tuesday.day
+            h3 Tuesday
+            ul.events
+              li#special.event
+                p.time 9pm
+                ul.lineup
+                  li
+                    a.btn(href='http://www.sonnysmith.com/')
+                      | SONNY AND THE SUNSETS
+                      br
+                      | (Record Release Party!)
+                  li
+                    a.btn(href='http://www.facebook.com/burntones') BURNT ONES
+                  li
+                    a.btn(href='http://www.facebook.com/coolghouls') COOL GHOULS
+                a.flyer(href='pics/events/TNL130611-lite.jpg', rel='lightbox')
+                  img(src='pics/events/TNL130611-thumb.jpg', alt='TNL Flyer')
           li#wednesday.day
             h3 Wednesday
             ul.events
@@ -91,19 +111,21 @@ html
                 p.time 9pm
                 ul.lineup
                   li
-                    a.btnless(href='http://www.theeohsees.com/')
-                      h4 SubliminalSF Presents:
+                    a.btn(href='https://www.facebook.com/pages/The-English-Singles/258438924560') ENGLISH SINGLES (Sacramento)
                   li
-                    a.btn(href='https://www.facebook.com/sloughfegofficial') SLOUGH FEG
+                    a.btn(href='http://troubleinmindrecs.com/bands/maston.html') MASTON (L.A.)
                   li
-                    a.btn(href='https://www.facebook.com/owlbrotherhood') OWL
-                  li
-                    a.btn(href='https://www.facebook.com/pages/Wounded-Giant/156290301123402') WOUNDED GIANT (Seattle)
+                    a.btn(href='http://troubleinmindrecs.com/bands/wrongwords.html') WRONG WORDS
                 a.flyer(href='pics/events/TNL-lite.jpg', rel='lightbox')
                   img(src='pics/events/TNL-thumb.jpg', alt='TNL Flyer')
           li#friday.day
             h3 Friday
             ul.events
+              li#cubhouse.event.cf
+                p.time 9pm
+                a.btn(href='http://www.facebook.com/events/518773901518847/') Cub House
+                a(href='pics/events/CBHS_Poster-lite.jpg', rel='lightbox')
+                  img.thumb(src='pics/events/CBHS_Poster-thumb.jpg', alt='Cub House')
               li#flag.event.cf
                 p.time 9pm
                 a.btn(href='http://www.facebook.com/events/518773901518847/') FLAG
@@ -124,64 +146,39 @@ html
           li#saturday.day
             h3 Saturday
             ul.events
-              li.event
+              li#dark.event.cf
+                p.time 2pm-7pm
+                a(href='https://www.facebook.com/events/563181007033732/')
+                  .btn AEF Dark Days Benefit <br />+ Beer Bust 3-6
+                a(href='pics/events/Aids-Emergency-Fund---Dark-Days-lite.jpg', rel='lightbox')
+                  img.thumb(src='pics/events/Aids-Emergency-Fund---Dark-Days-thumb.jpg', alt='Dark Days')
+              li#bluff.event.cf
                 p.time 9pm
-                ul.lineup
-                  li
-                    a.btn(href='http://www.theeohsees.com/') THE OH SEES
-                  li
-                    a.btn(href='http://hengebeat.bandcamp.com/') TOTAL CONTROL
-                  li
-                    a.btn(href='http://troubleinmindrecs.com/bands/fuzz.html') FUZZ
-                a.flyer(href='pics/events/TheOhSees060813-lite.jpg', rel='lightbox')
-                  img(src='pics/events/TheOhSees060813-thumb.jpg', alt='TNL Flyer')
+                a.btn(href='http://www.facebook.com/events/518773901518847/') BLUF
+                a(href='pics/events/bluf-lite.jpg', rel='lightbox')
+                  img.thumb(src='pics/events/bluf-thumb.jpg', alt='BLUF')
           li#sunday.day
             h3 Sunday
             ul.events
               li#bust.event.cf
                 p.time 3pm-6pm
-                a(href='http://www.dykesonbikes.org/')
-                  .btn Dykes on Bikes
-                a(href='pics/events/DykesOnBikes-lite.jpg ', rel='lightbox')
-                  img.thumb(src='pics/events/DykesOnBikes-thumb.jpg', alt='SF Ducal Court')
-              li#after.event.cf
-                p.time 7pm
-                a.btn(href='http://goldenbearsf.com/pages/gbc-events/')
-                  | Golden Bear Classic
-                  br
-                  | Baseball Party
+                a(href='http://www.sfldadsandboys.com/')
+                  .btn Leather Daddies Beer Bust
+                a(href='pics/events/Leather-Daddies-lite.jpg', rel='lightbox')
+                  img.thumb(src='pics/events/Leather-Daddies-thumb.jpg', alt='Leather Daddies')
               li#karaoke.event.cf
                 p.time 7pm
                 a.btn(href='http://goldenbearsf.com/pages/gbc-events/')
                   | BB After Party:
                   br
                   | Bouncer's BackYard
-          li#special.day
-            h3
-              | Tuesday
-              span.time (June 11)
-            ul.events
-              li.event
-                p.time 9pm
-                ul.lineup
-                  li
-                    a.btn(href='http://www.sonnysmith.com/')
-                      | SONNY AND THE SUNSETS
-                      br
-                      | (Record Release Party!)
-                  li
-                    a.btn(href='http://www.facebook.com/burntones') BURNT ONES
-                  li
-                    a.btn(href='http://www.facebook.com/coolghouls') COOL GHOULS
-                a.flyer(href='pics/events/TNL130611-lite.jpg', rel='lightbox')
-                  img(src='pics/events/TNL130611-thumb.jpg', alt='TNL Flyer')
       // events
       #flyers.cf
         | [flyers]
     // page
-    script
+    script.
       $(document).ready(function(){
-      $.get('index.flyers.inc', function(data) {
+      $.get('index.flyers.html', function(data) {
       $('#flyers').html(data);
       });
       });
