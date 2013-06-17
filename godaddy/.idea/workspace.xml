@@ -5,13 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="828fc2e7-b169-4e33-9db6-32bf31c77aeb" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/pics/Adium_1.5.6.dmg" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../wp-orig" afterPath="$PROJECT_DIR$/../wp-orig" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.html" afterPath="$PROJECT_DIR$/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.jade" afterPath="$PROJECT_DIR$/index.jade" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/main.css" afterPath="$PROJECT_DIR$/main.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/main.scss" afterPath="$PROJECT_DIR$/main.scss" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="godaddy.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -71,7 +65,7 @@
       <file leaf-file-name="main.scss" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/main.scss">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="337" column="25" selection-start="6485" selection-end="6485" vertical-scroll-proportion="0.44334975">
+            <state line="337" column="25" selection-start="6485" selection-end="6485" vertical-scroll-proportion="-2.7339902">
               <folding />
             </state>
           </provider>
@@ -568,7 +562,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/main.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="337" column="25" selection-start="6485" selection-end="6485" vertical-scroll-proportion="0.44334975">
+        <state line="337" column="25" selection-start="6485" selection-end="6485" vertical-scroll-proportion="-2.7339902">
           <folding />
         </state>
       </provider>

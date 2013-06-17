@@ -1,0 +1,710 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="a61e94e4-0c00-442d-8bde-b0f49a71230e" name="Default" comment="">
+      <change type="DELETED" beforePath="$PROJECT_DIR$/godaddy/.PREVIEW-index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/godaddy/12_8/images/_hcc_thumbs/content.gif-thumb-80.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/godaddy/12_8/images/_hcc_thumbs/eagle-red.gif-thumb-80.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/godaddy/12_8/images/_hcc_thumbs/eagle1.gif-thumb-80.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/godaddy/12_8/images/_hcc_thumbs/footer.gif-thumb-80.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/godaddy/12_8/images/_hcc_thumbs/header.gif-thumb-80.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/godaddy/12_8/images/_hcc_thumbs/logo.gif-thumb-80.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/godaddy/12_8/images/_hcc_thumbs/menu.gif-thumb-80.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/godaddy/12_8/images/_hcc_thumbs/middle.gif-thumb-80.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/godaddy/12_8/images/_hcc_thumbs/middle2.gif-thumb-80.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/godaddy/12_8/images/content.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/godaddy/12_8/images/eagle-red.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/godaddy/12_8/images/eagle1.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/godaddy/12_8/images/footer.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/godaddy/12_8/images/header.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/godaddy/12_8/images/logo.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/godaddy/12_8/images/menu.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/godaddy/12_8/images/middle.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/godaddy/12_8/images/middle2.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/godaddy/12_8/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/godaddy/12_8/stats/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/godaddy/12_8/style.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/godaddy/12_8/welcome.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/godaddy/IMG_20130504_081717.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/godaddy/_dsn/mysql_eaglecalendar.dsn" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/godaddy/_hcc_thumbs/background.png-thumb-80.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/godaddy/_hcc_thumbs/bar.png-thumb-80.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/godaddy/_hcc_thumbs/download_pdf_button.png-thumb-80.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/godaddy/_hcc_thumbs/footer.png-thumb-80.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/godaddy/_hcc_thumbs/header.png-thumb-80.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/godaddy/_hcc_thumbs/linkrollover.png-thumb-80.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/godaddy/archives/20130505.tar.gz" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/godaddy/background.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/godaddy/bar.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/godaddy/documentation/css/documenter_style.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/godaddy/documentation/css/img/info.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/godaddy/documentation/css/img/pre_bg.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/godaddy/documentation/css/img/warning.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/godaddy/documentation/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/godaddy/documentation/js/jquery.1.6.4.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/godaddy/documentation/js/jquery.easing.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/godaddy/documentation/js/jquery.scrollTo-1.4.2-min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/godaddy/documentation/js/script.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/godaddy/drop.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/godaddy/events/admin/ajax/addCalendar.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/godaddy/events/admin/ajax/addTwitterSpam.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/godaddy/events/admin/ajax/addTwitterUser.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/godaddy/events/admin/ajax/approveTwitter.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/godaddy/events/admin/ajax/checkEvents.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/godaddy/events/admin/ajax/checkOldPassword.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/godaddy/events/admin/ajax/delCalendarItem.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/godaddy/events/admin/ajax/delEventImage.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/godaddy/events/admin/ajax/publishCalendar.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/godaddy/events/admin/ajax/publishEvent.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/godaddy/events/admin/ajax/publishSpam.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/godaddy/events/admin/ajax/publishTwitter.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/godaddy/events/admin/ajax/saveCalendar.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/godaddy/events/admin/ajax/setCalendarsOrderby.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/godaddy/events/admin/ajax/setDefaultCalendar.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/godaddy/events/admin/ajax/unpublishCalendar.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/godaddy/events/admin/ajax/unpublishEvent.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/godaddy/events/admin/ajax/unpublishSpam.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/godaddy/events/admin/ajax/unpublishTwitter.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/godaddy/events/admin/ajax/updateCustomTimes.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/godaddy/events/admin/calendars.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/godaddy/events/admin/class/admin.class.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/godaddy/events/admin/class/calendar.class.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/godaddy/events/admin/class/event.class.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/godaddy/events/admin/class/list.class.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/godaddy/events/admin/class/settings.class.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/godaddy/events/admin/class/twitter.approve.class.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/godaddy/events/admin/class/twitter.spam.class.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/godaddy/events/admin/common.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/godaddy/events/admin/configuration.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/godaddy/events/admin/css/fileuploader.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/godaddy/events/admin/css/images/_hcc_thumbs/ui-bg_flat_0_aaaaaa_40x100.png-thumb-80.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/godaddy/events/admin/css/images/_hcc_thumbs/ui-bg_flat_75_ffffff_40x100.png-thumb-80.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/godaddy/events/admin/css/images/_hcc_thumbs/ui-bg_glass_55_fbf9ee_1x400.png-thumb-80.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/godaddy/events/admin/css/images/_hcc_thumbs/ui-bg_glass_65_ffffff_1x400.png-thumb-80.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/godaddy/events/admin/css/images/_hcc_thumbs/ui-bg_glass_75_dadada_1x400.png-thumb-80.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/godaddy/events/admin/css/images/_hcc_thumbs/ui-bg_glass_75_e6e6e6_1x400.png-thumb-80.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/godaddy/events/admin/css/images/_hcc_thumbs/ui-bg_glass_95_fef1ec_1x400.png-thumb-80.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/godaddy/events/admin/css/images/_hcc_thumbs/ui-bg_highlight-soft_75_cccccc_1x100.png-thumb-80.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/godaddy/events/admin/css/images/_hcc_thumbs/ui-icons_222222_256x240.png-thumb-80.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/godaddy/events/admin/css/images/_hcc_thumbs/ui-icons_2e83ff_256x240.png-thumb-80.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/godaddy/events/admin/css/images/_hcc_thumbs/ui-icons_454545_256x240.png-thumb-80.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/godaddy/events/admin/css/images/_hcc_thumbs/ui-icons_888888_256x240.png-thumb-80.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/godaddy/events/admin/css/images/_hcc_thumbs/ui-icons_cd0a0a_256x240.png-thumb-80.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/godaddy/events/admin/css/images/ui-bg_flat_0_aaaaaa_40x100.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/godaddy/events/admin/css/images/ui-bg_flat_75_ffffff_40x100.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/godaddy/events/admin/css/images/ui-bg_glass_55_fbf9ee_1x400.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/godaddy/events/admin/css/images/ui-bg_glass_65_ffffff_1x400.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/godaddy/events/admin/css/images/ui-bg_glass_75_dadada_1x400.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/godaddy/events/admin/css/images/ui-bg_glass_75_e6e6e6_1x400.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/godaddy/events/admin/css/images/ui-bg_glass_95_fef1ec_1x400.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/godaddy/events/admin/css/images/ui-bg_highlight-soft_75_cccccc_1x100.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/godaddy/events/admin/css/images/ui-icons_222222_256x240.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/godaddy/events/admin/css/images/ui-icons_2e83ff_256x240.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/godaddy/events/admin/css/images/ui-icons_454545_256x240.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/godaddy/events/admin/css/images/ui-icons_888888_256x240.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/godaddy/events/admin/css/images/ui-icons_cd0a0a_256x240.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/godaddy/events/admin/css/jquery-ui.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/godaddy/events/admin/css/jquery.lightbox-0.5.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/godaddy/events/admin/css/jquery.ui.all.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/godaddy/events/admin/css/style.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/godaddy/events/admin/events.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/godaddy/events/admin/images/bg.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/godaddy/events/admin/images/buttons/admin_buttons.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/godaddy/events/admin/images/buttons/admin_buttons.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/godaddy/events/admin/images/buttons/load_photos_button.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/godaddy/events/admin/images/buttons/login_button.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/godaddy/events/admin/images/erase.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/godaddy/events/admin/images/icons/published.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/godaddy/events/admin/images/icons/published.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/godaddy/events/admin/images/icons/unpublished.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/godaddy/events/admin/images/icons/unpublished.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/godaddy/events/admin/images/lightbox-blank.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/godaddy/events/admin/images/lightbox-btn-close.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/godaddy/events/admin/images/lightbox-btn-next.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/godaddy/events/admin/images/lightbox-btn-prev.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/godaddy/events/admin/images/lightbox-ico-loading.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/godaddy/events/admin/images/loading.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/godaddy/events/admin/images/loading.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/godaddy/events/admin/images/login_main.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/godaddy/events/admin/images/logo_admin.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/godaddy/events/admin/images/orderby_asc.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/godaddy/events/admin/images/orderby_desc.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/godaddy/events/admin/images/piu.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/godaddy/events/admin/images/trash.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/godaddy/events/admin/include/db_conn.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/godaddy/events/admin/include/footer.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/godaddy/events/admin/include/header.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/godaddy/events/admin/include/menu.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/godaddy/events/admin/include/utils.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/godaddy/events/admin/index.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/godaddy/events/admin/js/fileuploader.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/godaddy/events/admin/js/jquery-1.7.1.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/godaddy/events/admin/js/jquery-ui-1.8.16.custom.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/godaddy/events/admin/js/jquery-ui-i18n.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/godaddy/events/admin/js/jquery-ui-timepicker-addon.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/godaddy/events/admin/js/jquery.lightbox-0.5.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/godaddy/events/admin/js/lib.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/godaddy/events/admin/js/tiny_mce/langs/en.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/godaddy/events/admin/js/tiny_mce/license.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/godaddy/events/admin/js/tiny_mce/plugins/advhr/css/advhr.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/godaddy/events/admin/js/tiny_mce/plugins/advhr/editor_plugin.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/godaddy/events/admin/js/tiny_mce/plugins/advhr/editor_plugin_src.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/godaddy/events/admin/js/tiny_mce/plugins/advhr/js/rule.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/godaddy/events/admin/js/tiny_mce/plugins/advhr/langs/en_dlg.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/godaddy/events/admin/js/tiny_mce/plugins/advhr/rule.htm" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/godaddy/events/admin/js/tiny_mce/plugins/advimage/css/advimage.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/godaddy/events/admin/js/tiny_mce/plugins/advimage/editor_plugin.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/godaddy/events/admin/js/tiny_mce/plugins/advimage/editor_plugin_src.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/godaddy/events/admin/js/tiny_mce/plugins/advimage/image.htm" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/godaddy/events/admin/js/tiny_mce/plugins/advimage/img/sample.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/godaddy/events/admin/js/tiny_mce/plugins/advimage/js/image.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/godaddy/events/admin/js/tiny_mce/plugins/advimage/langs/en_dlg.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/godaddy/events/admin/js/tiny_mce/plugins/advlink/css/advlink.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/godaddy/events/admin/js/tiny_mce/plugins/advlink/editor_plugin.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/godaddy/events/admin/js/tiny_mce/plugins/advlink/editor_plugin_src.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/godaddy/events/admin/js/tiny_mce/plugins/advlink/js/advlink.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/godaddy/events/admin/js/tiny_mce/plugins/advlink/langs/en_dlg.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/godaddy/events/admin/js/tiny_mce/plugins/advlink/link.htm" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/godaddy/events/admin/js/tiny_mce/plugins/advlist/editor_plugin.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/godaddy/events/admin/js/tiny_mce/plugins/advlist/editor_plugin_src.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/godaddy/events/admin/js/tiny_mce/plugins/autoresize/editor_plugin.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/godaddy/events/admin/js/tiny_mce/plugins/autoresize/editor_plugin_src.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/godaddy/events/admin/js/tiny_mce/plugins/autosave/editor_plugin.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/godaddy/events/admin/js/tiny_mce/plugins/autosave/editor_plugin_src.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/godaddy/events/admin/js/tiny_mce/plugins/autosave/langs/en.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/godaddy/events/admin/js/tiny_mce/plugins/bbcode/editor_plugin.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/godaddy/events/admin/js/tiny_mce/plugins/bbcode/editor_plugin_src.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/godaddy/events/admin/js/tiny_mce/plugins/contextmenu/editor_plugin.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/godaddy/events/admin/js/tiny_mce/plugins/contextmenu/editor_plugin_src.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/godaddy/events/admin/js/tiny_mce/plugins/directionality/editor_plugin.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/godaddy/events/admin/js/tiny_mce/plugins/directionality/editor_plugin_src.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/godaddy/events/admin/js/tiny_mce/plugins/emotions/editor_plugin.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/godaddy/events/admin/js/tiny_mce/plugins/emotions/editor_plugin_src.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/godaddy/events/admin/js/tiny_mce/plugins/emotions/emotions.htm" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/godaddy/events/admin/js/tiny_mce/plugins/emotions/img/smiley-cool.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/godaddy/events/admin/js/tiny_mce/plugins/emotions/img/smiley-cry.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/godaddy/events/admin/js/tiny_mce/plugins/emotions/img/smiley-embarassed.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/godaddy/events/admin/js/tiny_mce/plugins/emotions/img/smiley-foot-in-mouth.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/godaddy/events/admin/js/tiny_mce/plugins/emotions/img/smiley-frown.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/godaddy/events/admin/js/tiny_mce/plugins/emotions/img/smiley-innocent.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/godaddy/events/admin/js/tiny_mce/plugins/emotions/img/smiley-kiss.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/godaddy/events/admin/js/tiny_mce/plugins/emotions/img/smiley-laughing.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/godaddy/events/admin/js/tiny_mce/plugins/emotions/img/smiley-money-mouth.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/godaddy/events/admin/js/tiny_mce/plugins/emotions/img/smiley-sealed.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/godaddy/events/admin/js/tiny_mce/plugins/emotions/img/smiley-smile.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/godaddy/events/admin/js/tiny_mce/plugins/emotions/img/smiley-surprised.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/godaddy/events/admin/js/tiny_mce/plugins/emotions/img/smiley-tongue-out.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/godaddy/events/admin/js/tiny_mce/plugins/emotions/img/smiley-undecided.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/godaddy/events/admin/js/tiny_mce/plugins/emotions/img/smiley-wink.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/godaddy/events/admin/js/tiny_mce/plugins/emotions/img/smiley-yell.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/godaddy/events/admin/js/tiny_mce/plugins/emotions/js/emotions.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/godaddy/events/admin/js/tiny_mce/plugins/emotions/langs/en_dlg.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/godaddy/events/admin/js/tiny_mce/plugins/example/dialog.htm" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/godaddy/events/admin/js/tiny_mce/plugins/example/editor_plugin.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/godaddy/events/admin/js/tiny_mce/plugins/example/editor_plugin_src.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/godaddy/events/admin/js/tiny_mce/plugins/example/img/example.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/godaddy/events/admin/js/tiny_mce/plugins/example/js/dialog.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/godaddy/events/admin/js/tiny_mce/plugins/example/langs/en.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/godaddy/events/admin/js/tiny_mce/plugins/example/langs/en_dlg.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/godaddy/events/admin/js/tiny_mce/plugins/fullpage/css/fullpage.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/godaddy/events/admin/js/tiny_mce/plugins/fullpage/editor_plugin.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/godaddy/events/admin/js/tiny_mce/plugins/fullpage/editor_plugin_src.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/godaddy/events/admin/js/tiny_mce/plugins/fullpage/fullpage.htm" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/godaddy/events/admin/js/tiny_mce/plugins/fullpage/js/fullpage.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/godaddy/events/admin/js/tiny_mce/plugins/fullpage/langs/en_dlg.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/godaddy/events/admin/js/tiny_mce/plugins/fullscreen/editor_plugin.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/godaddy/events/admin/js/tiny_mce/plugins/fullscreen/editor_plugin_src.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/godaddy/events/admin/js/tiny_mce/plugins/fullscreen/fullscreen.htm" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/godaddy/events/admin/js/tiny_mce/plugins/iespell/editor_plugin.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/godaddy/events/admin/js/tiny_mce/plugins/iespell/editor_plugin_src.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/godaddy/events/admin/js/tiny_mce/plugins/inlinepopups/editor_plugin.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/godaddy/events/admin/js/tiny_mce/plugins/inlinepopups/editor_plugin_src.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/godaddy/events/admin/js/tiny_mce/plugins/inlinepopups/skins/clearlooks2/img/alert.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/godaddy/events/admin/js/tiny_mce/plugins/inlinepopups/skins/clearlooks2/img/button.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/godaddy/events/admin/js/tiny_mce/plugins/inlinepopups/skins/clearlooks2/img/buttons.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/godaddy/events/admin/js/tiny_mce/plugins/inlinepopups/skins/clearlooks2/img/confirm.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/godaddy/events/admin/js/tiny_mce/plugins/inlinepopups/skins/clearlooks2/img/corners.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/godaddy/events/admin/js/tiny_mce/plugins/inlinepopups/skins/clearlooks2/img/horizontal.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/godaddy/events/admin/js/tiny_mce/plugins/inlinepopups/skins/clearlooks2/img/vertical.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/godaddy/events/admin/js/tiny_mce/plugins/inlinepopups/skins/clearlooks2/window.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/godaddy/events/admin/js/tiny_mce/plugins/inlinepopups/template.htm" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/godaddy/events/admin/js/tiny_mce/plugins/insertdatetime/editor_plugin.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/godaddy/events/admin/js/tiny_mce/plugins/insertdatetime/editor_plugin_src.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/godaddy/events/admin/js/tiny_mce/plugins/layer/editor_plugin.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/godaddy/events/admin/js/tiny_mce/plugins/layer/editor_plugin_src.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/godaddy/events/admin/js/tiny_mce/plugins/legacyoutput/editor_plugin.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/godaddy/events/admin/js/tiny_mce/plugins/legacyoutput/editor_plugin_src.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/godaddy/events/admin/js/tiny_mce/plugins/media/css/content.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/godaddy/events/admin/js/tiny_mce/plugins/media/css/media.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/godaddy/events/admin/js/tiny_mce/plugins/media/editor_plugin.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/godaddy/events/admin/js/tiny_mce/plugins/media/editor_plugin_src.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/godaddy/events/admin/js/tiny_mce/plugins/media/img/flash.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/godaddy/events/admin/js/tiny_mce/plugins/media/img/flv_player.swf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/godaddy/events/admin/js/tiny_mce/plugins/media/img/quicktime.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/godaddy/events/admin/js/tiny_mce/plugins/media/img/realmedia.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/godaddy/events/admin/js/tiny_mce/plugins/media/img/shockwave.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/godaddy/events/admin/js/tiny_mce/plugins/media/img/trans.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/godaddy/events/admin/js/tiny_mce/plugins/media/img/windowsmedia.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/godaddy/events/admin/js/tiny_mce/plugins/media/js/embed.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/godaddy/events/admin/js/tiny_mce/plugins/media/js/media.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/godaddy/events/admin/js/tiny_mce/plugins/media/langs/en_dlg.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/godaddy/events/admin/js/tiny_mce/plugins/media/media.htm" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/godaddy/events/admin/js/tiny_mce/plugins/nonbreaking/editor_plugin.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/godaddy/events/admin/js/tiny_mce/plugins/nonbreaking/editor_plugin_src.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/godaddy/events/admin/js/tiny_mce/plugins/noneditable/editor_plugin.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/godaddy/events/admin/js/tiny_mce/plugins/noneditable/editor_plugin_src.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/godaddy/events/admin/js/tiny_mce/plugins/pagebreak/css/content.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/godaddy/events/admin/js/tiny_mce/plugins/pagebreak/editor_plugin.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/godaddy/events/admin/js/tiny_mce/plugins/pagebreak/editor_plugin_src.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/godaddy/events/admin/js/tiny_mce/plugins/pagebreak/img/pagebreak.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/godaddy/events/admin/js/tiny_mce/plugins/pagebreak/img/trans.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/godaddy/events/admin/js/tiny_mce/plugins/paste/editor_plugin.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/godaddy/events/admin/js/tiny_mce/plugins/paste/editor_plugin_src.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/godaddy/events/admin/js/tiny_mce/plugins/paste/js/pastetext.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/godaddy/events/admin/js/tiny_mce/plugins/paste/js/pasteword.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/godaddy/events/admin/js/tiny_mce/plugins/paste/langs/en_dlg.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/godaddy/events/admin/js/tiny_mce/plugins/paste/pastetext.htm" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/godaddy/events/admin/js/tiny_mce/plugins/paste/pasteword.htm" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/godaddy/events/admin/js/tiny_mce/plugins/preview/editor_plugin.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/godaddy/events/admin/js/tiny_mce/plugins/preview/editor_plugin_src.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/godaddy/events/admin/js/tiny_mce/plugins/preview/example.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/godaddy/events/admin/js/tiny_mce/plugins/preview/jscripts/embed.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/godaddy/events/admin/js/tiny_mce/plugins/preview/preview.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/godaddy/events/admin/js/tiny_mce/plugins/print/editor_plugin.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/godaddy/events/admin/js/tiny_mce/plugins/print/editor_plugin_src.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/godaddy/events/admin/js/tiny_mce/plugins/save/editor_plugin.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/godaddy/events/admin/js/tiny_mce/plugins/save/editor_plugin_src.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/godaddy/events/admin/js/tiny_mce/plugins/searchreplace/css/searchreplace.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/godaddy/events/admin/js/tiny_mce/plugins/searchreplace/editor_plugin.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/godaddy/events/admin/js/tiny_mce/plugins/searchreplace/editor_plugin_src.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/godaddy/events/admin/js/tiny_mce/plugins/searchreplace/js/searchreplace.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/godaddy/events/admin/js/tiny_mce/plugins/searchreplace/langs/en_dlg.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/godaddy/events/admin/js/tiny_mce/plugins/searchreplace/searchreplace.htm" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/godaddy/events/admin/js/tiny_mce/plugins/spellchecker/css/content.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/godaddy/events/admin/js/tiny_mce/plugins/spellchecker/editor_plugin.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/godaddy/events/admin/js/tiny_mce/plugins/spellchecker/editor_plugin_src.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/godaddy/events/admin/js/tiny_mce/plugins/spellchecker/img/wline.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/godaddy/events/admin/js/tiny_mce/plugins/style/css/props.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/godaddy/events/admin/js/tiny_mce/plugins/style/editor_plugin.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/godaddy/events/admin/js/tiny_mce/plugins/style/editor_plugin_src.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/godaddy/events/admin/js/tiny_mce/plugins/style/js/props.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/godaddy/events/admin/js/tiny_mce/plugins/style/langs/en_dlg.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/godaddy/events/admin/js/tiny_mce/plugins/style/props.htm" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/godaddy/events/admin/js/tiny_mce/plugins/tabfocus/editor_plugin.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/godaddy/events/admin/js/tiny_mce/plugins/tabfocus/editor_plugin_src.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/godaddy/events/admin/js/tiny_mce/plugins/table/cell.htm" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/godaddy/events/admin/js/tiny_mce/plugins/table/css/cell.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/godaddy/events/admin/js/tiny_mce/plugins/table/css/row.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/godaddy/events/admin/js/tiny_mce/plugins/table/css/table.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/godaddy/events/admin/js/tiny_mce/plugins/table/editor_plugin.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/godaddy/events/admin/js/tiny_mce/plugins/table/editor_plugin_src.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/godaddy/events/admin/js/tiny_mce/plugins/table/js/cell.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/godaddy/events/admin/js/tiny_mce/plugins/table/js/merge_cells.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/godaddy/events/admin/js/tiny_mce/plugins/table/js/row.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/godaddy/events/admin/js/tiny_mce/plugins/table/js/table.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/godaddy/events/admin/js/tiny_mce/plugins/table/langs/en_dlg.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/godaddy/events/admin/js/tiny_mce/plugins/table/merge_cells.htm" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/godaddy/events/admin/js/tiny_mce/plugins/table/row.htm" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/godaddy/events/admin/js/tiny_mce/plugins/table/table.htm" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/godaddy/events/admin/js/tiny_mce/plugins/template/blank.htm" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/godaddy/events/admin/js/tiny_mce/plugins/template/css/template.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/godaddy/events/admin/js/tiny_mce/plugins/template/editor_plugin.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/godaddy/events/admin/js/tiny_mce/plugins/template/editor_plugin_src.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/godaddy/events/admin/js/tiny_mce/plugins/template/js/template.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/godaddy/events/admin/js/tiny_mce/plugins/template/langs/en_dlg.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/godaddy/events/admin/js/tiny_mce/plugins/template/template.htm" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/godaddy/events/admin/js/tiny_mce/plugins/visualchars/editor_plugin.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/godaddy/events/admin/js/tiny_mce/plugins/visualchars/editor_plugin_src.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/godaddy/events/admin/js/tiny_mce/plugins/wordcount/editor_plugin.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/godaddy/events/admin/js/tiny_mce/plugins/wordcount/editor_plugin_src.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/godaddy/events/admin/js/tiny_mce/plugins/xhtmlxtras/abbr.htm" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/godaddy/events/admin/js/tiny_mce/plugins/xhtmlxtras/acronym.htm" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/godaddy/events/admin/js/tiny_mce/plugins/xhtmlxtras/attributes.htm" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/godaddy/events/admin/js/tiny_mce/plugins/xhtmlxtras/cite.htm" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/godaddy/events/admin/js/tiny_mce/plugins/xhtmlxtras/css/attributes.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/godaddy/events/admin/js/tiny_mce/plugins/xhtmlxtras/css/popup.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/godaddy/events/admin/js/tiny_mce/plugins/xhtmlxtras/del.htm" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/godaddy/events/admin/js/tiny_mce/plugins/xhtmlxtras/editor_plugin.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/godaddy/events/admin/js/tiny_mce/plugins/xhtmlxtras/editor_plugin_src.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/godaddy/events/admin/js/tiny_mce/plugins/xhtmlxtras/ins.htm" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/godaddy/events/admin/js/tiny_mce/plugins/xhtmlxtras/js/abbr.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/godaddy/events/admin/js/tiny_mce/plugins/xhtmlxtras/js/acronym.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/godaddy/events/admin/js/tiny_mce/plugins/xhtmlxtras/js/attributes.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/godaddy/events/admin/js/tiny_mce/plugins/xhtmlxtras/js/cite.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/godaddy/events/admin/js/tiny_mce/plugins/xhtmlxtras/js/del.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/godaddy/events/admin/js/tiny_mce/plugins/xhtmlxtras/js/element_common.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/godaddy/events/admin/js/tiny_mce/plugins/xhtmlxtras/js/ins.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/godaddy/events/admin/js/tiny_mce/plugins/xhtmlxtras/langs/en_dlg.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/godaddy/events/admin/js/tiny_mce/themes/advanced/about.htm" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/godaddy/events/admin/js/tiny_mce/themes/advanced/anchor.htm" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/godaddy/events/admin/js/tiny_mce/themes/advanced/charmap.htm" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/godaddy/events/admin/js/tiny_mce/themes/advanced/color_picker.htm" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/godaddy/events/admin/js/tiny_mce/themes/advanced/editor_template.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/godaddy/events/admin/js/tiny_mce/themes/advanced/editor_template_src.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/godaddy/events/admin/js/tiny_mce/themes/advanced/image.htm" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/godaddy/events/admin/js/tiny_mce/themes/advanced/img/colorpicker.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/godaddy/events/admin/js/tiny_mce/themes/advanced/img/icons.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/godaddy/events/admin/js/tiny_mce/themes/advanced/js/about.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/godaddy/events/admin/js/tiny_mce/themes/advanced/js/anchor.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/godaddy/events/admin/js/tiny_mce/themes/advanced/js/charmap.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/godaddy/events/admin/js/tiny_mce/themes/advanced/js/color_picker.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/godaddy/events/admin/js/tiny_mce/themes/advanced/js/image.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/godaddy/events/admin/js/tiny_mce/themes/advanced/js/link.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/godaddy/events/admin/js/tiny_mce/themes/advanced/js/source_editor.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/godaddy/events/admin/js/tiny_mce/themes/advanced/langs/en.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/godaddy/events/admin/js/tiny_mce/themes/advanced/langs/en_dlg.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/godaddy/events/admin/js/tiny_mce/themes/advanced/link.htm" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/godaddy/events/admin/js/tiny_mce/themes/advanced/skins/default/content.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/godaddy/events/admin/js/tiny_mce/themes/advanced/skins/default/dialog.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/godaddy/events/admin/js/tiny_mce/themes/advanced/skins/default/img/buttons.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/godaddy/events/admin/js/tiny_mce/themes/advanced/skins/default/img/items.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/godaddy/events/admin/js/tiny_mce/themes/advanced/skins/default/img/menu_arrow.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/godaddy/events/admin/js/tiny_mce/themes/advanced/skins/default/img/menu_check.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/godaddy/events/admin/js/tiny_mce/themes/advanced/skins/default/img/progress.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/godaddy/events/admin/js/tiny_mce/themes/advanced/skins/default/img/tabs.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/godaddy/events/admin/js/tiny_mce/themes/advanced/skins/default/ui.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/godaddy/events/admin/js/tiny_mce/themes/advanced/skins/o2k7/content.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/godaddy/events/admin/js/tiny_mce/themes/advanced/skins/o2k7/dialog.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/godaddy/events/admin/js/tiny_mce/themes/advanced/skins/o2k7/img/button_bg.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/godaddy/events/admin/js/tiny_mce/themes/advanced/skins/o2k7/img/button_bg_black.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/godaddy/events/admin/js/tiny_mce/themes/advanced/skins/o2k7/img/button_bg_silver.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/godaddy/events/admin/js/tiny_mce/themes/advanced/skins/o2k7/ui.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/godaddy/events/admin/js/tiny_mce/themes/advanced/skins/o2k7/ui_black.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/godaddy/events/admin/js/tiny_mce/themes/advanced/skins/o2k7/ui_silver.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/godaddy/events/admin/js/tiny_mce/themes/advanced/source_editor.htm" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/godaddy/events/admin/js/tiny_mce/themes/simple/editor_template.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/godaddy/events/admin/js/tiny_mce/themes/simple/editor_template_src.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/godaddy/events/admin/js/tiny_mce/themes/simple/img/icons.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/godaddy/events/admin/js/tiny_mce/themes/simple/langs/en.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/godaddy/events/admin/js/tiny_mce/themes/simple/skins/default/content.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/godaddy/events/admin/js/tiny_mce/themes/simple/skins/default/ui.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/godaddy/events/admin/js/tiny_mce/themes/simple/skins/o2k7/content.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/godaddy/events/admin/js/tiny_mce/themes/simple/skins/o2k7/img/button_bg.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/godaddy/events/admin/js/tiny_mce/themes/simple/skins/o2k7/ui.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/godaddy/events/admin/js/tiny_mce/tiny_mce.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/godaddy/events/admin/js/tiny_mce/tiny_mce_popup.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/godaddy/events/admin/js/tiny_mce/tiny_mce_src.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/godaddy/events/admin/js/tiny_mce/utils/editable_selects.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/godaddy/events/admin/js/tiny_mce/utils/form_utils.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/godaddy/events/admin/js/tiny_mce/utils/mctabs.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/godaddy/events/admin/js/tiny_mce/utils/validate.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/godaddy/events/admin/js/tmt_libs/tmt_core.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/godaddy/events/admin/js/tmt_libs/tmt_form.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/godaddy/events/admin/js/tmt_libs/tmt_validator.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/godaddy/events/admin/login.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/godaddy/events/admin/logout.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/godaddy/events/admin/metatags.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/godaddy/events/admin/new_event.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/godaddy/events/admin/password.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/godaddy/events/admin/twitter_approvation.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/godaddy/events/admin/twitter_approve.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/godaddy/events/admin/twitter_spam.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/godaddy/events/admin/upload_event_image.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/godaddy/events/admin/welcome.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/godaddy/events/ajax/fillEventsPopup.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/godaddy/events/ajax/getEvent.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/godaddy/events/ajax/getEventHome.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/godaddy/events/ajax/getEventsHomeList.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/godaddy/events/ajax/getEventsList.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/godaddy/events/ajax/getFlickrPics.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/godaddy/events/ajax/getMonthCalendar.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/godaddy/events/ajax/getSearchEvent.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/godaddy/events/ajax/getTweets.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/godaddy/events/ajax/searchEvents.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/godaddy/events/class/calendar.class.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/godaddy/events/class/event.class.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/godaddy/events/class/list.class.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/godaddy/events/class/settings.class.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/godaddy/events/class/utility.class.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/godaddy/events/common.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/godaddy/events/css/jquery.lightbox-0.5.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/godaddy/events/css/mainstyle.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/godaddy/events/font/BEBAS___-webfont.eot" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/godaddy/events/font/BEBAS___-webfont.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/godaddy/events/font/BEBAS___-webfont.ttf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/godaddy/events/font/BEBAS___-webfont.woff" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/godaddy/events/font/Cuprum-webfont.eot" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/godaddy/events/font/Cuprum-webfont.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/godaddy/events/font/Cuprum-webfont.ttf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/godaddy/events/font/Cuprum-webfont.woff" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/godaddy/events/font/Flat-it License.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/godaddy/events/font/Freeware License.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/godaddy/events/font/demo.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/godaddy/events/font/stylesheet.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/godaddy/events/images/_hcc_thumbs/lightbox-blank.gif-thumb-80.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/godaddy/events/images/_hcc_thumbs/lightbox-btn-close.gif-thumb-80.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/godaddy/events/images/_hcc_thumbs/lightbox-btn-next.gif-thumb-80.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/godaddy/events/images/_hcc_thumbs/lightbox-btn-prev.gif-thumb-80.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/godaddy/events/images/_hcc_thumbs/lightbox-ico-loading.gif-thumb-80.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/godaddy/events/images/_hcc_thumbs/loading.gif-thumb-80.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/godaddy/events/images/_hcc_thumbs/loading.png-thumb-80.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/godaddy/events/images/_hcc_thumbs/small_loading.gif-thumb-80.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/godaddy/events/images/_hcc_thumbs/small_loading.png-thumb-80.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/godaddy/events/images/_hcc_thumbs/sprite.png-thumb-80.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/godaddy/events/images/bg/bg.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/godaddy/events/images/lightbox-blank.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/godaddy/events/images/lightbox-btn-close.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/godaddy/events/images/lightbox-btn-next.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/godaddy/events/images/lightbox-btn-prev.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/godaddy/events/images/lightbox-ico-loading.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/godaddy/events/images/loading.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/godaddy/events/images/loading.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/godaddy/events/images/small_loading.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/godaddy/events/images/small_loading.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/godaddy/events/images/sprite.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/godaddy/events/include/lang.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/godaddy/events/index.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/godaddy/events/js/jquery-1.7.1.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/godaddy/events/js/jquery-ui-1.8.16.custom.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/godaddy/events/js/jquery-ui-i18n.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/godaddy/events/js/jquery-ui-timepicker-addon.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/godaddy/events/js/jquery.bxSlider.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/godaddy/events/js/jquery.easing.1.3.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/godaddy/events/js/jquery.easing.compatibility.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/godaddy/events/js/jquery.lightbox-0.5.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/godaddy/events/js/lib.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/godaddy/events/js/tmt_libs/tmt_core.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/godaddy/events/js/tmt_libs/tmt_form.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/godaddy/events/js/tmt_libs/tmt_validator.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/godaddy/events/js/wachevents.calendar.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/godaddy/events/redirect_twitter.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/godaddy/footer.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/godaddy/header.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/godaddy/index.flyers.inc" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/godaddy/index.flyers.inc.hold" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/godaddy/index.flyers.jade" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/godaddy/index.html.hold" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/godaddy/index.jade" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/godaddy/index.old.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/godaddy/index.updating" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/godaddy/jquery.flexslider-min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/godaddy/lab.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/godaddy/linkrollover.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/godaddy/main.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/godaddy/main.css.good" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/godaddy/main.css.hold" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/godaddy/main.hold.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/godaddy/main.sass" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/godaddy/main.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/godaddy/main2.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/godaddy/merch0.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/godaddy/ocs.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/godaddy/pics/_hcc_thumbs/logo.png-thumb-80.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/godaddy/pics/_hcc_thumbs/patio_by_urso.jpg-thumb-80.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/godaddy/pics/_hcc_thumbs/patio_by_urso_sm.jpg-thumb-80.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/godaddy/pics/_hcc_thumbs/sfe.gif-thumb-80.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/godaddy/pics/_hcc_thumbs/tnl.jpg-thumb-80.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/godaddy/pics/_hcc_thumbs/tshirt_m.jpg-thumb-80.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/godaddy/sfeagle.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/godaddy/tmp.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/godaddy/twenty-twelve-style.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/godaddy/welcome.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/godaddy/widgets/flex.tar.gz" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/godaddy/widgets/slimbox/README.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/godaddy/widgets/slimbox/css/closelabel.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/godaddy/widgets/slimbox/css/loading.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/godaddy/widgets/slimbox/css/nextlabel.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/godaddy/widgets/slimbox/css/prevlabel.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/godaddy/widgets/slimbox/css/slimbox2-rtl.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/godaddy/widgets/slimbox/css/slimbox2.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/godaddy/widgets/slimbox/example.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/godaddy/widgets/slimbox/example.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/godaddy/widgets/slimbox/extra/autoactivation.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/godaddy/widgets/slimbox/extra/fix-urls.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/godaddy/widgets/slimbox/extra/flickr.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/godaddy/widgets/slimbox/extra/picasaweb.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/godaddy/widgets/slimbox/js/slimbox2.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/godaddy/widgets/slimbox/src/autoload.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/godaddy/widgets/slimbox/src/slimbox2.js" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-orig" afterPath="$PROJECT_DIR$/wp-orig" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/godaddy/.idea/workspace.xml" afterPath="$PROJECT_DIR$/godaddy/.idea/workspace.xml" />
+    </list>
+    <ignored path="sf-eagle-storm.iws" />
+    <ignored path=".idea/workspace.xml" />
+    <file path="/Dummy.txt" changelist="a61e94e4-0c00-442d-8bde-b0f49a71230e" time="1371506614454" ignored="false" />
+    <option name="TRACKING_ENABLED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ChangesViewManager" flattened_view="true" show_ignored="false" />
+  <component name="CreatePatchCommitExecutor">
+    <option name="PATCH_PATH" value="" />
+  </component>
+  <component name="DaemonCodeAnalyzer">
+    <disable_hints />
+  </component>
+  <component name="FavoritesManager">
+    <favorites_list name="sf-eagle-storm" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitLogSettings">
+    <option name="myDateState">
+      <MyDateState />
+    </option>
+  </component>
+  <component name="ProjectFrameBounds">
+    <option name="y" value="22" />
+    <option name="width" value="1280" />
+    <option name="height" value="778" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="false">
+    <OptionsSetting value="true" id="Add" />
+    <OptionsSetting value="true" id="Remove" />
+    <OptionsSetting value="true" id="Checkout" />
+    <OptionsSetting value="true" id="Update" />
+    <OptionsSetting value="true" id="Status" />
+    <OptionsSetting value="true" id="Edit" />
+    <ConfirmationsSetting value="0" id="Add" />
+    <ConfirmationsSetting value="0" id="Remove" />
+  </component>
+  <component name="ProjectReloadState">
+    <option name="STATE" value="0" />
+  </component>
+  <component name="ProjectView">
+    <navigator currentView="ProjectPane" proportions="" version="1" splitterProportion="0.5">
+      <flattenPackages />
+      <showMembers />
+      <showModules />
+      <showLibraryContents ProjectPane="true" />
+      <hideEmptyPackages />
+      <abbreviatePackageNames />
+      <autoscrollToSource />
+      <autoscrollFromSource />
+      <sortByType />
+    </navigator>
+    <panes>
+      <pane id="Scope" />
+      <pane id="ProjectPane">
+        <subPane>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="sf-eagle-storm" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+          </PATH>
+        </subPane>
+      </pane>
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="options.splitter.main.proportions" value="0.3" />
+    <property name="WebServerToolWindowFactoryState" value="true" />
+    <property name="options.lastSelected" value="reference.settings.deploy.options" />
+    <property name="options.searchVisible" value="true" />
+    <property name="options.splitter.details.proportions" value="0.2" />
+  </component>
+  <component name="PublishConfig">
+    <servers>
+      <server id="f0b01bea-ead0-43c9-9626-b19472e85a50">
+        <serverdata>
+          <mappings>
+            <mapping local="$PROJECT_DIR$" />
+          </mappings>
+        </serverdata>
+      </server>
+    </servers>
+  </component>
+  <component name="RunManager">
+    <list size="0" />
+  </component>
+  <component name="ShelveChangesManager" show_recycled="false" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="a61e94e4-0c00-442d-8bde-b0f49a71230e" name="Default" comment="" />
+      <created>1371506613273</created>
+      <updated>1371506613273</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="0" y="22" width="1280" height="778" extended-state="0" />
+    <editor active="false" />
+    <layout>
+      <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Remote Host" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="CSS-X-Fire" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.24959481" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Pomodoro" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+    </layout>
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="OFFER_MOVE_TO_ANOTHER_CHANGELIST_ON_PARTIAL_COMMIT" value="true" />
+    <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="true" />
+    <option name="CHECK_NEW_TODO" value="true" />
+    <option name="myTodoPanelSettings">
+      <value>
+        <are-packages-shown value="false" />
+        <are-modules-shown value="false" />
+        <flatten-packages value="false" />
+        <is-autoscroll-to-source value="false" />
+      </value>
+    </option>
+    <option name="PERFORM_UPDATE_IN_BACKGROUND" value="true" />
+    <option name="PERFORM_COMMIT_IN_BACKGROUND" value="true" />
+    <option name="PERFORM_EDIT_IN_BACKGROUND" value="true" />
+    <option name="PERFORM_CHECKOUT_IN_BACKGROUND" value="true" />
+    <option name="PERFORM_ADD_REMOVE_IN_BACKGROUND" value="true" />
+    <option name="PERFORM_ROLLBACK_IN_BACKGROUND" value="false" />
+    <option name="CHECK_LOCALLY_CHANGED_CONFLICTS_IN_BACKGROUND" value="false" />
+    <option name="CHANGED_ON_SERVER_INTERVAL" value="60" />
+    <option name="SHOW_ONLY_CHANGED_IN_SELECTION_DIFF" value="true" />
+    <option name="CHECK_COMMIT_MESSAGE_SPELLING" value="true" />
+    <option name="DEFAULT_PATCH_EXTENSION" value="patch" />
+    <option name="SHORT_DIFF_HORISONTALLY" value="true" />
+    <option name="SHORT_DIFF_EXTRA_LINES" value="2" />
+    <option name="SOFT_WRAPS_IN_SHORT_DIFF" value="true" />
+    <option name="INCLUDE_TEXT_INTO_PATCH" value="false" />
+    <option name="INCLUDE_TEXT_INTO_SHELF" value="false" />
+    <option name="SHOW_FILE_HISTORY_DETAILS" value="true" />
+    <option name="SHOW_VCS_ERROR_NOTIFICATIONS" value="true" />
+    <option name="SHOW_DIRTY_RECURSIVELY" value="false" />
+    <option name="LIMIT_HISTORY" value="true" />
+    <option name="MAXIMUM_HISTORY_ROWS" value="1000" />
+    <option name="UPDATE_FILTER_SCOPE_NAME" />
+    <option name="USE_COMMIT_MESSAGE_MARGIN" value="false" />
+    <option name="COMMIT_MESSAGE_MARGIN_SIZE" value="72" />
+    <option name="WRAP_WHEN_TYPING_REACHES_RIGHT_MARGIN" value="false" />
+    <option name="FORCE_NON_EMPTY_COMMENT" value="false" />
+    <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="false" />
+    <option name="LAST_COMMIT_MESSAGE" />
+    <option name="MAKE_NEW_CHANGELIST_ACTIVE" value="false" />
+    <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="false" />
+    <option name="CHECK_FILES_UP_TO_DATE_BEFORE_COMMIT" value="false" />
+    <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="false" />
+    <option name="REFORMAT_BEFORE_FILE_COMMIT" value="false" />
+    <option name="FILE_HISTORY_DIALOG_COMMENTS_SPLITTER_PROPORTION" value="0.8" />
+    <option name="FILE_HISTORY_DIALOG_SPLITTER_PROPORTION" value="0.5" />
+    <option name="ACTIVE_VCS_NAME" />
+    <option name="UPDATE_GROUP_BY_PACKAGES" value="false" />
+    <option name="UPDATE_GROUP_BY_CHANGELIST" value="false" />
+    <option name="UPDATE_FILTER_BY_SCOPE" value="false" />
+    <option name="SHOW_FILE_HISTORY_AS_TREE" value="false" />
+    <option name="FILE_HISTORY_SPLITTER_PROPORTION" value="0.6" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager />
+  </component>
+</project>
+
