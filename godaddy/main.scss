@@ -1,4 +1,4 @@
-/* Rounded Corners */
+// Rounded Corners
 
 $netbook: 1024px;
 $tablet: 820px;
@@ -7,7 +7,7 @@ $chiclet: 322px;
 
 $rounded-corner-border-radius: 4px;
 
-/* Colors */
+// Colors
 
 $base-lite: #ccc;
 $base-medium: #999;
@@ -34,7 +34,7 @@ $content-highlight: #099;
   /* -moz-box-shadow: 0 1px 4px rgba(0, 0, 0, 0.2); */
   /* -o-box-shadow: 0 1px 4px rgba(0, 0, 0, 0.2); */
 
-/* CLEARFIX */
+// CLEARFIX
 
 .cf {
   &:before {
@@ -103,17 +103,12 @@ a { text-decoration: none; &:link, &:visited { color: inherit; } }
   -o-border-radius: $rounded-corner-border-radius;
   border-radius: $rounded-corner-border-radius; }
 
-  /* box-shadow: 0 1px 4px rgba(200, 200, 200, 0.8); */
-  /* -webkit-box-shadow: 0 1px 4px rgba(200, 200, 200, 0.8); */
-  /* -moz-box-shadow: 0 1px 4px rgba(200, 200, 200, 0.8); */
-  /* -o-box-shadow: 0 1px 4px rgba(200, 200, 200, 0.8); } */
-
 .btn {
   background-color: #700;
   &:hover {
     background-color: #C00; } }
 
-img {
+a>img {
   border: solid 2px #900;
   &:hover {
     border-color: #f00; } }
@@ -136,42 +131,44 @@ img {
 }
 #tease { width: 48%;
   float: left;
+  padding-top: 15px;
   @media screen and (max-width:$phone) {
     clear: both;
     width: 98%;
+    padding-top: 0px;
     margin: 30px auto 1em auto;
-    padding-bottom: 20px;
     border: 3px solid white;
   }
 }
 #events { width: 27%; float: left; }
 #flyers { clear: both; width: 80%; margin: 0 10%; }
 
-//
+#posters {display: none;}
+// #oped {display: none;}
 
-#monday {display:none;}
+//#monday {display:none;}
 #tuesday {display:none;}
-#wednesday {display:none;}
+//#wednesday {display:none;}
 
-.special {display:none;}
+//.special {display:none;}
 
-//#thursday {display:none;}
-//#tnl {display:none;}
+#thursday {display:none;}
+#tnl {display:none;}
 
 //#friday {display:none;}
-//#cigar {display:none;}
+#cigar {display:none;}
 #cubhouse {display:none;}
 #cachorro {display:none;}
 #flag {display:none;}
 
-//#saturday {display:none;}
+#saturday {display:none;}
 #charliehorse {display:none;}
 #sadistic {display:none;}
-//#after {display:none;}
-//#bluff {display:none;}
+#after {display:none;}
+#bluff {display:none;}
 
-//#sunday {display:none;}
-//#bust {display:none;}
+#sunday {display:none;}
+#bust {display:none;}
 #karaoke {display:none;}
 
 /* mast */
@@ -317,7 +314,40 @@ img {
 
 /* #tease a>img {display: inline; clear:none; width:auto; height:auto; max-width:70%; min-width:35%; margin:30px auto; border:0;} */
 /* #tease a:nth-of-type(2)>img {display: block; width:20%; margin:30px auto;} */
-
+.oped {
+  img {
+    padding: 10px 25%;
+    width: 50%;
+  }
+  p:first-of-type {
+    font-family: verdana;
+    font-size: 1em;
+    font-weight: 500;
+    line-height: 20px;
+    padding: 10px 14% 0 15%;
+    margin: 0;
+    width: 70%;
+    a {
+      color: #cc0000;
+    }
+    a:hover {
+      color: #990000;
+    }
+    @media screen and (max-width:$phone) {
+      width: 90%;
+      padding: 10px 5% 0 5%;
+    }
+  }
+  p:last-of-type {
+    padding-top: 10px;
+    text-align: center;
+    color: #b4e630;
+    font-weight: 800;
+  }
+  @media screen and (max-width:$phone) {
+    padding-bottom: 10px;
+  }
+}
 #tease blockquote {
   clear: left;
   float: left;
@@ -559,8 +589,7 @@ img {
   #tease {
     width: 65%;
     clear: right;
-    p {
-      margin: 0 0 0 40%; } }
+  }
   /* div#tease blockquote {width: 85%; margin: 1em 5em 0 1em;} */
   #posters {
     max-width: 90%; }
@@ -629,7 +658,6 @@ img {
     clear: both;
     width: 98%;
     margin: 30px auto 1em auto;
-    padding-bottom: 20px;
     border: 3px solid white;
     h3 {
       font-size: 2em; } }

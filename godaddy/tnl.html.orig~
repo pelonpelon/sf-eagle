@@ -1,0 +1,112 @@
+ <!--
+Design by Bryant Smith
+http://www.bryantsmith.com
+http://www.aszx.net
+email: templates [-at-] bryantsmith [-dot-] com
+Released under Creative Commons Attribution 2.5 Generic.  In other words, do with it what you please; but please leave the link if you'd be so kind :)
+
+Name       : A Farewell to Colors
+Description: One column, with top naviagation
+Version    : 1.0
+Released   : 20081230
+-->
+
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<link rel="stylesheet" type="text/css" href="style.css" />
+<title>The SF EAGLE</title>
+</head>
+
+<body>
+    <div id="page">
+		
+        <div id="header">
+        	<h1></h1>
+            <h2></h2>
+            
+      </div>
+  <div id="bar">
+        	<div class="link"><a href="sfeagle.html#">HOME</a></div>
+            <div class="link"><a href="about.html#">ABOUT</a></div>
+            <div class="link"><a href="calendar.html#">CALENDAR</a></div>
+            <div class="link"><a href="staff.html#">STAFF</a></div>
+            <div class="link"><a href="merch.html#">MERCH</a></div>
+            <div class="link"><a href="tnl.html#">TNL</a></div>
+      </div>
+        <div class="contentTitle"><h2>THURSDAY NIGHT LIVE!<h/2></div>
+        <div class="contentText">
+    <table style="width: 80%">
+      <colgroup style="width: 20%"></colgroup>
+           					<td style="background-color: grey"><h1>4/4</h1></td>
+           					<P><td style="background-color: black"><h2><P>BRONZE<P>THE MANTLES<P>SWIFTUMS<P>LIFE STINKS<P></h2></td>
+             			</tr>  
+ 			</table>
+ 			<table style="width: 80%">  
+      <colgroup style="width: 20%"></colgroup>  
+      					<tr style="height: 0px">  
+           					<td style="background-color: grey"><h1>4/11</h1></td>  
+           					<td style="background-color: black"><h2><P>B.C. THREE<P>FLOTATION DEVICE<P>OCEANOGRAPHY<P></h2></td> 
+             			</tr>  
+ 			</table>
+ 			<table style="width: 80%;">  
+      <colgroup style="width: 20%"></colgroup>  
+      					<tr style="height: 0px">  
+           					<td style="background-color: grey"><h1>4/18</h1></td>  
+           					<td style="background-color: black"><h2><P>Luke Sweeney & Wet Dreams Dry Magic<a href="http://www.wetdreamsdrymagic.com/">!</a><P>GARRETT PIERCE<a href="http://narnackrecords.com/artist/garrett-pierce/">!</a><P>Anna Hillburg</a><a href="http://annahillburg.bandcamp.com/">!</a><P></h2></td> 
+             			</tr>  
+ 			</table>
+ 			<table style="width: 80%;">  
+      <colgroup style="width: 20%"></colgroup>  
+      					<tr style="height: 0px">  
+           					<td style="background-color: grey"><h1>4/25</h1></td>  
+           					<td style="background-color: black"><h2><P>Cochon Records presents:<P>THE JUDY EXPERIENCE (cd release party)<P>JEALOUSY<P>CONTACT<P></h2></td> 
+             			</tr>  
+ 			</table>
+ 			<table style="width: 80%;">  
+      <colgroup style="width: 20%"></colgroup>  
+      					<tr style="height: 0px">  
+           					<td style="background-color: grey"><h1>5/2</h1></td>  
+           					<td style="background-color: black"><h2><P>BONE COOTES (cd release party)<P>MAKE MAKE<P></h2></td> 
+             			</tr>  
+ 			</table>
+ 			<table style="width: 80%;">  
+      <colgroup style="width: 20%"></colgroup>  
+      					<tr style="height: 0px">  
+           					<td style="background-color: grey"><h1>5/9</h1></td>  
+           					<td style="background-color: black"><h2><P>ADONISAURUS<P>TYLER HOLMES<P>SAN CHA<P></h2></td> 
+             			</tr>  
+ 			</table>
+ 			<table style="width: 80%;">  
+      <colgroup style="width: 20%"></colgroup>  
+      					<tr style="height: 0px">  
+           					<td style="background-color: grey"><h1>5/16</h1></td>  
+           					<td style="background-color: black"><h2><P>Imperial Rolls Presents:<P>QUEEN CRESCENT<P>MAINE<P></h2></td> 
+             			</tr>  
+ 			</table>
+ 			<table style="width: 80%;">  
+      <colgroup style="width: 20%"></colgroup>  
+      					<tr style="height: 0px">  
+           					<td style="background-color: grey"><h1>5/23</h1></td>  
+           					<td style="background-color: black"><h2><P>The PEOPLES TEMPLE<P>ENDEMICS</h2></td> 
+             			</tr>  
+ 			</table>
+ 			 			<table style="width: 80%;">  
+      <colgroup style="width: 20%"></colgroup>  
+      					<tr style="height: 0px">  
+           					<td style="background-color: grey"><h1>5/30</h1></td>  
+           					<td style="background-color: black"><h2><P>CARLTON MELTON<P>GOLDEN VOID<P></h2></td> 
+             			</tr>  
+ 			</table>
+ 			 			<table style="width: 80%;">  
+      <colgroup style="width: 20%"></colgroup>  
+      					<tr style="height: 0px">  
+           					<td style="background-color: grey"><h1>6/8</h1></td>  
+           					<td style="background-color: black"><h2><P>Ty Segall's birthday party<P>THEE OH SEES<P>TOTAL CONTROL (from Australia)<P>FUZZ (Ty Segall)<P></h2></td> 
+             			</tr>  
+ 			</table>
+ 			<p>Do you know a local band that wants to play Thursday Night Live at SF Eagle? For bookings please contact <a href="mailto:doug@sf-eagle.com">doug@sf-eagle.com</a></p>
+ </body>
+</html>

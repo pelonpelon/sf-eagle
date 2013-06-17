@@ -14,9 +14,9 @@ html
     // <script src= "https://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js"> </script>
     script(src='widgets/lightbox/js/jquery-1.7.2.min.js').
        
-    script(src='widgets/lightbox/js/lightbox.js').
+    script(src='widgets/lightbox/js/lightbox-ck.js').
        
-    script(type='text/javascript', src='widgets/flexslider/jquery.flexslider.js').
+    script(type='text/javascript', src='widgets/flexslider/jquery.flexslider-ck.js').
        
     script.
       $(window).load(function() {
@@ -28,7 +28,7 @@ html
   body
     #page
       #mast
-        img#logo.cf(src='pics/logo-lite.gif', alt='logo')
+        img#logo.cf(src='pics/logo-cropped-320.jpg', alt='logo')
         ul#menu.cf
           li#thisweek
             a.btn(href='#events')
@@ -52,18 +52,32 @@ html
           p Hanky Codes
       #tease
         #posters
-          a(href='pics/events/TNL130611-lite.jpg', rel='lightbox')
-            img(src='pics/events/TNL130611-thumb.jpg', alt='Sonny and the sunsets')
-            h4 TUE
-          a(href='pics/events/TNL-lite.jpg', rel='lightbox')
-            img(src='pics/events/TNL-thumb.jpg', alt='TNL Flyer')
-            h4 THU
+
+          //
+            a(href='pics/events/TNL-lite.jpg', rel='lightbox')
+              img(src='pics/events/TNL-thumb.jpg', alt='TNL Flyer')
+              h4 THU
+
           a(href='pics/events/TNL130620-lite.jpg', rel='lightbox')
             img(src='pics/events/TNL130620-thumb.jpg', alt='TNL Flyer')
-            h4 THU (June 20)
-          .bigimage
-            h4 SAT (June 15) 2pm-7pm
-            img(src='pics/events/Aids-Emergency-Fund---Dark-Days-lite.jpg', alt='Aids Emergency Fund')
+            h4 THU
+
+          //
+            .bigimage
+              h4 SAT (June 15) 2pm-7pm
+              img(src='pics/events/Aids-Emergency-Fund---Dark-Days-lite.jpg', alt='Aids Emergency Fund')
+        .oped
+            img(src='pics/events/Tamale-Lady---Virginia-Ramos-lite.jpg')
+            p
+              | Virginia Ramos -- our beloved Tamale Lady -- may be forced into retirement by The City.
+              a(href='http://www.youtube.com/watch?v=v9ulLQRBOek')  Read about
+              |  the controversy,
+              a(href='http://www.youtube.com/watch?v=v9ulLQRBOek')  watch
+              |  her in her very own movie, then come join us for
+            p
+              | THE TAMALE LADY'S BIRTHDAY PARTY
+              br
+              | Friday @ 7pm
       #events.cf
         ul
           li#monday.day
@@ -121,6 +135,11 @@ html
           li#friday.day
             h3 Friday
             ul.events
+              li#special.event.cf
+                p.time 7pm
+                a.btn(href='http://sfist.com/2013/06/14/tamale_lady_feels_city_support_vows.php') Tamale Lady's Birthday Party
+                a(href='pics/events/Tamale-Lady---Virginia-Ramos-lite.jpg', rel='lightbox')
+                  img.thumb(src='pics/events/Tamale-Lady---Virginia-Ramos-thumb.jpg', alt='Tamale Lady')
               li#cubhouse.event.cf
                 p.time 9pm
                 a.btn(href='http://www.facebook.com/events/518773901518847/') Cub House

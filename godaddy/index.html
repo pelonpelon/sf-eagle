@@ -12,8 +12,8 @@
     <link rel="stylesheet" href="main.css">
     <!-- <script src= "https://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js"> </script>-->
     <script src="widgets/lightbox/js/jquery-1.7.2.min.js"></script>
-    <script src="widgets/lightbox/js/lightbox.js"></script>
-    <script type="text/javascript" src="widgets/flexslider/jquery.flexslider.js"></script>
+    <script src="widgets/lightbox/js/lightbox-ck.js"></script>
+    <script type="text/javascript" src="widgets/flexslider/jquery.flexslider-ck.js"></script>
     <script>
       $(window).load(function() {
       $('.flexslider').flexslider({
@@ -25,7 +25,7 @@
   </head>
   <body>
     <div id="page">
-      <div id="mast"><img id="logo" src="pics/logo-lite.gif" alt="logo" class="cf">
+      <div id="mast"><img id="logo" src="pics/logo-cropped-320.jpg" alt="logo" class="cf">
         <ul id="menu" class="cf">
           <li id="thisweek"><a href="#events" class="btn">
               <h3>This Week</h3></a></li>
@@ -39,13 +39,16 @@
           <p>Hanky Codes</p></a>
       </div>
       <div id="tease">
-        <div id="posters"><a href="pics/events/TNL130611-lite.jpg" rel="lightbox"><img src="pics/events/TNL130611-thumb.jpg" alt="Sonny and the sunsets">
-            <h4>TUE</h4></a><a href="pics/events/TNL-lite.jpg" rel="lightbox"><img src="pics/events/TNL-thumb.jpg" alt="TNL Flyer">
-            <h4>THU</h4></a><a href="pics/events/TNL130620-lite.jpg" rel="lightbox"><img src="pics/events/TNL130620-thumb.jpg" alt="TNL Flyer">
-            <h4>THU (June 20)</h4></a>
+        <div id="posters"><!--<a href="pics/events/TNL-lite.jpg" rel="lightbox"><img src="pics/events/TNL-thumb.jpg" alt="TNL Flyer">
+            <h4>THU</h4></a>--><a href="pics/events/TNL130620-lite.jpg" rel="lightbox"><img src="pics/events/TNL130620-thumb.jpg" alt="TNL Flyer">
+            <h4>THU</h4></a><!--
           <div class="bigimage">
             <h4>SAT (June 15) 2pm-7pm</h4><img src="pics/events/Aids-Emergency-Fund---Dark-Days-lite.jpg" alt="Aids Emergency Fund">
-          </div>
+          </div>-->
+        </div>
+        <div class="oped"><img src="pics/events/Tamale-Lady---Virginia-Ramos-lite.jpg">
+          <p>Virginia Ramos -- our beloved Tamale Lady -- may be forced into retirement by The City.<a href="http://www.youtube.com/watch?v=v9ulLQRBOek"> Read about</a> the controversy,<a href="http://www.youtube.com/watch?v=v9ulLQRBOek"> watch</a> her in her very own movie, then come join us for</p>
+          <p>THE TAMALE LADY'S BIRTHDAY PARTY<br>Friday @ 7pm</p>
         </div>
       </div>
       <div id="events" class="cf">
@@ -98,6 +101,9 @@
           <li id="friday" class="day">
             <h3>Friday</h3>
             <ul class="events">
+              <li id="special" class="event cf">
+                <p class="time">7pm</p><a href="http://sfist.com/2013/06/14/tamale_lady_feels_city_support_vows.php" class="btn">Tamale Lady's Birthday Party</a><a href="pics/events/Tamale-Lady---Virginia-Ramos-lite.jpg" rel="lightbox"><img src="pics/events/Tamale-Lady---Virginia-Ramos-thumb.jpg" alt="Tamale Lady" class="thumb"></a>
+              </li>
               <li id="cubhouse" class="event cf">
                 <p class="time">9pm</p><a href="http://www.facebook.com/events/518773901518847/" class="btn">Cub House</a><a href="pics/events/CBHS_Poster-lite.jpg" rel="lightbox"><img src="pics/events/CBHS_Poster-thumb.jpg" alt="Cub House" class="thumb"></a>
               </li>
