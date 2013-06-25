@@ -1,0 +1,51 @@
+#mast {
+  @include pie-clearfix;
+
+  header {
+    float: left;
+    clear: right;
+    @media screen and (max-width:$phone) {
+      width: 60%;
+      clear: none;
+      margin-bottom: 30px;
+    }
+  }
+  @import "mast/header";
+
+  nav {
+    float: left;
+    width: 100%;
+    @media screen and (max-width: $netbook) {
+      li:nth-of-type(3) {
+        clear: left;
+      }
+    }
+    @media screen and (max-width:$phone) {
+      float: right;
+      width: 100px;
+    }
+  }
+  @import "mast/nav";
+
+  aside {
+    float: left;
+    clear: both;
+  }
+  @import "mast/aside";
+
+  ul {
+    @include pie-clearfix;
+    display: inline-block;
+    @media screen and (max-width:$phone) {
+      float: right;
+    }
+    li {
+      display: block;
+      float: left;
+      @media screen and (max-width:$phone) {
+        float: right;
+        clear: both;
+      }
+    }
+  }
+}
