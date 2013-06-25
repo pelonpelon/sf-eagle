@@ -1,0 +1,14 @@
+include common/settings
+thisPage = 'Archives'
+
+!!! 5
+html
+  head
+    title= settings.title + ' - ' + thisPage
+
+  include common/head
+
+  body
+    #page
+      a(href=settings.homePage)
+        img(src='images/logo-thumb.jpg', alt='logo')
