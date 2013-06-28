@@ -5,25 +5,18 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="828fc2e7-b169-4e33-9db6-32bf31c77aeb" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.sass-cache/dd71d272e08bb1a3d19dec7d0d08a2b7def1b73b/_mast.scssc" afterPath="$PROJECT_DIR$/.sass-cache/dd71d272e08bb1a3d19dec7d0d08a2b7def1b73b/_mast.scssc" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.sass-cache/dd71d272e08bb1a3d19dec7d0d08a2b7def1b73b/_tease.scssc" afterPath="$PROJECT_DIR$/.sass-cache/dd71d272e08bb1a3d19dec7d0d08a2b7def1b73b/_tease.scssc" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../wp-orig" afterPath="$PROJECT_DIR$/../wp-orig" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/scss/partials/home/_mast.scss" afterPath="$PROJECT_DIR$/scss/partials/home/_mast.scss" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/scss/partials/home/_tease.scss" afterPath="$PROJECT_DIR$/scss/partials/home/_tease.scss" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/archives.html" afterPath="$PROJECT_DIR$/archives.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/jade/common/head.jade" afterPath="$PROJECT_DIR$/jade/common/head.jade" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/jade/index/events.jade" afterPath="$PROJECT_DIR$/jade/index/events.jade" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.php" afterPath="$PROJECT_DIR$/index.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/main.css" afterPath="$PROJECT_DIR$/css/main.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/merch.html" afterPath="$PROJECT_DIR$/merch.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/jade/index/mast/nav.jade" afterPath="$PROJECT_DIR$/jade/index/mast/nav.jade" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/staff.html" afterPath="$PROJECT_DIR$/staff.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/jade/index/tease.jade" afterPath="$PROJECT_DIR$/jade/index/tease.jade" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tnl.html" afterPath="$PROJECT_DIR$/tnl.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="godaddy.iws" />
     <ignored path=".idea/workspace.xml" />
-    <file path="/Dummy.txt" changelist="828fc2e7-b169-4e33-9db6-32bf31c77aeb" time="1371949729723" ignored="false" />
+    <file path="/Dummy.txt" changelist="828fc2e7-b169-4e33-9db6-32bf31c77aeb" time="1372439120120" ignored="false" />
     <file path="/index.flyers.jade" changelist="828fc2e7-b169-4e33-9db6-32bf31c77aeb" time="1371170669512" ignored="false" />
     <file path="/main.scss" changelist="828fc2e7-b169-4e33-9db6-32bf31c77aeb" time="1372128141267" ignored="false" />
     <file path="/index.jade" changelist="828fc2e7-b169-4e33-9db6-32bf31c77aeb" time="1372127075230" ignored="false" />
@@ -59,7 +52,7 @@
     <file path="/sadistic.jade" changelist="828fc2e7-b169-4e33-9db6-32bf31c77aeb" time="1371891397690" ignored="false" />
     <file path="/tnl.jade" changelist="828fc2e7-b169-4e33-9db6-32bf31c77aeb" time="1372145223725" ignored="false" />
     <file path="/_layout.scss" changelist="828fc2e7-b169-4e33-9db6-32bf31c77aeb" time="1372084912133" ignored="false" />
-    <file path="/_tease.scss" changelist="828fc2e7-b169-4e33-9db6-32bf31c77aeb" time="1372293248222" ignored="false" />
+    <file path="/_tease.scss" changelist="828fc2e7-b169-4e33-9db6-32bf31c77aeb" time="1372438809126" ignored="false" />
     <file path="/_flyers.scss" changelist="828fc2e7-b169-4e33-9db6-32bf31c77aeb" time="1372118816790" ignored="false" />
     <file path="/defaults.scss" changelist="828fc2e7-b169-4e33-9db6-32bf31c77aeb" time="1372041908652" ignored="false" />
     <file path="/_clearfix.scss" changelist="828fc2e7-b169-4e33-9db6-32bf31c77aeb" time="1372040148810" ignored="false" />
@@ -82,7 +75,7 @@
     <file path="/karaoke4dummies.jade" changelist="828fc2e7-b169-4e33-9db6-32bf31c77aeb" time="1372137340025" ignored="false" />
     <file path="/womensnight.jade" changelist="828fc2e7-b169-4e33-9db6-32bf31c77aeb" time="1372137421790" ignored="false" />
     <file path="/pride.jade" changelist="828fc2e7-b169-4e33-9db6-32bf31c77aeb" time="1372138595470" ignored="false" />
-    <file path="/tease.jade" changelist="828fc2e7-b169-4e33-9db6-32bf31c77aeb" time="1372296250544" ignored="false" />
+    <file path="/tease.jade" changelist="828fc2e7-b169-4e33-9db6-32bf31c77aeb" time="1372438527736" ignored="false" />
     <file path="/archives.jade" changelist="828fc2e7-b169-4e33-9db6-32bf31c77aeb" time="1372148769094" ignored="false" />
     <file path="/head.jade" changelist="828fc2e7-b169-4e33-9db6-32bf31c77aeb" time="1372293910659" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -113,26 +106,24 @@
         <entry file="file://$PROJECT_DIR$/scss/partials/home/_mast.scss">
           <provider selected="true" editor-type-id="text-editor">
             <state line="2" column="0" selection-start="9" selection-end="9" vertical-scroll-proportion="0.0">
-              <folding>
-                <element signature="e#44#197#0" expanded="false" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="tease.jade" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/jade/index/tease.jade">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="4" column="0" selection-start="131" selection-end="131" vertical-scroll-proportion="0.091883615">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="_tease.scss" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="tease.jade" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/jade/index/tease.jade">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="4" column="64" selection-start="95" selection-end="95" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="_tease.scss" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/scss/partials/home/_tease.scss">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="23" column="0" selection-start="446" selection-end="446" vertical-scroll-proportion="0.0">
+            <state line="2" column="21" selection-start="37" selection-end="37" vertical-scroll-proportion="0.02388535">
               <folding />
             </state>
           </provider>
@@ -156,13 +147,20 @@
           </provider>
         </entry>
       </file>
+      <file leaf-file-name="events.jade" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/jade/index/events.jade">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="34" column="5" selection-start="783" selection-end="783" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file leaf-file-name="main.css" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/css/main.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="0" column="6" selection-start="6" selection-end="6" vertical-scroll-proportion="0.0">
-              <folding>
-                <element signature="e#3828#3913#2" expanded="true" />
-              </folding>
+            <state line="1" column="0" selection-start="19042" selection-end="19042" vertical-scroll-proportion="0.0">
+              <folding />
             </state>
           </provider>
         </entry>
@@ -212,7 +210,6 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/jade/index/events/pride.jade" />
         <option value="$PROJECT_DIR$/jade/index/events/tnl.jade" />
         <option value="$PROJECT_DIR$/jade/staff.jade" />
         <option value="$PROJECT_DIR$/jade/merch.jade" />
@@ -226,8 +223,9 @@
         <option value="$PROJECT_DIR$/jade/common/settings.jade" />
         <option value="$PROJECT_DIR$/scss/theme/_typography.scss" />
         <option value="$PROJECT_DIR$/jade/common/head.jade" />
-        <option value="$PROJECT_DIR$/scss/partials/home/_tease.scss" />
         <option value="$PROJECT_DIR$/jade/index/tease.jade" />
+        <option value="$PROJECT_DIR$/jade/index/events.jade" />
+        <option value="$PROJECT_DIR$/scss/partials/home/_tease.scss" />
       </list>
     </option>
   </component>
@@ -281,52 +279,6 @@
       <sortByType />
     </navigator>
     <panes>
-      <pane id="Scope">
-        <subPane subId="Project Files">
-          <PATH>
-            <PATH_ELEMENT USER_OBJECT="Root">
-              <option name="myItemId" value="" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT USER_OBJECT="site">
-              <option name="myItemId" value="" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT USER_OBJECT="Root">
-              <option name="myItemId" value="" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT USER_OBJECT="site">
-              <option name="myItemId" value="" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT USER_OBJECT="jade">
-              <option name="myItemId" value="" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT USER_OBJECT="Root">
-              <option name="myItemId" value="" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT USER_OBJECT="site">
-              <option name="myItemId" value="" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT USER_OBJECT="jade">
-              <option name="myItemId" value="" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT USER_OBJECT="events">
-              <option name="myItemId" value="" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-          </PATH>
-        </subPane>
-      </pane>
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -374,6 +326,46 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="theme" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Storm" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="site" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="scss" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="partials" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Storm" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="site" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="scss" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="partials" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="home" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -465,21 +457,67 @@
           </PATH>
         </subPane>
       </pane>
+      <pane id="Scope">
+        <subPane subId="Project Files">
+          <PATH>
+            <PATH_ELEMENT USER_OBJECT="Root">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT USER_OBJECT="site">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT USER_OBJECT="Root">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT USER_OBJECT="site">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT USER_OBJECT="jade">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT USER_OBJECT="Root">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT USER_OBJECT="site">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT USER_OBJECT="jade">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT USER_OBJECT="events">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+          </PATH>
+        </subPane>
+      </pane>
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="options.splitter.main.proportions" value="0.3" />
     <property name="WebServerToolWindowFactoryState" value="true" />
-    <property name="WebServerToolWindowPanel.toolwindow.show.date" value="false" />
     <property name="WebServerToolWindowPanel.toolwindow.show.permissions" value="false" />
+    <property name="WebServerToolWindowPanel.toolwindow.show.date" value="false" />
     <property name="options.lastSelected" value="preferences.pluginManager" />
     <property name="WebServerToolWindowPanel.toolwindow.show.size" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/jade" />
-    <property name="FullScreen" value="true" />
     <property name="WebServerToolWindowPanel.toolwindow.highlight.symlinks" value="true" />
-    <property name="options.splitter.details.proportions" value="0.2" />
-    <property name="options.searchVisible" value="true" />
+    <property name="FullScreen" value="true" />
     <property name="WebServerToolWindowPanel.toolwindow.highlight.mappings" value="true" />
+    <property name="options.searchVisible" value="true" />
+    <property name="options.splitter.details.proportions" value="0.2" />
   </component>
   <component name="PublishConfig" serverName="godaddy" serverId="f0b01bea-ead0-43c9-9626-b19472e85a50" uploadOnCheckin="f0b01bea-ead0-43c9-9626-b19472e85a50" compareModeInSync="TIMESTAMP">
     <servers>
@@ -541,9 +579,12 @@
     </configuration>
     <configuration default="true" type="JavascriptDebugSession" factoryName="Remote" singleton="true">
       <JSRemoteDebuggerConfigurationSettings>
-        <option name="engineId" />
+        <option name="engineId" value="embedded" />
         <option name="fileUrl" />
       </JSRemoteDebuggerConfigurationSettings>
+      <method />
+    </configuration>
+    <configuration default="true" type="PhpUnitRemoteRunConfigurationType" factoryName="PHPUnit on Server" server_id="f0b01bea-ead0-43c9-9626-b19472e85a50" server_name="godaddy">
       <method />
     </configuration>
     <configuration default="true" type="JavascriptDebugSession" factoryName="Local" singleton="true">
@@ -551,9 +592,6 @@
         <option name="engineId" value="embedded" />
         <option name="fileUrl" />
       </JSDebuggerConfigurationSettings>
-      <method />
-    </configuration>
-    <configuration default="true" type="PhpUnitRemoteRunConfigurationType" factoryName="PHPUnit on Server" server_id="f0b01bea-ead0-43c9-9626-b19472e85a50" server_name="godaddy">
       <method />
     </configuration>
     <list size="0" />
@@ -607,10 +645,9 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1280" height="800" extended-state="0" />
-    <editor active="true" />
+    <editor active="false" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32954547" sideWeight="0.5" order="15" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32954547" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Remote Host" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.684765" sideWeight="0.67045456" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
@@ -621,7 +658,7 @@
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32954547" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.24959481" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="eSnippet Pro" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.25850892" sideWeight="0.67045456" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.26256078" sideWeight="0.67045456" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Pomodoro" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="14" side_tool="false" content_ui="tabs" />
       <window_info id="File Transfer" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.36535433" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
@@ -629,6 +666,7 @@
       <window_info id="Assets" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32954547" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32954547" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32954547" sideWeight="0.5" order="13" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
@@ -697,61 +735,35 @@
     <breakpoint-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/scss/style.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="82" column="13" selection-start="1328" selection-end="1328" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/scss/main.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/scss/partials/home/mast/_nav.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="24" column="2" selection-start="604" selection-end="604" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
+        <state line="24" column="2" selection-start="604" selection-end="604" vertical-scroll-proportion="0.0" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/jade/archives.jade">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="1" column="19" selection-start="43" selection-end="43" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
+        <state line="1" column="19" selection-start="43" selection-end="43" vertical-scroll-proportion="0.0" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/jade/index/events/tnl.jade">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="15" column="59" selection-start="597" selection-end="597" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/jade/tnl.jade">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="46" column="11" selection-start="1083" selection-end="1083" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
+        <state line="15" column="59" selection-start="597" selection-end="597" vertical-scroll-proportion="0.0" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/jade/jobs.jade">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="21" column="59" selection-start="458" selection-end="458" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
+        <state line="21" column="59" selection-start="458" selection-end="458" vertical-scroll-proportion="0.0" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/scss/partials/home/_mast.scss">
       <provider selected="true" editor-type-id="text-editor">
         <state line="2" column="0" selection-start="9" selection-end="9" vertical-scroll-proportion="0.0">
-          <folding>
-            <element signature="e#44#197#0" expanded="false" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -764,23 +776,12 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/jade/common/head.jade">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="14" column="89" selection-start="698" selection-end="698" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
+        <state line="14" column="89" selection-start="698" selection-end="698" vertical-scroll-proportion="0.0" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/css/main.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="6" selection-start="6" selection-end="6" vertical-scroll-proportion="0.0">
-          <folding>
-            <element signature="e#3828#3913#2" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/scss/theme/_typography.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="6" column="0" selection-start="144" selection-end="144" vertical-scroll-proportion="0.0">
+        <state line="1" column="0" selection-start="19042" selection-end="19042" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
@@ -792,9 +793,23 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/scss/partials/home/_tease.scss">
+    <entry file="file://$PROJECT_DIR$/scss/theme/_typography.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="23" column="0" selection-start="446" selection-end="446" vertical-scroll-proportion="0.0">
+        <state line="6" column="0" selection-start="144" selection-end="144" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/jade/index/events.jade">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="34" column="5" selection-start="783" selection-end="783" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/jade/index/tease.jade">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="4" column="64" selection-start="95" selection-end="95" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
@@ -806,9 +821,16 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/jade/index/tease.jade">
+    <entry file="file://$PROJECT_DIR$/scss/partials/home/_tease.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="4" column="0" selection-start="131" selection-end="131" vertical-scroll-proportion="0.091883615">
+        <state line="2" column="21" selection-start="37" selection-end="37" vertical-scroll-proportion="0.02388535">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/jade/tnl.jade">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="46" column="11" selection-start="1083" selection-end="1083" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>

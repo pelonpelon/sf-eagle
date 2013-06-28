@@ -33,20 +33,8 @@
         </aside>
       </div>
       <div id="tease">
-        <div class="oped"><a href="http://www.flickr.com/photos/adiosusa/8918829134/"><img src="images/events/peppersprayshoes.jpg"></a>
-          <p>
-            There is really only ONE EVENT this week that you can't miss and it's
-            happening right here at the SF Eagle. That old chestnut ShE.L.O Is back
-            together after a much too long hiatus. The girlie-men will rock their junk
-            so tight we might all just bust a nut.<br><br>And if that wasn't enough, PEPPERSPRAY, my vote for the best band that ever played at
-            the Eagle, or anywhere else, is back for a one time (once in a lifetime) hoppin' set, kickin' PRIDE
-            in the ass.<br><br>And lastly there's a band I've never heard of, NECTAR ON THE DEWLY, which sounds wet and drippy and --
-            Could somebody please get me a rag...<br><br>Snooze through all the other rainbow-unicorn pablum of the week but don't miss this show.
-            It promises to be a night that you'll want to remember forever but if you plan your consumption
-            just right you'll likely forget it all. That's why we have Facebook.<br><br>
-          </p>
-          <blockquote>BTW. Click on the shoes for a shuffle down Memory Lane<br>You'll need a Flickr account</blockquote>
-        </div>
+        <h1>HOY!</h1>
+        <div class="oped"><a href="images/events/cachorronegro-lite.jpg" rel="lightbox"><img src="images/events/cachorronegro-lite.jpg"></a></div>
       </div>
       <div id="events" class="cf">
         <ul><!--li#monday.day
@@ -65,48 +53,42 @@
                 <li><a href="#" class="buttonless"><span>FREE POOL<br>$2 pints of BIG DADDY</span></a></li>
               </ul><a href="https://www.facebook.com/SpeakeasyBeer"><img src="images/events/speakeasyipa.jpg" alt="Big Daddy" class="thumb"></a>
             </li>
+          </ul>--><!--li#tuesday.day
+          <h3>Tuesday</h3>
+          <ul class="events">
+            <li id="karaoke" class="event cf">
+              <p class="time">8pm</p>
+              <ul class="event-list">
+                <li><a href="#" class="buttonless"><span>Karaoke<br>For Dummies</span></a></li>
+              </ul>
+            </li>
+          </ul>--><!--li#wednesday.day
+          <h3>Wednesday</h3>
+          <ul class="events">
+            <li class="event cf">
+              <p class="time">7pm-2am</p>
+              <ul class="event-list">
+                <li><a href="#" class="buttonless"><span>Break up your work week and have a hump day drink with Cody!</span></a></li>
+              </ul><a href="http://www.facebook.com/cody.joseph"><img src="images/staff/cody-joseph-virgin-mary-thumb.jpg" alt="cody" title="Cody"></a>
+            </li>
+            <li id="womens" class="event cf">
+              <p class="time">8pm</p>
+              <ul class="event-list">
+                <li><a href="#" class="buttonless"><span>Women's Night</span></a></li>
+              </ul>
+            </li>
+          </ul>--><!--li#thursday.day
+          <h3>Thursday</h3>
+          <ul class="events">
+            <li id="tnl" class="event cf">
+              <p class="time">9pm</p>
+              <ul class="event-list">
+                <li><a href="http://sanfrancisco.gaycities.com/events/242724-pepperspray-reunion-show-the-eagle-pride-thursday-june-27" class="button"><span>PEPPER SPRAY</span></a></li>
+                <li><a href="http://www.dailymail.co.uk/news/article-1309256/ELO-founding-member-Mike-Edwards-killed-freak-runaway-hay-bale-accident.html" class="button"><span>ShELO</span></a></li>
+                <li><a href="images/events/agave-syrup1-nectar-600.jpg" rel="lightbox" class="button"><span>NECTAR ON THE DEWLY</span></a></li>
+              </ul><a href="images/events/TNL130627-lite.jpg" rel="lightbox"><img src="images/events/TNL130627-thumb.jpg" alt="TNL Flyer"></a>
+            </li>
           </ul>-->
-          <li id="tuesday" class="day">
-            <h3>Tuesday</h3>
-            <ul class="events">
-              <li id="karaoke" class="event cf">
-                <p class="time">8pm</p>
-                <ul class="event-list">
-                  <li><a href="#" class="buttonless"><span>Karaoke<br>For Dummies</span></a></li>
-                </ul>
-              </li>
-            </ul>
-          </li>
-          <li id="wednesday" class="day">
-            <h3>Wednesday</h3>
-            <ul class="events">
-              <li class="event cf">
-                <p class="time">7pm-2am</p>
-                <ul class="event-list">
-                  <li><a href="#" class="buttonless"><span>Break up your work week and have a hump day drink with Cody!</span></a></li>
-                </ul><a href="http://www.facebook.com/cody.joseph"><img src="images/staff/cody-joseph-virgin-mary-thumb.jpg" alt="cody" title="Cody"></a>
-              </li>
-              <li id="womens" class="event cf">
-                <p class="time">8pm</p>
-                <ul class="event-list">
-                  <li><a href="#" class="buttonless"><span>Women's Night</span></a></li>
-                </ul>
-              </li>
-            </ul>
-          </li>
-          <li id="thursday" class="day">
-            <h3>Thursday</h3>
-            <ul class="events">
-              <li id="tnl" class="event cf">
-                <p class="time">9pm</p>
-                <ul class="event-list">
-                  <li><a href="http://sanfrancisco.gaycities.com/events/242724-pepperspray-reunion-show-the-eagle-pride-thursday-june-27" class="button"><span>PEPPER SPRAY</span></a></li>
-                  <li><a href="http://www.dailymail.co.uk/news/article-1309256/ELO-founding-member-Mike-Edwards-killed-freak-runaway-hay-bale-accident.html" class="button"><span>ShELO</span></a></li>
-                  <li><a href="images/events/agave-syrup1-nectar-600.jpg" rel="lightbox" class="button"><span>NECTAR ON THE DEWLY</span></a></li>
-                </ul><a href="images/events/TNL130627-lite.jpg" rel="lightbox"><img src="images/events/TNL130627-thumb.jpg" alt="TNL Flyer"></a>
-              </li>
-            </ul>
-          </li>
           <li id="friday" class="day">
             <h3>Friday</h3>
             <ul class="events">
