@@ -1,6 +1,15 @@
 #tease {
   #posters {
-    width: 80%;
+    h1 {
+      color: #ff02c8;
+      font-family: "Rouge Script";
+      line-height: 1em;
+      text-align: center;
+    }
+    hr {
+      margin: 20px;
+    }
+    width: 70%;
     height:auto;
     margin: 60px auto;
     max-height: 600px;
@@ -11,9 +20,6 @@
     @media screen and (max-width: $tablet) {
       #posters {
         max-width: 90%; }
-    }
-    @media screen and (max-width:$phone) {
-      height:300px;
     }
     h4 {
       color: red;
@@ -40,14 +46,13 @@
       line-height: 1.3em;
       width: 100%;
       height:auto;
-      >img {
+      img {
         border: 0; }
+        max-width: 80%;
       @media screen and (max-width:$netbook) {
-        width: 80%;
         margin: 0 auto;
       }
       @media screen and (max-width:$phone) {
-        float: middle;
         width: 25%;
         margin: 0 auto;
       }
@@ -88,5 +93,6 @@
     float: left;
     width: 60%;
     margin: 20px 0 0 10%;
+    color: $decor-lite;
   }
 }

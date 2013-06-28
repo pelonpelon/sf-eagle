@@ -5,319 +5,21 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="828fc2e7-b169-4e33-9db6-32bf31c77aeb" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/scss/bits/_all.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/scss/partials/_all.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/scss/partials/home/_all.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/scss/theme/_all.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/scss/partials/home/mast/_aside.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/scss/modules/_base.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/scss/theme/_colors.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/scss/theme/_defaults.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/scss/partials/_flexbox.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/scss/partials/_footer.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/scss/partials/_header.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/scss/partials/home/mast/_header.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/scss/theme/_layout.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/scss/partials/home/mast/_nav.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/scss/theme/_typography.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jade/archives.jade" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jade/index/mast/aside.jade" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jade/index/mast/header.jade" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jade/index/events/karaoke4dummies.jade" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jade/index/mast/nav.jade" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jade/index/tease/posters.jade" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jade/index/events/pride.jade" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jade/common/settings.jade" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jade/staff.jade" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jade/index/events/womensnight.jade" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../godaddy/.idea/.name" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../godaddy/.idea/codeStyleSettings.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../godaddy/.idea/cssxfire.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../godaddy/.idea/encodings.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../godaddy/.idea/godaddy.iml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../godaddy/.idea/misc.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../godaddy/.idea/modules.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../godaddy/.idea/scopes/scope_settings.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../godaddy/.idea/vcs.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../godaddy/.idea/workspace.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../godaddy/.project.dat" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../godaddy/.sass-cache/3404cac7fd239fd6e34fea216f409776b8ef8a94/main.scssc" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../godaddy/.settings" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../godaddy/_calendar.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../godaddy/about.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../godaddy/camisetas.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../godaddy/css/main.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../godaddy/css/twenty-twelve-style.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../godaddy/docs/GayHankyCodes.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../godaddy/docs/torche.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../godaddy/download_pdf_button.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../godaddy/favicon.ico" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../godaddy/gdform.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../godaddy/index.flyers.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../godaddy/index.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../godaddy/jade/index.flyers.jade" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../godaddy/jade/index.jade" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../godaddy/js/.countdown.js.swp" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../godaddy/js/countdown.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../godaddy/js/jquery-1.6.2-min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../godaddy/js/jquery-1.9.1-min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../godaddy/merch-email.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../godaddy/merch.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../godaddy/missing.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../godaddy/paypal/credentials.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../godaddy/paypal/paypal.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../godaddy/paypal/policy.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../godaddy/php.ini" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../godaddy/pics/events/Aids-Emergency-Fund---Dark-Days-lite.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../godaddy/pics/events/Aids-Emergency-Fund---Dark-Days-thumb.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../godaddy/pics/events/CBHS_Poster-lite.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../godaddy/pics/events/CBHS_Poster-thumb.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../godaddy/pics/events/Charlie_Horse-No_Pride-lite.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../godaddy/pics/events/Charlie_Horse-No_Pride-thumb.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../godaddy/pics/events/DandDofSF2012-no-slices-lite.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../godaddy/pics/events/DandDofSF2012-no-slices-thumb.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../godaddy/pics/events/DykesOnBikes-lite.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../godaddy/pics/events/DykesOnBikes-thumb.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../godaddy/pics/events/Leather-Daddies-lite.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../godaddy/pics/events/Leather-Daddies-thumb.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../godaddy/pics/events/ShEagle-lite.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../godaddy/pics/events/TNL-lite.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../godaddy/pics/events/TNL-thumb.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../godaddy/pics/events/TNL071813-lite.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../godaddy/pics/events/TNL071813-thumb.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../godaddy/pics/events/TNL130611-lite.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../godaddy/pics/events/TNL130611-thumb.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../godaddy/pics/events/TNL130620-lite.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../godaddy/pics/events/TNL130620-thumb.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../godaddy/pics/events/TNL130627-lite.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../godaddy/pics/events/TNL130627-thumb.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../godaddy/pics/events/TNL130711-lite.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../godaddy/pics/events/TNL130711-thumb.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../godaddy/pics/events/TNL130711b-lite.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../godaddy/pics/events/TNL130711b-thumb.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../godaddy/pics/events/Tamale-Lady---Virginia-Ramos-lite.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../godaddy/pics/events/Tamale-Lady---Virginia-Ramos-thumb.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../godaddy/pics/events/TheOhSees060813-background.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../godaddy/pics/events/TheOhSees060813-lite.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../godaddy/pics/events/TheOhSees060813-thumb.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../godaddy/pics/events/TorcheNov2011CLR-177-lite.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../godaddy/pics/events/bluf-lite.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../godaddy/pics/events/bluf-thumb.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../godaddy/pics/events/cachorronegro-lite.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../godaddy/pics/events/cachorronegro-thumb.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../godaddy/pics/events/cigar-lite.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../godaddy/pics/events/cigar-thing.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../godaddy/pics/events/cigar-thumb.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../godaddy/pics/events/face.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../godaddy/pics/events/flag-cody-pouringabeer-lite.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../godaddy/pics/events/flag1-lite.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../godaddy/pics/events/flag1-thumb.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../godaddy/pics/events/heartthrob-lite.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../godaddy/pics/events/icequeens-thumb.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../godaddy/pics/events/icequeens.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../godaddy/pics/events/images/DandDofSF2012-lite_01.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../godaddy/pics/events/images/DandDofSF2012-lite_02.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../godaddy/pics/events/images/DandDofSF2012-lite_03.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../godaddy/pics/events/images/DandDofSF2012-lite_04.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../godaddy/pics/events/images/DandDofSF2012-lite_05.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../godaddy/pics/events/images/DandDofSF2012-lite_06.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../godaddy/pics/events/images/DandDofSF2012-lite_07.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../godaddy/pics/events/images/DandDofSF2012-lite_08.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../godaddy/pics/events/images/DandDofSF2012-lite_09.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../godaddy/pics/events/images/DandDofSF2012-lite_10.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../godaddy/pics/events/images/DandDofSF2012-lite_11.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../godaddy/pics/events/images/DandDofSF2012-lite_12.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../godaddy/pics/events/images/DandDofSF2012-lite_13.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../godaddy/pics/events/images/DandDofSF2012-lite_14.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../godaddy/pics/events/images/DandDofSF2012-lite_15.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../godaddy/pics/events/images/DandDofSF2012-lite_16.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../godaddy/pics/events/images/DandDofSF2012-lite_17.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../godaddy/pics/events/images/DandDofSF2012-lite_18.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../godaddy/pics/events/images/DandDofSF2012-lite_19.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../godaddy/pics/events/images/DandDofSF2012-lite_20.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../godaddy/pics/events/images/DandDofSF2012-lite_21.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../godaddy/pics/events/images/DandDofSF2012-lite_22.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../godaddy/pics/events/images/DandDofSF2012-lite_23.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../godaddy/pics/events/images/DandDofSF2012-lite_24.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../godaddy/pics/events/images/DandDofSF2012-lite_25.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../godaddy/pics/events/knife-fight-small.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../godaddy/pics/events/memorialday2013-lite.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../godaddy/pics/events/memorialday2013-thumb.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../godaddy/pics/events/memorialdayposter-lite.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../godaddy/pics/events/memorialdayposter-thumb.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../godaddy/pics/events/ocs.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../godaddy/pics/events/peaches1-lite.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../godaddy/pics/events/pinktriangle-lite.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../godaddy/pics/events/rubber-showtunes-lite.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../godaddy/pics/events/sadistic-lite.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../godaddy/pics/events/sadistic-thumb.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../godaddy/pics/events/sfgmc_eagle_flier-lite.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../godaddy/pics/events/sonny-and-the-sunsets-lite.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../godaddy/pics/events/sonny-and-the-sunsets-thumb.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../godaddy/pics/events/torche-poster-flat-lite.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../godaddy/pics/hankycodes.jpeg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../godaddy/pics/logo-cropped-320.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../godaddy/pics/logo-cropped-thumb.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../godaddy/pics/logo-cropped.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../godaddy/pics/logo-lite.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../godaddy/pics/logo-thumb.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../godaddy/pics/logo-thumb.psd" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../godaddy/pics/logo.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../godaddy/pics/logo.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../godaddy/pics/logo.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../godaddy/pics/merch/btn_buynowCC_LG.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../godaddy/pics/merch/hoodie-black-back.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../godaddy/pics/merch/hoodie-black-front.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../godaddy/pics/merch/hoodie-black-front2.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../godaddy/pics/merch/hoodie-gray-back.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../godaddy/pics/merch/hoodie-gray-front.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../godaddy/pics/merch/tank-gray-back.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../godaddy/pics/merch/tank-gray-front.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../godaddy/pics/merch/tank-white-back.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../godaddy/pics/merch/tank-white-front.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../godaddy/pics/merch/tee-red-front.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../godaddy/pics/patio_by_urso.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../godaddy/pics/patio_by_urso_sm.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../godaddy/pics/pinktriangle-lite.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../godaddy/pics/sfe.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../godaddy/pics/staff/cody-joseph-virgin-mary-lite.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../godaddy/pics/staff/cody-joseph-virgin-mary-thumb.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../godaddy/pics/staff/cody-thumb.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../godaddy/pics/staff/gage-fisher-nice-lite.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../godaddy/pics/staff/gage-fisher-nice-thumb.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../godaddy/pics/tnl.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../godaddy/pics/tshirt_m.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../godaddy/policy.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../godaddy/scss/main.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../godaddy/sfe_application.pdf" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../godaddy/staff.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../godaddy/stats/.htaccess" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../godaddy/stats/.statspwd" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../godaddy/stats/BROWSERREP.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../godaddy/stats/BROWSERSUM.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../godaddy/stats/BROWSERSUM_bar.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../godaddy/stats/DAILYREP.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../godaddy/stats/DAILYREP_lines3d.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../godaddy/stats/DAILYSUM.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../godaddy/stats/DAILYSUM_lines3d.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../godaddy/stats/DIRECTORY.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../godaddy/stats/DIRECTORY_bar.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../godaddy/stats/FAILHOST.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../godaddy/stats/FAILREF.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../godaddy/stats/FAILURE.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../godaddy/stats/FILETYPE.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../godaddy/stats/FILETYPE_bar.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../godaddy/stats/GENERAL.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../godaddy/stats/HOST.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../godaddy/stats/HOURLYREP.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../godaddy/stats/HOURLYREP_lines3d.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../godaddy/stats/HOURLYSUM.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../godaddy/stats/HOURLYSUM_lines3d.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../godaddy/stats/MONTHLY.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../godaddy/stats/MONTHLY_bar3d.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../godaddy/stats/OSREP.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../godaddy/stats/PROCTIME.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../godaddy/stats/PROCTIME_bar.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../godaddy/stats/QUARTERLY.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../godaddy/stats/QUARTERLY_line.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../godaddy/stats/REFERRER.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../godaddy/stats/REFSITE.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../godaddy/stats/REQUEST.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../godaddy/stats/SEARCHQUERY.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../godaddy/stats/SEARCHWORD.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../godaddy/stats/SIZE.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../godaddy/stats/SIZE_bar.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../godaddy/stats/STATUS.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../godaddy/stats/USER.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../godaddy/stats/WEEKLY.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../godaddy/stats/WEEKLY_lines3d.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../godaddy/stats/YEARLY.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../godaddy/stats/YEARLY_line.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../godaddy/stats/index.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../godaddy/stats/navfile.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../godaddy/style.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../godaddy/tnl.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../godaddy/updating.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../godaddy/webformmailer.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../godaddy/widgets/countdown/countdown.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../godaddy/widgets/flexslider/README.mdown" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../godaddy/widgets/flexslider/_jquery.flexslider.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../godaddy/widgets/flexslider/demo/basic-carousel.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../godaddy/widgets/flexslider/demo/carousel-min-max.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../godaddy/widgets/flexslider/demo/css/demo.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../godaddy/widgets/flexslider/demo/css/shCore.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../godaddy/widgets/flexslider/demo/css/shThemeDefault.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../godaddy/widgets/flexslider/demo/fonts/webfonts/geo-medium/eot/1110FC_0.eot" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../godaddy/widgets/flexslider/demo/fonts/webfonts/geo-medium/svg/1110FC_0.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../godaddy/widgets/flexslider/demo/fonts/webfonts/geo-medium/svg/svg_test.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../godaddy/widgets/flexslider/demo/fonts/webfonts/geo-medium/ttf/1110FC_0.ttf" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../godaddy/widgets/flexslider/demo/fonts/webfonts/geo-medium/woff/1110FC_0.woff" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../godaddy/widgets/flexslider/demo/fonts/webfonts/geo-regular/eot/11014B_0.eot" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../godaddy/widgets/flexslider/demo/fonts/webfonts/geo-regular/svg/11014B_0.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../godaddy/widgets/flexslider/demo/fonts/webfonts/geo-regular/svg/svg_test.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../godaddy/widgets/flexslider/demo/fonts/webfonts/geo-regular/ttf/11014B_0.ttf" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../godaddy/widgets/flexslider/demo/fonts/webfonts/geo-regular/woff/11014B_0.woff" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../godaddy/widgets/flexslider/demo/fonts/webfonts/geo-semibold/eot/style_169898.eot" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../godaddy/widgets/flexslider/demo/fonts/webfonts/geo-semibold/svg/index.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../godaddy/widgets/flexslider/demo/fonts/webfonts/geo-semibold/svg/style_169898.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../godaddy/widgets/flexslider/demo/fonts/webfonts/geo-semibold/ttf/style_169898.ttf" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../godaddy/widgets/flexslider/demo/fonts/webfonts/geo-semibold/woff/style_169898.woff" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../godaddy/widgets/flexslider/demo/images/kitchen_adventurer_caramel.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../godaddy/widgets/flexslider/demo/images/kitchen_adventurer_cheesecake_brownie.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../godaddy/widgets/flexslider/demo/images/kitchen_adventurer_donut.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../godaddy/widgets/flexslider/demo/images/kitchen_adventurer_lemon.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../godaddy/widgets/flexslider/demo/images/logo.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../godaddy/widgets/flexslider/demo/index.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../godaddy/widgets/flexslider/demo/js/demo.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../godaddy/widgets/flexslider/demo/js/froogaloop.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../godaddy/widgets/flexslider/demo/js/jquery.easing.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../godaddy/widgets/flexslider/demo/js/jquery.fitvid.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../godaddy/widgets/flexslider/demo/js/jquery.mousewheel.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../godaddy/widgets/flexslider/demo/js/modernizr.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../godaddy/widgets/flexslider/demo/js/shBrushCss.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../godaddy/widgets/flexslider/demo/js/shBrushJScript.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../godaddy/widgets/flexslider/demo/js/shBrushXml.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../godaddy/widgets/flexslider/demo/js/shCore.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../godaddy/widgets/flexslider/demo/thumbnail-controlnav.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../godaddy/widgets/flexslider/demo/thumbnail-slider.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../godaddy/widgets/flexslider/demo/video.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../godaddy/widgets/flexslider/flexslider.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../godaddy/widgets/flexslider/images/bg_direction_nav.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../godaddy/widgets/flexslider/jquery.flexslider-ck.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../godaddy/widgets/flexslider/jquery.flexslider-min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../godaddy/widgets/flexslider/jquery.flexslider.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../godaddy/widgets/lightbox/README.markdown" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../godaddy/widgets/lightbox/css/lightbox.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../godaddy/widgets/lightbox/css/screen.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../godaddy/widgets/lightbox/images/bg-checker.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../godaddy/widgets/lightbox/images/box.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../godaddy/widgets/lightbox/images/bullet.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../godaddy/widgets/lightbox/images/close.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../godaddy/widgets/lightbox/images/donate.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../godaddy/widgets/lightbox/images/examples/image-1.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../godaddy/widgets/lightbox/images/examples/image-2.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../godaddy/widgets/lightbox/images/examples/image-3.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../godaddy/widgets/lightbox/images/examples/image-4.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../godaddy/widgets/lightbox/images/examples/image-5.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../godaddy/widgets/lightbox/images/examples/image-6.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../godaddy/widgets/lightbox/images/examples/thumb-1.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../godaddy/widgets/lightbox/images/examples/thumb-2.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../godaddy/widgets/lightbox/images/examples/thumb-3.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../godaddy/widgets/lightbox/images/examples/thumb-4.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../godaddy/widgets/lightbox/images/examples/thumb-5.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../godaddy/widgets/lightbox/images/examples/thumb-6.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../godaddy/widgets/lightbox/images/favicon.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../godaddy/widgets/lightbox/images/loading.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../godaddy/widgets/lightbox/images/next.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../godaddy/widgets/lightbox/images/prev.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../godaddy/widgets/lightbox/images/speech-bubbles.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../godaddy/widgets/lightbox/index.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../godaddy/widgets/lightbox/js/jquery-1.7.2.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../godaddy/widgets/lightbox/js/jquery-ui-1.8.18.custom.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../godaddy/widgets/lightbox/js/jquery.smooth-scroll.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../godaddy/widgets/lightbox/js/lightbox-ck.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../godaddy/widgets/lightbox/js/lightbox.js" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.sass-cache/dd71d272e08bb1a3d19dec7d0d08a2b7def1b73b/_mast.scssc" afterPath="$PROJECT_DIR$/.sass-cache/dd71d272e08bb1a3d19dec7d0d08a2b7def1b73b/_mast.scssc" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.sass-cache/dd71d272e08bb1a3d19dec7d0d08a2b7def1b73b/_tease.scssc" afterPath="$PROJECT_DIR$/.sass-cache/dd71d272e08bb1a3d19dec7d0d08a2b7def1b73b/_tease.scssc" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../wp-orig" afterPath="$PROJECT_DIR$/../wp-orig" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/scss/partials/home/_mast.scss" afterPath="$PROJECT_DIR$/scss/partials/home/_mast.scss" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/scss/partials/home/_tease.scss" afterPath="$PROJECT_DIR$/scss/partials/home/_tease.scss" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/archives.html" afterPath="$PROJECT_DIR$/archives.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/jade/common/head.jade" afterPath="$PROJECT_DIR$/jade/common/head.jade" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.php" afterPath="$PROJECT_DIR$/index.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/main.css" afterPath="$PROJECT_DIR$/css/main.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/merch.html" afterPath="$PROJECT_DIR$/merch.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/jade/index/mast/nav.jade" afterPath="$PROJECT_DIR$/jade/index/mast/nav.jade" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/staff.html" afterPath="$PROJECT_DIR$/staff.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/jade/index/tease.jade" afterPath="$PROJECT_DIR$/jade/index/tease.jade" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tnl.html" afterPath="$PROJECT_DIR$/tnl.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="godaddy.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -357,22 +59,22 @@
     <file path="/sadistic.jade" changelist="828fc2e7-b169-4e33-9db6-32bf31c77aeb" time="1371891397690" ignored="false" />
     <file path="/tnl.jade" changelist="828fc2e7-b169-4e33-9db6-32bf31c77aeb" time="1372145223725" ignored="false" />
     <file path="/_layout.scss" changelist="828fc2e7-b169-4e33-9db6-32bf31c77aeb" time="1372084912133" ignored="false" />
-    <file path="/_tease.scss" changelist="828fc2e7-b169-4e33-9db6-32bf31c77aeb" time="1372081027892" ignored="false" />
+    <file path="/_tease.scss" changelist="828fc2e7-b169-4e33-9db6-32bf31c77aeb" time="1372293248222" ignored="false" />
     <file path="/_flyers.scss" changelist="828fc2e7-b169-4e33-9db6-32bf31c77aeb" time="1372118816790" ignored="false" />
     <file path="/defaults.scss" changelist="828fc2e7-b169-4e33-9db6-32bf31c77aeb" time="1372041908652" ignored="false" />
     <file path="/_clearfix.scss" changelist="828fc2e7-b169-4e33-9db6-32bf31c77aeb" time="1372040148810" ignored="false" />
     <file path="/logo.jade" changelist="828fc2e7-b169-4e33-9db6-32bf31c77aeb" time="1372061083746" ignored="false" />
-    <file path="/nav.jade" changelist="828fc2e7-b169-4e33-9db6-32bf31c77aeb" time="1372073768533" ignored="false" />
+    <file path="/nav.jade" changelist="828fc2e7-b169-4e33-9db6-32bf31c77aeb" time="1372179753248" ignored="false" />
     <file path="/_mast.scss" changelist="828fc2e7-b169-4e33-9db6-32bf31c77aeb" time="1372107646859" ignored="false" />
     <file path="/index.html" changelist="828fc2e7-b169-4e33-9db6-32bf31c77aeb" time="1372056197155" ignored="false" />
-    <file path="/_typography.scss" changelist="828fc2e7-b169-4e33-9db6-32bf31c77aeb" time="1372065476124" ignored="false" />
+    <file path="/_typography.scss" changelist="828fc2e7-b169-4e33-9db6-32bf31c77aeb" time="1372293762678" ignored="false" />
     <file path="/_nav.scss" changelist="828fc2e7-b169-4e33-9db6-32bf31c77aeb" time="1372146441230" ignored="false" />
     <file path="/widgets.jade" changelist="828fc2e7-b169-4e33-9db6-32bf31c77aeb" time="1372104470565" ignored="false" />
     <file path="/_widgets.scss" changelist="828fc2e7-b169-4e33-9db6-32bf31c77aeb" time="1372106084654" ignored="false" />
     <file path="/_aside.scss" changelist="828fc2e7-b169-4e33-9db6-32bf31c77aeb" time="1372117761722" ignored="false" />
     <file path="/aside.jade" changelist="828fc2e7-b169-4e33-9db6-32bf31c77aeb" time="1372114277146" ignored="false" />
     <file path="/merch.jade" changelist="828fc2e7-b169-4e33-9db6-32bf31c77aeb" time="1372145068907" ignored="false" />
-    <file path="/settings.jade" changelist="828fc2e7-b169-4e33-9db6-32bf31c77aeb" time="1372150472876" ignored="false" />
+    <file path="/settings.jade" changelist="828fc2e7-b169-4e33-9db6-32bf31c77aeb" time="1372294170188" ignored="false" />
     <file path="/staff.jade" changelist="828fc2e7-b169-4e33-9db6-32bf31c77aeb" time="1372127599288" ignored="false" />
     <file path="/settings.json" changelist="828fc2e7-b169-4e33-9db6-32bf31c77aeb" time="1372127926327" ignored="false" />
     <file path="/style.scss" changelist="828fc2e7-b169-4e33-9db6-32bf31c77aeb" time="1372145582474" ignored="false" />
@@ -380,8 +82,9 @@
     <file path="/karaoke4dummies.jade" changelist="828fc2e7-b169-4e33-9db6-32bf31c77aeb" time="1372137340025" ignored="false" />
     <file path="/womensnight.jade" changelist="828fc2e7-b169-4e33-9db6-32bf31c77aeb" time="1372137421790" ignored="false" />
     <file path="/pride.jade" changelist="828fc2e7-b169-4e33-9db6-32bf31c77aeb" time="1372138595470" ignored="false" />
-    <file path="/tease.jade" changelist="828fc2e7-b169-4e33-9db6-32bf31c77aeb" time="1372142846739" ignored="false" />
+    <file path="/tease.jade" changelist="828fc2e7-b169-4e33-9db6-32bf31c77aeb" time="1372296250544" ignored="false" />
     <file path="/archives.jade" changelist="828fc2e7-b169-4e33-9db6-32bf31c77aeb" time="1372148769094" ignored="false" />
+    <file path="/head.jade" changelist="828fc2e7-b169-4e33-9db6-32bf31c77aeb" time="1372293910659" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -406,84 +109,77 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="style.scss" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/scss/style.scss">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="82" column="13" selection-start="1328" selection-end="1328" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="main.scss" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/scss/main.scss">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="_mast.scss" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/scss/partials/home/_mast.scss">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="2" column="0" selection-start="33" selection-end="33" vertical-scroll-proportion="0.0">
+            <state line="2" column="0" selection-start="9" selection-end="9" vertical-scroll-proportion="0.0">
               <folding>
-                <element signature="e#43#196#0" expanded="false" />
+                <element signature="e#44#197#0" expanded="false" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="_nav.scss" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/scss/partials/home/mast/_nav.scss">
+      <file leaf-file-name="tease.jade" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/jade/index/tease.jade">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="24" column="2" selection-start="604" selection-end="604" vertical-scroll-proportion="0.0">
+            <state line="4" column="0" selection-start="131" selection-end="131" vertical-scroll-proportion="0.091883615">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="merch.jade" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/jade/merch.jade">
+      <file leaf-file-name="_tease.scss" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/scss/partials/home/_tease.scss">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="31" column="49" selection-start="883" selection-end="883" vertical-scroll-proportion="0.0">
+            <state line="23" column="0" selection-start="446" selection-end="446" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="tnl.jade" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/jade/index/events/tnl.jade">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="12" column="78" selection-start="490" selection-end="490" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="jobs.jade" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/jade/jobs.jade">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="21" column="59" selection-start="458" selection-end="458" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="archives.jade" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/jade/archives.jade">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="1" column="19" selection-start="43" selection-end="43" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="settings.jade" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="settings.jade" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/jade/common/settings.jade">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="0" column="28" selection-start="28" selection-end="28" vertical-scroll-proportion="0.0">
+            <state line="0" column="244" selection-start="244" selection-end="244" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="_typography.scss" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/scss/theme/_typography.scss">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="6" column="0" selection-start="144" selection-end="144" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="main.css" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/css/main.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="0" column="6" selection-start="6" selection-end="6" vertical-scroll-proportion="0.0">
+              <folding>
+                <element signature="e#3828#3913#2" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="nav.jade" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/jade/index/mast/nav.jade">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="23" column="24" selection-start="384" selection-end="384" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="header.jade" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/jade/index/mast/header.jade">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -516,12 +212,7 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/jade/index/mast/header.jade" />
-        <option value="$PROJECT_DIR$/jade/index/events/karaoke4dummies.jade" />
-        <option value="$PROJECT_DIR$/jade/index/events/womensnight.jade" />
-        <option value="$PROJECT_DIR$/jade/index/events.jade" />
         <option value="$PROJECT_DIR$/jade/index/events/pride.jade" />
-        <option value="$PROJECT_DIR$/jade/index/tease.jade" />
         <option value="$PROJECT_DIR$/jade/index/events/tnl.jade" />
         <option value="$PROJECT_DIR$/jade/staff.jade" />
         <option value="$PROJECT_DIR$/jade/merch.jade" />
@@ -529,9 +220,14 @@
         <option value="$PROJECT_DIR$/jade/jobs.jade" />
         <option value="$PROJECT_DIR$/scss/style.scss" />
         <option value="$PROJECT_DIR$/scss/partials/home/mast/_nav.scss" />
-        <option value="$PROJECT_DIR$/scss/partials/home/_mast.scss" />
         <option value="$PROJECT_DIR$/jade/archives.jade" />
+        <option value="$PROJECT_DIR$/jade/index/mast/nav.jade" />
+        <option value="$PROJECT_DIR$/scss/partials/home/_mast.scss" />
         <option value="$PROJECT_DIR$/jade/common/settings.jade" />
+        <option value="$PROJECT_DIR$/scss/theme/_typography.scss" />
+        <option value="$PROJECT_DIR$/jade/common/head.jade" />
+        <option value="$PROJECT_DIR$/scss/partials/home/_tease.scss" />
+        <option value="$PROJECT_DIR$/jade/index/tease.jade" />
       </list>
     </option>
   </component>
@@ -677,7 +373,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="partials" />
+              <option name="myItemId" value="theme" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -691,15 +387,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="scss" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="partials" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="home" />
+              <option name="myItemId" value="jade" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -713,15 +401,29 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="scss" />
+              <option name="myItemId" value="jade" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="partials" />
+              <option name="myItemId" value="index" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Storm" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="site" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="home" />
+              <option name="myItemId" value="jade" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="index" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
@@ -742,36 +444,8 @@
               <option name="myItemId" value="jade" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Storm" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="site" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="jade" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="common" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Storm" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="site" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="images" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -1023,76 +697,6 @@
     <breakpoint-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/jade/index/events/pride.jade">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="2" column="102" selection-start="184" selection-end="184" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/jade/index/tease.jade">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="5" column="61" selection-start="216" selection-end="216" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/jade/index/events.jade">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="39" column="27" selection-start="930" selection-end="930" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/jade/staff.jade">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="12" column="29" selection-start="177" selection-end="177" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/jade/scripts.jade">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/jade/index.jade">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/jade/merch.jade">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="31" column="49" selection-start="883" selection-end="883" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/jade/index/events/tnl.jade">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="12" column="78" selection-start="490" selection-end="490" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/jade/tnl.jade">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="46" column="11" selection-start="1083" selection-end="1083" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/jade/jobs.jade">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="21" column="59" selection-start="458" selection-end="458" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/scss/style.scss">
       <provider selected="true" editor-type-id="text-editor">
         <state line="82" column="13" selection-start="1328" selection-end="1328" vertical-scroll-proportion="0.0">
@@ -1114,15 +718,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/scss/partials/home/_mast.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="2" column="0" selection-start="33" selection-end="33" vertical-scroll-proportion="0.0">
-          <folding>
-            <element signature="e#43#196#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/jade/archives.jade">
       <provider selected="true" editor-type-id="text-editor">
         <state line="1" column="19" selection-start="43" selection-end="43" vertical-scroll-proportion="0.0">
@@ -1130,9 +725,90 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/jade/index/events/tnl.jade">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="15" column="59" selection-start="597" selection-end="597" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/jade/tnl.jade">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="46" column="11" selection-start="1083" selection-end="1083" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/jade/jobs.jade">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="21" column="59" selection-start="458" selection-end="458" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/scss/partials/home/_mast.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="2" column="0" selection-start="9" selection-end="9" vertical-scroll-proportion="0.0">
+          <folding>
+            <element signature="e#44#197#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/jade/index/mast/nav.jade">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="23" column="24" selection-start="384" selection-end="384" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/jade/common/head.jade">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="14" column="89" selection-start="698" selection-end="698" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/main.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="6" selection-start="6" selection-end="6" vertical-scroll-proportion="0.0">
+          <folding>
+            <element signature="e#3828#3913#2" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/scss/theme/_typography.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="6" column="0" selection-start="144" selection-end="144" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/jade/index/mast/header.jade">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/scss/partials/home/_tease.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="23" column="0" selection-start="446" selection-end="446" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/jade/common/settings.jade">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="28" selection-start="28" selection-end="28" vertical-scroll-proportion="0.0">
+        <state line="0" column="244" selection-start="244" selection-end="244" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/jade/index/tease.jade">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="4" column="0" selection-start="131" selection-end="131" vertical-scroll-proportion="0.091883615">
           <folding />
         </state>
       </provider>

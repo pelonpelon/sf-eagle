@@ -10,7 +10,7 @@
     <meta name="viewport" content="width=device-width">
     <meta name="viewport" content="initial-scale=1.0">
     <link rel="stylesheet" href="css/main.css">
-    <link href="http://fonts.googleapis.com/css?family=Jolly+Lodger|Coming+Soon" rel="stylesheet" type="text/css">
+    <link href="http://fonts.googleapis.com/css?family=Jolly+Lodger|Coming+Soon|Rouge+Script" rel="stylesheet" type="text/css">
   </head>
   <body>
     <div id="page">
@@ -21,7 +21,7 @@
             <li class="thisweek"><a href="#events" class="button"><span>This<br>Week</span></a></li>
             <li><a href="merch.html" class="button"><span>Hoodies<br>Tanks<br>& Tees</span></a></li>
             <li><a href="tnl.html" class="button"><span>Live<br>Music</span></a></li>
-            <li><a href="staff.html" class="button"><span>Barback<br>Needed</span></a></li>
+            <li><a href="jobs.html" class="button"><span>Barback<br>Needed</span></a></li>
           </ul>
         </nav>
         <aside>
@@ -33,7 +33,7 @@
         </aside>
       </div>
       <div id="tease">
-        <div class="oped"><img src="images/events/peppersprayshoes.jpg">
+        <div class="oped"><a href="http://www.flickr.com/photos/adiosusa/8918829134/"><img src="images/events/peppersprayshoes.jpg"></a>
           <p>
             There is really only ONE EVENT this week that you can't miss and it's
             happening right here at the SF Eagle. That old chestnut ShE.L.O Is back
@@ -43,8 +43,9 @@
             in the ass.<br><br>And lastly there's a band I've never heard of, NECTAR ON THE DEWLY, which sounds wet and drippy and --
             Could somebody please get me a rag...<br><br>Snooze through all the other rainbow-unicorn pablum of the week but don't miss this show.
             It promises to be a night that you'll want to remember forever but if you plan your consumption
-            just right you'll likely forget it all. That's why we have Facebook.
+            just right you'll likely forget it all. That's why we have Facebook.<br><br>
           </p>
+          <blockquote>BTW. Click on the shoes for a shuffle down Memory Lane<br>You'll need a Flickr account</blockquote>
         </div>
       </div>
       <div id="events" class="cf">
