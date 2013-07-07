@@ -1,0 +1,28 @@
+include head
+    #page
+      style
+        h1 {text-align: center;}
+        img {width: 20%; margin:0 auto;}
+      //include php-errors
+      div.loop.
+        <?php global $post; // required
+          $args = array(
+            'orderby'       => 'post_date',
+            'order'         => 'ASC',
+            'post_type'     => 'event',
+            'numberposts'   => -1
+          );
+          $custom_posts = get_posts($args);
+          foreach($custom_posts as $post) : setup_postdata($post); ?>
+            <h1> <?php the_title(); ?> </h1>
+            <p> <?php
+              $epoch = get_post_meta(get_the_ID(), 'date', true);
+              echo date('l  M j     g:i A', $epoch); ?> </p>
+            <p> <?php the_field('endtime'); ?> </p>
+            <?php $image = wp_get_attachment_image_src(get_field('image'), 'full'); ?>
+            <a href="<?php the_field('link'); ?>">
+              <img src="<?php echo $image[0]; ?>" alt="<?php echo get_the_title(get_field('image')) ?>" />
+            </a>
+            <p> <?php the_field('blurb'); ?> </p>
+          <?php endforeach; ?>
+
