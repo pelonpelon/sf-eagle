@@ -1,0 +1,54 @@
+#events.cf
+  ul.
+    <?php global $post; // required
+      //correction for time-picker
+      $tz = -25200;
+      $args = array(
+        'orderby'       => 'meta_value',
+        'meta_key'      => 'date',
+        'order'         => 'ASC',
+        'post_type'     => 'event',
+        'numberposts'   => -1
+      );
+      $custom_posts = get_posts($args);
+      $day = '';
+      foreach($custom_posts as $post) : setup_postdata($post);
+        $scheduled = (get_post_meta(get_the_ID(), 'date', true));
+        $now = time();
+        $timediff = $scheduled - $now -$tz;
+        if ($timediff > 604800) { return; }
+        if ($day != date('l', $scheduled))
+        { ?>
+          <li id="<?php echo date('l', $scheduled); ?>" class="day">
+            <h3> <?php echo date('l', $scheduled); ?> </h3> <?php
+        }
+        $day = date('l', $scheduled); ?>
+          <ul class="events">
+            <li class="event cf">
+              <p class="time"><?php
+              echo $scheduled;
+              echo '<br />';
+              echo $now;
+              echo '<br />';
+              echo $timediff;
+              echo '<br />';
+              echo date('g:ia', $scheduled);
+                if (get_field(endtime))
+                {
+                  echo ' - ';
+                  echo the_field('endtime');
+                } ?>
+              </p>
+              <ul class="event-list">
+                <li>
+                  <a href="<?php the_field('link'); ?>" class="button">
+                    <span> <?php the_title(); ?> </span>
+                  </a>
+                </li>
+              </ul>
+              <?php $image = wp_get_attachment_image_src(get_field('image'), 'full'); ?>
+              <a href="<?php echo $image[0]; ?>" rel="lightbox"><img src="<?php echo $image[0]; ?>" width=140 height=140" alt="<?php the_title(); ?>" class="thumb"></a>
+            </li>
+          </ul>
+        <?php if ($day != date('l', $scheduled)) { echo '</li>'; } ?>
+      <?php endforeach; ?>

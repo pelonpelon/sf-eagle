@@ -1,0 +1,108 @@
+#tease {
+  h1 {
+    color: $decor-medium;
+    font-family: "Coming Soon";
+    line-height: 1em;
+    text-align: center;
+    font-size: 5em;
+    margin: 0px 0 20px 0;
+  }
+  #posters {
+    h1 {
+      color: #ff02c8;
+      font-family: "Rouge Script";
+      line-height: 1em;
+      text-align: center;
+    }
+    hr {
+      margin: 20px;
+    }
+    width: 70%;
+    height:auto;
+    margin: 60px auto;
+    max-height: 600px;
+    @media screen and (max-width:$netbook) {
+      width: 100%;
+      margin-top: 50px;
+    }
+    @media screen and (max-width: $tablet) {
+      #posters {
+        max-width: 90%; }
+    }
+    h4 {
+      color: red;
+      font-size: .9em;
+      line-height: 1.3em;
+      font-weight: 700;
+    }
+    >a {
+      float: left;
+      margin: 0 auto;
+      max-width: 30%;
+      max-height: 40%;
+      &:nth-child(1), &:nth-child(2) {
+        margin: 0 10%; }
+      &:nth-child(3) {
+        margin: 30px 33%; }
+    }
+    .bigimage {
+      display: block;
+      float: left;
+      clear: both;
+      color: red;
+      font-weight: 700;
+      line-height: 1.3em;
+      width: 100%;
+      height:auto;
+      img {
+        border: 0; }
+        max-width: 80%;
+      @media screen and (max-width:$netbook) {
+        margin: 0 auto;
+      }
+      @media screen and (max-width:$phone) {
+        width: 25%;
+        margin: 0 auto;
+      }
+    }
+  }
+  .oped, .loop {
+    img {
+      display: block;
+      margin: 10px auto;
+      @include box-shadow(0px 0px 20px $box-shadow);
+      border: solid 10px rgba(#555, 0.2);
+      @include border-radius(35px);
+      max-width: 300px;
+      max-height: 400px;
+    }
+    p {
+      font-family: 'Coming Soon' cursive;
+      font-size: 1em;
+      line-height: 20px;
+      margin: 0 auto;
+      @media screen and (max-width:$netbook) {
+      }
+      width: 70%;
+      @media screen and (max-width:$phone) {
+        margin: 0 2%;
+        width: 90%;
+      }
+      @include text-shadow(2px 2px 3px darken($content-lite, 30%));
+      a {
+        color: $decor-medium;
+        @include text-shadow(2px 2px 3px darken($decor-lite, 30%));
+      }
+    }
+    @media screen and (max-width:$phone) {
+      padding-bottom: 10px;
+    }
+  }
+  blockquote {
+    clear: left;
+    float: left;
+    width: 60%;
+    margin: 20px 0 0 10%;
+    color: $decor-lite;
+  }
+}

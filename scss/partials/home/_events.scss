@@ -1,0 +1,91 @@
+#events {
+  .day {
+    h3 {
+      margin: 20px 0 0 0;
+      padding: 12px 4px 1px 4px;
+      background-color: #444;
+      @include opacity(0.9);
+      @include border-top-radius(15px);
+    }
+  }
+  .events {
+    margin-bottom: 20px;
+    background-color: #222222;
+    @include opacity(0.8);
+    @include border-bottom-radius(15px);
+    .event {
+      margin-bottom: 5px;
+    }
+    p {
+    padding: 0;
+    font-size: 1.3em;
+    margin: 5px 0 0 0;
+    text-align: center;
+    }
+    .time {
+      float:left;
+      width:100%;
+      font-size: 1em;
+      font-weight: 800;
+      color: #f00;
+      clear: left;
+      text-align:left;
+      margin-bottom: 2px;
+    }
+    img {
+      float: right;
+      width: 30%;
+      @include min-height(60px);
+
+    }
+    .button, .buttonless {
+      float: left;
+      font-size: 1.3em;
+      @media screen and (max-width: $netbook) {
+        width: 100%;
+        padding: 10px 0;
+      }
+      @media screen and (max-width: $phone) {
+        padding: 12px 0;
+      }
+    }
+    .buttonless {
+      font-size: 1.1em;
+    }
+  }
+  .event-list {
+    float:left;
+    width:60%;
+    height: 100%;
+    .button, .buttonless {
+      width:100%;
+    }
+  }
+  #tnl .event-list {
+    font-family: 'Jolly Lodger', cursive;
+    font-size: 1.5em;
+    .buttonless {
+      background-color: $decor-dark;
+    }
+  }
+  @media screen and (max-width: $tablet) {
+      clear: both;
+      width: 60%;
+      margin: 60px 20%;
+    .time {
+      font-size: 1em;
+    }
+    .flexslider .slides {
+      zoom: .5;
+    }
+  }
+  @media screen and (max-width: $phone) {
+    width: 100%;
+    clear: left;
+    margin: 0 0;
+    ul ul li {
+      max-width: 100%;
+      font-size: 1em;
+    }
+  }
+}

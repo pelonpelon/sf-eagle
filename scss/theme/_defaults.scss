@@ -1,0 +1,21 @@
+img {
+  width: 100%;
+  height: auto;
+}
+
+a {
+  text-decoration: none;
+  &:link, &:visited {
+    color: inherit; }
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+a>img {
+  border: solid 2px #900;
+  &:hover {
+    border-color: #f00; }
+}

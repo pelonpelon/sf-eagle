@@ -1,0 +1,192 @@
+#page>a {
+  position: fixed;
+  top: 0;
+  left: 0;
+  img {
+    border: 0;
+  }
+  @media screen and (max-width: $phone) {
+    img {
+      width: 40%;
+    }
+    position: relative;
+  }
+}
+t_col {
+  font-size: 14px;
+  font-family: tahoma;
+  font-weight: bold;
+}
+
+_c {
+  text-align: center;
+}
+
+#header {
+  background-image: url(header.png);
+  background-repeat: no-repeat;
+  height: 156px;
+  width: 750px;
+  h1 {
+    position: relative;
+    left: 30px;
+    top: 25px;
+    color: #F6F6F6;
+    text-align: center;
+    font-size: 40px;
+    font-family: Tahoma, Helvetica, sans-serif;
+  }
+  h2 {
+    position: relative;
+    left: 30px;
+    top: 21px;
+    color: #2C2C2C;
+    text-align: center;
+    font-size: 14px;
+    font-family: Tahoma, Helvetica, sans-serif;
+  }
+}
+
+#bar {
+  background-image: url(bar.png);
+  background-repeat: no-repeat;
+  height: 105px;
+  width: 750px;
+  line-height: 55px;
+  padding-left: 200px;
+  padding-right: 20px;
+  .link {
+    float: left;
+    text-align: center;
+    height: 55px;
+    &:hover {
+      background-image: url(linkrollover.png);
+      background-repeat: no-repeat;
+      background-position: top;
+    }
+  }
+}
+
+.contentTitle {
+  padding: 10px 20%;
+  text-align: center;
+  font-family: "Coming Soon";
+}
+
+.comments {
+  font-size: 11px;
+  font-style: italic;
+}
+
+.contentText {
+  img {
+    max-width: inherit;
+    max-height: inherit;
+    width: 50%;
+  }
+  padding: 10px 20%;
+  @media screen and (max-width: $phone) {
+    padding: 10px 0;
+  }
+  font-size: 14px;
+  font-family: tahoma;
+  color: #C0C0C0;
+  table>tbody>tr>td>img {
+    width: 100%;
+  }
+  table.date {
+    margin: 0 auto;
+    padding: 20px 25%;
+    @include opacity(0.8);
+    tbody>tr {
+      td:first-of-type {
+        width: 200px;
+        background-color: $decor-dark;
+      }
+      td:last-of-type {
+        font-family: "Jolly Lodger";
+        width: 300px;
+        background-color: $content-dark;
+        color: #000000;
+        font-size: 2em;
+        font-weight: 800;
+      }
+    }
+  }
+  t1 {
+    position: relative;
+    color: #FFFFFF;
+    font-size: 11px;
+    text-align: left;
+    font-weight: normal;
+    font-family: tahoma;
+  }
+  t2 {
+    color: #FFFFFF;
+    font-size: 23px;
+    font-weight: bold;
+    font-family: Helvetica;
+  }
+  t4 {
+    color: #FFFFFF;
+    font-size: 18px;
+    font-family: Helvetica;
+  }
+  t3 {
+    text-decoration: underline;
+  }
+}
+#footer {
+  height: 53px;
+  background: url(footer.png) no-repeat;
+  text-align: center;
+  font-size: 9px;
+  color: #2A2A2A;
+  padding-top: 25px;
+}
+
+#pic1 {
+  vertical-align: top;
+}
+
+td {
+  border: 2px #000000 solid;
+  width: 0%;
+  text-align: center;
+}
+
+p {
+  &.three {
+    text-align: justify;
+  }
+  &.thicker {
+    font-weight: 900;
+  }
+}
+
+#tab1 {
+  vertical-align: top;
+}
+
+#pol {
+  font-size: small;
+  .link a:link {
+  }
+}
+
+div#samples img {
+  width: 12%;
+  height: auto;
+}
+.dougemail {
+  width: 30%;
+  font-family: "Coming Soon";
+  a {
+    color: red;
+  }
+}
+#samples {
+  margin: 0 auto;
+  padding: 20px 13%;
+  text-align: center;
+}
