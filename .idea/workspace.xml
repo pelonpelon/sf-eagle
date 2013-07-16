@@ -2,159 +2,17 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a61e94e4-0c00-442d-8bde-b0f49a71230e" name="Default" comment="Loops almost finished, inc calendar. jquery filter. tease logic not working">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/scss/partials/calendar/_calendar.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/access.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jade/calendar-page-loop.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jade/calendar.jade" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jade/index/events-db-loop.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jade/events.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jade/common/foot.jade" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/main.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/phpinfo.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wp/wp-content/themes/twentytwelve/js/require-title.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jade/index/tease/special.jade" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jade/index/tease-db-loop.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/php/timegames.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jade/index/events/tnl-db-loop.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jade/index/events/tnl-db.jade" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jade/tnl-page-db-loop.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jade/tnl-page-db.jade" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/images/events/cubtrap-130712-500.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/jade/common/page.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/jade/common/page.jade" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/jade/common/try.jade" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/tnl.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp/wp-content/plugins/akismet/.htaccess" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp/wp-content/plugins/akismet/admin.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp/wp-content/plugins/akismet/akismet.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp/wp-content/plugins/akismet/akismet.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp/wp-content/plugins/akismet/akismet.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp/wp-content/plugins/akismet/akismet.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp/wp-content/plugins/akismet/index.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp/wp-content/plugins/akismet/legacy.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp/wp-content/plugins/akismet/readme.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp/wp-content/plugins/akismet/widget.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp/wp-content/plugins/hello.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp/wp-content/uploads/TNL062013-160x97.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp/wp-content/uploads/TNL062013-360x218.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp/wp-content/uploads/TNL062013-600x364.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp/wp-content/uploads/TNL062013-624x378.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp/wp-content/uploads/TNL062013.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp/wp-content/uploads/peppersprayband-160x106.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp/wp-content/uploads/peppersprayband-360x239.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp/wp-content/uploads/peppersprayband-600x399.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp/wp-content/uploads/peppersprayband-624x415.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp/wp-content/uploads/peppersprayband.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp/wp-content/uploads/thejourney-blow-a-brat_web-lite-103x160.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp/wp-content/uploads/thejourney-blow-a-brat_web-lite-232x360.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp/wp-content/uploads/thejourney-blow-a-brat_web-lite.jpg" afterPath="" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/jade/index/scripts.jade" afterPath="$PROJECT_DIR$/jade/common/scripts.jade" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.sass-cache/982a583190a5a048e170bb4c2b4b69a7ced3ace6/_all.scssc" afterPath="$PROJECT_DIR$/.sass-cache/982a583190a5a048e170bb4c2b4b69a7ced3ace6/_all.scssc" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.sass-cache/0ffd3d69436938ed030ad97e6605642f1fa0687d/_events.scssc" afterPath="$PROJECT_DIR$/.sass-cache/0ffd3d69436938ed030ad97e6605642f1fa0687d/_events.scssc" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.sass-cache/982a583190a5a048e170bb4c2b4b69a7ced3ace6/_lightbox.scssc" afterPath="$PROJECT_DIR$/.sass-cache/982a583190a5a048e170bb4c2b4b69a7ced3ace6/_lightbox.scssc" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.sass-cache/0ffd3d69436938ed030ad97e6605642f1fa0687d/_mast.scssc" afterPath="$PROJECT_DIR$/.sass-cache/0ffd3d69436938ed030ad97e6605642f1fa0687d/_mast.scssc" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.sass-cache/0ffd3d69436938ed030ad97e6605642f1fa0687d/_tease.scssc" afterPath="$PROJECT_DIR$/.sass-cache/0ffd3d69436938ed030ad97e6605642f1fa0687d/_tease.scssc" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp/wp-content/plugins/advanced-custom-fields/lang/acf-cs_CZ.mo" afterPath="$PROJECT_DIR$/wp/wp-content/plugins/advanced-custom-fields/lang/acf-cs_CZ.mo" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp/wp-content/plugins/advanced-custom-fields/lang/acf-es_ES.mo" afterPath="$PROJECT_DIR$/wp/wp-content/plugins/advanced-custom-fields/lang/acf-es_ES.mo" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp/wp-content/plugins/advanced-custom-fields/lang/acf-fr_FR.mo" afterPath="$PROJECT_DIR$/wp/wp-content/plugins/advanced-custom-fields/lang/acf-fr_FR.mo" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp/wp-content/plugins/advanced-custom-fields/lang/acf-nl_NL.mo" afterPath="$PROJECT_DIR$/wp/wp-content/plugins/advanced-custom-fields/lang/acf-nl_NL.mo" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp/wp-content/plugins/advanced-custom-fields/lang/acf-pt_BR.mo" afterPath="$PROJECT_DIR$/wp/wp-content/plugins/advanced-custom-fields/lang/acf-pt_BR.mo" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/images/events/cubtrap-130712-150.jpg" afterPath="$PROJECT_DIR$/images/events/cubtrap-130712-150.jpg" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.sass-cache/761bf5655ae98a3b5de286bd93afff12a01d6341/style.scssc" afterPath="$PROJECT_DIR$/.sass-cache/761bf5655ae98a3b5de286bd93afff12a01d6341/style.scssc" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp/wp-content/plugins/advanced-custom-fields/core/fields/date_picker/images/ui-bg_flat_0_aaaaaa_40x100.png" afterPath="$PROJECT_DIR$/wp/wp-content/plugins/advanced-custom-fields/core/fields/date_picker/images/ui-bg_flat_0_aaaaaa_40x100.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp/wp-content/plugins/advanced-custom-fields/core/fields/date_picker/images/ui-bg_flat_55_5bc6f5_40x100.png" afterPath="$PROJECT_DIR$/wp/wp-content/plugins/advanced-custom-fields/core/fields/date_picker/images/ui-bg_flat_55_5bc6f5_40x100.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp/wp-content/plugins/advanced-custom-fields/core/fields/date_picker/images/ui-bg_flat_75_ffffff_40x100.png" afterPath="$PROJECT_DIR$/wp/wp-content/plugins/advanced-custom-fields/core/fields/date_picker/images/ui-bg_flat_75_ffffff_40x100.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp/wp-content/plugins/advanced-custom-fields/core/fields/date_picker/images/ui-bg_glass_65_ffffff_1x400.png" afterPath="$PROJECT_DIR$/wp/wp-content/plugins/advanced-custom-fields/core/fields/date_picker/images/ui-bg_glass_65_ffffff_1x400.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp/wp-content/plugins/advanced-custom-fields/core/fields/date_picker/images/ui-bg_glass_75_dadada_1x400.png" afterPath="$PROJECT_DIR$/wp/wp-content/plugins/advanced-custom-fields/core/fields/date_picker/images/ui-bg_glass_75_dadada_1x400.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp/wp-content/plugins/advanced-custom-fields/core/fields/date_picker/images/ui-bg_glass_75_e6e6e6_1x400.png" afterPath="$PROJECT_DIR$/wp/wp-content/plugins/advanced-custom-fields/core/fields/date_picker/images/ui-bg_glass_75_e6e6e6_1x400.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp/wp-content/plugins/advanced-custom-fields/core/fields/date_picker/images/ui-bg_glass_95_fef1ec_1x400.png" afterPath="$PROJECT_DIR$/wp/wp-content/plugins/advanced-custom-fields/core/fields/date_picker/images/ui-bg_glass_95_fef1ec_1x400.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp/wp-content/plugins/advanced-custom-fields/core/fields/date_picker/images/ui-bg_highlight-soft_0_444444_1x100.png" afterPath="$PROJECT_DIR$/wp/wp-content/plugins/advanced-custom-fields/core/fields/date_picker/images/ui-bg_highlight-soft_0_444444_1x100.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp/wp-content/plugins/advanced-custom-fields/core/fields/date_picker/images/ui-icons_222222_256x240.png" afterPath="$PROJECT_DIR$/wp/wp-content/plugins/advanced-custom-fields/core/fields/date_picker/images/ui-icons_222222_256x240.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp/wp-content/plugins/advanced-custom-fields/core/fields/date_picker/images/ui-icons_2e83ff_256x240.png" afterPath="$PROJECT_DIR$/wp/wp-content/plugins/advanced-custom-fields/core/fields/date_picker/images/ui-icons_2e83ff_256x240.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp/wp-content/plugins/advanced-custom-fields/core/fields/date_picker/images/ui-icons_454545_256x240.png" afterPath="$PROJECT_DIR$/wp/wp-content/plugins/advanced-custom-fields/core/fields/date_picker/images/ui-icons_454545_256x240.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp/wp-content/plugins/advanced-custom-fields/core/fields/date_picker/images/ui-icons_888888_256x240.png" afterPath="$PROJECT_DIR$/wp/wp-content/plugins/advanced-custom-fields/core/fields/date_picker/images/ui-icons_888888_256x240.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp/wp-content/plugins/advanced-custom-fields/core/fields/date_picker/images/ui-icons_cd0a0a_256x240.png" afterPath="$PROJECT_DIR$/wp/wp-content/plugins/advanced-custom-fields/core/fields/date_picker/images/ui-icons_cd0a0a_256x240.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp/.htaccess" afterPath="$PROJECT_DIR$/wp/.htaccess" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/GayHankyCodes.php" afterPath="$PROJECT_DIR$/GayHankyCodes.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/scss/partials/_all.scss" afterPath="$PROJECT_DIR$/scss/partials/_all.scss" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp/wp-content/plugins/advanced-custom-fields/core/fields/_base.php" afterPath="$PROJECT_DIR$/wp/wp-content/plugins/advanced-custom-fields/core/fields/_base.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/scss/partials/home/_events.scss" afterPath="$PROJECT_DIR$/scss/partials/home/_events.scss" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp/wp-content/plugins/advanced-custom-fields/core/fields/_functions.php" afterPath="$PROJECT_DIR$/wp/wp-content/plugins/advanced-custom-fields/core/fields/_functions.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/scss/partials/_lightbox.scss" afterPath="$PROJECT_DIR$/scss/partials/_lightbox.scss" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/scss/partials/home/_mast.scss" afterPath="$PROJECT_DIR$/scss/partials/home/_mast.scss" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/scss/partials/home/_tease.scss" afterPath="$PROJECT_DIR$/scss/partials/home/_tease.scss" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp/wp-content/plugins/advanced-custom-fields/lang/acf-cs_CZ.po" afterPath="$PROJECT_DIR$/wp/wp-content/plugins/advanced-custom-fields/lang/acf-cs_CZ.po" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp/wp-content/plugins/advanced-custom-fields/lang/acf-es_ES.po" afterPath="$PROJECT_DIR$/wp/wp-content/plugins/advanced-custom-fields/lang/acf-es_ES.po" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp/wp-content/plugins/advanced-custom-fields/lang/acf-fr_FR.po" afterPath="$PROJECT_DIR$/wp/wp-content/plugins/advanced-custom-fields/lang/acf-fr_FR.po" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp/wp-content/plugins/advanced-custom-fields/lang/acf-nl_NL.po" afterPath="$PROJECT_DIR$/wp/wp-content/plugins/advanced-custom-fields/lang/acf-nl_NL.po" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp/wp-content/plugins/advanced-custom-fields/lang/acf-pt_BR.po" afterPath="$PROJECT_DIR$/wp/wp-content/plugins/advanced-custom-fields/lang/acf-pt_BR.po" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp/wp-content/plugins/advanced-custom-fields/css/acf.css" afterPath="$PROJECT_DIR$/wp/wp-content/plugins/advanced-custom-fields/css/acf.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp/wp-content/plugins/advanced-custom-fields/acf.php" afterPath="$PROJECT_DIR$/wp/wp-content/plugins/advanced-custom-fields/acf.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp/wp-content/plugins/advanced-custom-fields/lang/acf.pot" afterPath="$PROJECT_DIR$/wp/wp-content/plugins/advanced-custom-fields/lang/acf.pot" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp/wp-content/plugins/advanced-custom-fields/js/input/actions.js" afterPath="$PROJECT_DIR$/wp/wp-content/plugins/advanced-custom-fields/js/input/actions.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp/wp-content/plugins/advanced-custom-fields/core/controllers/addons.php" afterPath="$PROJECT_DIR$/wp/wp-content/plugins/advanced-custom-fields/core/controllers/addons.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp/wp-content/plugins/advanced-custom-fields/js/input/ajax.js" afterPath="$PROJECT_DIR$/wp/wp-content/plugins/advanced-custom-fields/js/input/ajax.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp/wp-content/plugins/advanced-custom-fields/core/api.php" afterPath="$PROJECT_DIR$/wp/wp-content/plugins/advanced-custom-fields/core/api.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/archives.php" afterPath="$PROJECT_DIR$/archives.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/jade/index/events/busstation.jade" afterPath="$PROJECT_DIR$/jade/index/events/busstation.jade" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/config.rb" afterPath="$PROJECT_DIR$/config.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/jade/index/events/cubtrap.jade" afterPath="$PROJECT_DIR$/jade/index/events/cubtrap.jade" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/jade/index/events-db.jade" afterPath="$PROJECT_DIR$/jade/index/events-db.jade" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/jade/index/events.jade" afterPath="$PROJECT_DIR$/jade/index/events.jade" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp/wp-content/plugins/advanced-custom-fields/core/controllers/everything_fields.php" afterPath="$PROJECT_DIR$/wp/wp-content/plugins/advanced-custom-fields/core/controllers/everything_fields.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp/wp-content/plugins/advanced-custom-fields/core/actions/export.php" afterPath="$PROJECT_DIR$/wp/wp-content/plugins/advanced-custom-fields/core/actions/export.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp/wp-content/plugins/advanced-custom-fields/core/controllers/export.php" afterPath="$PROJECT_DIR$/wp/wp-content/plugins/advanced-custom-fields/core/controllers/export.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp/wp-content/plugins/advanced-custom-fields/js/field-group.js" afterPath="$PROJECT_DIR$/wp/wp-content/plugins/advanced-custom-fields/js/field-group.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp/wp-content/plugins/advanced-custom-fields/core/controllers/field_group.php" afterPath="$PROJECT_DIR$/wp/wp-content/plugins/advanced-custom-fields/core/controllers/field_group.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp/wp-content/plugins/advanced-custom-fields/core/controllers/field_groups.php" afterPath="$PROJECT_DIR$/wp/wp-content/plugins/advanced-custom-fields/core/controllers/field_groups.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp/wp-content/plugins/advanced-custom-fields/js/input/file.js" afterPath="$PROJECT_DIR$/wp/wp-content/plugins/advanced-custom-fields/js/input/file.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/jade/index/flyers.jade" afterPath="$PROJECT_DIR$/jade/index/flyers.jade" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp/wp-content/themes/twentytwelve/functions.php" afterPath="$PROJECT_DIR$/wp/wp-content/themes/twentytwelve/functions.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp/wp-content/plugins/advanced-custom-fields/css/global.css" afterPath="$PROJECT_DIR$/wp/wp-content/plugins/advanced-custom-fields/css/global.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/jade/common/head.jade" afterPath="$PROJECT_DIR$/jade/common/head.jade" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp/wp-content/plugins/advanced-custom-fields/js/input/image.js" afterPath="$PROJECT_DIR$/wp/wp-content/plugins/advanced-custom-fields/js/input/image.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.flyers.html" afterPath="$PROJECT_DIR$/index.flyers.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/jade/index.jade" afterPath="$PROJECT_DIR$/jade/index.jade" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.php" afterPath="$PROJECT_DIR$/index.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp/wp-content/plugins/advanced-custom-fields/css/input.css" afterPath="$PROJECT_DIR$/wp/wp-content/plugins/advanced-custom-fields/css/input.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp/wp-content/plugins/advanced-custom-fields/core/controllers/input.php" afterPath="$PROJECT_DIR$/wp/wp-content/plugins/advanced-custom-fields/core/controllers/input.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp/wp-content/plugins/advanced-custom-fields/js/input.php" afterPath="$PROJECT_DIR$/wp/wp-content/plugins/advanced-custom-fields/js/input.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/jobs.php" afterPath="$PROJECT_DIR$/jobs.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp/wp-content/plugins/acf-field-date-time-picker/js/jquery-ui-timepicker-addon.js" afterPath="$PROJECT_DIR$/wp/wp-content/plugins/acf-field-date-time-picker/js/jquery-ui-timepicker-addon.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp/wp-content/plugins/advanced-custom-fields/core/fields/date_picker/jquery.ui.datepicker.js" afterPath="$PROJECT_DIR$/wp/wp-content/plugins/advanced-custom-fields/core/fields/date_picker/jquery.ui.datepicker.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/main.css" afterPath="$PROJECT_DIR$/css/main.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/merch.php" afterPath="$PROJECT_DIR$/merch.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp/wp-content/plugins/advanced-custom-fields/core/views/meta_box_fields.php" afterPath="$PROJECT_DIR$/wp/wp-content/plugins/advanced-custom-fields/core/views/meta_box_fields.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp/wp-content/plugins/advanced-custom-fields/core/views/meta_box_location.php" afterPath="$PROJECT_DIR$/wp/wp-content/plugins/advanced-custom-fields/core/views/meta_box_location.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp/wp-content/plugins/advanced-custom-fields/core/views/meta_box_options.php" afterPath="$PROJECT_DIR$/wp/wp-content/plugins/advanced-custom-fields/core/views/meta_box_options.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/jade/index/mast/nav.jade" afterPath="$PROJECT_DIR$/jade/index/mast/nav.jade" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp/wp-content/plugins/advanced-custom-fields/core/fields/number.php" afterPath="$PROJECT_DIR$/wp/wp-content/plugins/advanced-custom-fields/core/fields/number.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp/wp-content/plugins/advanced-custom-fields/core/fields/radio.php" afterPath="$PROJECT_DIR$/wp/wp-content/plugins/advanced-custom-fields/core/fields/radio.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp/wp-content/plugins/advanced-custom-fields/readme.txt" afterPath="$PROJECT_DIR$/wp/wp-content/plugins/advanced-custom-fields/readme.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp/wp-content/plugins/advanced-custom-fields/core/fields/select.php" afterPath="$PROJECT_DIR$/wp/wp-content/plugins/advanced-custom-fields/core/fields/select.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp/wp-content/themes/twentytwelve/single.php" afterPath="$PROJECT_DIR$/wp/wp-content/themes/twentytwelve/single.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/staff.php" afterPath="$PROJECT_DIR$/staff.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/style.css" afterPath="$PROJECT_DIR$/css/style.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp/wp-content/themes/twentytwelve/style.css" afterPath="$PROJECT_DIR$/wp/wp-content/themes/twentytwelve/style.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp/wp-content/plugins/advanced-custom-fields/core/fields/date_picker/style.date_picker.css" afterPath="$PROJECT_DIR$/wp/wp-content/plugins/advanced-custom-fields/core/fields/date_picker/style.date_picker.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/scss/style.scss" afterPath="$PROJECT_DIR$/scss/style.scss" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/jade/index/tease.jade" afterPath="$PROJECT_DIR$/jade/index/tease.jade" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test.php" afterPath="$PROJECT_DIR$/test.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp/wp-content/plugins/acf-field-date-time-picker/js/timepicker.js" afterPath="$PROJECT_DIR$/wp/wp-content/plugins/acf-field-date-time-picker/js/timepicker.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/jade/tnl.jade" afterPath="$PROJECT_DIR$/jade/tnl.jade" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/jade/index/events/tnl.jade" afterPath="$PROJECT_DIR$/jade/index/events/tnl.jade" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tnl.php" afterPath="$PROJECT_DIR$/tnl.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/try.php" afterPath="$PROJECT_DIR$/try.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp/wp-content/plugins/advanced-custom-fields/core/controllers/upgrade.php" afterPath="$PROJECT_DIR$/wp/wp-content/plugins/advanced-custom-fields/core/controllers/upgrade.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/jade/common/wordpress.php" afterPath="$PROJECT_DIR$/jade/common/wordpress.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp/wp-config.php" afterPath="$PROJECT_DIR$/wp/wp-config.php" />
     </list>
     <ignored path="sf-eagle-storm.iws" />
     <ignored path=".idea/workspace.xml" />
-    <file path="/Dummy.txt" changelist="a61e94e4-0c00-442d-8bde-b0f49a71230e" time="1373947494065" ignored="false" />
+    <file path="/Dummy.txt" changelist="a61e94e4-0c00-442d-8bde-b0f49a71230e" time="1373947650414" ignored="false" />
     <file path="/test.jade" changelist="a61e94e4-0c00-442d-8bde-b0f49a71230e" time="1372982381143" ignored="false" />
     <file path="/head2.jade" changelist="a61e94e4-0c00-442d-8bde-b0f49a71230e" time="1372951289248" ignored="false" />
     <file path="/page.jade" changelist="a61e94e4-0c00-442d-8bde-b0f49a71230e" time="1372951749350" ignored="false" />
@@ -707,7 +565,11 @@
       <created>1373394981006</created>
       <updated>1373394981006</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Loops almost finished, inc calendar. jquery filter. tease logic not working">
+      <created>1373947711525</created>
+      <updated>1373947711525</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TodoView" selected-index="0">
@@ -735,25 +597,25 @@
     <frame x="4" y="22" width="1276" height="778" extended-state="6" />
     <editor active="false" />
     <layout>
-      <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3287879" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Changes" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32826748" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3292683" sideWeight="0.6484848" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Remote Host" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3292683" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.47575757" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3287879" sideWeight="0.5" order="13" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.21626016" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3287879" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3287879" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
       <window_info id="CSS-X-Fire" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3287879" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.35151514" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.2495935" sideWeight="0.67121214" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="eSnippet Pro" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3287879" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.28617886" sideWeight="0.67121214" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.28617886" sideWeight="0.67173254" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3287879" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Pomodoro" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3287879" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3287879" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
@@ -764,7 +626,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="OFFER_MOVE_TO_ANOTHER_CHANGELIST_ON_PARTIAL_COMMIT" value="true" />
-    <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="true" />
+    <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="false" />
     <option name="CHECK_NEW_TODO" value="true" />
     <option name="myTodoPanelSettings">
       <value>
