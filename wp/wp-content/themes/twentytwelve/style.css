@@ -1725,3 +1725,49 @@ img#wpstats {
 		margin-left: 3.57142857rem;
 	}
 }
+#content {
+    padding: 0 25%;
+}
+.single #page {
+    background-color: black;
+    color: #a80000;
+    font-size: 1.2em;
+}
+.entry-header .entry-title {
+    text-align: center;
+    font-size: 3em;
+}
+@media screen and (max-width: 768px) {
+    .single #page {
+        font-size: 1em;
+    }
+    .entry-header .entry-title {
+        text-align: center;
+        font-size: 2.7em;
+    }
+}
+@media screen and (max-width: 420px) {
+    .single #page {
+        font-size: .8em;
+    }
+    .entry-header .entry-title {
+        text-align: center;
+        font-size: 2em;
+    }
+}
+.single #page #masthead {
+    display: none;
+}
+.leave-reply {
+    display: none;
+}
+.entry-content img {
+    display: block;
+    margin: 0 auto;
+}
+.site-content article {
+    border-bottom: 0;
+}
+.single #page footer {
+    display: none;
+}

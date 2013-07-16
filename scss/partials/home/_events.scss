@@ -9,12 +9,12 @@
     }
   }
   .events {
-    margin-bottom: 20px;
+    margin-bottom: 0;
     background-color: #222222;
     @include opacity(0.8);
-    @include border-bottom-radius(15px);
+    @include border-bottom-radius(0px);
     .event {
-      margin-bottom: 5px;
+      margin-bottom: 0;
     }
     p {
     padding: 0;
@@ -61,7 +61,7 @@
       width:100%;
     }
   }
-  #tnl .event-list {
+  .tnl {
     font-family: 'Jolly Lodger', cursive;
     font-size: 1.5em;
     .buttonless {

@@ -18,7 +18,7 @@
 
 			input.addClass('active').datetimepicker({
 				changeYear: true
-				, yearRange: "-100:+100"
+				, yearRange: "-1:+20"
 				, changeMonth: true				
 				, timeOnly: is_timeonly
 				, timeFormat: time_format

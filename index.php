@@ -1,6 +1,8 @@
 <?php
+date_default_timezone_set('America/Los_Angeles');
+global $now;
+$now = time();
 require('wp/wp-blog-header.php');
-date_default_timezone_set('PDT');
 ?>
 <!DOCTYPE html>
 <html>
@@ -13,6 +15,10 @@ date_default_timezone_set('PDT');
     <link rel="stylesheet" href="css/wp.css">
     <link rel="stylesheet" href="css/main.css">
     <link href="http://fonts.googleapis.com/css?family=Jolly+Lodger|Coming+Soon|Rouge+Script" rel="stylesheet" type="text/css">
+    <link rel="apple-touch-icon" href="images/icons/touch-icon-iphone-57x57.png">
+    <link rel="apple-touch-icon" sizes="72x72" href="images/icons/touch-icon-ipad.png">
+    <link rel="apple-touch-icon" sizes="114x114" href="images/icons/touch-icon-iphone-retina.png">
+    <link rel="apple-touch-icon" sizes="144x144" href="images/icons/touch-icon-ipad-retina.png">
     <script>
       (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
       (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
@@ -23,14 +29,14 @@ date_default_timezone_set('PDT');
     </script>
   </head>
   <body><!-- hello -->
-    <div id="page">
+    <div id="page" class="index">
       <div id="mast">
         <header><img src="images/logo-transparency-whiteeagle-cutout-400.png" alt="logo" class="logo"></header>
         <nav>
           <ul>
             <li class="thisweek"><a href="#events" class="button"><span>This<br>Week</span></a></li>
             <li><a href="merch.php" class="button"><span>Hoodies<br>Tanks<br>& Tees</span></a></li>
-            <li><a href="tnl.php" class="button"><span>Live<br>Music</span></a></li>
+            <li><a href="calendar.php" class="button"><span>Calendar</span></a></li>
             <li><a href="jobs.php" class="button"><span>Barback<br>Needed</span></a></li>
           </ul>
         </nav>
@@ -42,151 +48,184 @@ date_default_timezone_set('PDT');
           </ul>
         </aside>
       </div>
-      <div id="tease"><?php $category_id = get_cat_ID('tease'); ?><div class="loop">
-    <?php global $post; // required
+      <div id="tease">
+        <!--  .poster-->
+        <!--    img(src='images/DrinkSpecials/dickel-250-transparent.png')-->
+        <!--    img(src='images/DrinkSpecials/dickel-rye-250-transparent.png')-->
+        <!--    h3-->
+        <!--      | Have you met George Dickel?-->
+        <!--      br-->
+        <!--      | He has a rye sense af humor.-->
+        <!--      br-->
+        <!--      | He's 12 years old and can kick your butt.--><!--      br
+        <h2>3 bucks. ALL NIGHT!</h2>--><div class="loop"> <?php
+    global $post; // required
+    $category_id = get_cat_ID('tease_now');
     $args = array(
-                    'category'      => $category_id,
-                    'orderby'       => 'post_date',
-                    'order'         => 'DESC',
-                    'post_type'     => 'post',
-                    'numberposts'   => 1
+        'category'      => $category_id,
+        'orderby'       => 'post_date',
+        'order'         => 'DESC',
+        'post_type'     => 'post',
+        'numberposts'   => 1
     );
     $custom_posts = get_posts($args);
-    foreach($custom_posts as $post) : setup_postdata($post); ?>
-        <h1> <?php the_title(); ?> </h1>
-        <p> <?php the_content(); ?> </p>
-    <?php endforeach; ?>
+    foreach($custom_posts as $post)
+    {
+        setup_postdata($post);
+        include 'php/timegames.php';
+        if ( $now < $begintime || $now > $endtime ) { continue; } ?>
+        <h1> <?php echo $post->post_title; ?> </h1> <?php
+        fill_tease($post);
+    }
+    $args = array(
+        'meta_key'      => 'date',
+        'orderby'       => 'meta_value',
+        'order'         => 'ASC',
+        'post_type'     => 'event',
+        'numberposts'   => -1
+    );
+        $custom_posts = get_posts($args);
+        foreach($custom_posts as $post)
+        {
+            setup_postdata($post);
+            if ( !get_field('tease') ) { continue;}
+            include 'php/timegames.php';
+            if ( $now < $begintime - 60*60*24*5 || $now > $endtime ) { continue; }
+            if ( get_field('include_title') )
+            { ?>
+                <h1> <?php echo $post->post_title; ?> </h1> <?php
+            }
+            fill_tease($post);
+            break;
+        }
+    ?>
 </div>
+
+<?php function fill_tease($post)
+{
+    $image_medium = wp_get_attachment_image_src( get_post_thumbnail_id($post->ID), 'medium'); ?>
+    <div>
+        <img src="<?php echo $image_medium[0] ?>"
+             width="<?php echo $image_medium[1]; ?>"
+             height="<?php echo $image_medium[2]; ?>"
+             alt="<?php get_the_title($post->ID); ?>" >
+    </div>
+    <p><?php echo $post->post_content; ?> </p> <?php
+} ?>
       </div>
-      <div id="events" class="cf">
-        <ul><!--li#monday.day
-          <h3>Monday</h3>
-          <ul class="events">
-            <li id="ronaritas" class="event cf">
-              <p class="time">4pm-7pm</p>
-              <ul class="event-list">
-                <li><a href="#" class="buttonless"><span>Happy Hour with Ron and his infamous Ronaritas</span></a></li>
-                <li><a href="#" class="buttonless"><span>Gage will finish you off into the wee hours...</span></a></li>
-              </ul><a href="http://www.facebook.com/gagefisher"><img src="images/staff/gage-fisher-nice-thumb.jpg " alt="gage" title="Gage"></a>
+      <div id="events" class="cf"><ul>
+                    <?php global $post; // required
+                    $day = '';
+                    $args = array(
+                        'meta_key'      => 'date',
+                        'orderby'       => 'meta_value',
+                        'order'         => 'ASC',
+                        'post_type'     => 'event',
+                        'numberposts'   => -1
+                    );
+                    $custom_posts = get_posts($args);
+                    foreach($custom_posts as $post)
+                    {
+                        setup_postdata($post);
+                        $type = get_field('type_of_event');
+                        include 'php/timegames.php';
+                        if ( $now < $begintime - 60*60*24*5 || $now > $endtime ) { continue; }
+                        if ($day != date('l', $begintime))
+                        { ?>
+    <li id="<?php echo date('l', $begintime); ?>" class="day">
+        <h3> <?php echo date('l', $begintime); ?> <sup><?php echo date('n/j', $begintime); ?></sup> </h3>
+                        <?php
+                        }
+                        $day = date('l', $begintime); ?>
+        <ul class="events">
+            <li class="event cf">
+                <p class="time"><?php echo $start . " - " . $finish; ?> </p>
+                        <?php
+                        if ( $type[0] === "music" )
+                        { ?>
+                <ul class="tnl event-list">
+                    <li>
+                        <a href="<?php the_field('band_#1_link'); ?>" class="button">
+                            <span> <?php the_field('band_#1'); ?> </span>
+                        </a>
+                    </li>
+                            <?php
+                            if ( get_field('band_#2') !== "" )
+                            { ?>
+                    <li>
+                        <a href="<?php the_field('band_#2_link'); ?>" class="button">
+                            <span> <?php the_field('band_#2'); ?> </span>
+                        </a>
+                    </li>
+                            <?php
+                            }
+                            if ( get_field('band_#3') !== "" )
+                            { ?>
+                    <li>
+                        <a href="<?php the_field('band_#3_link'); ?>" class="button">
+                            <span> <?php the_field('band_#3'); ?> </span>
+                        </a>
+                    </li>
+                            <?php
+                            }
+                            if ( get_field('band_#4') !== "" )
+                            { ?>
+                    <li>
+                        <a href="<?php the_field('band_#4_link'); ?>" class="button">
+                            <span> <?php the_field('band_#4'); ?> </span>
+                        </a>
+                    </li>
+                            <?php
+                                }
+                        }
+                        else
+                        { ?>
+                <ul class="event-list">
+                    <li>
+                        <a href="<?php the_field('link'); ?>" class="button">
+                            <span> <?php the_title(); ?> </span>
+                        </a>
+                    </li> <?php
+                        } ?>
+                </ul>
+                        <?php
+                            $image_large = wp_get_attachment_image_src( get_post_thumbnail_id($post->ID), 'large');
+                            $image_thumbnail = wp_get_attachment_image_src( get_post_thumbnail_id($post->ID), 'thumbnail');
+                        ?>
+                <a href="<?php echo $image_large[0] ?>" width="<?php echo $image_large[1]; ?>" height="<?php echo $image_large[2]; ?>" rel="lightbox">
+                    <img src="<?php echo $image_thumbnail[0] ?>" width="<?php echo $image_thumbnail[1]; ?>" height="<?php echo $image_thumbnail[2]; ?>" alt="<?php the_title(); ?>" class="thumb">
+                </a>
             </li>
-            <li id="freepool" class="event cf">
-              <p class="time">4pm-Midnight</p>
-              <ul class="event-list">
-                <li><a href="#" class="buttonless"><span>FREE POOL<br>$2 pints of BIG DADDY</span></a></li>
-              </ul><a href="https://www.facebook.com/SpeakeasyBeer"><img src="images/events/speakeasyipa.jpg" alt="Big Daddy" class="thumb"></a>
-            </li>
-          </ul>--><!--li#tuesday.day
-          <h3>Tuesday</h3>
-          <ul class="events">
-            <li id="karaoke" class="event cf">
-              <p class="time">8pm</p>
-              <ul class="event-list">
-                <li><a href="#" class="buttonless"><span>Karaoke<br>For Dummies</span></a></li>
-              </ul>
-            </li>
-          </ul>-->
-          <li id="wednesday" class="day">
-            <h3>Wednesday</h3>
-            <ul class="events">
-              <li class="event cf">
-                <p class="time">7pm-2am</p>
-                <ul class="event-list">
-                  <li><a href="#" class="buttonless"><span>Break up your work week and have a hump day drink with Cody!</span></a></li>
-                </ul><a href="http://www.facebook.com/cody.joseph"><img src="images/staff/cody-joseph-virgin-mary-thumb.jpg" alt="cody" title="Cody"></a>
-              </li>
-              <!--include events/womensnight-->
-            </ul>
-          </li>
-          <li id="thursday" class="day">
-            <h3>Thursday</h3>
-            <ul class="events">
-              <li id="tnl" class="event cf">
-                <p class="time">9pm</p>
-                <ul class="event-list">
-                  <li><a href="https://www.facebook.com/TitanUps" class="button"><span>THE TITAN UPS</span></a></li>
-                  <li><a href="http://www.kelleystoltz.com/" class="button"><span>KELLEY STOLTZ</span></a></li>
-                  <li><a href="https://soundcloud.com/james-finch-jr" rel="lightbox" class="button"><span>JAMES FINCH JR</span></a></li>
-                </ul><a href="images/events/TNL-600.jpg" rel="lightbox"><img src="images/events/TNL-160.jpg" alt="TNL Flyer"></a>
-              </li>
-            </ul>
-          </li>
-          <li id="friday" class="day">
-            <h3>Friday</h3>
-            <ul class="events">
-              <!--include events/flag-->
-              <!--include events/cachorro-->
-              <li id="cigar" class="event cf">
-                <ul class="event-list">
-                  <li><a href="http://cubtrap.tumblr.com/" class="button"><span>CubTrap</span></a></li>
-                </ul><a href="images/events/cubtrap-130712-500.jpg" rel="lightbox"><img src="images/events/cubtrap-130712-150.jpg" alt="cub trap" class="thumb"></a>
-              </li>
-              <li id="cigar" class="event cf">
-                <ul class="event-list">
-                  <li><a href="#" class="buttonless"><span>Cigar Night</span></a></li>
-                </ul><a href="http://25.media.tumblr.com/tumblr_l7zya0TQID1qcbnafo1_500.jpg" rel="lightbox"><img src="images/events/cigar-thing.gif" alt="cigar night" class="thumb"></a>
-              </li>
-            </ul>
-          </li>
-          <li id="saturday" class="day">
-            <h3>Saturday</h3>
-            <ul class="events">
-              <!--include events/cubhouse-->
-              <!--include events/afterdark-->
-              <!--include events/bluff-->
-              <li id="sadistic" class="event cf">
-                <p class="time">9pm</p>
-                <ul class="event-list">
-                  <li><a href="http://en.wikipedia.org/wiki/Michael_Brandon_(pornographic_actor)" class="button"><span>Sadistic Saturday</span></a></li>
-                </ul><a href="images/events/sadistic-lite.jpg" rel="lightbox"><img src="images/events/sadistic-thumb.jpg" alt="Sadistic Saturday" class="thumb"></a>
-              </li>
-              <!--include events/special-bearbust-->
-              <!--include events/charliehorse-->
-            </ul>
-          </li>
-          <li id="sunday" class="day">
-            <h3>Sunday</h3>
-            <ul class="events">
-              <!--include events/bust-->
-              <!--include events/karaoke-->
-              <li id="sunday" class="special event cf">
-                <p class="time">7pm-Midnight</p>
-                <ul class="event-list">
-                  <li><a href="https://www.facebook.com/events/212708702216007/" class="button"><span>Bus Station John<br>Presents:<br>Disco Daddy</span></a></li>
-                </ul><a href="images/events/DiscoDaddy-130714-600.jpg" rel="lightbox"><img src="images/events/DiscoDaddy-130714-150.jpg" alt="Bus Station John - Disco Daddy" class="thumb"></a>
-              </li>
-            </ul>
-          </li>
         </ul>
+                         <?php if ($day != date('l', $begintime)) { ?>
+    </li>
+                         <?php }
+                    } ?>
+</ul>
       </div>
       <div id="flyers" class="cf">[flyers]</div>
       <script src="widgets/lightbox/js/jquery-1.7.2.min.js"></script>
       <script src="widgets/lightbox/js/lightbox-ck.js"></script>
       <script src="widgets/flexslider/jquery.flexslider-ck.js"></script>
-      <script>
-        $(window).load(function() {
-        $('.flexslider').flexslider({
-        animation: "slide",
-        animationLoop: "true"
-        });
-        });
-        
-      </script>
-      <script>
-        $(document).ready(function(){
-        $.get('index.flyers.html', function(data) {
-        $('#flyers').html(data);
-        });
-        });
-        $('div.lb-nav').on('click', function(e) {
-        window.close();return false;});
-        
-      </script>
-      <!--FIXX this-->
-      <!--MEMO add email address to wp form-->
-      <!--MEMO create special form for Live Music-->
-      <!--MEMO Split title into two lines on form-->
-      <!--MEMO Just start with events list. Calendar can come later-->
-      <!--MEMO vacation response-->
+      <script src="js/main.js"></script>
     </div>
   </body>
 </html>
+<script>
+  $(window).load(function() {
+  $('.flexslider').flexslider({
+  animation: "slide",
+  animationLoop: "true"
+  });
+  });
+  
+</script>
+<script>
+  $(document).ready(function(){
+  $.get('index.flyers.html', function(data) {
+  $('#flyers').html(data);
+  });
+  });
+  $('div.lb-nav').on('click', function(e) {
+  window.close();return false;});
+</script>

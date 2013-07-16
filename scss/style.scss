@@ -12,6 +12,7 @@
     position: relative;
   }
 }
+
 t_col {
   font-size: 14px;
   font-family: tahoma;
@@ -67,75 +68,14 @@ _c {
   }
 }
 
-.contentTitle {
-  padding: 10px 20%;
-  text-align: center;
+.dougemail {
+  width: 30%;
   font-family: "Coming Soon";
+  a {
+    color: red;
+  }
 }
 
-.comments {
-  font-size: 11px;
-  font-style: italic;
-}
-
-.contentText {
-  img {
-    max-width: inherit;
-    max-height: inherit;
-    width: 50%;
-  }
-  padding: 10px 20%;
-  @media screen and (max-width: $phone) {
-    padding: 10px 0;
-  }
-  font-size: 14px;
-  font-family: tahoma;
-  color: #C0C0C0;
-  table>tbody>tr>td>img {
-    width: 100%;
-  }
-  table.date {
-    margin: 0 auto;
-    padding: 20px 25%;
-    @include opacity(0.8);
-    tbody>tr {
-      td:first-of-type {
-        width: 200px;
-        background-color: $decor-dark;
-      }
-      td:last-of-type {
-        font-family: "Jolly Lodger";
-        width: 300px;
-        background-color: $content-dark;
-        color: #000000;
-        font-size: 2em;
-        font-weight: 800;
-      }
-    }
-  }
-  t1 {
-    position: relative;
-    color: #FFFFFF;
-    font-size: 11px;
-    text-align: left;
-    font-weight: normal;
-    font-family: tahoma;
-  }
-  t2 {
-    color: #FFFFFF;
-    font-size: 23px;
-    font-weight: bold;
-    font-family: Helvetica;
-  }
-  t4 {
-    color: #FFFFFF;
-    font-size: 18px;
-    font-family: Helvetica;
-  }
-  t3 {
-    text-decoration: underline;
-  }
-}
 #footer {
   height: 53px;
   background: url(footer.png) no-repeat;
@@ -178,15 +118,12 @@ div#samples img {
   width: 12%;
   height: auto;
 }
-.dougemail {
-  width: 30%;
-  font-family: "Coming Soon";
-  a {
-    color: red;
-  }
-}
+
 #samples {
   margin: 0 auto;
   padding: 20px 13%;
   text-align: center;
+}
+.tnl_only {
+  display:  none;
 }

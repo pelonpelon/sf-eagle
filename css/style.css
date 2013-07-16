@@ -1,272 +1,67 @@
-/* line 1, ../scss/style.scss */
-html, body {
-  text-align: center;
-}
+/*
+Syntax error: Undefined variable: "$phone".
+        on line 8 of /Users/pelon/Sites/sf-eagle/storm/scss/style.scss
 
-/* line 5, ../scss/style.scss */
-p {
-  text-align: left;
-}
-
-/* line 9, ../scss/style.scss */
-body {
-  margin: 0;
-  padding: 0;
-  /*background: #697281;*/
-  text-align: left;
-  font-family: "Tahoma", Arial, Helvetica, sans-serif;
-  font-size: 13px;
-  color: #C0C0C0;
-  background-color: #000000;
-}
-
-/* line 20, ../scss/style.scss */
-t_col {
-  font-size: 14px;
-  font-family: tahoma;
-  font-weight: bold;
-  color: #FFFFFF;
-}
-
-/* line 27, ../scss/style.scss */
-* {
-  margin: 0 auto 0 auto;
-  text-align: center;
-}
-
-/* line 32, ../scss/style.scss */
-html, body {
-  text-align: center;
-}
-
-/* line 36, ../scss/style.scss */
-p, html, body, p_l {
-  text-align: left;
-}
-
-/* line 40, ../scss/style.scss */
-html, body, p _c {
-  text-align: center;
-}
-
-/* line 44, ../scss/style.scss */
-#page {
-  margin: 0 auto 0 auto;
-  margin-top: 25px;
-  display: block;
-  height: auto;
-  position: relative;
-  overflow: hidden;
-  /* background: url(background.png) repeat-y; */
-  width: 750px;
-}
-
-/* line 55, ../scss/style.scss */
-#header {
-  background-image: url(header.png);
-  background-repeat: no-repeat;
-  height: 156px;
-  width: 750px;
-}
-/* line 60, ../scss/style.scss */
-#header h1 {
-  position: relative;
-  left: 30px;
-  top: 25px;
-  color: #F6F6F6;
-  text-align: center;
-  font-size: 40px;
-  font-family: Tahoma, Helvetica, sans-serif;
-}
-/* line 69, ../scss/style.scss */
-#header h2 {
-  position: relative;
-  left: 30px;
-  top: 21px;
-  color: #2C2C2C;
-  text-align: center;
-  font-size: 14px;
-  font-family: Tahoma, Helvetica, sans-serif;
-}
-
-/* line 80, ../scss/style.scss */
-#bar {
-  background-image: url(bar.png);
-  background-repeat: no-repeat;
-  height: 105px;
-  width: 750px;
-  line-height: 55px;
-  padding-left: 200px;
-  padding-right: 20px;
-}
-/* line 88, ../scss/style.scss */
-#bar .link {
-  float: left;
-  text-align: center;
-  height: 55px;
-}
-/* line 92, ../scss/style.scss */
-#bar .link:hover {
-  background-image: url(linkrollover.png);
-  background-repeat: no-repeat;
-  background-position: top;
-}
-/* line 98, ../scss/style.scss */
-#bar a {
-  font-size: 14px;
-  font-weight: bold;
-  color: #F6F6F6;
-  margin-left: 17px;
-  margin-right: 17px;
-}
-/* line 104, ../scss/style.scss */
-#bar a:hover {
-  color: #FFFFFF;
-}
-
-/* line 110, ../scss/style.scss */
-.contentTitle {
-  width: 676px;
-  height: 37px;
-  margin-top: 20px;
-  margin-left: 25px;
-  margin-right: 25px;
-  margin-bottom: 10px;
-  background-repeat: no-repeat;
-}
-/* line 118, ../scss/style.scss */
-.contentTitle h1 {
-  margin-left: 10px;
-  padding-top: 8px;
-  font-size: 20px;
-  color: #FFFFFF;
-}
-
-/* line 126, ../scss/style.scss */
-.comments {
-  font-size: 11px;
-  font-style: italic;
-}
-
-/* line 131, ../scss/style.scss */
-.contentText {
-  width: 800px;
-  padding-left: 0px;
-  padding-right: 0px;
-  font-size: 14px;
-  font-family: tahoma;
-  color: #C0C0C0;
-  line-height: 20px;
-  letter-spacing: -0px;
-}
-/* line 140, ../scss/style.scss */
-.contentText t1 {
-  position: relative;
-  color: #FFFFFF;
-  font-size: 11px;
-  text-align: left;
-  font-weight: normal;
-  font-family: tahoma;
-}
-/* line 148, ../scss/style.scss */
-.contentText t2 {
-  color: #FFFFFF;
-  font-size: 23px;
-  font-weight: bold;
-  font-family: Helvetica;
-}
-/* line 154, ../scss/style.scss */
-.contentText t4 {
-  color: #FFFFFF;
-  font-size: 18px;
-  font-family: Helvetica;
-}
-/* line 159, ../scss/style.scss */
-.contentText t3 {
-  text-decoration: underline;
-}
-
-/* line 164, ../scss/style.scss */
-a {
-  text-decoration: none;
-  color: #008080;
-  border-bottom: 1px dashed #2a2a2a;
-}
-/* line 168, ../scss/style.scss */
-a:hover {
-  color: #8F8F8F;
-  border-bottom: 1px dotted #2A2A2A;
-}
-
-/* line 174, ../scss/style.scss */
-#footer {
-  width: 750px;
-  height: 53px;
-  background: url(footer.png) no-repeat;
-  text-align: center;
-  font-size: 9px;
-  color: #2A2A2A;
-  padding-top: 25px;
-}
-
-/* line 184, ../scss/style.scss */
-#pic1 {
-  vertical-align: top;
-}
-
-/* line 188, ../scss/style.scss */
-table {
-  border: 2px #2b2b2b solid;
-  width: 90%;
-  height: 150px;
-}
-
-/* line 194, ../scss/style.scss */
-td {
-  border: 2px #000000 solid;
-  width: 0%;
-  text-align: center;
-  font-size: 13px;
-  color: #FFFFFF;
-}
-
-/* line 203, ../scss/style.scss */
-p.three {
-  text-align: justify;
-}
-/* line 206, ../scss/style.scss */
-p.thicker {
-  font-weight: 900;
-}
-
-/* line 211, ../scss/style.scss */
-h2 p {
-  text-align: center;
-}
-
-/* line 215, ../scss/style.scss */
-#tab1 {
-  vertical-align: top;
-}
-
-/*#example2 { text-align: center; }*/
-/* line 221, ../scss/style.scss */
-#pol {
-  color: white;
-  font-size: small;
-}
-/* line 224, ../scss/style.scss */
-#pol .link a:link {
-  color: #ffffff;
-}
-
-/* line 229, ../scss/style.scss */
-div#samples img {
-  width: 12%;
-  height: auto;
-}
-
-/* line 234, ../scss/style.scss */
-#page table tbody tr td p + p {
-  text-align: center;
-}
+Backtrace:
+/Users/pelon/Sites/sf-eagle/storm/scss/style.scss:8
+/Applications/CodeKit.app/Contents/Resources/engines/compass/bin/../../scss/lib/sass/../sass/script/variable.rb:49:in `_perform'
+/Applications/CodeKit.app/Contents/Resources/engines/compass/bin/../../scss/lib/sass/../sass/script/node.rb:40:in `perform'
+/Applications/CodeKit.app/Contents/Resources/engines/compass/bin/../../scss/lib/sass/../sass/tree/visitors/perform.rb:396:in `run_interp_no_strip'
+/Applications/CodeKit.app/Contents/Resources/engines/compass/bin/../../scss/lib/sass/../sass/tree/visitors/perform.rb:394:in `map'
+/Applications/CodeKit.app/Contents/Resources/engines/compass/bin/../../scss/lib/sass/../sass/tree/visitors/perform.rb:394:in `run_interp_no_strip'
+/Applications/CodeKit.app/Contents/Resources/engines/compass/bin/../../scss/lib/sass/../sass/tree/visitors/perform.rb:404:in `run_interp'
+/Applications/CodeKit.app/Contents/Resources/engines/compass/bin/../../scss/lib/sass/../sass/tree/visitors/perform.rb:358:in `visit_media'
+/Applications/CodeKit.app/Contents/Resources/engines/compass/bin/../../scss/lib/sass/../sass/tree/visitors/base.rb:37:in `send'
+/Applications/CodeKit.app/Contents/Resources/engines/compass/bin/../../scss/lib/sass/../sass/tree/visitors/base.rb:37:in `visit'
+/Applications/CodeKit.app/Contents/Resources/engines/compass/bin/../../scss/lib/sass/../sass/tree/visitors/perform.rb:98:in `visit'
+/Applications/CodeKit.app/Contents/Resources/engines/compass/bin/../../scss/lib/sass/../sass/tree/visitors/base.rb:53:in `visit_children'
+/Applications/CodeKit.app/Contents/Resources/engines/compass/bin/../../scss/lib/sass/../sass/tree/visitors/base.rb:53:in `map'
+/Applications/CodeKit.app/Contents/Resources/engines/compass/bin/../../scss/lib/sass/../sass/tree/visitors/base.rb:53:in `visit_children'
+/Applications/CodeKit.app/Contents/Resources/engines/compass/bin/../../scss/lib/sass/../sass/tree/visitors/perform.rb:107:in `visit_children'
+/Applications/CodeKit.app/Contents/Resources/engines/compass/bin/../../scss/lib/sass/../sass/tree/visitors/perform.rb:119:in `with_environment'
+/Applications/CodeKit.app/Contents/Resources/engines/compass/bin/../../scss/lib/sass/../sass/tree/visitors/perform.rb:106:in `visit_children'
+/Applications/CodeKit.app/Contents/Resources/engines/compass/bin/../../scss/lib/sass/../sass/tree/visitors/base.rb:37:in `visit'
+/Applications/CodeKit.app/Contents/Resources/engines/compass/bin/../../scss/lib/sass/../sass/tree/visitors/perform.rb:316:in `visit_rule'
+/Applications/CodeKit.app/Contents/Resources/engines/compass/bin/../../scss/lib/sass/../sass/tree/visitors/base.rb:37:in `send'
+/Applications/CodeKit.app/Contents/Resources/engines/compass/bin/../../scss/lib/sass/../sass/tree/visitors/base.rb:37:in `visit'
+/Applications/CodeKit.app/Contents/Resources/engines/compass/bin/../../scss/lib/sass/../sass/tree/visitors/perform.rb:98:in `visit'
+/Applications/CodeKit.app/Contents/Resources/engines/compass/bin/../../scss/lib/sass/../sass/tree/visitors/base.rb:53:in `visit_children'
+/Applications/CodeKit.app/Contents/Resources/engines/compass/bin/../../scss/lib/sass/../sass/tree/visitors/base.rb:53:in `map'
+/Applications/CodeKit.app/Contents/Resources/engines/compass/bin/../../scss/lib/sass/../sass/tree/visitors/base.rb:53:in `visit_children'
+/Applications/CodeKit.app/Contents/Resources/engines/compass/bin/../../scss/lib/sass/../sass/tree/visitors/perform.rb:107:in `visit_children'
+/Applications/CodeKit.app/Contents/Resources/engines/compass/bin/../../scss/lib/sass/../sass/tree/visitors/perform.rb:119:in `with_environment'
+/Applications/CodeKit.app/Contents/Resources/engines/compass/bin/../../scss/lib/sass/../sass/tree/visitors/perform.rb:106:in `visit_children'
+/Applications/CodeKit.app/Contents/Resources/engines/compass/bin/../../scss/lib/sass/../sass/tree/visitors/base.rb:37:in `visit'
+/Applications/CodeKit.app/Contents/Resources/engines/compass/bin/../../scss/lib/sass/../sass/tree/visitors/perform.rb:126:in `visit_root'
+/Applications/CodeKit.app/Contents/Resources/engines/compass/bin/../../scss/lib/sass/../sass/tree/visitors/base.rb:37:in `send'
+/Applications/CodeKit.app/Contents/Resources/engines/compass/bin/../../scss/lib/sass/../sass/tree/visitors/base.rb:37:in `visit'
+/Applications/CodeKit.app/Contents/Resources/engines/compass/bin/../../scss/lib/sass/../sass/tree/visitors/perform.rb:98:in `visit'
+/Applications/CodeKit.app/Contents/Resources/engines/compass/bin/../../scss/lib/sass/../sass/tree/visitors/perform.rb:7:in `send'
+/Applications/CodeKit.app/Contents/Resources/engines/compass/bin/../../scss/lib/sass/../sass/tree/visitors/perform.rb:7:in `visit'
+/Applications/CodeKit.app/Contents/Resources/engines/compass/bin/../../scss/lib/sass/../sass/tree/root_node.rb:20:in `render'
+/Applications/CodeKit.app/Contents/Resources/engines/compass/bin/../../scss/lib/sass/../sass/engine.rb:315:in `_render'
+/Applications/CodeKit.app/Contents/Resources/engines/compass/bin/../../scss/lib/sass/../sass/engine.rb:262:in `render'
+/Applications/CodeKit.app/Contents/Resources/engines/compass/bin/../lib/compass/compiler.rb:140:in `compile'
+/Applications/CodeKit.app/Contents/Resources/engines/compass/bin/../lib/compass/compiler.rb:126:in `timed'
+/Applications/CodeKit.app/Contents/Resources/engines/compass/bin/../lib/compass/compiler.rb:139:in `compile'
+/Applications/CodeKit.app/Contents/Resources/engines/compass/bin/../lib/compass/logger.rb:45:in `red'
+/Applications/CodeKit.app/Contents/Resources/engines/compass/bin/../lib/compass/compiler.rb:138:in `compile'
+/Applications/CodeKit.app/Contents/Resources/engines/compass/bin/../lib/compass/compiler.rb:118:in `compile_if_required'
+/Applications/CodeKit.app/Contents/Resources/engines/compass/bin/../lib/compass/compiler.rb:103:in `run'
+/Applications/CodeKit.app/Contents/Resources/engines/compass/bin/../lib/compass/compiler.rb:101:in `each'
+/Applications/CodeKit.app/Contents/Resources/engines/compass/bin/../lib/compass/compiler.rb:101:in `run'
+/Applications/CodeKit.app/Contents/Resources/engines/compass/bin/../lib/compass/compiler.rb:126:in `timed'
+/Applications/CodeKit.app/Contents/Resources/engines/compass/bin/../lib/compass/compiler.rb:100:in `run'
+/Applications/CodeKit.app/Contents/Resources/engines/compass/bin/../lib/compass/commands/update_project.rb:45:in `perform'
+/Applications/CodeKit.app/Contents/Resources/engines/compass/bin/../lib/compass/commands/base.rb:18:in `execute'
+/Applications/CodeKit.app/Contents/Resources/engines/compass/bin/../lib/compass/commands/project_base.rb:19:in `execute'
+/Applications/CodeKit.app/Contents/Resources/engines/compass/bin/../lib/compass/exec/sub_command_ui.rb:43:in `perform!'
+/Applications/CodeKit.app/Contents/Resources/engines/compass/bin/../lib/compass/exec/sub_command_ui.rb:15:in `run!'
+/Applications/CodeKit.app/Contents/Resources/engines/compass/bin/compass:43
+/Applications/CodeKit.app/Contents/Resources/engines/compass/bin/compass:57:in `call'
+/Applications/CodeKit.app/Contents/Resources/engines/compass/bin/compass:57
+*/
+body:before {
+  white-space: pre;
+  font-family: monospace;
+  content: "Syntax error: Undefined variable: \"$phone\".\A         on line 8 of /Users/pelon/Sites/sf-eagle/storm/scss/style.scss"; }

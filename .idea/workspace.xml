@@ -1,83 +1,225 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="a61e94e4-0c00-442d-8bde-b0f49a71230e" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jade/index/events/cubtrap.jade" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.sass-cache/0a3fd8a5ce49c3e99fa6dec3bef8b4612f589a87/_aside.scssc" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.sass-cache/0a3fd8a5ce49c3e99fa6dec3bef8b4612f589a87/_header.scssc" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.sass-cache/0a3fd8a5ce49c3e99fa6dec3bef8b4612f589a87/_nav.scssc" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.sass-cache/550751096650031b68398f74f973f0f9892c25f5/_buttons.scssc" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.sass-cache/61393cfb2af1b3bdc9866b840e6786cddb6d8c48/_clearfix.scssc" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.sass-cache/711f28f9caaf82b29c1e55b78c8513e903bc7e21/main.scssc" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.sass-cache/711f28f9caaf82b29c1e55b78c8513e903bc7e21/style.scssc" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.sass-cache/bf2674d97b1edf628fccef458ae8c3e236b4980e/_base.scssc" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.sass-cache/d1553fb89203ebe8d9ee7f007c3b8ebaf2d97967/_all.scssc" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.sass-cache/d1553fb89203ebe8d9ee7f007c3b8ebaf2d97967/_colors.scssc" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.sass-cache/d1553fb89203ebe8d9ee7f007c3b8ebaf2d97967/_defaults.scssc" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.sass-cache/d1553fb89203ebe8d9ee7f007c3b8ebaf2d97967/_layout.scssc" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.sass-cache/d1553fb89203ebe8d9ee7f007c3b8ebaf2d97967/_typography.scssc" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.sass-cache/da475f664d8afb60deafbe45f72529e0740ff8e8/_all.scssc" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.sass-cache/da475f664d8afb60deafbe45f72529e0740ff8e8/_flexbox.scssc" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.sass-cache/da475f664d8afb60deafbe45f72529e0740ff8e8/_footer.scssc" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.sass-cache/da475f664d8afb60deafbe45f72529e0740ff8e8/_header.scssc" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.sass-cache/da475f664d8afb60deafbe45f72529e0740ff8e8/_lightbox.scssc" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.sass-cache/dd71d272e08bb1a3d19dec7d0d08a2b7def1b73b/_all.scssc" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.sass-cache/dd71d272e08bb1a3d19dec7d0d08a2b7def1b73b/_events.scssc" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.sass-cache/dd71d272e08bb1a3d19dec7d0d08a2b7def1b73b/_flyers.scssc" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.sass-cache/dd71d272e08bb1a3d19dec7d0d08a2b7def1b73b/_mast.scssc" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.sass-cache/dd71d272e08bb1a3d19dec7d0d08a2b7def1b73b/_tease.scssc" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.sass-cache/ef10708b0786d0b2f1a457c2479282ace8ef9428/_merch.scssc" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.sass-cache/f2c06f601c63dbd7615007356842803144c1024b/_flexslider.scssc" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.sass-cache/f2c06f601c63dbd7615007356842803144c1024b/_lightbox.scssc" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.sass-cache/f2c06f601c63dbd7615007356842803144c1024b/_normalize.scssc" afterPath="" />
+    <list default="true" id="a61e94e4-0c00-442d-8bde-b0f49a71230e" name="Default" comment="Loops almost finished, inc calendar. jquery filter. tease logic not working">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/scss/partials/calendar/_calendar.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/access.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jade/calendar-page-loop.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jade/calendar.jade" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jade/index/events-db-loop.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jade/events.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jade/common/foot.jade" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/main.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/phpinfo.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wp/wp-content/themes/twentytwelve/js/require-title.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jade/index/tease/special.jade" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jade/index/tease-db-loop.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/php/timegames.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jade/index/events/tnl-db-loop.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jade/index/events/tnl-db.jade" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jade/tnl-page-db-loop.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jade/tnl-page-db.jade" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/images/events/cubtrap-130712-500.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/jade/common/page.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/jade/common/page.jade" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/jade/common/try.jade" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tnl.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp/wp-content/plugins/akismet/.htaccess" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp/wp-content/plugins/akismet/admin.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp/wp-content/plugins/akismet/akismet.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp/wp-content/plugins/akismet/akismet.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp/wp-content/plugins/akismet/akismet.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp/wp-content/plugins/akismet/akismet.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp/wp-content/plugins/akismet/index.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp/wp-content/plugins/akismet/legacy.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp/wp-content/plugins/akismet/readme.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp/wp-content/plugins/akismet/widget.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp/wp-content/plugins/hello.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp/wp-content/uploads/TNL062013-160x97.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp/wp-content/uploads/TNL062013-360x218.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp/wp-content/uploads/TNL062013-600x364.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp/wp-content/uploads/TNL062013-624x378.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp/wp-content/uploads/TNL062013.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp/wp-content/uploads/peppersprayband-160x106.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp/wp-content/uploads/peppersprayband-360x239.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp/wp-content/uploads/peppersprayband-600x399.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp/wp-content/uploads/peppersprayband-624x415.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp/wp-content/uploads/peppersprayband.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp/wp-content/uploads/thejourney-blow-a-brat_web-lite-103x160.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp/wp-content/uploads/thejourney-blow-a-brat_web-lite-232x360.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp/wp-content/uploads/thejourney-blow-a-brat_web-lite.jpg" afterPath="" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/jade/index/scripts.jade" afterPath="$PROJECT_DIR$/jade/common/scripts.jade" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.sass-cache/982a583190a5a048e170bb4c2b4b69a7ced3ace6/_all.scssc" afterPath="$PROJECT_DIR$/.sass-cache/982a583190a5a048e170bb4c2b4b69a7ced3ace6/_all.scssc" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.sass-cache/0ffd3d69436938ed030ad97e6605642f1fa0687d/_events.scssc" afterPath="$PROJECT_DIR$/.sass-cache/0ffd3d69436938ed030ad97e6605642f1fa0687d/_events.scssc" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.sass-cache/982a583190a5a048e170bb4c2b4b69a7ced3ace6/_lightbox.scssc" afterPath="$PROJECT_DIR$/.sass-cache/982a583190a5a048e170bb4c2b4b69a7ced3ace6/_lightbox.scssc" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.sass-cache/0ffd3d69436938ed030ad97e6605642f1fa0687d/_mast.scssc" afterPath="$PROJECT_DIR$/.sass-cache/0ffd3d69436938ed030ad97e6605642f1fa0687d/_mast.scssc" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.sass-cache/0ffd3d69436938ed030ad97e6605642f1fa0687d/_tease.scssc" afterPath="$PROJECT_DIR$/.sass-cache/0ffd3d69436938ed030ad97e6605642f1fa0687d/_tease.scssc" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp/wp-content/plugins/advanced-custom-fields/lang/acf-cs_CZ.mo" afterPath="$PROJECT_DIR$/wp/wp-content/plugins/advanced-custom-fields/lang/acf-cs_CZ.mo" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp/wp-content/plugins/advanced-custom-fields/lang/acf-es_ES.mo" afterPath="$PROJECT_DIR$/wp/wp-content/plugins/advanced-custom-fields/lang/acf-es_ES.mo" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp/wp-content/plugins/advanced-custom-fields/lang/acf-fr_FR.mo" afterPath="$PROJECT_DIR$/wp/wp-content/plugins/advanced-custom-fields/lang/acf-fr_FR.mo" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp/wp-content/plugins/advanced-custom-fields/lang/acf-nl_NL.mo" afterPath="$PROJECT_DIR$/wp/wp-content/plugins/advanced-custom-fields/lang/acf-nl_NL.mo" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp/wp-content/plugins/advanced-custom-fields/lang/acf-pt_BR.mo" afterPath="$PROJECT_DIR$/wp/wp-content/plugins/advanced-custom-fields/lang/acf-pt_BR.mo" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/images/events/cubtrap-130712-150.jpg" afterPath="$PROJECT_DIR$/images/events/cubtrap-130712-150.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.sass-cache/761bf5655ae98a3b5de286bd93afff12a01d6341/style.scssc" afterPath="$PROJECT_DIR$/.sass-cache/761bf5655ae98a3b5de286bd93afff12a01d6341/style.scssc" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp/wp-content/plugins/advanced-custom-fields/core/fields/date_picker/images/ui-bg_flat_0_aaaaaa_40x100.png" afterPath="$PROJECT_DIR$/wp/wp-content/plugins/advanced-custom-fields/core/fields/date_picker/images/ui-bg_flat_0_aaaaaa_40x100.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp/wp-content/plugins/advanced-custom-fields/core/fields/date_picker/images/ui-bg_flat_55_5bc6f5_40x100.png" afterPath="$PROJECT_DIR$/wp/wp-content/plugins/advanced-custom-fields/core/fields/date_picker/images/ui-bg_flat_55_5bc6f5_40x100.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp/wp-content/plugins/advanced-custom-fields/core/fields/date_picker/images/ui-bg_flat_75_ffffff_40x100.png" afterPath="$PROJECT_DIR$/wp/wp-content/plugins/advanced-custom-fields/core/fields/date_picker/images/ui-bg_flat_75_ffffff_40x100.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp/wp-content/plugins/advanced-custom-fields/core/fields/date_picker/images/ui-bg_glass_65_ffffff_1x400.png" afterPath="$PROJECT_DIR$/wp/wp-content/plugins/advanced-custom-fields/core/fields/date_picker/images/ui-bg_glass_65_ffffff_1x400.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp/wp-content/plugins/advanced-custom-fields/core/fields/date_picker/images/ui-bg_glass_75_dadada_1x400.png" afterPath="$PROJECT_DIR$/wp/wp-content/plugins/advanced-custom-fields/core/fields/date_picker/images/ui-bg_glass_75_dadada_1x400.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp/wp-content/plugins/advanced-custom-fields/core/fields/date_picker/images/ui-bg_glass_75_e6e6e6_1x400.png" afterPath="$PROJECT_DIR$/wp/wp-content/plugins/advanced-custom-fields/core/fields/date_picker/images/ui-bg_glass_75_e6e6e6_1x400.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp/wp-content/plugins/advanced-custom-fields/core/fields/date_picker/images/ui-bg_glass_95_fef1ec_1x400.png" afterPath="$PROJECT_DIR$/wp/wp-content/plugins/advanced-custom-fields/core/fields/date_picker/images/ui-bg_glass_95_fef1ec_1x400.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp/wp-content/plugins/advanced-custom-fields/core/fields/date_picker/images/ui-bg_highlight-soft_0_444444_1x100.png" afterPath="$PROJECT_DIR$/wp/wp-content/plugins/advanced-custom-fields/core/fields/date_picker/images/ui-bg_highlight-soft_0_444444_1x100.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp/wp-content/plugins/advanced-custom-fields/core/fields/date_picker/images/ui-icons_222222_256x240.png" afterPath="$PROJECT_DIR$/wp/wp-content/plugins/advanced-custom-fields/core/fields/date_picker/images/ui-icons_222222_256x240.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp/wp-content/plugins/advanced-custom-fields/core/fields/date_picker/images/ui-icons_2e83ff_256x240.png" afterPath="$PROJECT_DIR$/wp/wp-content/plugins/advanced-custom-fields/core/fields/date_picker/images/ui-icons_2e83ff_256x240.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp/wp-content/plugins/advanced-custom-fields/core/fields/date_picker/images/ui-icons_454545_256x240.png" afterPath="$PROJECT_DIR$/wp/wp-content/plugins/advanced-custom-fields/core/fields/date_picker/images/ui-icons_454545_256x240.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp/wp-content/plugins/advanced-custom-fields/core/fields/date_picker/images/ui-icons_888888_256x240.png" afterPath="$PROJECT_DIR$/wp/wp-content/plugins/advanced-custom-fields/core/fields/date_picker/images/ui-icons_888888_256x240.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp/wp-content/plugins/advanced-custom-fields/core/fields/date_picker/images/ui-icons_cd0a0a_256x240.png" afterPath="$PROJECT_DIR$/wp/wp-content/plugins/advanced-custom-fields/core/fields/date_picker/images/ui-icons_cd0a0a_256x240.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp/.htaccess" afterPath="$PROJECT_DIR$/wp/.htaccess" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/GayHankyCodes.php" afterPath="$PROJECT_DIR$/GayHankyCodes.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/scss/partials/_all.scss" afterPath="$PROJECT_DIR$/scss/partials/_all.scss" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp/wp-content/plugins/advanced-custom-fields/core/fields/_base.php" afterPath="$PROJECT_DIR$/wp/wp-content/plugins/advanced-custom-fields/core/fields/_base.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/scss/partials/home/_events.scss" afterPath="$PROJECT_DIR$/scss/partials/home/_events.scss" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp/wp-content/plugins/advanced-custom-fields/core/fields/_functions.php" afterPath="$PROJECT_DIR$/wp/wp-content/plugins/advanced-custom-fields/core/fields/_functions.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/scss/partials/_lightbox.scss" afterPath="$PROJECT_DIR$/scss/partials/_lightbox.scss" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/scss/partials/home/_mast.scss" afterPath="$PROJECT_DIR$/scss/partials/home/_mast.scss" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/scss/partials/home/_tease.scss" afterPath="$PROJECT_DIR$/scss/partials/home/_tease.scss" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp/wp-content/plugins/advanced-custom-fields/lang/acf-cs_CZ.po" afterPath="$PROJECT_DIR$/wp/wp-content/plugins/advanced-custom-fields/lang/acf-cs_CZ.po" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp/wp-content/plugins/advanced-custom-fields/lang/acf-es_ES.po" afterPath="$PROJECT_DIR$/wp/wp-content/plugins/advanced-custom-fields/lang/acf-es_ES.po" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp/wp-content/plugins/advanced-custom-fields/lang/acf-fr_FR.po" afterPath="$PROJECT_DIR$/wp/wp-content/plugins/advanced-custom-fields/lang/acf-fr_FR.po" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp/wp-content/plugins/advanced-custom-fields/lang/acf-nl_NL.po" afterPath="$PROJECT_DIR$/wp/wp-content/plugins/advanced-custom-fields/lang/acf-nl_NL.po" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp/wp-content/plugins/advanced-custom-fields/lang/acf-pt_BR.po" afterPath="$PROJECT_DIR$/wp/wp-content/plugins/advanced-custom-fields/lang/acf-pt_BR.po" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp/wp-content/plugins/advanced-custom-fields/css/acf.css" afterPath="$PROJECT_DIR$/wp/wp-content/plugins/advanced-custom-fields/css/acf.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp/wp-content/plugins/advanced-custom-fields/acf.php" afterPath="$PROJECT_DIR$/wp/wp-content/plugins/advanced-custom-fields/acf.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp/wp-content/plugins/advanced-custom-fields/lang/acf.pot" afterPath="$PROJECT_DIR$/wp/wp-content/plugins/advanced-custom-fields/lang/acf.pot" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp/wp-content/plugins/advanced-custom-fields/js/input/actions.js" afterPath="$PROJECT_DIR$/wp/wp-content/plugins/advanced-custom-fields/js/input/actions.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp/wp-content/plugins/advanced-custom-fields/core/controllers/addons.php" afterPath="$PROJECT_DIR$/wp/wp-content/plugins/advanced-custom-fields/core/controllers/addons.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp/wp-content/plugins/advanced-custom-fields/js/input/ajax.js" afterPath="$PROJECT_DIR$/wp/wp-content/plugins/advanced-custom-fields/js/input/ajax.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp/wp-content/plugins/advanced-custom-fields/core/api.php" afterPath="$PROJECT_DIR$/wp/wp-content/plugins/advanced-custom-fields/core/api.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/archives.php" afterPath="$PROJECT_DIR$/archives.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/jade/index/events/busstation.jade" afterPath="$PROJECT_DIR$/jade/index/events/busstation.jade" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/jade/index/events/cigar.jade" afterPath="$PROJECT_DIR$/jade/index/events/cigar.jade" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/config.rb" afterPath="$PROJECT_DIR$/config.rb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/jade/index/events/cubtrap.jade" afterPath="$PROJECT_DIR$/jade/index/events/cubtrap.jade" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/jade/index/events-db.jade" afterPath="$PROJECT_DIR$/jade/index/events-db.jade" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/jade/index/events.jade" afterPath="$PROJECT_DIR$/jade/index/events.jade" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp/wp-content/plugins/advanced-custom-fields/core/controllers/everything_fields.php" afterPath="$PROJECT_DIR$/wp/wp-content/plugins/advanced-custom-fields/core/controllers/everything_fields.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp/wp-content/plugins/advanced-custom-fields/core/actions/export.php" afterPath="$PROJECT_DIR$/wp/wp-content/plugins/advanced-custom-fields/core/actions/export.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp/wp-content/plugins/advanced-custom-fields/core/controllers/export.php" afterPath="$PROJECT_DIR$/wp/wp-content/plugins/advanced-custom-fields/core/controllers/export.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp/wp-content/plugins/advanced-custom-fields/js/field-group.js" afterPath="$PROJECT_DIR$/wp/wp-content/plugins/advanced-custom-fields/js/field-group.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp/wp-content/plugins/advanced-custom-fields/core/controllers/field_group.php" afterPath="$PROJECT_DIR$/wp/wp-content/plugins/advanced-custom-fields/core/controllers/field_group.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp/wp-content/plugins/advanced-custom-fields/core/controllers/field_groups.php" afterPath="$PROJECT_DIR$/wp/wp-content/plugins/advanced-custom-fields/core/controllers/field_groups.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp/wp-content/plugins/advanced-custom-fields/js/input/file.js" afterPath="$PROJECT_DIR$/wp/wp-content/plugins/advanced-custom-fields/js/input/file.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/jade/index/flyers.jade" afterPath="$PROJECT_DIR$/jade/index/flyers.jade" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp/wp-content/themes/twentytwelve/functions.php" afterPath="$PROJECT_DIR$/wp/wp-content/themes/twentytwelve/functions.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp/wp-content/plugins/advanced-custom-fields/css/global.css" afterPath="$PROJECT_DIR$/wp/wp-content/plugins/advanced-custom-fields/css/global.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/jade/common/head.jade" afterPath="$PROJECT_DIR$/jade/common/head.jade" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp/wp-content/plugins/advanced-custom-fields/js/input/image.js" afterPath="$PROJECT_DIR$/wp/wp-content/plugins/advanced-custom-fields/js/input/image.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.flyers.html" afterPath="$PROJECT_DIR$/index.flyers.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/jade/index.jade" afterPath="$PROJECT_DIR$/jade/index.jade" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.php" afterPath="$PROJECT_DIR$/index.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp/wp-content/plugins/advanced-custom-fields/css/input.css" afterPath="$PROJECT_DIR$/wp/wp-content/plugins/advanced-custom-fields/css/input.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp/wp-content/plugins/advanced-custom-fields/core/controllers/input.php" afterPath="$PROJECT_DIR$/wp/wp-content/plugins/advanced-custom-fields/core/controllers/input.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp/wp-content/plugins/advanced-custom-fields/js/input.php" afterPath="$PROJECT_DIR$/wp/wp-content/plugins/advanced-custom-fields/js/input.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/jobs.php" afterPath="$PROJECT_DIR$/jobs.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp/wp-content/plugins/acf-field-date-time-picker/js/jquery-ui-timepicker-addon.js" afterPath="$PROJECT_DIR$/wp/wp-content/plugins/acf-field-date-time-picker/js/jquery-ui-timepicker-addon.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp/wp-content/plugins/advanced-custom-fields/core/fields/date_picker/jquery.ui.datepicker.js" afterPath="$PROJECT_DIR$/wp/wp-content/plugins/advanced-custom-fields/core/fields/date_picker/jquery.ui.datepicker.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/main.css" afterPath="$PROJECT_DIR$/css/main.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/merch.php" afterPath="$PROJECT_DIR$/merch.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp/wp-content/plugins/advanced-custom-fields/core/views/meta_box_fields.php" afterPath="$PROJECT_DIR$/wp/wp-content/plugins/advanced-custom-fields/core/views/meta_box_fields.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp/wp-content/plugins/advanced-custom-fields/core/views/meta_box_location.php" afterPath="$PROJECT_DIR$/wp/wp-content/plugins/advanced-custom-fields/core/views/meta_box_location.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp/wp-content/plugins/advanced-custom-fields/core/views/meta_box_options.php" afterPath="$PROJECT_DIR$/wp/wp-content/plugins/advanced-custom-fields/core/views/meta_box_options.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/jade/index/mast/nav.jade" afterPath="$PROJECT_DIR$/jade/index/mast/nav.jade" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp/wp-content/plugins/advanced-custom-fields/core/fields/number.php" afterPath="$PROJECT_DIR$/wp/wp-content/plugins/advanced-custom-fields/core/fields/number.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp/wp-content/plugins/advanced-custom-fields/core/fields/radio.php" afterPath="$PROJECT_DIR$/wp/wp-content/plugins/advanced-custom-fields/core/fields/radio.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp/wp-content/plugins/advanced-custom-fields/readme.txt" afterPath="$PROJECT_DIR$/wp/wp-content/plugins/advanced-custom-fields/readme.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp/wp-content/plugins/advanced-custom-fields/core/fields/select.php" afterPath="$PROJECT_DIR$/wp/wp-content/plugins/advanced-custom-fields/core/fields/select.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp/wp-content/themes/twentytwelve/single.php" afterPath="$PROJECT_DIR$/wp/wp-content/themes/twentytwelve/single.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/staff.php" afterPath="$PROJECT_DIR$/staff.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/style.css" afterPath="$PROJECT_DIR$/css/style.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp/wp-content/themes/twentytwelve/style.css" afterPath="$PROJECT_DIR$/wp/wp-content/themes/twentytwelve/style.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp/wp-content/plugins/advanced-custom-fields/core/fields/date_picker/style.date_picker.css" afterPath="$PROJECT_DIR$/wp/wp-content/plugins/advanced-custom-fields/core/fields/date_picker/style.date_picker.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/scss/style.scss" afterPath="$PROJECT_DIR$/scss/style.scss" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/jade/index/tease.jade" afterPath="$PROJECT_DIR$/jade/index/tease.jade" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test.php" afterPath="$PROJECT_DIR$/test.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp/wp-content/plugins/acf-field-date-time-picker/js/timepicker.js" afterPath="$PROJECT_DIR$/wp/wp-content/plugins/acf-field-date-time-picker/js/timepicker.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/jade/tnl.jade" afterPath="$PROJECT_DIR$/jade/tnl.jade" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/jade/index/events/tnl.jade" afterPath="$PROJECT_DIR$/jade/index/events/tnl.jade" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tnl.php" afterPath="$PROJECT_DIR$/tnl.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/try.php" afterPath="$PROJECT_DIR$/try.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp/wp-content/plugins/advanced-custom-fields/core/controllers/upgrade.php" afterPath="$PROJECT_DIR$/wp/wp-content/plugins/advanced-custom-fields/core/controllers/upgrade.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/jade/common/wordpress.php" afterPath="$PROJECT_DIR$/jade/common/wordpress.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp/wp-config.php" afterPath="$PROJECT_DIR$/wp/wp-config.php" />
     </list>
     <ignored path="sf-eagle-storm.iws" />
     <ignored path=".idea/workspace.xml" />
-    <file path="/Dummy.txt" changelist="a61e94e4-0c00-442d-8bde-b0f49a71230e" time="1373190812225" ignored="false" />
+    <file path="/Dummy.txt" changelist="a61e94e4-0c00-442d-8bde-b0f49a71230e" time="1373947494065" ignored="false" />
     <file path="/test.jade" changelist="a61e94e4-0c00-442d-8bde-b0f49a71230e" time="1372982381143" ignored="false" />
     <file path="/head2.jade" changelist="a61e94e4-0c00-442d-8bde-b0f49a71230e" time="1372951289248" ignored="false" />
     <file path="/page.jade" changelist="a61e94e4-0c00-442d-8bde-b0f49a71230e" time="1372951749350" ignored="false" />
     <file path="/archives.jade" changelist="a61e94e4-0c00-442d-8bde-b0f49a71230e" time="1372952534961" ignored="false" />
-    <file path="/index.jade" changelist="a61e94e4-0c00-442d-8bde-b0f49a71230e" time="1373187288959" ignored="false" />
+    <file path="/index.jade" changelist="a61e94e4-0c00-442d-8bde-b0f49a71230e" time="1373875762630" ignored="false" />
     <file path="/jobs.jade" changelist="a61e94e4-0c00-442d-8bde-b0f49a71230e" time="1372953020387" ignored="false" />
     <file path="/merch.jade" changelist="a61e94e4-0c00-442d-8bde-b0f49a71230e" time="1372953056979" ignored="false" />
     <file path="/staff.jade" changelist="a61e94e4-0c00-442d-8bde-b0f49a71230e" time="1372953090576" ignored="false" />
     <file path="/test.html" changelist="a61e94e4-0c00-442d-8bde-b0f49a71230e" time="1372953113807" ignored="false" />
-    <file path="/tnl.jade" changelist="a61e94e4-0c00-442d-8bde-b0f49a71230e" time="1373161267091" ignored="false" />
-    <file path="/tease.jade" changelist="a61e94e4-0c00-442d-8bde-b0f49a71230e" time="1373010813770" ignored="false" />
+    <file path="/tnl.jade" changelist="a61e94e4-0c00-442d-8bde-b0f49a71230e" time="1373552094536" ignored="false" />
+    <file path="/tease.jade" changelist="a61e94e4-0c00-442d-8bde-b0f49a71230e" time="1373767161725" ignored="false" />
     <file path="/loop.php" changelist="a61e94e4-0c00-442d-8bde-b0f49a71230e" time="1372962001216" ignored="false" />
     <file path="/GayHankyCodes.html" changelist="a61e94e4-0c00-442d-8bde-b0f49a71230e" time="1372955644572" ignored="false" />
     <file path="/test.php" changelist="a61e94e4-0c00-442d-8bde-b0f49a71230e" time="1372982478647" ignored="false" />
     <file path="/try.jade" changelist="a61e94e4-0c00-442d-8bde-b0f49a71230e" time="1372996488176" ignored="false" />
-    <file path="/events.jade" changelist="a61e94e4-0c00-442d-8bde-b0f49a71230e" time="1373309227701" ignored="false" />
-    <file path="/_events.scss" changelist="a61e94e4-0c00-442d-8bde-b0f49a71230e" time="1373063065834" ignored="false" />
-    <file path="/head.jade" changelist="a61e94e4-0c00-442d-8bde-b0f49a71230e" time="1373010122593" ignored="false" />
-    <file path="/_tease.scss" changelist="a61e94e4-0c00-442d-8bde-b0f49a71230e" time="1373310950005" ignored="false" />
-    <file path="/events-db.jade" changelist="a61e94e4-0c00-442d-8bde-b0f49a71230e" time="1373192973308" ignored="false" />
-    <file path="/nav.jade" changelist="a61e94e4-0c00-442d-8bde-b0f49a71230e" time="1373168153576" ignored="false" />
+    <file path="/events.jade" changelist="a61e94e4-0c00-442d-8bde-b0f49a71230e" time="1373659835959" ignored="false" />
+    <file path="/_events.scss" changelist="a61e94e4-0c00-442d-8bde-b0f49a71230e" time="1373443404841" ignored="false" />
+    <file path="/head.jade" changelist="a61e94e4-0c00-442d-8bde-b0f49a71230e" time="1373947089920" ignored="false" />
+    <file path="/_tease.scss" changelist="a61e94e4-0c00-442d-8bde-b0f49a71230e" time="1373795335381" ignored="false" />
+    <file path="/events-db.jade" changelist="a61e94e4-0c00-442d-8bde-b0f49a71230e" time="1373402683224" ignored="false" />
+    <file path="/nav.jade" changelist="a61e94e4-0c00-442d-8bde-b0f49a71230e" time="1373802579915" ignored="false" />
     <file path="/aside.jade" changelist="a61e94e4-0c00-442d-8bde-b0f49a71230e" time="1373168512833" ignored="false" />
     <file path="/GayHankyCodes.jade" changelist="a61e94e4-0c00-442d-8bde-b0f49a71230e" time="1373172074962" ignored="false" />
-    <file path="/style.scss" changelist="a61e94e4-0c00-442d-8bde-b0f49a71230e" time="1373171285200" ignored="false" />
+    <file path="/style.scss" changelist="a61e94e4-0c00-442d-8bde-b0f49a71230e" time="1373928863427" ignored="false" />
     <file path="/_hanky.scss" changelist="a61e94e4-0c00-442d-8bde-b0f49a71230e" time="1373177585631" ignored="false" />
-    <file path="/_all.scss" changelist="a61e94e4-0c00-442d-8bde-b0f49a71230e" time="1373171729629" ignored="false" />
+    <file path="/_all.scss" changelist="a61e94e4-0c00-442d-8bde-b0f49a71230e" time="1373929130911" ignored="false" />
     <file path="/sfeagle.appcache" changelist="a61e94e4-0c00-442d-8bde-b0f49a71230e" time="1373181076256" ignored="false" />
     <file path="/flyers.jade" changelist="a61e94e4-0c00-442d-8bde-b0f49a71230e" time="1373181845309" ignored="false" />
     <file path="/404.php" changelist="a61e94e4-0c00-442d-8bde-b0f49a71230e" time="1373184596552" ignored="false" />
     <file path="/404.jade" changelist="a61e94e4-0c00-442d-8bde-b0f49a71230e" time="1373185856563" ignored="false" />
-    <file path="/config.rb" changelist="a61e94e4-0c00-442d-8bde-b0f49a71230e" time="1373300086015" ignored="false" />
-    <file path="/a.dummy" changelist="a61e94e4-0c00-442d-8bde-b0f49a71230e" time="1373300256273" ignored="false" />
-    <file path="/busstation.jade" changelist="a61e94e4-0c00-442d-8bde-b0f49a71230e" time="1373309029250" ignored="false" />
+    <file path="/config.rb" changelist="a61e94e4-0c00-442d-8bde-b0f49a71230e" time="1373802132519" ignored="false" />
+    <file path="/a.dummy" changelist="a61e94e4-0c00-442d-8bde-b0f49a71230e" time="1373869231782" ignored="false" />
+    <file path="/busstation.jade" changelist="a61e94e4-0c00-442d-8bde-b0f49a71230e" time="1373396957107" ignored="false" />
     <file path="/cubtrap.jade" changelist="a61e94e4-0c00-442d-8bde-b0f49a71230e" time="1373309653278" ignored="false" />
     <file path="/cubhouse.jade" changelist="a61e94e4-0c00-442d-8bde-b0f49a71230e" time="1373342732221" ignored="false" />
+    <file path="/events.php" changelist="a61e94e4-0c00-442d-8bde-b0f49a71230e" time="1373402252370" ignored="false" />
+    <file path="/events-db-loop.php" changelist="a61e94e4-0c00-442d-8bde-b0f49a71230e" time="1373870015671" ignored="false" />
+    <file path="/wp-config.php" changelist="a61e94e4-0c00-442d-8bde-b0f49a71230e" time="1373414401873" ignored="false" />
+    <file path="/index.php" changelist="a61e94e4-0c00-442d-8bde-b0f49a71230e" time="1373853837125" ignored="false" />
+    <file path="/tnl-db.jade" changelist="a61e94e4-0c00-442d-8bde-b0f49a71230e" time="1373434291840" ignored="false" />
+    <file path="/tnl-db.php" changelist="a61e94e4-0c00-442d-8bde-b0f49a71230e" time="1373438349237" ignored="false" />
+    <file path="/tnl-page-db-loop.php" changelist="a61e94e4-0c00-442d-8bde-b0f49a71230e" time="1373791510895" ignored="false" />
+    <file path="/tnl-db-loop.php" changelist="a61e94e4-0c00-442d-8bde-b0f49a71230e" time="1373525519791" ignored="false" />
+    <file path="/_tnl.scss" changelist="a61e94e4-0c00-442d-8bde-b0f49a71230e" time="1373529263847" ignored="false" />
+    <file path="/tnl-page-db.jade" changelist="a61e94e4-0c00-442d-8bde-b0f49a71230e" time="1373529063261" ignored="false" />
+    <file path="/tease-db-loop.php" changelist="a61e94e4-0c00-442d-8bde-b0f49a71230e" time="1373871206260" ignored="false" />
+    <file path="/functions.php" changelist="a61e94e4-0c00-442d-8bde-b0f49a71230e" time="1373688558540" ignored="false" />
+    <file path="/_lightbox.scss" changelist="a61e94e4-0c00-442d-8bde-b0f49a71230e" time="1373697838815" ignored="false" />
+    <file path="/_mast.scss" changelist="a61e94e4-0c00-442d-8bde-b0f49a71230e" time="1373696131362" ignored="false" />
+    <file path="/wp-login.php" changelist="a61e94e4-0c00-442d-8bde-b0f49a71230e" time="1373757241354" ignored="false" />
+    <file path="/style.css" changelist="a61e94e4-0c00-442d-8bde-b0f49a71230e" time="1373764172584" ignored="false" />
+    <file path="/_layout.scss" changelist="a61e94e4-0c00-442d-8bde-b0f49a71230e" time="1373770437276" ignored="false" />
+    <file path="/scheduled.php" changelist="a61e94e4-0c00-442d-8bde-b0f49a71230e" time="1373782155653" ignored="false" />
+    <file path="/calendar.jade" changelist="a61e94e4-0c00-442d-8bde-b0f49a71230e" time="1373936678263" ignored="false" />
+    <file path="/calendar-page-loop.php" changelist="a61e94e4-0c00-442d-8bde-b0f49a71230e" time="1373944937901" ignored="false" />
+    <file path="/main.js" changelist="a61e94e4-0c00-442d-8bde-b0f49a71230e" time="1373867943573" ignored="false" />
+    <file path="/scripts.jade" changelist="a61e94e4-0c00-442d-8bde-b0f49a71230e" time="1373839440567" ignored="false" />
+    <file path="/wordpress.php" changelist="a61e94e4-0c00-442d-8bde-b0f49a71230e" time="1373850388503" ignored="false" />
+    <file path="/timegames.php" changelist="a61e94e4-0c00-442d-8bde-b0f49a71230e" time="1373869352547" ignored="false" />
+    <file path="/phpinfo.php" changelist="a61e94e4-0c00-442d-8bde-b0f49a71230e" time="1373856834694" ignored="false" />
+    <file path="/fragment.php" changelist="a61e94e4-0c00-442d-8bde-b0f49a71230e" time="1373859103456" ignored="false" />
+    <file path="/calendar.php" changelist="a61e94e4-0c00-442d-8bde-b0f49a71230e" time="1373875345353" ignored="false" />
+    <file path="/main.coffee" changelist="a61e94e4-0c00-442d-8bde-b0f49a71230e" time="1373938853777" ignored="false" />
+    <file path="/_calendar.scss" changelist="a61e94e4-0c00-442d-8bde-b0f49a71230e" time="1373936709719" ignored="false" />
+    <file path="/access.php" changelist="a61e94e4-0c00-442d-8bde-b0f49a71230e" time="1373944773528" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -98,59 +240,26 @@
   </component>
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FavoritesManager">
-    <favorites_list name="sf-eagle-storm" />
+    <favorites_list name="sf-eagle-storm">
+      <favorite_root url="file://$PROJECT_DIR$/wp/wp-content/themes/twentytwelve/functions.php" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+      <favorite_root url="file://$PROJECT_DIR$/scss/style.scss" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+    </favorites_list>
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="index.jade" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/jade/index.jade">
+      <file leaf-file-name="calendar-page-loop.php" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/jade/calendar-page-loop.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="4" column="22" selection-start="103" selection-end="103" vertical-scroll-proportion="0.0">
+            <state line="12" column="35" selection-start="402" selection-end="402" vertical-scroll-proportion="-7.5">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="events.jade" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/jade/index/events.jade">
+      <file leaf-file-name="events-db-loop.php" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/jade/index/events-db-loop.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="39" column="9" selection-start="928" selection-end="928" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="cubhouse.jade" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/jade/index/events/cubhouse.jade">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="8" column="72" selection-start="298" selection-end="298" vertical-scroll-proportion="0.30612245">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="cigar.jade" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/jade/index/events/cigar.jade">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="6" column="70" selection-start="177" selection-end="177" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="cubtrap.jade" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/jade/index/events/cubtrap.jade">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="7" column="47" selection-start="236" selection-end="236" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="busstation.jade" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/jade/index/events/busstation.jade">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="12" column="18" selection-start="359" selection-end="359" vertical-scroll-proportion="0.0">
+            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-0.0">
               <folding />
             </state>
           </provider>
@@ -159,25 +268,52 @@
       <file leaf-file-name="tease.jade" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/jade/index/tease.jade">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="2" column="28" selection-start="84" selection-end="84" vertical-scroll-proportion="0.0">
+            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="_tease.scss" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/scss/partials/home/_tease.scss">
+      <file leaf-file-name="tease-db-loop.php" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/jade/index/tease-db-loop.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="12" column="17" selection-start="300" selection-end="300" vertical-scroll-proportion="0.0">
+            <state line="19" column="0" selection-start="613" selection-end="613" vertical-scroll-proportion="-0.625">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="events-db.jade" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/jade/index/events-db.jade">
+      <file leaf-file-name="main.scss" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/scss/main.scss">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="59" column="0" selection-start="2264" selection-end="2264" vertical-scroll-proportion="0.0">
+            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="main.css" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/css/main.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="head.jade" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/jade/common/head.jade">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="28" column="0" selection-start="1461" selection-end="1461" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="index.php" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/index.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="82" column="33" selection-start="3899" selection-end="3899" vertical-scroll-proportion="-2.625">
               <folding />
             </state>
           </provider>
@@ -201,26 +337,37 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/scss/partials/_hanky.scss" />
-        <option value="$PROJECT_DIR$/sfeagle.appcache" />
-        <option value="$PROJECT_DIR$/jade/index/flyers.jade" />
-        <option value="$PROJECT_DIR$/jade/index/events/tnl.jade" />
-        <option value="$PROJECT_DIR$/404.php" />
-        <option value="$PROJECT_DIR$/jade/404.jade" />
-        <option value="$PROJECT_DIR$/jade/index/events-db.jade" />
-        <option value="$PROJECT_DIR$/jade/index.jade" />
-        <option value="$PROJECT_DIR$/config.rb" />
-        <option value="$PROJECT_DIR$/jade/index/events/busstation.jade" />
-        <option value="$PROJECT_DIR$/jade/index/events/cubtrap.jade" />
-        <option value="$PROJECT_DIR$/jade/index/events.jade" />
-        <option value="$PROJECT_DIR$/jade/index/events/cigar.jade" />
         <option value="$PROJECT_DIR$/scss/partials/home/_tease.scss" />
-        <option value="$PROJECT_DIR$/jade/index/tease.jade" />
-        <option value="$PROJECT_DIR$/jade/index/events/cubhouse.jade" />
+        <option value="$PROJECT_DIR$/jade/index/mast/nav.jade" />
+        <option value="$PROJECT_DIR$/calendar.php" />
+        <option value="$PROJECT_DIR$/jade/index.jade" />
+        <option value="$PROJECT_DIR$/jade/common/scripts.jade" />
+        <option value="$PROJECT_DIR$/wp/wp-content/plugins/acf-field-date-time-picker/js/jquery-ui-timepicker-addon.js" />
+        <option value="$PROJECT_DIR$/scss/style.scss" />
+        <option value="$PROJECT_DIR$/scss/partials/_all.scss" />
+        <option value="$PROJECT_DIR$/js/main.js" />
+        <option value="$PROJECT_DIR$/scss/partials/calendar/_calendar.scss" />
+        <option value="$PROJECT_DIR$/jade/calendar.jade" />
+        <option value="$PROJECT_DIR$/coffee/main.coffee" />
+        <option value="$PROJECT_DIR$/access.php" />
+        <option value="$PROJECT_DIR$/jade/calendar-page-loop.php" />
+        <option value="$PROJECT_DIR$/jade/index/tease-db-loop.php" />
+        <option value="$PROJECT_DIR$/jade/common/head.jade" />
       </list>
     </option>
   </component>
-  <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" />
+  <component name="PhpDebugGeneral" xdebug_show_addresses="true" />
+  <component name="PhpServers">
+    <option name="servers">
+      <server host="127.0.0.1" name="MAMP" port="8888">
+        <path_mappings>
+          <path_mapping local_path="$PROJECT_DIR$/index.php" remote_path="/Sites/sf-eagle/storm/index.php" />
+          <path_mapping local_path="$PROJECT_DIR$" remote_path="/Sites/sf-eagle/storm" />
+        </path_mappings>
+      </server>
+    </option>
+  </component>
+  <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" interpreter_name="MAMP 5.4.10" />
   <component name="ProjectFrameBounds">
     <option name="x" value="4" />
     <option name="y" value="22" />
@@ -253,6 +400,7 @@
       <sortByType />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -299,24 +447,6 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="theme" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="sf-eagle-storm" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="storm" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="scss" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
               <option name="myItemId" value="partials" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
@@ -339,7 +469,57 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="home" />
+              <option name="myItemId" value="merch" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="sf-eagle-storm" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="storm" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="scss" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="partials" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="calendar" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="sf-eagle-storm" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="storm" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="php" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="sf-eagle-storm" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="storm" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="js" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -372,46 +552,6 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="index" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="sf-eagle-storm" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="storm" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="jade" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="index" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="events" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="sf-eagle-storm" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="storm" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="jade" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="docs" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -443,23 +583,43 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="docs" />
+              <option name="myItemId" value="css" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="sf-eagle-storm" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="storm" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="coffee" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="options.splitter.main.proportions" value="0.3" />
-    <property name="WebServerToolWindowFactoryState" value="true" />
+    <property name="WebServerToolWindowPanel.toolwindow.show.permissions" value="false" />
+    <property name="ChangesBrowser.SHOW_FLATTEN" value="false" />
     <property name="recentsLimit" value="5" />
-    <property name="TODO_SCOPE" value="Project Files" />
-    <property name="options.lastSelected" value="preferences.toDoOptions" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/scss" />
+    <property name="options.lastSelected" value="IntelliLang.Configuration" />
+    <property name="WebServerToolWindowPanel.toolwindow.show.size" value="false" />
+    <property name="last_opened_file_path" value="/Applications/MAMP/bin/php/php5.4.10/bin" />
+    <property name="WebServerToolWindowPanel.toolwindow.highlight.mappings" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="true" />
+    <property name="WebServerToolWindowPanel.toolwindow.show.date" value="false" />
+    <property name="TODO_SCOPE" value="All" />
+    <property name="restartRequiresConfirmation" value="true" />
     <property name="FullScreen" value="false" />
+    <property name="WebServerToolWindowPanel.toolwindow.highlight.symlinks" value="true" />
     <property name="options.splitter.details.proportions" value="0.2" />
     <property name="options.searchVisible" value="true" />
   </component>
@@ -476,18 +636,48 @@
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/jade/index" />
+      <recent name="$PROJECT_DIR$/common" />
+      <recent name="$PROJECT_DIR$/jade/common" />
+      <recent name="$PROJECT_DIR$/wp/wp-content/themes/twentytwelve/js" />
+      <recent name="$PROJECT_DIR$/wp/wp-admin/js" />
+      <recent name="$PROJECT_DIR$/jade" />
     </key>
   </component>
-  <component name="RunManager">
-    <configuration default="true" type="JavascriptDebugSession" factoryName="Local" singleton="true">
-      <JSDebuggerConfigurationSettings>
-        <option name="engineId" value="embedded" />
-        <option name="fileUrl" />
-      </JSDebuggerConfigurationSettings>
+  <component name="RunManager" selected="PHP Script.index.php">
+    <configuration default="false" name="index.php" type="PhpLocalRunConfigurationType" factoryName="PHP Console" temporary="true" path="$PROJECT_DIR$/index.php">
+      <RunnerSettings RunnerId="PhpRunner" />
+      <RunnerSettings RunnerId="PhpScriptDebugRunner" />
+      <ConfigurationWrapper RunnerId="PhpRunner" />
+      <ConfigurationWrapper RunnerId="PhpScriptDebugRunner" />
       <method />
     </configuration>
-    <list size="0" />
+    <configuration default="true" type="PHPUnitRunConfigurationType" factoryName="PHPUnit">
+      <TestRunner />
+      <method />
+    </configuration>
+    <configuration default="true" type="PhpBuiltInWebServerConfigurationType" factoryName="PHP Built-in Web Server">
+      <method />
+    </configuration>
+    <configuration default="true" type="PhpWebAppRunConfigurationType" factoryName="PHP Web Application" server_name="MAMP" start_url="/Sites/sf-eagle/storm/index.php">
+      <method />
+    </configuration>
+    <configuration default="true" type="PhpRemoteDebugRunConfigurationType" factoryName="PHP Remote Debug">
+      <method />
+    </configuration>
+    <configuration default="true" type="PhpLocalRunConfigurationType" factoryName="PHP Console">
+      <method />
+    </configuration>
+    <configuration default="true" type="PhpUnitRemoteRunConfigurationType" factoryName="PHPUnit on Server">
+      <method />
+    </configuration>
+    <list size="1">
+      <item index="0" class="java.lang.String" itemvalue="PHP Script.index.php" />
+    </list>
+    <recent_temporary>
+      <list size="1">
+        <item index="0" class="java.lang.String" itemvalue="PHP Script.index.php" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="ShelveChangesManager" show_recycled="false" />
   <component name="SvnConfiguration" maxAnnotateRevisions="500" myUseAcceleration="nothing" myAutoUpdateAfterCommit="false" cleanupOnStartRun="false" SSL_PROTOCOLS="sslv3">
@@ -513,9 +703,14 @@
       <created>1371506613273</created>
       <updated>1371506613273</updated>
     </task>
+    <task id="LOCAL-00001" summary="TODO doesn't work&#10;lab in place">
+      <created>1373394981006</created>
+      <updated>1373394981006</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
-  <component name="TodoView" selected-index="2">
+  <component name="TodoView" selected-index="0">
     <todo-panel id="selected-file">
       <are-packages-shown value="false" />
       <are-modules-shown value="false" />
@@ -538,26 +733,27 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="4" y="22" width="1276" height="778" extended-state="6" />
-    <editor active="true" />
+    <editor active="false" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3287879" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.3287879" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3292683" sideWeight="0.6484848" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Remote Host" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3292683" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3287879" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="CSS-X-Fire" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3287879" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Remote Host" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3292683" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.47575757" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3287879" sideWeight="0.5" order="13" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.21626016" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3287879" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="CSS-X-Fire" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3287879" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.35151514" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.2495935" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="eSnippet Pro" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.2617886" sideWeight="0.67121214" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Pomodoro" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.2495935" sideWeight="0.67121214" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="eSnippet Pro" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3287879" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.28617886" sideWeight="0.67121214" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3287879" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Pomodoro" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3287879" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3287879" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
@@ -589,7 +785,7 @@
     <option name="SHOW_ONLY_CHANGED_IN_SELECTION_DIFF" value="true" />
     <option name="CHECK_COMMIT_MESSAGE_SPELLING" value="true" />
     <option name="DEFAULT_PATCH_EXTENSION" value="patch" />
-    <option name="SHORT_DIFF_HORISONTALLY" value="true" />
+    <option name="SHORT_DIFF_HORISONTALLY" value="false" />
     <option name="SHORT_DIFF_EXTRA_LINES" value="2" />
     <option name="SOFT_WRAPS_IN_SHORT_DIFF" value="true" />
     <option name="INCLUDE_TEXT_INTO_PATCH" value="false" />
@@ -605,7 +801,7 @@
     <option name="WRAP_WHEN_TYPING_REACHES_RIGHT_MARGIN" value="false" />
     <option name="FORCE_NON_EMPTY_COMMENT" value="false" />
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="false" />
-    <option name="LAST_COMMIT_MESSAGE" />
+    <option name="LAST_COMMIT_MESSAGE" value="Loops almost finished, inc calendar. jquery filter. tease logic not working" />
     <option name="MAKE_NEW_CHANGELIST_ACTIVE" value="false" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="false" />
     <option name="CHECK_FILES_UP_TO_DATE_BEFORE_COMMIT" value="false" />
@@ -619,119 +815,137 @@
     <option name="UPDATE_FILTER_BY_SCOPE" value="false" />
     <option name="SHOW_FILE_HISTORY_AS_TREE" value="false" />
     <option name="FILE_HISTORY_SPLITTER_PROPORTION" value="0.6" />
+    <MESSAGE value="TODO doesn't work&#10;lab in place" />
+    <MESSAGE value="Loops almost finished, inc calendar. jquery filter. tease logic not working" />
   </component>
   <component name="XDebuggerManager">
-    <breakpoint-manager />
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="php">
+          <url>file://$PROJECT_DIR$/index.php</url>
+          <line>92</line>
+          <option name="timeStamp" value="8" />
+        </line-breakpoint>
+      </breakpoints>
+      <breakpoints-dialog>
+        <breakpoints-dialog />
+      </breakpoints-dialog>
+      <option name="time" value="13" />
+    </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/jade/common/head.jade">
+    <entry file="file://$PROJECT_DIR$/coffee/main.coffee">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="3" column="22" selection-start="73" selection-end="73" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/main.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="61" column="0" selection-start="1377" selection-end="1377" vertical-scroll-proportion="0.0">
+          <folding>
+            <marker date="1373940815000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1373940815000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1373940815000" expanded="true" signature="-1:-1" placeholder="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/jade/common/php-errors.jade">
       <provider selected="true" editor-type-id="text-editor">
         <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/.htaccess">
+    <entry file="file://$PROJECT_DIR$/jade/tnl-page-db-loop.php">
       <provider selected="true" editor-type-id="text-editor">
         <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/404.php">
+    <entry file="file://$PROJECT_DIR$/jade/common/settings.jade">
       <provider selected="true" editor-type-id="text-editor">
         <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/jade/404.jade">
+    <entry file="file://$PROJECT_DIR$/jade/common/wordpress.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="1" column="0" selection-start="24" selection-end="24" vertical-scroll-proportion="0.0">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/wp/wp-settings.php">
+    <entry file="file://$PROJECT_DIR$/access.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="24" column="46" selection-start="663" selection-end="663" vertical-scroll-proportion="0.5984042">
+        <state line="2" column="1" selection-start="28" selection-end="28" vertical-scroll-proportion="0.051282052">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/jade/index/events-db.jade">
+    <entry file="file://$PROJECT_DIR$/php/timegames.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="59" column="0" selection-start="2264" selection-end="2264" vertical-scroll-proportion="0.0">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/jade/index.jade">
+    <entry file="file://$PROJECT_DIR$/jade/calendar-page-loop.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="4" column="22" selection-start="103" selection-end="103" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/scss/vendor/_normalize.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="128" column="14" selection-start="2705" selection-end="2705" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/config.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="11" column="26" selection-start="381" selection-end="381" vertical-scroll-proportion="0.39759037">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/jade/index/events/busstation.jade">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="12" column="18" selection-start="359" selection-end="359" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/jade/index/events/cubtrap.jade">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="7" column="47" selection-start="236" selection-end="236" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/jade/index/events.jade">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="39" column="9" selection-start="928" selection-end="928" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/jade/index/events/cigar.jade">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="6" column="70" selection-start="177" selection-end="177" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/scss/partials/home/_tease.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="12" column="17" selection-start="300" selection-end="300" vertical-scroll-proportion="0.0">
+        <state line="12" column="35" selection-start="402" selection-end="402" vertical-scroll-proportion="-7.5">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/jade/index/tease.jade">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="2" column="28" selection-start="84" selection-end="84" vertical-scroll-proportion="0.0">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/jade/index/events/cubhouse.jade">
+    <entry file="file://$PROJECT_DIR$/index.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="8" column="72" selection-start="298" selection-end="298" vertical-scroll-proportion="0.30612245">
+        <state line="82" column="33" selection-start="3899" selection-end="3899" vertical-scroll-proportion="-2.625">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/jade/index/events-db-loop.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/jade/index/tease-db-loop.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="19" column="0" selection-start="613" selection-end="613" vertical-scroll-proportion="-0.625">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/jade/common/head.jade">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="28" column="0" selection-start="1461" selection-end="1461" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/scss/main.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/main.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>

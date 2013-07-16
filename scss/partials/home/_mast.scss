@@ -5,6 +5,9 @@
   header {
     float: left;
     clear: right;
+    img.logo {
+      width: 100%;
+    }
     @media screen and (max-width:$phone) {
       width: 60%;
       clear: none;

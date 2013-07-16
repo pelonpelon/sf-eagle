@@ -1,16 +1,31 @@
 include common/head
-    #page
+    #page.index
       include index/mast
       include index/tease
-      include index/events
+      include index/events-db
       #flyers.cf
         | [flyers]
-      include index/scripts
+      include common/scripts
 
-      //FIXX this
-      //MEMO add email address to wp form
-      //MEMO create special form for Live Music
-      //MEMO Split title into two lines on form
-      //MEMO Just start with events list. Calendar can come later
-      //MEMO vacation response
+      //- MEMO add email address to wp form
+      //- MEMO create special form for Live Music
+      //- MEMO Split title into two lines on form
+      //- MEMO Just start with events list. Calendar can come later
+      //- MEMO vacation response
 
+  script.
+    $(window).load(function() {
+    $('.flexslider').flexslider({
+    animation: "slide",
+    animationLoop: "true"
+    });
+    });
+
+  script.
+    $(document).ready(function(){
+    $.get('index.flyers.html', function(data) {
+    $('#flyers').html(data);
+    });
+    });
+    $('div.lb-nav').on('click', function(e) {
+    window.close();return false;});

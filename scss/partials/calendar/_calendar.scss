@@ -1,0 +1,79 @@
+#page.calendar {
+  header {
+    padding: 10px 20%;
+    text-align: center;
+    font-family: "Coming Soon";
+  }
+  nav {
+    width: 100%;
+    height: 120px;
+    @media screen and (max-width: $phone) {
+      height: 60px;
+    }
+    padding-left: 33%;
+    img {
+      display: block;
+      float: left;
+      max-width: 120px;
+      @media screen and (max-width: $phone) {
+        width: 60px;
+      }
+      @include opacity(0.7);
+      background-color: $decor-dark;
+      border: solid 3px $decor-dark;
+      @include border-radius(50%);
+      &:hover {
+        background-color: $decor-lite;
+      }
+    }
+  }
+  article {
+    padding: 10px 20%;
+    @media screen and (max-width: $phone) {
+      padding: 5px 1%;
+    }
+    font-size: 14px;
+    font-family: tahoma;
+    color: #C0C0C0;
+    table {
+      width: 70%;
+      @media screen and (max-width: $phone) {
+        width: 98%;
+      }
+      margin: 0 auto;
+      padding: 20px 25%;
+      @include opacity(0.8);
+      tbody>tr {
+        td {
+          vertical-align: middle;
+          height: 100px;
+          p {
+            padding: 10px 0;
+          }
+        }
+        td:first-of-type {
+          width: 30%;
+          background-color: $decor-dark;
+          font-size: .8em;
+        }
+        td+td {
+          font-family: "Jolly Lodger";
+          width: 30%;
+          background-color: $content-dark;
+          color: #000000;
+          font-size: 2em;
+          font-weight: 800;
+          p:hover{
+            color: $decor-medium;
+          }
+        }
+        td+td+td {
+          background-color: $decor-dark;
+        }
+      }
+    }
+    img {
+      width: 90%;
+    }
+  }
+}

@@ -1,6 +1,8 @@
 <?php
+date_default_timezone_set('America/Los_Angeles');
+global $now;
+$now = time();
 require('wp/wp-blog-header.php');
-date_default_timezone_set('PDT');
 ?>
 <!DOCTYPE html>
 <html>
@@ -13,6 +15,10 @@ date_default_timezone_set('PDT');
     <link rel="stylesheet" href="css/wp.css">
     <link rel="stylesheet" href="css/main.css">
     <link href="http://fonts.googleapis.com/css?family=Jolly+Lodger|Coming+Soon|Rouge+Script" rel="stylesheet" type="text/css">
+    <link rel="apple-touch-icon" href="images/icons/touch-icon-iphone-57x57.png">
+    <link rel="apple-touch-icon" sizes="72x72" href="images/icons/touch-icon-ipad.png">
+    <link rel="apple-touch-icon" sizes="114x114" href="images/icons/touch-icon-iphone-retina.png">
+    <link rel="apple-touch-icon" sizes="144x144" href="images/icons/touch-icon-ipad-retina.png">
     <script>
       (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
       (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),

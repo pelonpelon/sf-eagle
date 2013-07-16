@@ -73,7 +73,7 @@ function twentytwelve_setup() {
 
 	// This theme uses a custom image size for featured images, displayed on "standard" posts.
 	add_theme_support( 'post-thumbnails' );
-	set_post_thumbnail_size( 624, 9999 ); // Unlimited height, soft crop
+	set_post_thumbnail_size( 600, 9999 ); // Unlimited height, soft crop
 }
 add_action( 'after_setup_theme', 'twentytwelve_setup' );
 
@@ -450,7 +450,7 @@ function twentytwelve_customize_preview_js() {
 add_action( 'customize_preview_init', 'twentytwelve_customize_preview_js' );
 
 // Register Taxonomy: Event
-function event_init() {
+/*function event_init() {
     register_taxonomy(
         'event',
         'post',
@@ -462,13 +462,13 @@ function event_init() {
             'manage_terms' => 'manage_options', //by default only admin
             'edit_terms' => 'manage_options',
             'delete_terms' => 'manage_options',
-            'assign_terms' => 'manage_options', 
+            'assign_terms' => 'manage_options',
             // 'assign_terms' => 'edit_posts'  // means administrator', 'editor', 'author', 'contributor'
             )
         )
     );
 }
-add_action( 'init', 'event_init' );
+add_action( 'init', 'event_init' );*/
 
 // Register Event Post Type
 function post_type_event() {
@@ -489,15 +489,15 @@ function post_type_event() {
     );
 
     $capabilities = array(
-        'edit_post'           => 'edit_post',
-        'edit_post'           => 'edit_posts',
-        'read_post'           => 'read_post',
-        'delete_post'         => 'delete_post',
-        'delete_post'         => 'delete_posts',
-        'edit_posts'          => 'edit_posts',
-        'edit_others_posts'   => 'edit_others_posts',
-        'publish_posts'       => 'publish_posts',
-        'read_private_posts'  => 'read_private_posts',
+        'edit_post'           => 'edit_event',
+        'edit_post'           => 'edit_events',
+        'read_post'           => 'read_event',
+        'delete_post'         => 'delete_event',
+        'delete_post'         => 'delete_events',
+        'edit_posts'          => 'edit_events',
+        'edit_others_posts'   => 'edit_others_events',
+        'publish_posts'       => 'publish_events',
+        'read_private_posts'  => 'read_private_events',
     );
 
     $args = array(
@@ -505,7 +505,7 @@ function post_type_event() {
         'description'         => __( 'BeerBust, TNL, Cachorro Negro, and any other public event', 'text_domain' ),
         'labels'              => $labels,
         'supports'            => array( 'title', 'editor', 'thumbnail' ),
-        'taxonomies'          => array( 'category', 'event' ),
+        'taxonomies'          => array( 'event' ),
         'hierarchical'        => false,
         'public'              => true,
         'show_ui'             => true,
@@ -527,35 +527,3 @@ function post_type_event() {
 // Hook into the 'init' action
 add_action( 'init', 'post_type_event', 0 );
 
-// Image + Label + Link
-function bd_parse_post_variables(){
-    // bd_parse_post_variables function for WordPress themes by Nick Van der Vreken.
-    // please refer to bydust.com/using-custom-fields-in-wordpress-to-attach-images-or-files-to-your-posts/
-    // for further information or questions.
-    global $post, $post_var;
-
-    // fill in all types you'd like to list in an array, and
-    // the label they should get if no label is defined.
-    // example: each file should get label "Download" if no
-    // label is set for that particular file.
-    $types = array('image' => 'no info available',
-    'link' => 'Read more...');
-
-    // this variable will contain all custom fields
-    $post_var = array();
-    foreach(get_post_custom($post->ID) as $k => $v) $post_var[$k] = array_shift($v);
-
-        // creating the arrays
-    foreach($types as $type => $message){
-        global ${'post_'.$type.'s'}, ${'post_'.$type.'s_label'};
-        $i = 1;
-        ${'post_'.$type.'s'} = array();
-        ${'post_'.$type.'s_label'} = array();
-        while($post_var[$type.$i]){
-            echo $type.$i.' - '.${$type.$i.'_label'};
-            array_push(${'post_'.$type.'s'}, $post_var[$type.$i]);
-            array_push(${'post_'.$type.'s_label'},  $post_var[$type.$i.'_label']?htmlspecialchars($post_var[$type.$i.'_label']):$message);
-            $i++;
-        }
-    }
-}

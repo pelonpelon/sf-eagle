@@ -1,5 +1,12 @@
 /* lightbox */
 
+#lightbox img {
+  width: inherit;
+  max-height: 560px;
+}
+.lb-container {
+  padding: 0;
+}
 #lightbox .lb-close {
   visibility: hidden; }
 

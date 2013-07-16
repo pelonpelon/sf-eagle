@@ -1,0 +1,16 @@
+include common/head
+  #page.calendar
+    a(href=settings.homePage)
+      img(src=settings.logoThumb, alt='logo')
+    header
+      h1 EAGLE CALENDAR
+    nav
+      a(href="#")
+        img.music(src="images/icons/TNL-button-les_paul.png", width="120", height="120", alt="Thursday Night Live Button")
+      a(href="#")
+        img.bears(src="images/icons/calbears-button.png", width="120", height="120", alt="Cal Bears Button")
+    article
+      include calendar-page-loop.php
+
+  include common/scripts
+  include common/foot
