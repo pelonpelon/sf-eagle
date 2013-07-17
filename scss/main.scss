@@ -1,3 +1,12 @@
+//See: http://www.websitedimensions.com/
+$max_page_width: 1280px;
+$netbook: 1024px;
+$tablet: 768px;
+$phone: 480px;
+$chiclet: 320px;
+
+@import "vendor/normalize";
+
 @import "compass/css3";
 @import "compass/utilities";
 
@@ -8,6 +17,8 @@
 
 @import "bits/buttons";
 
-@import "modules/base";
+@import "theme/all";
+
+@import "partials/all";
 
 @import "style";

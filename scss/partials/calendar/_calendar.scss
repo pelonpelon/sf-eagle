@@ -1,54 +1,50 @@
 #page.calendar {
-  header {
-    padding: 10px 20%;
-    text-align: center;
-    font-family: "Coming Soon";
-  }
-  nav {
-    width: 100%;
-    height: 120px;
-    @media screen and (max-width: $phone) {
-      height: 60px;
-    }
-    padding-left: 33%;
-    img {
-      display: block;
-      float: left;
-      max-width: 120px;
-      @media screen and (max-width: $phone) {
-        width: 60px;
-      }
-      @include opacity(0.7);
-      background-color: $decor-dark;
-      border: solid 3px $decor-dark;
-      @include border-radius(50%);
-      &:hover {
-        background-color: $decor-lite;
-      }
-    }
-  }
   article {
-    padding: 10px 20%;
-    @media screen and (max-width: $phone) {
-      padding: 5px 1%;
-    }
-    font-size: 14px;
-    font-family: tahoma;
-    color: #C0C0C0;
-    table {
-      width: 70%;
-      @media screen and (max-width: $phone) {
-        width: 98%;
+    nav {
+      padding: 0 20% 20px 20%;
+      height: 100px;
+      @media screen and (max-width: $netbook) {
+        height: 80px;
       }
+      @media screen and (max-width: $tablet) {
+        height: 70px;
+        padding: 0 10% 20px 10%;
+      }
+      @media screen and (max-width: $phone) {
+        height: 60px;
+        padding: 0 1% 20px 1%;
+      }
+      img {
+        display: block;
+        float: left;
+        height: 100%;
+        @media screen and (max-width: $netbook) {
+        }
+        @media screen and (max-width: $tablet) {
+        }
+        @media screen and (max-width: $phone) {
+        }
+        @include opacity(0.7);
+        background-color: $decor-dark;
+        border: solid 5px $decor-medium;
+        @include border-radius(50%);
+        &:hover {
+          background-color: $decor-medium;
+          border: solid 5px $decor-lite;
+        }
+      }
+    }
+    table {
       margin: 0 auto;
-      padding: 20px 25%;
       @include opacity(0.8);
-      tbody>tr {
+      tr {
         td {
+          border: 2px #000000 solid;
+          text-align: center;
           vertical-align: middle;
           height: 100px;
           p {
-            padding: 10px 0;
+            padding: 0;
           }
         }
         td:first-of-type {
@@ -63,17 +59,29 @@
           color: #000000;
           font-size: 2em;
           font-weight: 800;
-          p:hover{
+          h5 {
+            font-size: 1em;
+            margin: 10px 0;
+          }
+          h5:hover{
             color: $decor-medium;
           }
         }
         td+td+td {
           background-color: $decor-dark;
+          img {
+            max-width: 120px;
+            width: 75%;
+            @media screen and (max-width: $tablet) {
+              width: 95%;
+            }
+            padding: 15px 0;
+            height: auto;
+            border: 0;
+            vertical-align: middle;
+          }
         }
       }
-    }
-    img {
-      width: 90%;
     }
   }
 }

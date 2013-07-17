@@ -1,7 +1,5 @@
-<div class="tnl">
+<table>
     <?php global $post; // required
-    date_default_timezone_set('America/Los_Angeles');
-    $now = time();
     $args = array(
         'meta_key'      => 'date',
         'orderby'       => 'meta_value',
@@ -15,6 +13,7 @@
         setup_postdata($post);
 //        MEMO: This is the way to privatize some pages
         include "access.php";
+        $type_of_event = get_field('type_of_event');
         if ( $post->post_status == "private" ) { continue; }
         include "php/timegames.php";
         if ( $now > $begintime + 60*60*18 ) { continue; }
@@ -22,7 +21,6 @@
         else { $image = wp_get_attachment_image_src(get_field('image'), 'full'); }
 
         ?>
-        <table>
             <tr class="<?php echo get_post_meta(get_the_ID(), 'crowd', true); ?>">
                 <td>
                     <h2> <?php $day = date('l', $begintime);
@@ -33,40 +31,41 @@
                         ?>
                     </p>
                 </td> <?php
-            if ( get_field('type_of_event') === 'music' )
+                $type_of_event = get_field('type_of_event');
+            if ( $type_of_event[0] === 'music' )
             { ?>
                 <td>
-                    <p>
+                    <h5>
                         <a href="<?php the_field('band_#1_link'); ?>" target="_blank" >
                             <?php the_field('band_#1'); ?>
                         </a>
-                    </p>
+                    </h5>
                     <?php
                     if ( get_field('band_#2') !== "" )
                     { ?>
-                        <p>
+                        <h5>
                             <a href="<?php the_field('band_#2_link'); ?>" target="_blank" >
                                 <?php the_field('band_#2'); ?>
                             </a>
-                        </p>
+                        </h5>
                     <?php
                     }
                     if ( get_field('band_#3') !== "" )
                     { ?>
-                        <p>
+                        <h5>
                             <a href="<?php the_field('band_#3_link'); ?>" target="_blank" >
                                 <?php the_field('band_#3'); ?>
                             </a>
-                        </p>
+                        </h5>
                     <?php
                     }
                     if ( get_field('band_#4') !== "" )
                     { ?>
-                        <p>
+                        <h5>
                             <a href="<?php the_field('band_#4_link'); ?>" target="_blank">
                                 <?php the_field('band_#4'); ?>
                             </a>
-                        </p>
+                        </h5>
                     <?php
                     } ?>
                 </td> <?php
@@ -74,11 +73,11 @@
                 else
                 { ?>
                     <td>
-                        <p>
+                        <h5>
                             <a href="<?php the_field('link'); ?>" target="_blank" >
                                 <?php the_title(); ?>
                             </a>
-                        </p>
+                        </h5>
                     </td> <?php
                 } ?>
                 <td>
@@ -91,7 +90,6 @@
                     </a>
                 </td>
             </tr>
-        </table>
     <?php
     } ?>
-</div>
+</table>

@@ -4,63 +4,14 @@ global $now;
 $now = time();
 require('wp/wp-blog-header.php');
 ?>
-<!DOCTYPE html>
-<html>
-  <head>
-    <title>SF-Eagle | 398 12th Street</title>
-    <meta http-equiv="Content-Type" content="text/html" charset="utf-8">
-    <!-- <META HTTP-EQUIV="CACHE-CONTROL" CONTENT="NO-CACHE">-->
-    <meta name="viewport" content="width=device-width">
-    <meta name="viewport" content="initial-scale=1.0">
-    <link rel="stylesheet" href="css/wp.css">
-    <link rel="stylesheet" href="css/main.css">
-    <link href="http://fonts.googleapis.com/css?family=Jolly+Lodger|Coming+Soon|Rouge+Script" rel="stylesheet" type="text/css">
-    <link rel="apple-touch-icon" href="images/icons/touch-icon-iphone-57x57.png">
-    <link rel="apple-touch-icon" sizes="72x72" href="images/icons/touch-icon-ipad.png">
-    <link rel="apple-touch-icon" sizes="114x114" href="images/icons/touch-icon-iphone-retina.png">
-    <link rel="apple-touch-icon" sizes="144x144" href="images/icons/touch-icon-ipad-retina.png">
-    <script>
-      (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-      (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-      m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-      })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
-      ga('create', 'UA-42163204-1', 'sf-eagle.com');
-      ga('send', 'pageview');
-    </script>
-  </head>
-  <body><!-- hello -->
-    <div id="page" class="index">
-      <div id="mast">
-        <header><img src="images/logo-transparency-whiteeagle-cutout-400.png" alt="logo" class="logo"></header>
-        <nav>
-          <ul>
-            <li class="thisweek"><a href="#events" class="button"><span>This<br>Week</span></a></li>
-            <li><a href="merch.php" class="button"><span>Hoodies<br>Tanks<br>& Tees</span></a></li>
-            <li><a href="calendar.php" class="button"><span>Calendar</span></a></li>
-            <li><a href="jobs.php" class="button"><span>Barback<br>Needed</span></a></li>
-          </ul>
-        </nav>
-        <aside>
-          <ul class="widgets">
-            <li class="hankypic"><a href="GayHankyCodes.php"><img src="images/hankycodes.jpeg" alt="hanky codes" class="thumb"></a>Hanky Codes</li>
-            <li class="faceboook"><a href="http://www.facebook.com/SFEagle"><img src="images/icons/facebook.png" alt="facebook" class="thumb"></a></li>
-            <li class="twitter"><a href="https://twitter.com/sfeaglebar"><img src="images/icons/twitter.png" alt="facebook" class="thumb"></a></li>
-          </ul>
-        </aside>
-      </div>
-      <div id="tease">
-        <!--  .poster-->
-        <!--    img(src='images/DrinkSpecials/dickel-250-transparent.png')-->
-        <!--    img(src='images/DrinkSpecials/dickel-rye-250-transparent.png')-->
-        <!--    h3-->
-        <!--      | Have you met George Dickel?-->
-        <!--      br-->
-        <!--      | He has a rye sense af humor.-->
-        <!--      br-->
-        <!--      | He's 12 years old and can kick your butt.--><!--      br
-        <h2>3 bucks. ALL NIGHT!</h2>--><div class="loop"> <?php
+<!DOCTYPE html><html><head><title>SF-Eagle | 398 12th Street</title><meta http-equiv="Content-Type" content="text/html" charset="utf-8"><!-- <META HTTP-EQUIV="CACHE-CONTROL" CONTENT="NO-CACHE">--><meta name="viewport" content="width=device-width"><meta name="viewport" content="initial-scale=1.0"><!--link(rel='stylesheet', href='css/wp.css')--><link rel="stylesheet" href="css/main.css"><link href="http://fonts.googleapis.com/css?family=Jolly+Lodger|Coming+Soon|Rouge+Script" rel="stylesheet" type="text/css"><link rel="apple-touch-icon" href="images/icons/touch-icon-iphone-57x57.png"><link rel="apple-touch-icon" sizes="72x72" href="images/icons/touch-icon-ipad.png"><link rel="apple-touch-icon" sizes="114x114" href="images/icons/touch-icon-iphone-retina.png"><link rel="apple-touch-icon" sizes="144x144" href="images/icons/touch-icon-ipad-retina.png"><script>(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+})(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+ga('create', 'UA-42163204-1', 'sf-eagle.com');
+ga('send', 'pageview');</script></head><body><!-- hello --><div id="page" class="index"><div id="mast"><header><img src="images/logo-transparency-whiteeagle-cutout-400.png" alt="logo" class="logo"></header><nav><ul><li class="thisweek"><a href="#events" class="button"><span>This<br>Week</span></a></li><li><a href="merch.php" class="button"><span>Hoodies<br>Tanks<br>& Tees</span></a></li><li><a href="calendar.php" class="button"><span>Calendar</span></a></li><li><a href="jobs.php" class="button"><span>Barback<br>Needed</span></a></li></ul></nav><aside><ul class="widgets"><li class="hankypic"><a href="GayHankyCodes.php"><img src="images/hankycodes.jpeg" alt="hanky codes" class="thumb"></a>Hanky Codes</li><li class="faceboook"><a href="http://www.facebook.com/SFEagle"><img src="images/icons/facebook.png" alt="facebook" class="thumb"></a></li><li class="twitter"><a href="https://twitter.com/sfeaglebar"><img src="images/icons/twitter.png" alt="facebook" class="thumb"></a></li></ul></aside></div><div id="tease"><!--  .poster--><!--    img(src='images/DrinkSpecials/dickel-250-transparent.png')--><!--    img(src='images/DrinkSpecials/dickel-rye-250-transparent.png')--><!--    h3--><!--      | Have you met George Dickel?--><!--      br--><!--      | He has a rye sense af humor.--><!--      br--><!--      | He's 12 years old and can kick your butt.--><!--      br<h2>3 bucks. ALL NIGHT!</h2>--><div class="loop"> <?php
     global $post; // required
-    $category_id = get_cat_ID('tease_now');
+    $category_id = get_cat_ID('Tease Now');
     $args = array(
         'category'      => $category_id,
         'orderby'       => 'post_date',
@@ -72,6 +23,7 @@ require('wp/wp-blog-header.php');
     foreach($custom_posts as $post)
     {
         setup_postdata($post);
+        if ( $post->post_status == "private" ) { continue; }
         include 'php/timegames.php';
         if ( $now < $begintime || $now > $endtime ) { continue; } ?>
         <h1> <?php echo $post->post_title; ?> </h1> <?php
@@ -103,17 +55,17 @@ require('wp/wp-blog-header.php');
 
 <?php function fill_tease($post)
 {
-    $image_medium = wp_get_attachment_image_src( get_post_thumbnail_id($post->ID), 'medium'); ?>
+    $image_large = wp_get_attachment_image_src( get_post_thumbnail_id($post->ID), 'large'); ?>
     <div>
-        <img src="<?php echo $image_medium[0] ?>"
-             width="<?php echo $image_medium[1]; ?>"
-             height="<?php echo $image_medium[2]; ?>"
-             alt="<?php get_the_title($post->ID); ?>" >
+        <a href="<?php echo $image_large[0] ?>" rel="lightbox">
+            <img src="<?php echo $image_large[0] ?>"
+                 width="<?php echo $image_large[1]; ?>"
+                 height="<?php echo $image_large[2]; ?>"
+                 alt="<?php get_the_title($post->ID); ?>" >
+        </a>
     </div>
     <p><?php echo $post->post_content; ?> </p> <?php
-} ?>
-      </div>
-      <div id="events" class="cf"><ul>
+} ?></div><div id="events" class="cf"><ul>
                     <?php global $post; // required
                     $day = '';
                     $args = array(
@@ -127,7 +79,8 @@ require('wp/wp-blog-header.php');
                     foreach($custom_posts as $post)
                     {
                         setup_postdata($post);
-                        $type = get_field('type_of_event');
+                        if ( $post->post_status == "private" ) { continue; }
+                        $type_of_event = get_field('type_of_event');
                         include 'php/timegames.php';
                         if ( $now < $begintime - 60*60*24*5 || $now > $endtime ) { continue; }
                         if ($day != date('l', $begintime))
@@ -141,7 +94,7 @@ require('wp/wp-blog-header.php');
             <li class="event cf">
                 <p class="time"><?php echo $start . " - " . $finish; ?> </p>
                         <?php
-                        if ( $type[0] === "music" )
+                        if ( $type_of_event[0] === "music" )
                         { ?>
                 <ul class="tnl event-list">
                     <li>
@@ -201,31 +154,16 @@ require('wp/wp-blog-header.php');
     </li>
                          <?php }
                     } ?>
-</ul>
-      </div>
-      <div id="flyers" class="cf">[flyers]</div>
-      <script src="widgets/lightbox/js/jquery-1.7.2.min.js"></script>
-      <script src="widgets/lightbox/js/lightbox-ck.js"></script>
-      <script src="widgets/flexslider/jquery.flexslider-ck.js"></script>
-      <script src="js/main.js"></script>
-    </div>
-  </body>
-</html>
-<script>
-  $(window).load(function() {
-  $('.flexslider').flexslider({
-  animation: "slide",
-  animationLoop: "true"
-  });
-  });
-  
-</script>
-<script>
-  $(document).ready(function(){
-  $.get('index.flyers.html', function(data) {
-  $('#flyers').html(data);
-  });
-  });
-  $('div.lb-nav').on('click', function(e) {
-  window.close();return false;});
-</script>
+</ul></div><div id="flyers" class="cf">[flyers]</div><script src="widgets/lightbox/js/jquery-1.7.2.min.js"></script><script src="widgets/lightbox/js/lightbox-ck.js"></script><script src="widgets/flexslider/jquery.flexslider-ck.js"></script><script src="js/main.js"></script></div></body></html><script>$(window).load(function() {
+$('.flexslider').flexslider({
+animation: "slide",
+animationLoop: "true"
+});
+});
+</script><script>$(document).ready(function(){
+$.get('index.flyers.html', function(data) {
+$('#flyers').html(data);
+});
+});
+$('div.lb-nav').on('click', function(e) {
+window.close();return false;});</script>

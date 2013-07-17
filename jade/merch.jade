@@ -1,14 +1,28 @@
 include common/head
-    #page
-      a(href=settings.homePage)
-        img(src=settings.logoThumb, alt='logo')
-      .contentTitle
-        h2 Hoodies Tanks & Tees
-      .contentText
+  #page.simple.merch
+    a(href=settings.homePage)
+      img.logo(src=settings.logoThumb, alt='logo')
+    section
+      header.cf
+        h1 Hoodies Tanks & Tees
+      article
+        .samples
+          img(src='images/merch/tee-red-front.jpg', alt='Red T-Shirt (front)')
+          img(src='images/merch/tank-white-front.jpg', alt='White Tanktop (front)')
+          img(src='images/merch/tank-gray-front.jpg', alt='Gray Tanktop (front)')
+          img(src='images/merch/hoodie-gray-front.jpg', alt='Gray Hoodie (front)')
+          img(src='images/merch/hoodie-gray-back.jpg', alt='Gray Hoodie (back)')
+          img(src='images/merch/hoodie-black-front.jpg', alt='Black Hoodie (front)')
+          img(src='images/merch/hoodie-black-back.jpg', alt='Black Hoodie (back)')
+          #hoodiequality
+            | Hoodies are 80% cotton / 20% polyester
+            br
+            | Beautiful and built to last
+            br
+            br
+            | ... models not included ...
         table
           tr
-            td
-              img(src='images/tshirt_m.jpg', alt='')
             td
               form(action='merch-email.html', method='get')
                 input(type='hidden', name='cmd', value='_s-xclick')
@@ -66,18 +80,5 @@ include common/head
                       p
                         a(href='policy.html') return policy | privacy policy
                       a(href='merch-email.html')
-      #samples
-        img(src='images/merch/tee-red-front.jpg', alt='Red T-Shirt (front)')
-        img(src='images/merch/tank-white-front.jpg', alt='White Tanktop (front)')
-        img(src='images/merch/tank-gray-front.jpg', alt='Gray Tanktop (front)')
-        img(src='images/merch/hoodie-gray-front.jpg', alt='Gray Hoodie (front)')
-        img(src='images/merch/hoodie-gray-back.jpg', alt='Gray Hoodie (back)')
-        img(src='images/merch/hoodie-black-front.jpg', alt='Black Hoodie (front)')
-        img(src='images/merch/hoodie-black-back.jpg', alt='Black Hoodie (back)')
-        #hoodiequality
-          | Hoodies are 80% cotton / 20% polyester
-          br
-          | Beautiful and built to last
-          br
-          br
-          | ... models not included ...
+  include common/scripts
+  include common/foot

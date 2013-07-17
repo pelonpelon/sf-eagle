@@ -83,12 +83,12 @@
       @include box-shadow(0px 0px 20px $box-shadow);
       border: solid 10px rgba(#555, 0.2);
       @include border-radius(35px);
-      max-width: 400px;
+      max-width: 375px;
       @media screen and (max-width:$tablet) {
         width: 100%;
       }
       @media screen and (max-width:$phone) {
-        width: 80%;
+        width: 93%;
       }
     }
     p {

@@ -12,7 +12,8 @@
                     foreach($custom_posts as $post)
                     {
                         setup_postdata($post);
-                        $type = get_field('type_of_event');
+                        if ( $post->post_status == "private" ) { continue; }
+                        $type_of_event = get_field('type_of_event');
                         include 'php/timegames.php';
                         if ( $now < $begintime - 60*60*24*5 || $now > $endtime ) { continue; }
                         if ($day != date('l', $begintime))
@@ -26,7 +27,7 @@
             <li class="event cf">
                 <p class="time"><?php echo $start . " - " . $finish; ?> </p>
                         <?php
-                        if ( $type[0] === "music" )
+                        if ( $type_of_event[0] === "music" )
                         { ?>
                 <ul class="tnl event-list">
                     <li>
