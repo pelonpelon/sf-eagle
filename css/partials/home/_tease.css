@@ -1,14 +1,18 @@
 /*
-Syntax error: Undefined variable: "$decor-medium".
-        on line 3 of /Users/pelon/Sites/sf-eagle/storm/scss/partials/home/_tease.scss
+Syntax error: Undefined variable: "$phone".
+        on line 6 of /Users/pelon/Sites/sf-eagle/storm/scss/partials/home/_tease.scss
 
 1: /Users/pelon/Sites/sf-eagle/storm/scss/partials/home/_tease.scss
 
 Backtrace:
-/Users/pelon/Sites/sf-eagle/storm/scss/partials/home/_tease.scss:3
+/Users/pelon/Sites/sf-eagle/storm/scss/partials/home/_tease.scss:6
 /Applications/CodeKit.app/Contents/Resources/engines/compass/bin/../../scss/lib/sass/../sass/script/variable.rb:49:in `_perform'
 /Applications/CodeKit.app/Contents/Resources/engines/compass/bin/../../scss/lib/sass/../sass/script/node.rb:40:in `perform'
-/Applications/CodeKit.app/Contents/Resources/engines/compass/bin/../../scss/lib/sass/../sass/tree/visitors/perform.rb:294:in `visit_prop'
+/Applications/CodeKit.app/Contents/Resources/engines/compass/bin/../../scss/lib/sass/../sass/tree/visitors/perform.rb:396:in `run_interp_no_strip'
+/Applications/CodeKit.app/Contents/Resources/engines/compass/bin/../../scss/lib/sass/../sass/tree/visitors/perform.rb:394:in `map'
+/Applications/CodeKit.app/Contents/Resources/engines/compass/bin/../../scss/lib/sass/../sass/tree/visitors/perform.rb:394:in `run_interp_no_strip'
+/Applications/CodeKit.app/Contents/Resources/engines/compass/bin/../../scss/lib/sass/../sass/tree/visitors/perform.rb:404:in `run_interp'
+/Applications/CodeKit.app/Contents/Resources/engines/compass/bin/../../scss/lib/sass/../sass/tree/visitors/perform.rb:358:in `visit_media'
 /Applications/CodeKit.app/Contents/Resources/engines/compass/bin/../../scss/lib/sass/../sass/tree/visitors/base.rb:37:in `send'
 /Applications/CodeKit.app/Contents/Resources/engines/compass/bin/../../scss/lib/sass/../sass/tree/visitors/base.rb:37:in `visit'
 /Applications/CodeKit.app/Contents/Resources/engines/compass/bin/../../scss/lib/sass/../sass/tree/visitors/perform.rb:98:in `visit'
@@ -73,4 +77,4 @@ Backtrace:
 body:before {
   white-space: pre;
   font-family: monospace;
-  content: "Syntax error: Undefined variable: \"$decor-medium\".\A         on line 3 of /Users/pelon/Sites/sf-eagle/storm/scss/partials/home/_tease.scss\A \A 1: /Users/pelon/Sites/sf-eagle/storm/scss/partials/home/_tease.scss"; }
+  content: "Syntax error: Undefined variable: \"$phone\".\A         on line 6 of /Users/pelon/Sites/sf-eagle/storm/scss/partials/home/_tease.scss\A \A 1: /Users/pelon/Sites/sf-eagle/storm/scss/partials/home/_tease.scss"; }

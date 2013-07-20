@@ -15,7 +15,7 @@
         include "access.php";
         $type_of_event = get_field('type_of_event');
         if ( $post->post_status == "private" ) { continue; }
-        include "php/timegames.php";
+        include "includes/timegames.php";
         if ( $now > $begintime + 60*60*18 ) { continue; }
         if ( ! get_field('image') ) { $image = "images/logo-cropped-thumb.jpg"; }
         else { $image = wp_get_attachment_image_src(get_field('image'), 'full'); }

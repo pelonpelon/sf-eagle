@@ -12,7 +12,7 @@ require('wp/wp-blog-header.php');
     <meta name="viewport" content="width=device-width">
     <meta name="viewport" content="initial-scale=1.0">
     <link rel="stylesheet" href="css/wp.css">
-    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="css/main.css.1374302189">
     <link href="http://fonts.googleapis.com/css?family=Jolly+Lodger|Coming+Soon|Rouge+Script" rel="stylesheet" type="text/css">
     <link rel="apple-touch-icon" href="images/icons/touch-icon-iphone-57x57.png">
     <link rel="apple-touch-icon" sizes="72x72" href="images/icons/touch-icon-ipad.png">

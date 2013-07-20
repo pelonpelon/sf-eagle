@@ -17,4 +17,7 @@
     $endtime = strtotime($date . " " . $finish);
     }
     $timeuntil = $now - $begintime;
+    $timeuntilend = $now - $endtime;
+    $publish_time = strtotime($post->post_date);
+    $timeuntilpublish = $now - $publish_time;
 ?>

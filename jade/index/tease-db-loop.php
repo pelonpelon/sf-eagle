@@ -1,48 +1,103 @@
-<div class="loop"> <?php
-    global $post; // required
-    $category_id = get_cat_ID('Tease Now');
+<?php
+    global $post;
+    $category_id = get_cat_ID('Drink Special');
     $args = array(
-        'category'      => $category_id,
-        'orderby'       => 'post_date',
-        'order'         => 'DESC',
-        'post_type'     => 'post',
-        'numberposts'   => 1
+    'category'      => $category_id,
+    'orderby'       => 'post_date',
+    'order'         => 'DESC',
+    'post_type'     => 'post',
+    'post_status'   => 'scheduled',
+    'numberposts'   => 1
     );
     $custom_posts = get_posts($args);
     foreach($custom_posts as $post)
     {
-        setup_postdata($post);
-        if ( $post->post_status == "private" ) { continue; }
-        include 'php/timegames.php';
-        if ( $now < $begintime || $now > $endtime ) { continue; } ?>
-        <h1> <?php echo $post->post_title; ?> </h1> <?php
-        fill_tease($post);
+    if ( !$custom_posts || !($post->post_status == 'future') )
+    {
+        continue;
     }
-    $args = array(
-        'meta_key'      => 'date',
-        'orderby'       => 'meta_value',
-        'order'         => 'ASC',
-        'post_type'     => 'event',
-        'numberposts'   => -1
-    );
-        $custom_posts = get_posts($args);
-        foreach($custom_posts as $post)
-        {
-            setup_postdata($post);
-            if ( !get_field('tease') ) { continue;}
-            include 'php/timegames.php';
-            if ( $now < $begintime - 60*60*24*5 || $now > $endtime ) { continue; }
-            if ( get_field('include_title') )
-            { ?>
-                <h1> <?php echo $post->post_title; ?> </h1> <?php
-            }
-            fill_tease($post);
-            break;
+    setup_postdata($post);
+    if ( $post->post_status == "private" ) { continue; }
+    $now = time();
+    $publish_time = strtotime($post->post_date) + (60*60*$local_time_zone_factor);
+    if ( $now > $publish_time ) { continue; } ?>
+    <section class="drink_special" style="display: block;"> <?php
+    if ( has_post_thumbnail($post->ID) )
+    {
+    $image_thumb = wp_get_attachment_image_src( get_post_thumbnail_id($post->ID), 'thumbnail'); ?>
+        <img src="<?php echo $image_thumb[0] ?>"
+             width="<?php echo $image_thumb[1]; ?>"
+             height="<?php echo $image_thumb[2]; ?>"
+             alt="Drink Special" > <div class="with_thumbnail"><?php
         }
-    ?>
-</div>
+        else
+        {?>
+        <div class="without_thumbnail"><?php
+        }
+            the_content(); ?></div> <?php
+    } ?>
+    </section>
 
-<?php function fill_tease($post)
+<?php
+$empty = true;
+global $post; // required
+$category_id = get_cat_ID('Tease Now');
+$args = array(
+    'category'      => $category_id,
+    'orderby'       => 'post_date',
+    'order'         => 'DESC',
+    'post_type'     => 'post',
+    'post_status'   => 'scheduled',
+    'numberposts'   => 1
+);
+$custom_posts = get_posts($args);
+foreach($custom_posts as $post)
+{
+    if ( !$custom_posts || !($post->post_status == 'future') )
+    {
+        continue;
+    }
+    setup_postdata($post);
+    if ( $post->post_status == "private" ) { continue; }
+    include 'includes/timegames.php';
+    if ( $now > $publish_time ) { continue; } ?>
+    <section class="tease_now" style="display: block;">
+        <h1> <?php the_title(); ?> </h1> <?php
+    fill_tease($post);
+    $empty = false;
+} ?>
+</section>
+
+<?php
+if ( $empty )
+{
+    $args = array(
+    'meta_key'      => 'date',
+    'orderby'       => 'meta_value',
+    'order'         => 'ASC',
+    'post_type'     => 'event',
+    'numberposts'   => -1
+);
+    $custom_posts = get_posts($args);
+    foreach($custom_posts as $post)
+    {
+        setup_postdata($post);
+        if ( !get_field('tease') ) { continue;}
+        include 'includes/timegames.php';
+        if ( $now < $begintime - 60*60*24*5 || $now > $endtime ) { continue; } ?>
+        <section class="event" style="display: block;"> <?php
+        if ( get_field('include_title') )
+        { ?>
+            <h1> <?php echo $post->post_title; ?> </h1> <?php
+        }
+        fill_tease($post);
+        break; ?>
+            </section> <?php
+    }
+}
+
+
+function fill_tease($post)
 {
     $image_large = wp_get_attachment_image_src( get_post_thumbnail_id($post->ID), 'large'); ?>
     <div>

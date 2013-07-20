@@ -1,89 +1,93 @@
 #tease {
-  h1 {
-    color: $decor-medium;
-    font-family: "Coming Soon";
-    line-height: 1em;
-    text-align: center;
-    font-size: 5em;
-    padding: 20px 8% 40px 8%;
-    margin: 0;
-    @media screen and (max-width: $phone) {
-      margin: 0 0 0 3%;
-      padding: 20px 0 40px 0;
-      font-size: 4em;
+  .drink_special {
+    display: none;
+    height: 150px;
+    margin: 0 auto 90px auto;
+    @media screen and (max-width:$phone) {
+      margin: 30px auto 60px auto;
     }
-  }
-  #posters {
-    h1 {
-      color: #ff02c8;
-      font-family: "Rouge Script";
-      line-height: 1em;
-      text-align: center;
-    }
-    hr {
-      margin: 20px;
-    }
-    width: 70%;
-    height:auto;
-    margin: 60px auto;
-    max-height: 600px;
-    @media screen and (max-width:$netbook) {
-      width: 100%;
-      margin-top: 50px;
-    }
-    @media screen and (max-width: $tablet) {
-      #posters {
-        max-width: 90%; }
-    }
-    h4 {
-      color: red;
-      font-size: .9em;
-      line-height: 1.3em;
-      font-weight: 700;
-    }
-    >a {
+    @include border-radius(35px);
+    img {
       float: left;
-      margin: 0 auto;
-      max-width: 30%;
-      max-height: 40%;
-      &:nth-child(1), &:nth-child(2) {
-        margin: 0 10%; }
-      &:nth-child(3) {
-        margin: 30px 33%; }
-    }
-    .bigimage {
-      display: block;
-      float: left;
-      clear: both;
-      color: red;
-      font-weight: 700;
-      line-height: 1.3em;
-      width: 100%;
-      height:auto;
-      img {
-        border: 0; }
-        max-width: 80%;
-      @media screen and (max-width:$netbook) {
-        margin: 0 auto;
+      height: auto;
+      width: auto;
+      max-width: 150px;
+      max-height: 150px;
+      margin: 0;
+      padding: 0 2% 0 15%;
+      @media screen and (max-width:$tablet) {
+        padding: 0 2% 0 10%;
+        max-width: 110px;
+        max-height: 110px;
       }
       @media screen and (max-width:$phone) {
-        width: 25%;
-        margin: 0 auto;
+        padding: 0 4% 0 8%;
+        max-width: 110px;
+        max-height: 110px;
+      }
+    }
+    .with_thumbnail {
+      float: left;
+      max-width: 45%;
+      margin: 0 0 60px 0;
+      padding: 10px 3%;
+      @include box-shadow(0px 0px 20px $decor-lite);
+      @include border-radius(35px);
+      @include opacity(0.6);
+    }
+    .without_thumbnail {
+      max-width: 65%;
+      margin: 0 auto 60px auto;
+      padding: 10px 3%;
+      @include box-shadow(0px 0px 20px $decor-lite);
+      @include border-radius(35px);
+      @include opacity(0.6);
+    }
+    p {
+      margin: 0;
+      color: $decor-lite;
+      text-align: center;
+      font-size: 1.4em;
+      font-weight: 800;
+      font-family: "times new roman";
+      @media screen and (max-width:$netbook) {
+        font-size: 1.4em;
+      }
+      @media screen and (max-width:$tablet) {
+        font-size: 1.2em;
+      }
+      @media screen and (max-width:$phone) {
+        font-size: 1.2em;
       }
     }
   }
-  .oped, .loop {
+  .tease_now, .event {
+    margin-bottom: 60px;
     font-family: 'Coming Soon' cursive;
     font-size: 1em;
     line-height: 20px;
     @include text-shadow(2px 2px 3px darken($content-lite, 30%));
+    h1 {
+      color: $decor-medium;
+      font-family: "Coming Soon";
+      line-height: 1em;
+      text-align: center;
+      font-size: 5em;
+      padding: 20px 8% 40px 8%;
+      margin: 0;
+      @media screen and (max-width: $phone) {
+        margin: 0 0 0 3%;
+        padding: 20px 0 40px 0;
+        font-size: 4em;
+      }
+    }
     img {
       display: block;
       margin: 10px auto;
       @include box-shadow(0px 0px 20px $box-shadow);
       border: solid 10px rgba(#555, 0.2);
       @include border-radius(35px);
-      max-width: 375px;
+      max-width: 300px;
       @media screen and (max-width:$tablet) {
         width: 100%;
       }
@@ -108,57 +112,5 @@
     @media screen and (max-width:$phone) {
       padding-bottom: 10px;
     }
-  }
-  blockquote {
-    clear: left;
-    float: left;
-    width: 60%;
-    margin: 20px 0 0 10%;
-    color: $decor-lite;
-  }
-  div.special {
-    position: relative;
-    .button {
-      @include opacity(0.2);
-      background-color: #0000ce;
-      position: absolute;
-      bottom: 35px;
-      left: 22%;
-      z-index: 98;
-      width: 25%;
-    }
-    span {
-      position: absolute;
-      bottom: 45px;
-      @media screen and (max-width:$phone) {
-        bottom: 50px;
-      }
-      left: 22%;
-      z-index: 99;
-      width: 25%;
-      font-size: 1.5em;
-      text-align: center;
-      @media screen and (max-width:$phone) {
-        font-size: 1.4em;
-      }
-    }
-    img {
-      width: 60%;
-      padding: 30px 20%;
-    }
-  }
-  .poster img {
-    display: block;
-    float: left;
-    max-height: 400px;
-    width: auto;
-    padding: 20px 5%;
-  }
-  .poster h3, .poster h2 {
-    color: $decor-medium;
-    float: right;
-    font-family: "Coming Soon";
-    padding: 5%;
-    font-weight: 700;
   }
 }

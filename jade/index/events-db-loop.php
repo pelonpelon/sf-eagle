@@ -14,7 +14,7 @@
                         setup_postdata($post);
                         if ( $post->post_status == "private" ) { continue; }
                         $type_of_event = get_field('type_of_event');
-                        include 'php/timegames.php';
+                        include 'includes/timegames.php';
                         if ( $now < $begintime - 60*60*24*5 || $now > $endtime ) { continue; }
                         if ($day != date('l', $begintime))
                         { ?>
@@ -25,7 +25,7 @@
                         $day = date('l', $begintime); ?>
         <ul class="events">
             <li class="event cf">
-                <p class="time"><?php echo $start . " - " . $finish; ?> </p>
+                <p class="time"><?php echo $start . " - " . $finish; ?></p>
                         <?php
                         if ( $type_of_event[0] === "music" )
                         { ?>
