@@ -15,23 +15,42 @@
                         if ( $post->post_status == "private" ) { continue; }
                         $type_of_event = get_field('type_of_event');
                         include 'includes/timegames.php';
-                        if ( $now < $begintime - 60*60*24*5 || $now > $endtime ) { continue; }
+                        if ( $begintime > $now + 60*60*24*7 || $now > $endtime ) { continue; }
                         if ($day != date('l', $begintime))
                         { ?>
     <li id="<?php echo date('l', $begintime); ?>" class="day">
         <h3> <?php echo date('l', $begintime); ?> <sup><?php echo date('n/j', $begintime); ?></sup> </h3>
                         <?php
                         }
-                        $day = date('l', $begintime); ?>
+                        $day = date('l', $begintime);
+                        $price = "$" . get_field('price');
+                        ?>
         <ul class="events">
             <li class="event cf">
-                <p class="time"><?php echo $start . " - " . $finish; ?></p>
+                <p class="time"><?php echo $start . " - " . $finish;
+                    if ( get_field('price'))
+                    { ?>
+                    <span class="price"><?php echo $price; ?></span> <?php
+                    }
+                    ?>
+
+                </p>
                         <?php
                         if ( $type_of_event[0] === "music" )
                         { ?>
-                <ul class="tnl event-list">
+                <ul class="tnl event-list"> <?php
+                        if ( get_field('promoter')) {
+                    ?>
+                    <li class="promoter">
+                        <a href="<?php the_field('promoter_link'); ?>" target="_blank">
+                            <span> <?php the_field('promoter'); ?> </span>
+                        </a>
+                    </li><?php
+                        }
+                    ?>
+
                     <li>
-                        <a href="<?php the_field('band_#1_link'); ?>" class="button">
+                        <a href="<?php the_field('band_#1_link'); ?>" class="button" target="_blank">
                             <span> <?php the_field('band_#1'); ?> </span>
                         </a>
                     </li>
@@ -39,7 +58,7 @@
                             if ( get_field('band_#2') !== "" )
                             { ?>
                     <li>
-                        <a href="<?php the_field('band_#2_link'); ?>" class="button">
+                        <a href="<?php the_field('band_#2_link'); ?>" class="button" target="_blank">
                             <span> <?php the_field('band_#2'); ?> </span>
                         </a>
                     </li>
@@ -48,7 +67,7 @@
                             if ( get_field('band_#3') !== "" )
                             { ?>
                     <li>
-                        <a href="<?php the_field('band_#3_link'); ?>" class="button">
+                        <a href="<?php the_field('band_#3_link'); ?>" class="button" target="_blank">
                             <span> <?php the_field('band_#3'); ?> </span>
                         </a>
                     </li>
@@ -57,7 +76,7 @@
                             if ( get_field('band_#4') !== "" )
                             { ?>
                     <li>
-                        <a href="<?php the_field('band_#4_link'); ?>" class="button">
+                        <a href="<?php the_field('band_#4_link'); ?>" class="button" target="_blank">
                             <span> <?php the_field('band_#4'); ?> </span>
                         </a>
                     </li>
@@ -68,7 +87,7 @@
                         { ?>
                 <ul class="event-list">
                     <li>
-                        <a href="<?php the_field('link'); ?>" class="button">
+                        <a href="<?php the_field('link'); ?>" class="button" target="_blank">
                             <span> <?php the_title(); ?> </span>
                         </a>
                     </li> <?php
@@ -87,4 +106,7 @@
     </li>
                          <?php }
                     } ?>
+    <a href="calendar.php" >
+        <h3 class="more_events">More...</h3>
+    </a>
 </ul>

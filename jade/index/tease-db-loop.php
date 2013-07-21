@@ -18,8 +18,8 @@
     }
     setup_postdata($post);
     if ( $post->post_status == "private" ) { continue; }
-    $now = time();
-    $publish_time = strtotime($post->post_date) + (60*60*$local_time_zone_factor);
+    include 'includes/timegames.php';
+        // MEMO Check that $publishtime works here
     if ( $now > $publish_time ) { continue; } ?>
     <section class="drink_special" style="display: block;"> <?php
     if ( has_post_thumbnail($post->ID) )
@@ -71,6 +71,7 @@ foreach($custom_posts as $post)
 <?php
 if ( $empty )
 {
+    // scheduled event in tease unless replaced by tease_now
     $args = array(
     'meta_key'      => 'date',
     'orderby'       => 'meta_value',
@@ -84,7 +85,7 @@ if ( $empty )
         setup_postdata($post);
         if ( !get_field('tease') ) { continue;}
         include 'includes/timegames.php';
-        if ( $now < $begintime - 60*60*24*5 || $now > $endtime ) { continue; } ?>
+        if ( $begintime > ($now + 60*60*24*7) || $now > $endtime ) { continue; } ?>
         <section class="event" style="display: block;"> <?php
         if ( get_field('include_title') )
         { ?>
@@ -107,6 +108,7 @@ function fill_tease($post)
                  height="<?php echo $image_large[2]; ?>"
                  alt="<?php get_the_title($post->ID); ?>" >
         </a>
+        <?php the_content(); ?>
     </div>
-    <p><?php echo $post->post_content; ?> </p> <?php
+    <p><?php the_field('blurb'); ?> </p> <?php
 } ?>

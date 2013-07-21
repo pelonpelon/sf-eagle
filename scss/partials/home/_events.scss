@@ -8,6 +8,15 @@
       @include border-top-radius(15px);
     }
   }
+  .more_events {
+    margin: 20px 0 0 0;
+    padding: 12px 4px 1px 4px;
+    background-color: #444;
+    @include opacity(0.9);
+    @include border-top-radius(0px);
+    @include border-bottom-radius(15px);
+    text-align: right;
+  }
   .events {
     margin-bottom: 0;
     background-color: #222222;
@@ -31,6 +40,18 @@
       clear: left;
       text-align:left;
       margin-bottom: 2px;
+    }
+    .price {
+      padding-left: 10px;
+      color: $content-dark;
+      font-weight: 100;
+    }
+    .promoter {
+      font-family: "Bitstream Charter";
+      display: block;
+      text-align: center;
+      font-size: .8em;
+      padding: 12px 0 8px 0;
     }
     img {
       float: right;
