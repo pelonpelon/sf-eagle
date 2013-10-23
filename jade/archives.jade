@@ -1,4 +1,9 @@
-include common/head
+include common/header
+  #root
     #page
-      a(href=settings.homePage)
-        img(src='images/logo-thumb.jpg', alt='logo')
+      a(href=homePage)
+        img.logo(src=logo, alt='logo')
+      #page-footer
+    #footer
+      include common/footer
+  include common/scripts

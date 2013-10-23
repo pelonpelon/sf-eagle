@@ -34,5 +34,5 @@ filter_calendar = (crowd) ->
 filter_calendar "music"
 filter_calendar "bears"
 filter_calendar "leather"
-filter_calendar "drag"
-
+# filter_calendar "drag"
+filter_calendar "special"

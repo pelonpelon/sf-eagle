@@ -17,13 +17,13 @@
     @include border-bottom-radius(15px);
     text-align: right;
   }
-  .events {
+  .event {
     margin-bottom: 0;
     background-color: #222222;
     @include opacity(0.8);
     @include border-bottom-radius(0px);
-    .event {
-      margin-bottom: 0;
+    li {
+    overflow: hidden;
     }
     p {
     padding: 0 0;
@@ -57,7 +57,12 @@
       float: right;
       width: 30%;
       @include min-height(60px);
-
+      margin-bottom: 20px ;
+    }
+    .youtubePlaylistIcon {
+      float: right;
+      width: 30%;
+      @include min-height(60px);
     }
     .button, .buttonless {
       float: left;
@@ -83,7 +88,7 @@
     }
   }
   .tnl {
-    font-family: 'Jolly Lodger', cursive;
+    font-family: $tnl-font, cursive;
     font-size: 1.5em;
     .buttonless {
       background-color: $decor-dark;

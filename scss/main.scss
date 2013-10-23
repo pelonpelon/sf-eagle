@@ -1,24 +1,18 @@
-//See: http://www.websitedimensions.com/
-$max_page_width: 1280px;
-$netbook: 1024px;
-$tablet: 768px;
-$phone: 480px;
-$chiclet: 320px;
-
-@import "vendor/normalize";
+@import "vendor/flexslider";
+@import "vendor/lightbox";
 
 @import "compass/css3";
 @import "compass/utilities";
+@import "compass/layout/sticky-footer";
 
-@import "vendor/flexslider";
-@import "vendor/lightbox";
+@import "theme/all";
 
 @import "helpers/clearfix";
 
 @import "bits/buttons";
 
-@import "theme/all";
-
 @import "partials/all";
 
 @import "style";
+
+

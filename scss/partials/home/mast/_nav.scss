@@ -8,10 +8,12 @@ nav {
   a.button {
     margin: 5px 0;
     padding: 3px 0 0 2px;
-    background-color: inherit;
-    background-image: url("../images/logo-button.png");
+    @include border-radius(40px);
+    background-color: $decor-dark;
+    // background-image: url("../images/logo-button.png");
     &:hover {
-      background-image: url("../images/logo-button-hover.png");
+    //   background-image: url("../images/logo-button-hover.png");
+    background-color: $decor-medium;
     }
     span {
       font-family: "Coming Soon";

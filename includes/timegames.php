@@ -1,6 +1,10 @@
 <?php
     date_default_timezone_set('America/Los_Angeles');
     $now = time();
+    $week_from_now = $now + 60*60*24*7;
+    $this_day = date( 'j', $now);
+    $this_month = date( 'n', $now);
+    $this_year = date( 'y', $now);
     $date = get_post_meta(get_the_ID(), 'date', true);
     $start = get_post_meta(get_the_ID(), 'time', true);
     $finish = get_post_meta(get_the_ID(), 'endtime', true);

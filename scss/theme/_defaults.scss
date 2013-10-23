@@ -1,3 +1,11 @@
+//See: http://www.websitedimensions.com/
+$max_page_width: 1280px;
+$netbook: 1025px;
+$tablet: 801px;
+$phone: 641px;
+$chiclet: 321px;
+
+
 img {
   width: 100%;
   height: auto;
@@ -21,63 +29,3 @@ a>img {
 }
 
 
-@media screen and (max-width: $tablet) {
-  h1 {
-    font-size: 1.9em;
-    margin: 0.67em 0;
-  }
-  h2 {
-    font-size: 1.3em;
-    margin: 0.83em 0;
-  }
-
-  h3 {
-    font-size: 1em;
-    margin: 1em 0;
-  }
-
-  h4 {
-    font-size: 0.83em;
-    margin: 1.33em 0;
-  }
-
-  h5 {
-    font-size: 0.8em;
-    margin: 1.67em 0;
-  }
-
-  h6 {
-    font-size: 0.75em;
-    margin: 2.33em 0;
-  }
-}
-@media screen and (max-width: $phone) {
-  h1 {
-    font-size: 1.5em;
-    margin: 0.67em 0;
-  }
-  h2 {
-    font-size: 1.3em;
-    margin: 0.83em 0;
-  }
-
-  h3 {
-    font-size: 1em;
-    margin: 1em 0;
-  }
-
-  h4 {
-    font-size: 0.83em;
-    margin: 1.33em 0;
-  }
-
-  h5 {
-    font-size: 0.8em;
-    margin: 1.67em 0;
-  }
-
-  h6 {
-    font-size: 0.75em;
-    margin: 2.33em 0;
-  }
-}

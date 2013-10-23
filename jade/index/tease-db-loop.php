@@ -97,7 +97,12 @@ if ( $empty )
     }
 }
 
-
+/**
+ * fill the center of the top of the home page with
+ * a drink special or an announcement w/ images
+ * @param  obj $post
+ * @return null
+ */
 function fill_tease($post)
 {
     $image_large = wp_get_attachment_image_src( get_post_thumbnail_id($post->ID), 'large'); ?>

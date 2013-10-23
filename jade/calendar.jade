@@ -1,20 +1,26 @@
-include common/head
-  #page.simple.calendar
-    a(href=settings.homePage)
-      img.logo(src=settings.logoThumb, alt='logo')
-    section
-      header
-        h1 EAGLE CALENDAR
-      article
-        nav
-          a(href="#")
-            img.music(src="images/icons/TNL-button-les_paul.png", width="120", height="120", alt="Thursday Night Live Button")
-          a(href="#")
-            img.bears(src="images/icons/calbears-button.png", width="120", height="120", alt="Bears Button")
-          a(href="#")
-            img.leather(src="images/icons/tom_of_finland.png", width="120", height="120", alt="Leather Button")
-          a(href="#")
-            img.drag(src="images/icons/anaconda-ugly.png", width="120", height="120", alt="Drag Button")
-        include calendar-page-loop.php
+include common/header
+  #root
+    #page.simple.calendar
+      a(href=homePage)
+        img.logo(src=logo, alt='logo')
+      section
+        header
+          h1 EAGLE CALENDAR
+        article
+          nav
+            a(href="#")
+              img.music(src="images/icons/TNL-button-les_paul.png", width="120", height="120", alt="Thursday Night Live Button")
+            a(href="#")
+              img.bears(src="images/icons/calbears-button.png", width="120", height="120", alt="Bears Button")
+            a(href="#")
+              img.leather(src="images/icons/tom_of_finland.png", width="120", height="120", alt="Leather Button")
+            //- a(href="#")
+            //-   img.drag(src="images/icons/anaconda-ugly.png", width="120", height="120", alt="Drag Button")
+            a(href="#")
+              img.special(src="images/icons/icon-specialEvents.svg", width="120", height="120", alt="Special Events Button")
+          table
+            include calendar-page-loop.php
+      #page-footer
+    #footer
+      include common/footer
   include common/scripts
-  include common/foot

@@ -1,8 +1,24 @@
-script(src='widgets/lightbox/js/jquery-1.7.2.min.js').
-
+script(src='//ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js').
 script(src='widgets/lightbox/js/lightbox-ck.js').
 
+script.
+  $(document).ready(function(){
+  $.get('index.flyers.html', function(data) {
+  $('#flyers').html(data);
+  });
+  });
+  $('div.lb-nav').on('click', function(e) {
+  window.close();return false;});
+
 script(src='widgets/flexslider/jquery.flexslider-ck.js').
+
+script.
+  $(window).load(function() {
+  $('.flexslider').flexslider({
+  animation: "slide",
+  animationLoop: "true"
+  });
+  });
 
 script(src='js/main.js').
 

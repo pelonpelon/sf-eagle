@@ -6,8 +6,13 @@
     float: left;
     clear: right;
     img.logo {
-      width: 100%;
-      @include opacity(0.5);
+      width: 80%;
+      @include opacity(0.9);
+    }
+    @media screen and (max-width:$phone) {
+      width: 60%;
+      clear: none;
+      margin-bottom: 30px;
     }
     @media screen and (max-width:$phone) {
       width: 60%;
@@ -31,12 +36,6 @@
     }
   }
   @import "mast/nav";
-
-  aside {
-    float: left;
-    clear: both;
-  }
-  @import "mast/aside";
 
   ul {
     @include pie-clearfix;

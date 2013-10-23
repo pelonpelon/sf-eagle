@@ -1,4 +1,29 @@
-#mast
-  include mast/header
-  include mast/nav
-  include mast/aside
+include ../common/settings
+
+header
+  img.logo(src=logo, alt='logo', width='200px', height='200px')
+
+nav
+  ul
+    li.thisweek
+      a.button(href='#events')
+        span
+          | This
+          br
+          | Week
+    li
+      a.button(href='merch.php')
+        span
+          | Hoodies
+          br
+          | Tanks
+          br
+          | & Tees
+    li
+      a.button(href='calendar.php')
+        span
+          | Calendar
+    //- li
+    //-   a.button(href='jobs.php')
+    //-     span
+    //-       | Jobs
