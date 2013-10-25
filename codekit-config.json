@@ -481,7 +481,7 @@
     },
     "\/scss\/theme\/_settings.scss" : {
       "ignoreWasSetByUser" : 0,
-      "ignore" : 1,
+      "ignore" : 0,
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
       "inputAbbreviatedPath" : "\/scss\/theme\/_settings.scss",
@@ -612,17 +612,6 @@
       "initialSize" : 160,
       "fileType" : 8192
     },
-    "\/images\/icons\/list.png" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/images\/icons\/list.png",
-      "processed" : 0,
-      "outputAbbreviatedPath" : "\/images\/icons\/list.png",
-      "initialSize" : 2757,
-      "fileType" : 8192
-    },
     "\/images\/events\/Charlie_Horse-No_Pride-lite.jpg" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 0,
@@ -633,6 +622,17 @@
       "outputAbbreviatedPath" : "\/images\/events\/Charlie_Horse-No_Pride-lite.jpg",
       "initialSize" : 28122,
       "fileType" : 4096
+    },
+    "\/images\/icons\/list.png" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/images\/icons\/list.png",
+      "processed" : 0,
+      "outputAbbreviatedPath" : "\/images\/icons\/list.png",
+      "initialSize" : 2757,
+      "fileType" : 8192
     },
     "\/scss\/vendor\/_flexslider.scss" : {
       "ignoreWasSetByUser" : 0,
@@ -722,6 +722,18 @@
       "outputAbbreviatedPath" : "\/images\/events\/agave-syrup1-nectar-600.jpg",
       "initialSize" : 12544,
       "fileType" : 4096
+    },
+    "\/scss\/theme\/_defaults.scss" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 1,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/scss\/theme\/_defaults.scss",
+      "outputStyle" : 0,
+      "shouldRunBless" : 0,
+      "outputAbbreviatedPath" : "\/css\/_defaults.css",
+      "fileType" : 4,
+      "debugStyle" : 1
     },
     "\/images\/events\/sonny-and-the-sunsets-thumb.jpg" : {
       "ignoreWasSetByUser" : 0,
@@ -1581,7 +1593,7 @@
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
       "inputAbbreviatedPath" : "\/config.rb",
-      "outputAbbreviatedPath" : "\/config.rb",
+      "outputAbbreviatedPath" : "No Output Path",
       "fileType" : 32768
     },
     "\/images\/events\/peppersprayband-600.jpg" : {
@@ -1974,17 +1986,6 @@
       "initialSize" : 30467,
       "fileType" : 4096
     },
-    "\/images\/events\/flag-butt.jpg" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/images\/events\/flag-butt.jpg",
-      "processed" : 0,
-      "outputAbbreviatedPath" : "\/images\/events\/flag-butt.jpg",
-      "initialSize" : 20284,
-      "fileType" : 4096
-    },
     "\/jade\/common\/settings.jade" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 1,
@@ -1995,6 +1996,17 @@
       "compileDebug" : 1,
       "outputAbbreviatedPath" : "\/jade\/settings.html",
       "fileType" : 512
+    },
+    "\/images\/events\/flag-butt.jpg" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/images\/events\/flag-butt.jpg",
+      "processed" : 0,
+      "outputAbbreviatedPath" : "\/images\/events\/flag-butt.jpg",
+      "initialSize" : 20284,
+      "fileType" : 4096
     },
     "\/images\/icons\/tom_of_finland.png" : {
       "ignoreWasSetByUser" : 0,
@@ -2172,6 +2184,17 @@
       "processed" : 0,
       "outputAbbreviatedPath" : "\/images\/logo-cropped-thumb.jpg",
       "initialSize" : 5787,
+      "fileType" : 4096
+    },
+    "\/images\/freakshow.jpg" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/images\/freakshow.jpg",
+      "processed" : 0,
+      "outputAbbreviatedPath" : "\/images\/freakshow.jpg",
+      "initialSize" : 68801,
       "fileType" : 4096
     },
     "\/images\/staff\/cody-joseph-virgin-mary-lite.jpg" : {
@@ -2411,11 +2434,11 @@
       "ignoreWasSetByUser" : 0,
       "ignore" : 0,
       "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
+      "outputPathIsSetByUser" : 1,
       "inputAbbreviatedPath" : "\/jade\/index.jade",
       "outputStyle" : 0,
       "compileDebug" : 1,
-      "outputAbbreviatedPath" : "\/index.html",
+      "outputAbbreviatedPath" : "\/index.php",
       "fileType" : 512
     },
     "\/images\/events\/memorialdayposter-lite.jpg" : {
