@@ -1,13 +1,10 @@
-@import "vendor/flexslider";
-@import "vendor/lightbox";
-
 @import "compass/css3";
 @import "compass/utilities";
 @import "compass/layout/sticky-footer";
 
-@import "theme/all";
-
 @import "helpers/clearfix";
+
+@import "theme/all";
 
 @import "bits/buttons";
 
@@ -15,4 +12,6 @@
 
 @import "style";
 
+@import "vendor/flexslider";
+@import "vendor/lightbox";
 

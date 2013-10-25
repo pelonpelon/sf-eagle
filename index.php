@@ -33,7 +33,7 @@
     <div id="root">
       <div id="page" class="index"><a name="mast"></a>
         <div id="mast">
-          <header><img src="images/logo.svg" alt="logo" width="200px" height="200px" class="logo"></header>
+          <header><img src="images/logo.svg" alt="logo" width="200" height="200" class="logo"></header>
           <nav>
             <ul>
               <li class="thisweek"><a href="#events" class="button"><span>This<br>Week</span></a></li>

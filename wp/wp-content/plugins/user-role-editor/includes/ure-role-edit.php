@@ -14,9 +14,9 @@ if (!defined('URE_PLUGIN_URL')) {
 
 <div class="has-sidebar-content">
 <?php
-						$this->display_box_start(__('Select Role and change its capabilities list', 'ure'), 'min-width:700px;');
+						$this->display_box_start(__('Select Role and change its capabilities list', 'ure'), 'min-width:820px;');
 ?>
-              <div style="float: left;"><?php echo __('Select Role:', 'ure').' '.$this->role_select_html; ?></div>
+    <div style="float: left;"><?php echo __('Select Role:', 'ure').' '.$this->role_select_html; ?></div>
 <?php
   if ($this->caps_readable) {
     $checked = 'checked="checked"';
@@ -39,8 +39,9 @@ if (!defined('URE_PLUGIN_URL')) {
                     <?php echo $checked; ?> onclick="ure_turn_deprecated_caps(0);"/>
                 <label for="ure_show_deprecated_caps"><?php _e('Show deprecated capabilities', 'ure'); ?></label>
               </div>
+	              
 <?php
-if (is_multisite() && is_main_site( get_current_blog_id() ) && is_super_admin()) {
+if (is_multisite() && !is_network_admin() && is_main_site( get_current_blog_id() ) && is_super_admin()) {
   $hint = __('If checked, then apply action to ALL sites of this Network');
   if ($this->apply_to_all) {
     $checked = 'checked="checked"';
@@ -61,10 +62,11 @@ if (is_multisite() && is_main_site( get_current_blog_id() ) && is_super_admin())
 <br /><br />
 <hr />
 <?php _e('Core capabilities:', 'ure'); ?>
-<div style="display:table-inline; float: right; margin-right: 12px;">
-	<?php _e('Quick filter:', 'ure'); ?>&nbsp;
-	<input type="text" id="quick_filter" name="quick_filter" value="" size="20" onkeyup="ure_filter_capabilities(this.value);" />
-</div>	
+    <div style="display:table-inline; float: right; margin-right: 12px;">
+		 <?php _e('Quick filter:', 'ure'); ?>&nbsp;
+	     <input type="text" id="quick_filter" name="quick_filter" value="" size="20" onkeyup="ure_filter_capabilities(this.value);" />
+    </div>	
+
         <table class="form-table" style="clear:none;" cellpadding="0" cellspacing="0">
           <tr>
             <td style="vertical-align:top;">

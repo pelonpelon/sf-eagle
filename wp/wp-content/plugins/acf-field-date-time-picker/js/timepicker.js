@@ -16,9 +16,9 @@
 			}
 
 
-			input.addClass('active').datetimepicker({
+			input.addClass('active').attr("placeholder", (is_timeonly) ? time_format : date_format + ' ' + time_format).datetimepicker({
 				changeYear: true
-				, yearRange: "-1:+20"
+				, yearRange: "-100:+100"
 				, changeMonth: true				
 				, timeOnly: is_timeonly
 				, timeFormat: time_format
