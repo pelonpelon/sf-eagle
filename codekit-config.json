@@ -1554,17 +1554,6 @@
       "initialSize" : 3597,
       "fileType" : 8192
     },
-    "\/js\/modernizr\/test\/caniuse_files\/svg_blur.png" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/js\/modernizr\/test\/caniuse_files\/svg_blur.png",
-      "processed" : 0,
-      "outputAbbreviatedPath" : "\/js\/modernizr\/test\/caniuse_files\/svg_blur.png",
-      "initialSize" : 2901,
-      "fileType" : 8192
-    },
     "\/images\/events\/thejourney-thumb.jpg" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 0,
@@ -1575,6 +1564,17 @@
       "outputAbbreviatedPath" : "\/images\/events\/thejourney-thumb.jpg",
       "initialSize" : 4760,
       "fileType" : 4096
+    },
+    "\/js\/modernizr\/test\/caniuse_files\/svg_blur.png" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/js\/modernizr\/test\/caniuse_files\/svg_blur.png",
+      "processed" : 0,
+      "outputAbbreviatedPath" : "\/js\/modernizr\/test\/caniuse_files\/svg_blur.png",
+      "initialSize" : 2901,
+      "fileType" : 8192
     },
     "\/images\/icons\/touch-icon-iphone.png" : {
       "ignoreWasSetByUser" : 0,
@@ -2118,17 +2118,6 @@
       "initialSize" : 7927,
       "fileType" : 4096
     },
-    "\/js\/modernizr\/test\/caniuse_files\/ruby.png" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/js\/modernizr\/test\/caniuse_files\/ruby.png",
-      "processed" : 0,
-      "outputAbbreviatedPath" : "\/js\/modernizr\/test\/caniuse_files\/ruby.png",
-      "initialSize" : 1272,
-      "fileType" : 8192
-    },
     "\/scss\/partials\/footer\/_flyers.scss" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 1,
@@ -2140,6 +2129,17 @@
       "outputAbbreviatedPath" : "\/css\/_flyers.css",
       "fileType" : 4,
       "debugStyle" : 1
+    },
+    "\/js\/modernizr\/test\/caniuse_files\/ruby.png" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/js\/modernizr\/test\/caniuse_files\/ruby.png",
+      "processed" : 0,
+      "outputAbbreviatedPath" : "\/js\/modernizr\/test\/caniuse_files\/ruby.png",
+      "initialSize" : 1272,
+      "fileType" : 8192
     },
     "\/scss\/partials\/jobs\/_jobs.scss" : {
       "ignoreWasSetByUser" : 0,

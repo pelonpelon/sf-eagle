@@ -41,6 +41,7 @@
               <li><a href="calendar.php" class="button"><span>Calendar</span></a></li>
             </ul>
           </nav>
+          <h2>HALLOWEEN</h2><a href="images/freakshow.jpg" rel="lightbox" class="promo"><img src="images/freakshow.jpg" alt="promo" width="388" height="600"></a>
         </div><a name="tease"></a>
         <div id="tease"><?php
     global $post;
