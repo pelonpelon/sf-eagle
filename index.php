@@ -41,7 +41,6 @@
               <li><a href="calendar.php" class="button"><span>Calendar</span></a></li>
             </ul>
           </nav>
-          <h2>HALLOWEEN</h2><a href="images/freakshow.jpg" rel="lightbox" class="promo"><img src="images/freakshow.jpg" alt="promo" width="388" height="600"></a>
         </div><a name="tease"></a>
         <div id="tease"><?php
     global $post;
@@ -179,7 +178,7 @@ $day = '';
                    $day=date('l',$begintime);
                    $hour=date('Hi',$begintime);
                    $t=strtotime($day." ".$hour);
-                   $custom_field_date=date('y-m-d',$t);
+                   $custom_field_date=date('Y-m-d',$t);
                    update_post_meta($post->ID,'date',$custom_field_date);
                }
            }
@@ -384,6 +383,6 @@ foreach($custom_posts as $post)
       });
       
     </script>
-    <script src="js/main.js.1382924001"></script>
+    <script src="js/main.js"></script>
   </body>
 </html>
