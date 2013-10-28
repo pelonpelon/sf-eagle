@@ -2,11 +2,11 @@
 # BEGIN WordPress
 <IfModule mod_rewrite.c>
 RewriteEngine On
-RewriteBase /Sites/sf-eagle/storm/wp/
+RewriteBase /sf-eagle/storm/wp/
 RewriteRule ^index\.php$ - [L]
 RewriteCond %{REQUEST_FILENAME} !-f
 RewriteCond %{REQUEST_FILENAME} !-d
-RewriteRule . /Sites/sf-eagle/storm/wp/index.php [L]
+RewriteRule . /sf-eagle/storm/wp/index.php [L]
 </IfModule>
 
 # END WordPress

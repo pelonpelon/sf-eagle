@@ -1,12 +1,12 @@
 <IfModule mod_rewrite.c>
 
 RewriteEngine On
-RewriteBase /sf-eagle/www/lab
+RewriteBase /sf-eagle/www/storm
 
 RewriteRule ^index\.php$ - [L]
 
 RewriteCond %{REQUEST_FILENAME} !-f
 RewriteCond %{REQUEST_FILENAME} !-d
-RewriteRule . /sf-eagle/www/lab/index.php [L]
+RewriteRule . /sf-eagle/www/storm/index.php [L]
 
 </IfModule>
