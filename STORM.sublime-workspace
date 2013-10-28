@@ -1,0 +1,802 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"src",
+				"src	src=\"\""
+			],
+			[
+				"im",
+				"images"
+			],
+			[
+				"co",
+				"coffee"
+			],
+			[
+				"i",
+				"inp	input()"
+			],
+			[
+				"ajax",
+				"ajax	Google AJAX Libraries: WebFont Loader"
+			],
+			[
+				"lorem",
+				"lorem	lorem - One sentence <p> "
+			],
+			[
+				"comm",
+				"comm-todo	Comment - To-do list"
+			],
+			[
+				"in",
+				"include"
+			],
+			[
+				"r",
+				"readme	Plugin Readme"
+			],
+			[
+				"el",
+				"el"
+			],
+			[
+				"f",
+				"fn	function"
+			],
+			[
+				"char",
+				"Charter"
+			],
+			[
+				"if",
+				"ifte	Ternary If"
+			],
+			[
+				"aj",
+				"ajax	$.ajax()"
+			],
+			[
+				"ar",
+				"args"
+			],
+			[
+				"inline",
+				"inline-block"
+			],
+			[
+				"dis",
+				"display"
+			],
+			[
+				"scr",
+				"scr	script()"
+			],
+			[
+				"use",
+				"user2"
+			],
+			[
+				"lin",
+				"link"
+			],
+			[
+				"sc",
+				"scr	script()"
+			]
+		]
+	},
+	"buffers":
+	[
+	],
+	"build_system": "Packages/Better CoffeeScript/CoffeeScript.sublime-build",
+	"command_palette":
+	{
+		"height": 392.0,
+		"selected_items":
+		[
+			[
+				"coffe",
+				"Coffee: Lint"
+			],
+			[
+				"coffee",
+				"Coffee: Check Syntax"
+			],
+			[
+				"gist",
+				"Gist: Open Gist in Browser"
+			],
+			[
+				"inst",
+				"Package Control: Install Package"
+			],
+			[
+				"color",
+				"Color picker"
+			],
+			[
+				"list",
+				"Package Control: List Packages"
+			],
+			[
+				"browse",
+				"Preferences: Browse Packages"
+			],
+			[
+				"refr",
+				"Project: Refresh Folders"
+			],
+			[
+				"tasks",
+				"Tasks: New document"
+			],
+			[
+				"find",
+				"Find: In Project"
+			],
+			[
+				"fetch",
+				"Fetch: Package"
+			],
+			[
+				"",
+				"Autoprefix CSS"
+			],
+			[
+				"pref",
+				"Autoprefix CSS"
+			],
+			[
+				"prefix",
+				"Autoprefix CSS"
+			],
+			[
+				"prefic",
+				"Autoprefix CSS"
+			],
+			[
+				"filecopy",
+				"File: Copy as Tag a"
+			],
+			[
+				"insrtgi",
+				"Gist: Insert Gist"
+			],
+			[
+				"insertgi",
+				"Gist: Insert Gist"
+			],
+			[
+				"oepng",
+				"Gist: Open Gist"
+			],
+			[
+				"ins",
+				"Package Control: Install Package"
+			],
+			[
+				"mixi",
+				"Snippet: @mixin"
+			],
+			[
+				"togg",
+				"Toggle ScopeAlways"
+			],
+			[
+				"toggle",
+				"Toggle ScopeAlways"
+			],
+			[
+				"scope",
+				"Toggle ScopeAlways"
+			],
+			[
+				"bgi div",
+				"Snippet: background-image-div"
+			],
+			[
+				"back i",
+				"Snippet: background-image-div"
+			],
+			[
+				"remove",
+				"Package Control: Remove Package"
+			],
+			[
+				"Cscope: ",
+				"Cscope: Look up symbol"
+			],
+			[
+				"snipfav",
+				"Snippet: favicon"
+			],
+			[
+				"snippfav",
+				"Snippet: favicon"
+			],
+			[
+				"remo",
+				"Package Control: Remove Package"
+			],
+			[
+				"ctag",
+				"CTags: Show Symbols (all)"
+			],
+			[
+				"cta",
+				"CTags: Rebuild Tags"
+			],
+			[
+				"goto",
+				"Goto Documentation"
+			],
+			[
+				"docb",
+				"DocBlockr: Decorate line comment"
+			],
+			[
+				"doc",
+				"DocBlockr: Decorate line comment"
+			],
+			[
+				"howd",
+				"How Do I: code search"
+			],
+			[
+				"how",
+				"How Do I: code search"
+			],
+			[
+				"snipp",
+				"Snippet: border"
+			],
+			[
+				"todo",
+				"Show TODOs: Project and open files"
+			],
+			[
+				"linter",
+				"SublimeLinter: Extract Annotations"
+			],
+			[
+				"lint",
+				"SublimeLint: Show All Errors"
+			],
+			[
+				"live",
+				"LiveStyle: Install WebKit extension"
+			],
+			[
+				"html lint",
+				"HTMLPrettify: Set Plugin Options"
+			],
+			[
+				"ccslin",
+				"CSSLint: Run CSSLint"
+			],
+			[
+				"prett",
+				"HTMLPrettify"
+			],
+			[
+				"mana",
+				"Fetch: Manage"
+			],
+			[
+				"pack",
+				"Fetch: Package"
+			],
+			[
+				"brow",
+				"Preferences: Browse Packages"
+			],
+			[
+				"eybin",
+				"Preferences: Key Bindings - User"
+			],
+			[
+				"package cont",
+				"Package Control: Upgrade/Overwrite All Packages"
+			],
+			[
+				"lives",
+				"LiveStyle: Install WebKit extension"
+			],
+			[
+				"key",
+				"Preferences: Key Bindings - Default"
+			],
+			[
+				"keyb",
+				"Preferences: Key Bindings - User"
+			],
+			[
+				"addrep",
+				"Package Control: Add Repository"
+			],
+			[
+				"package",
+				"Package Control: Discover Packages"
+			],
+			[
+				"packa",
+				"Package Control: List Packages"
+			],
+			[
+				"update",
+				"Package Control: Upgrade/Overwrite All Packages"
+			],
+			[
+				"closeall",
+				"File: Close All"
+			],
+			[
+				"synt",
+				"Set Syntax: Jade"
+			],
+			[
+				"coff",
+				"Coffee: Display JavaScript"
+			],
+			[
+				"json",
+				"Pretty JSON: Reformat (Pretty Print) JSON"
+			],
+			[
+				"up",
+				"Package Control: Upgrade Package"
+			],
+			[
+				":w",
+				":w - Save"
+			],
+			[
+				":Q",
+				"Coffee: Quick Run Bar"
+			],
+			[
+				":W",
+				":w - Save"
+			],
+			[
+				"insta",
+				"Package Control: Install Package"
+			],
+			[
+				"Insta",
+				"Package Control: Install Package"
+			],
+			[
+				"Install",
+				"Package Control: Install Package"
+			],
+			[
+				"Package Control: ",
+				"Package Control: Discover Packages"
+			]
+		],
+		"width": 787.0
+	},
+	"console":
+	{
+		"height": 243.0,
+		"history":
+		[
+			"sudo",
+			"sud",
+			"dir(sublime.__package__)",
+			"dir(sublime)",
+			"dir(window)",
+			"dir()",
+			"import node",
+			"import pyV8",
+			"import pyv8",
+			"import",
+			"py",
+			"import urllib.request,os; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); open(os.path.join(ipp, pf), 'wb').write(urllib.request.urlopen( 'http://sublime.wbond.net/' + pf.replace(' ','%20')).read())"
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/Users/pelon/Sites/sf-eagle/www/lab/jade/index/mast.jade",
+		"/Users/pelon/Sites/sf-eagle/www/lab/scss/partials/home/_tease.scss",
+		"/Users/pelon/Sites/sf-eagle/www/lab/jade/common/footer/flyers.jade",
+		"/Users/pelon/Sites/sf-eagle/www/lab/css/theme/_colors.css",
+		"/Users/pelon/Sites/sf-eagle/www/lab/.sfeagle.TODO",
+		"/Users/pelon/Sites/sf-eagle/www/lab/scss/partials/home/_mast.scss",
+		"/Users/pelon/Sites/sf-eagle/www/lab/sfeagle.TODO",
+		"/Users/pelon/Sites/sf-eagle/www/lab/scss/partials/home/mast/_nav.scss",
+		"/Users/pelon/Sites/sf-eagle/www/lab/scss/theme/_layout.scss",
+		"/Users/pelon/Sites/sf-eagle/www/lab/jade/index.jade",
+		"/Users/pelon/Sites/sf-eagle/www/lab/coffee/main.coffee",
+		"/Users/pelon/Library/Application Support/Sublime Text 3/Packages/User/Preferences.sublime-settings",
+		"/Users/pelon/Sites/sf-eagle/www/lab/jade/common/settings.jade",
+		"/Users/pelon/Library/Application Support/Google/Chrome/Default/Extensions/memcdolmmnmnleeiodllgpibdjlkbpim/1.0.0_0/css/popup.css",
+		"/Users/pelon/Dropbox/pelon/sublime/Packages/HTML-CSS-JS Prettify/.jsbeautifyrc",
+		"/Users/pelon/Dropbox/pelon/sublime/Packages/HTML-CSS-JS Prettify/HTMLPrettify.sublime-settings",
+		"/Users/pelon/Sites/sf-eagle/www/storm/.htaccess",
+		"/Users/pelon/Sites/sf-eagle/www/storm/wp/.htaccess",
+		"/Users/pelon/bin/syncme",
+		"/Users/pelon/Sites/sf-eagle/www/lab/wp/wp-config.php-lab",
+		"/Users/pelon/Sites/sf-eagle/www/lab/wp/wp-config.php",
+		"/var/folders/cd/3fx0mm952yj526t4mgybqzxc0000gn/T/mc-pelon/fish9JOl7c.htaccess",
+		"/var/folders/cd/3fx0mm952yj526t4mgybqzxc0000gn/T/mc-pelon/fishG9xoqb.htaccess",
+		"/Users/pelon/Sites/.htaccess",
+		"/Users/pelon/Sites/sandbox/sprites/config.rb",
+		"/Users/pelon/Sites/sandbox/sprites/stylesheets/screen.css",
+		"/Users/pelon/Sites/sandbox/sprites/index.html",
+		"/Users/pelon/Sites/sandbox/sprites/sass/screen.scss",
+		"/Users/pelon/Library/Preferences/com.incident57.CodeKit.plist",
+		"/Users/pelon/Sites/sf-eagle/www/tmp/jade/common/header.jade",
+		"/Users/pelon/Sites/sf-eagle/www/tmp/scss/vendor/_flexslider.scss",
+		"/Users/pelon/Sites/sf-eagle/www/tmp/scss/partials/footer/_all.scss",
+		"/Users/pelon/Sites/sf-eagle/www/tmp/scss/partials/footer/_flyers.scss",
+		"/Users/pelon/Sites/sf-eagle/www/tmp/jade/merch.jade",
+		"/Users/pelon/Sites/sf-eagle/www/tmp/jade/docs/GayHankyCodes.jade",
+		"/Users/pelon/Sites/sf-eagle/www/tmp/jade/calendar.jade",
+		"/Users/pelon/Sites/sf-eagle/www/tmp/coffee/main.coffee",
+		"/Users/pelon/Sites/sf-eagle/www/tmp/jade/index/events-db-loop.php",
+		"/Users/pelon/Sites/sf-eagle/www/tmp/scss/partials/home/_events.scss",
+		"/Users/pelon/Sites/sf-eagle/www/tmp/scss/theme/_layout.scss",
+		"/Users/pelon/Sites/sf-eagle/www/tmp/jade/common/footer/links.jade",
+		"/Users/pelon/Sites/sf-eagle/www/tmp/images/icon-specialEvents.svg",
+		"/var/folders/cd/3fx0mm952yj526t4mgybqzxc0000gn/T/mc-pelon/fishSwlDKd.htaccess",
+		"/var/folders/cd/3fx0mm952yj526t4mgybqzxc0000gn/T/mc-pelon/fishg6JjRb.htaccess",
+		"/Users/pelon/Sites/sf-eagle/www/tmp/wp/wp-config.php",
+		"/Users/pelon/Sites/sf-eagle/www/tmp/scss/partials/merch/_merch.scss",
+		"/Users/pelon/Sites/sf-eagle/www/tmp/jade/index/mast.jade",
+		"/Users/pelon/Sites/sf-eagle/www/tmp/jade/archives.jade",
+		"/Users/pelon/Sites/sf-eagle/www/tmp/jade/jobs.jade",
+		"/Users/pelon/Sites/sf-eagle/www/tmp/jade/staff.jade",
+		"/Users/pelon/Sites/sf-eagle/www/tmp/jade/common/settings.jade",
+		"/Users/pelon/Sites/sf-eagle/www/tmp/scss/partials/home/mast/_nav.scss",
+		"/Users/pelon/Sites/sf-eagle/www/tmp/scss/theme/_colors.scss",
+		"/Users/pelon/Sites/sf-eagle/www/tmp/config.rb",
+		"/Users/pelon/Sites/sf-eagle/www/tmp/scss/partials/calendar/_calendar.scss",
+		"/Users/pelon/Sites/sf-eagle/www/tmp/scss/partials/home/_mast.scss",
+		"/Users/pelon/Sites/sf-eagle/www/tmp/js/main.js",
+		"/Users/pelon/Sites/sf-eagle/www/tmp/jade/calendar-page-loop.php",
+		"/Users/pelon/Sites/sf-eagle/www/tmp/scss/partials/home/_tease.scss",
+		"/Users/pelon/Library/Application Support/Sublime Text 3/Packages/User/CoffeeCompile.sublime-settings",
+		"/Users/pelon/Sites/sf-eagle/www/tmp/jade/GayHankyCodes.html",
+		"/Users/pelon/Library/Application Support/Sublime Text 3/Packages/CoffeeCompile/Keymaps/Default (OSX).sublime-keymap",
+		"/Users/pelon/Library/Application Support/Sublime Text 3/Packages/CoffeeComplete Plus (Autocompletion)/README.md",
+		"/Users/pelon/Library/Application Support/Sublime Text 3/Packages/CoffeeCompile/CoffeeCompile.sublime-settings",
+		"/Users/pelon/Sites/sf-eagle/www/lab/index.php",
+		"/Users/pelon/Sites/sf-eagle/www/lab/index.html",
+		"/Users/pelon/Sites/sf-eagle/www/lab/wp/wp-config.php-local",
+		"/Users/pelon/Sites/sf-eagle/www/lab/wp/wp-config.wp-remote",
+		"/Users/pelon/Sites/sf-eagle/www/lab/jade/wordpress.html",
+		"/Users/pelon/Sites/sf-eagle/www/lab/jade/GayHankyCodes.html",
+		"/Users/pelon/Sites/sf-eagle/www/lab/jade/events.html",
+		"/Users/pelon/Sites/sf-eagle/www/lab/jade/scripts.html",
+		"/Users/pelon/Sites/sf-eagle/lab/.htaccess",
+		"/Users/pelon/Sites/sf-eagle/lab/.aa.TODO",
+		"/Users/pelon/Sites/sf-eagle/lab/css/main.css",
+		"/Users/pelon/Sites/sf-eagle/lab/jade/common/header.jade",
+		"/Users/pelon/Sites/sf-eagle/lab/jade/index.jade",
+		"/Users/pelon/Sites/sf-eagle/lab/jade/common/scripts.jade",
+		"/Users/pelon/Sites/sf-eagle/lab/jade/index/tease-db-loop.php",
+		"/Users/pelon/Sites/sf-eagle/lab/scss/partials/home/_mast.scss",
+		"/Users/pelon/Sites/sf-eagle/lab/index.php",
+		"/Users/pelon/Sites/sf-eagle/lab/scss/main.scss",
+		"/Users/pelon/Sites/sf-eagle/lab/merch-email.html",
+		"/Users/pelon/Sites/sf-eagle/lab/scss/partials/merch/_merch.scss",
+		"/Users/pelon/Sites/sf-eagle/lab/scss/theme/_typography.scss",
+		"/Users/pelon/Sites/sf-eagle/lab/config.rb",
+		"/Users/pelon/Sites/sf-eagle/lab/scss/theme/_defaults.scss",
+		"/Users/pelon/Sites/sf-eagle/lab/scss/partials/home/_events.scss",
+		"/Users/pelon/Sites/sf-eagle/lab/scss/partials/calendar/_calendar.scss",
+		"/Users/pelon/Sites/sf-eagle/lab/jade/index/mast.jade",
+		"/Users/pelon/Sites/sf-eagle/lab/scss/partials/home/_tease.scss",
+		"/Users/pelon/Sites/sf-eagle/lab/js/.gitattributes",
+		"/Users/pelon/Sites/sf-eagle/lab/js/README.md",
+		"/Users/pelon/Dropbox/pelon/sublime/Packages/User/lorempic.sublime-snippet",
+		"/Users/pelon/Dropbox/pelon/sublime/Packages/User/background-image-div.sublime-snippet",
+		"/Users/pelon/Sites/sf-eagle/lab/css/wp.css",
+		"/Users/pelon/Dropbox/pelon/sublime/Packages/User/media-query.sublime.snippet",
+		"/Users/pelon/Library/Application Support/Sublime Text 3/Packages/User/Default (OSX).sublime-keymap",
+		"/Users/pelon/Library/Application Support/Sublime Text 3/Packages/Vintage/Default.sublime-keymap",
+		"/Users/pelon/Sites/sf-eagle/lab/lab.sublime-project",
+		"/Users/pelon/Sites/sf-eagle/lab/coffee/main.coffee",
+		"/Users/pelon/Dropbox/pelon/sublime/Packages/User/favicon.sublime-snippet",
+		"/Users/pelon/Dropbox/pelon/sublime/Packages/User/breakpoint-scss-mixin.sublime-snippet",
+		"/Users/pelon/Library/Application Support/Sublime Text 3/Packages/User/Git.sublime-settings",
+		"/Users/pelon/Sites/sf-eagle/lab/about.html",
+		"/Users/pelon/Library/Application Support/Sublime Text 3/Packages/Git/Git.sublime-settings",
+		"/Users/pelon/Sites/sf-eagle/lab/js/main.js",
+		"/Users/pelon/Library/Application Support/Sublime Text 3/Installed Packages/p/phpunit.py",
+		"/var/folders/cd/3fx0mm952yj526t4mgybqzxc0000gn/T/mc-pelon/extfsKJBs8aphpunit.py",
+		"/Users/pelon/3/Installed",
+		"/Users/pelon/Text",
+		"/Users/pelon/Support/Sublime",
+		"/Users/pelon/Library/Application",
+		"/Users/pelon/Packages/PHPUnit.sublime-package",
+		"/Users/pelon/.config/mc/menu",
+		"/Users/pelon/Sites/sf-eagle/lab/scss/style.scss",
+		"/Users/pelon/Sites/sf-eagle/lab/jade/archives.jade",
+		"/Users/pelon/Sites/sf-eagle/lab/js/countdown.js",
+		"/Users/pelon/Sites/sf-eagle/lab/wp/wp-includes/general-template.php",
+		"/Users/pelon/Sites/sf-eagle/lab/css/style.css",
+		"/Users/pelon/Sites/Design Tools.md",
+		"/Users/pelon/Sites/sandbox/topcoat/try/package.json",
+		"/Users/pelon/Sites/sf-eagle/lab/wp/wp-includes/php-mysqli-connection.sublime-snippet",
+		"/Users/pelon/Dropbox/pelon/sublime/Packages/User/php-mysqli-connection.sublime-snippet",
+		"/Users/pelon/Library/Application Support/Sublime Text 3/Packages/SublimeLinter/README.md",
+		"/Users/pelon/Library/Application Support/Sublime Text 3/Packages/User/SublimeLinter.sublime-settings",
+		"/Users/pelon/Library/Application Support/Sublime Text 3/Packages/STProjectMaker/STProjectMaker.sublime-settings",
+		"/Users/pelon/Library/Application Support/Sublime Text 3/Packages/SublimeLinter/Default (OSX).sublime-keymap"
+	],
+	"find":
+	{
+		"height": 35.0
+	},
+	"find_in_files":
+	{
+		"height": 93.0,
+		"where_history":
+		[
+			"<open files>,<open folders>",
+			"/Users/pelon/Sites/sf-eagle/lab",
+			"/Users/pelon/Sites/sf-eagle/sat/js"
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"60px",
+			"height",
+			"$\n",
+			"height",
+			"browsers",
+			"height",
+			"$\n",
+			"height",
+			"browsers",
+			"index.flyers",
+			"import",
+			"logo.svg",
+			"1\\.7\\.2",
+			"1600",
+			"zoom",
+			"tmp",
+			"src=logo\\w*",
+			"_mast",
+			".logo",
+			"merchemail",
+			"merchmail",
+			"Jolly",
+			"font",
+			"Jolly Lodger",
+			"footer.scss",
+			".fotter.scss",
+			"footer",
+			"bord",
+			"vint",
+			"up",
+			".",
+			"#",
+			"pets",
+			"id",
+			"table",
+			"id",
+			"\n  ",
+			"realtime",
+			"vint"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+			"src=logo",
+			"#",
+			"."
+		],
+		"reverse": false,
+		"show_context": false,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"sheets":
+			[
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 34.0
+	},
+	"input":
+	{
+		"height": 31.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.coffeecompile_output":
+	{
+		"height": 106.0
+	},
+	"output.csslint_result_view":
+	{
+		"height": 106.0
+	},
+	"output.exec":
+	{
+		"height": 106.0
+	},
+	"output.howdoi_answer":
+	{
+		"height": 106.0
+	},
+	"project": "STORM.sublime-project",
+	"replace":
+	{
+		"height": 64.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+			[
+				"themedef",
+				"scss/theme/_defaults.scss"
+			],
+			[
+				"theme_all",
+				"scss/theme/_all.scss"
+			],
+			[
+				"colorsscss",
+				"scss/theme/_colors.scss"
+			],
+			[
+				"colors",
+				"css/theme/_colors.css"
+			],
+			[
+				"main.scss",
+				"scss/main.scss"
+			],
+			[
+				"button",
+				"scss/bits/_buttons.scss"
+			],
+			[
+				"mastscss",
+				"scss/partials/home/_mast.scss"
+			],
+			[
+				"mastjade",
+				"jade/index/mast.jade"
+			],
+			[
+				"settings",
+				"scss/theme/_settings.scss"
+			],
+			[
+				"layoutscss",
+				"scss/theme/_layout.scss"
+			],
+			[
+				"maincss",
+				"css/main.css"
+			],
+			[
+				"mainscss",
+				"scss/main.scss"
+			],
+			[
+				"merchsc",
+				"scss/partials/merch/_merch.scss"
+			],
+			[
+				"calend",
+				"scss/partials/calendar/_calendar.scss"
+			],
+			[
+				"main.css",
+				"css/main.css"
+			],
+			[
+				".scss",
+				"scss/partials/home/_tease.scss"
+			],
+			[
+				"index",
+				"index.php"
+			],
+			[
+				"inde",
+				"index.php"
+			],
+			[
+				"footer",
+				"jade/common/footer.jade"
+			],
+			[
+				"test",
+				"test.html"
+			]
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 500.0,
+		"selected_items":
+		[
+			[
+				"",
+				"~/Sites/tasks/tasks.sublime-project"
+			]
+		],
+		"width": 380.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"settings":
+	{
+		"vintage":
+		{
+		}
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 282.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}

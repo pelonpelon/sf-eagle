@@ -14,7 +14,7 @@ $day = '';
                    $day=date('l',$begintime);
                    $hour=date('Hi',$begintime);
                    $t=strtotime($day." ".$hour);
-                   $custom_field_date=date('y-m-d',$t);
+                   $custom_field_date=date('Y-m-d',$t);
                    update_post_meta($post->ID,'date',$custom_field_date);
                }
            }

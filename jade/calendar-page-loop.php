@@ -1,7 +1,28 @@
 <?php global $post; // required
+       $args=array('post_type'=>'event','numberposts'=>-1);
+       $custom_posts=get_posts($args);
+       foreach($custom_posts as $post){
+           /* update weekly events to this week */
+           $weekly=get_post_meta(get_the_ID(),'weekly',true);
+           if($weekly){
+               include 'includes/timegames.php';
+               if($begintime<$now){
+                   $day=date('l',$begintime);
+                   $hour=date('Hi',$begintime);
+                   $t=strtotime($day." ".$hour);
+                   $custom_field_date=date('Y-m-d',$t);
+                   update_post_meta($post->ID,'date',$custom_field_date);
+               }
+           }
+           include 'includes/timegames.php';
+           update_post_meta($post->ID,'date_num',$begintime);
+       }
+       $day='';
+       rewind_posts();
+
 $args = array(
-            'meta_key'      => 'date',
-            'orderby'       => 'meta_value',
+            'meta_key'      => 'date_num',
+            'orderby'       => 'meta_value_num',
             'order'         => 'ASC',
             'post_type'     => 'event',
             'numberposts'   => -1
