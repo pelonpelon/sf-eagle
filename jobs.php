@@ -67,6 +67,9 @@
           <div class="flexslider">
             <ul class="slides">
               <li>
+                <p class="rc">Once A Month</p><a href="images/events/DiscoDaddy-442x600.jpg" rel="lightbox"><img src="images/events/DiscoDaddy-442x600.jpg"></a>
+              </li>
+              <li>
                 <p class="rc">Every 3rd Friday</p><a href="images/events/CubHouse-600.jpg" rel="lightbox"><img src="images/events/CubHouse-600.jpg"></a>
               </li>
               <li>
@@ -88,6 +91,9 @@
           </div>
           <div class="nonFlexslider">
             <ul class="slides">
+              <li>
+                <p class="rc">Once A Month</p><img src="images/events/DiscoDaddy-442x600.jpg">
+              </li>
               <li>
                 <p class="rc">Every 3rd Friday</p><img src="images/events/CubHouse-600.jpg">
               </li>
@@ -133,6 +139,6 @@
       });
       
     </script>
-    <script src="js/main.js.1382924001"></script>
+    <script src="js/main.js"></script>
   </body>
 </html>

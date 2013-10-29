@@ -40,9 +40,30 @@
             <nav><a href="#"><img src="images/icons/TNL-button-les_paul.png" width="120" height="120" alt="Thursday Night Live Button" class="music"></a><a href="#"><img src="images/icons/calbears-button.png" width="120" height="120" alt="Bears Button" class="bears"></a><a href="#"><img src="images/icons/tom_of_finland.png" width="120" height="120" alt="Leather Button" class="leather"></a><a href="#"><img src="images/icons/icon-specialEvents.svg" width="120" height="120" alt="Special Events Button" class="special"></a>
             </nav>
             <table><?php global $post; // required
+       $args=array('post_type'=>'event','numberposts'=>-1);
+       $custom_posts=get_posts($args);
+       foreach($custom_posts as $post){
+           /* update weekly events to this week */
+           $weekly=get_post_meta(get_the_ID(),'weekly',true);
+           if($weekly){
+               include 'includes/timegames.php';
+               if($begintime<$now){
+                   $day=date('l',$begintime);
+                   $hour=date('Hi',$begintime);
+                   $t=strtotime($day." ".$hour);
+                   $custom_field_date=date('Y-m-d',$t);
+                   update_post_meta($post->ID,'date',$custom_field_date);
+               }
+           }
+           include 'includes/timegames.php';
+           update_post_meta($post->ID,'date_num',$begintime);
+       }
+       $day='';
+       rewind_posts();
+
 $args = array(
-            'meta_key'      => 'date',
-            'orderby'       => 'meta_value',
+            'meta_key'      => 'date_num',
+            'orderby'       => 'meta_value_num',
             'order'         => 'ASC',
             'post_type'     => 'event',
             'numberposts'   => -1
@@ -156,6 +177,9 @@ foreach($custom_posts as $post)
           <div class="flexslider">
             <ul class="slides">
               <li>
+                <p class="rc">Once A Month</p><a href="images/events/DiscoDaddy-442x600.jpg" rel="lightbox"><img src="images/events/DiscoDaddy-442x600.jpg"></a>
+              </li>
+              <li>
                 <p class="rc">Every 3rd Friday</p><a href="images/events/CubHouse-600.jpg" rel="lightbox"><img src="images/events/CubHouse-600.jpg"></a>
               </li>
               <li>
@@ -177,6 +201,9 @@ foreach($custom_posts as $post)
           </div>
           <div class="nonFlexslider">
             <ul class="slides">
+              <li>
+                <p class="rc">Once A Month</p><img src="images/events/DiscoDaddy-442x600.jpg">
+              </li>
               <li>
                 <p class="rc">Every 3rd Friday</p><img src="images/events/CubHouse-600.jpg">
               </li>
@@ -222,6 +249,6 @@ foreach($custom_posts as $post)
       });
       
     </script>
-    <script src="js/main.js.1382924001"></script>
+    <script src="js/main.js"></script>
   </body>
 </html>
