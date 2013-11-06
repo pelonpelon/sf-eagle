@@ -253,23 +253,19 @@ class acf_addons
 <script type="text/javascript">
 (function($) {
 	
-	$(window).load(function(){
+	$('#add-ons .add-on-group').each(function(){
 		
-		$('#add-ons .add-on-group').each(function(){
+		var $el = $(this),
+			h = 0;
 		
-			var $el = $(this),
-				h = 0;
+		
+		$el.find('.add-on').each(function(){
 			
-			
-			$el.find('.add-on').each(function(){
-				
-				h = Math.max( $(this).height(), h );
-				
-			});
-			
-			$el.find('.add-on').height( h );
+			h = Math.max( $(this).height(), h );
 			
 		});
+		
+		$el.find('.add-on').height( h );
 		
 	});
 	

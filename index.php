@@ -40,7 +40,8 @@
               <li><a href="merch.php" class="button"><span>Hoodies<br>Tanks<br>& Tees</span></a></li>
               <li><a href="calendar.php" class="button"><span>Calendar</span></a></li>
             </ul>
-          </nav>
+          </nav><a href="images/mrsfeagle.png" rel="lightbox" class="mrsfeagle"><img src="images/mrsfeagle.png" alt="Mr. SF-Eagle Application" width="451" height="600"></a><a href="docs/mrsfeagle-application.pdf" target="_blank" alt="Mr. SF-Eagle Application" class="button mrsfeagle">
+            <h3>DOWNLOAD PDF</h3></a>
         </div><a name="tease"></a>
         <div id="tease"><?php
     global $post;

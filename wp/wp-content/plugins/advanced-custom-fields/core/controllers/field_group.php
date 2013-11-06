@@ -59,10 +59,8 @@ class acf_field_group
 	function get_field_groups( $array )
 	{
 		// cache
-		$found = false;
-		$cache = wp_cache_get( 'field_groups', 'acf', false, $found );
-		
-		if( $found )
+		$cache = wp_cache_get( 'field_groups', 'acf' );
+		if( $cache )
 		{
 			return $cache;
 		}
@@ -353,22 +351,14 @@ class acf_field_group
 		global $post;
 		
 		
-		?>
-<script type="text/javascript">
-(function($) {
-
-	// vars
-	acf.post_id = <?php echo $post->ID; ?>;
-	acf.nonce = "<?php echo wp_create_nonce( 'acf_nonce' ); ?>";
-	acf.admin_url = "<?php echo admin_url(); ?>";
-	acf.ajaxurl = "<?php echo admin_url( 'admin-ajax.php' ); ?>";
-	
-})(jQuery);	
-</script>
-		<?php
+		// add js vars
+		echo '<script type="text/javascript">
+			acf.nonce = "' . wp_create_nonce( 'acf_nonce' ) . '";
+			acf.post_id = ' . $post->ID . ';
+		</script>';
 		
-		// new action
-		do_action('acf/field_group/admin_head');
+		
+		do_action('acf/field_group/admin_head'); // new action
 		
 		
 		// add metaboxes
@@ -701,30 +691,11 @@ class acf_field_group
 								
 				break;
 			
-			case "post_status" :
-				
-				$choices = array(
-					'publish'	=> __( 'Publish' ),
-					'pending'	=> __( 'Pending Review' ),
-					'draft'		=> __( 'Draft' ),
-					'future'	=> __( 'Future' ),
-					'private'	=> __( 'Private' ),
-					'inherit'	=> __( 'Revision' ),
-					'trash'		=> __( 'Trash' )
-				);
-								
-				break;
-			
 			case "user_type" :
 				
 				global $wp_roles;
 				
 				$choices = $wp_roles->get_names();
-
-				if( is_multisite() )
-				{
-					$choices['super_admin'] = __('Super Admin');
-				}
 								
 				break;
 			

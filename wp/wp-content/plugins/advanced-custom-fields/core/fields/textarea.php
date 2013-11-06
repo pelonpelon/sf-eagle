@@ -20,8 +20,6 @@ class acf_field_textarea extends acf_field
 		$this->defaults = array(
 			'default_value'	=>	'',
 			'formatting' 	=>	'br',
-			'maxlength'		=>	'',
-			'placeholder'	=>	'',
 		);
 		
 		
@@ -44,32 +42,9 @@ class acf_field_textarea extends acf_field
 	
 	function create_field( $field )
 	{
-		// vars
-		$o = array( 'id', 'class', 'name', 'placeholder' );
-		$e = '';
+		$field['value'] = esc_textarea($field['value']);
 		
-		
-		// maxlength
-		if( $field['maxlength'] !== "" )
-		{
-			$o[] = 'maxlength';
-		}
-		
-
-		$e .= '<textarea rows="4"';
-		
-		foreach( $o as $k )
-		{
-			$e .= ' ' . $k . '="' . esc_attr( $field[ $k ] ) . '"';	
-		}
-		
-		$e .= '>';
-		$e .= esc_textarea($field['value']);
-		$e .= '</textarea>';
-		
-		// return
-		echo $e;
-		
+		echo '<textarea id="' . $field['id'] . '" rows="4" class="' . $field['class'] . '" name="' . $field['name'] . '" >' . $field['value'] . '</textarea>';
 	}
 	
 	/*
@@ -94,7 +69,6 @@ class acf_field_textarea extends acf_field
 <tr class="field_option field_option_<?php echo $this->name; ?>">
 	<td class="label">
 		<label><?php _e("Default Value",'acf'); ?></label>
-		<p><?php _e("Appears when creating a new post",'acf') ?></p>
 	</td>
 	<td>
 		<?php 
@@ -108,38 +82,8 @@ class acf_field_textarea extends acf_field
 </tr>
 <tr class="field_option field_option_<?php echo $this->name; ?>">
 	<td class="label">
-		<label><?php _e("Placeholder Text",'acf'); ?></label>
-		<p><?php _e("Appears within the input",'acf') ?></p>
-	</td>
-	<td>
-		<?php 
-		do_action('acf/create_field', array(
-			'type'	=>	'text',
-			'name'	=>	'fields[' .$key.'][placeholder]',
-			'value'	=>	$field['placeholder'],
-		));
-		?>
-	</td>
-</tr>
-<tr class="field_option field_option_<?php echo $this->name; ?>">
-	<td class="label">
-		<label><?php _e("Character Limit",'acf'); ?></label>
-		<p><?php _e("Leave blank for no limit",'acf') ?></p>
-	</td>
-	<td>
-		<?php 
-		do_action('acf/create_field', array(
-			'type'	=>	'number',
-			'name'	=>	'fields[' .$key.'][maxlength]',
-			'value'	=>	$field['maxlength'],
-		));
-		?>
-	</td>
-</tr>
-<tr class="field_option field_option_<?php echo $this->name; ?>">
-	<td class="label">
 		<label><?php _e("Formatting",'acf'); ?></label>
-		<p><?php _e("Effects value on front end",'acf') ?></p>
+		<p class="description"><?php _e("Define how to render html tags / new lines",'acf'); ?></p>
 	</td>
 	<td>
 		<?php 
@@ -148,9 +92,9 @@ class acf_field_textarea extends acf_field
 			'name'	=>	'fields['.$key.'][formatting]',
 			'value'	=>	$field['formatting'],
 			'choices' => array(
-				'none'	=>	__("No formatting",'acf'),
-				'br'	=>	__("Convert new lines into &lt;br /&gt; tags",'acf'),
-				'html'	=>	__("Convert HTML into tags",'acf')
+				'none'	=>	__("None",'acf'),
+				'br'	=>	__("auto &lt;br /&gt;",'acf'),
+				'html'	=>	__("HTML",'acf'),
 			)
 		));
 		?>
