@@ -19,7 +19,7 @@
             });
             ed.addButton('jwlSpan', {
                 title: ed.getLang('jwlspan.title'),
-                image: url + '/span.png',
+                //image: url + '/span.png',
                 cmd: 'jwlSpanButton'
             });
 			//set button to pressed when cursor is within a span tag

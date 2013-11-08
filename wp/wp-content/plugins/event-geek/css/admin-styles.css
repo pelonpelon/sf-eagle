@@ -28,9 +28,19 @@
 	border-radius: 10px;	
 	border:2px solid #21759b;
 	width: 45%;
+	min-width:350px;
 	display: inline-block;
 	vertical-align:top;
 	padding:1%;
+}
+
+.gg_widget_section{
+	-webkit-border-radius: 10px;
+	-moz-border-radius: 10px;
+	border-radius: 10px;	;
+	display:block;
+	padding:5px;
+	margin:5px 0;
 }
 
 .gg_hide{
@@ -54,4 +64,28 @@
 	color:#fff;
 	padding:0 2px;
 	margin: 2px 5px;
+}
+
+#gg_event-form .ui_slider{
+width:200px;	
+display:inline-block;
+margin:0 5px;
+}
+
+#gg_event-form .ui-slider-label{
+display:inline-block;	
+}
+
+#gg_event-form .ui-sortable li{
+position:relative;
+cursor:move;	
+}
+
+.column-gg_start_date,
+.column-gg_end_date{
+width:10%;	
+}
+
+#menu-posts-gg_events .menu-icon-gg_events .wp-menu-image img{
+padding:0;	
 }

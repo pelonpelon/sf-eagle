@@ -36,7 +36,7 @@
 			ed.addButton('w3cvalidate', {
 				title : ed.getLang('w3cvalidate.desc'),
 				cmd : 'w3cvalidate',
-				image : url + '/img/xhtml.gif'
+				//image : url + '/img/xhtml.gif'
 			});
     
 			// Add a node change handler, selects the button in the UI when a image is selected

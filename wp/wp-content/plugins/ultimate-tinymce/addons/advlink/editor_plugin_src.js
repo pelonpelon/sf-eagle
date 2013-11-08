@@ -36,7 +36,7 @@
 				/*title : 'advlink.link_desc',*/
 				title: ed.getLang('advlink.link_desc'),
 				cmd : 'mceAdvLink',
-				image: url + '/img/advlink.png'
+				//image: url + '/img/advlink.png'
 			});
 
 			ed.addShortcut('ctrl+k', 'advlink.advlink_desc', 'mceAdvLink');

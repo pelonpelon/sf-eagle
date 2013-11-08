@@ -32,7 +32,7 @@
 			ed.addButton('ezimage', {
 				title : ed.getLang('ezimage.desc'),
 				cmd : 'mceezimage',
-				image : url + '/img/ezimage.gif'
+				//image : url + '/img/ezimage.gif'
 			});
 
 			// Add a node change handler, selects the button in the UI when a image is selected

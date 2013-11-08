@@ -43,7 +43,7 @@
 			ed.addButton('youtube', {
 				title : ed.getLang('youtube.desc'),
 				cmd : 'mceYouTube',
-				image : url + '/img/youtube.gif'
+				//image : url + '/img/youtube.gif'
 			});
 
 			// Add a node change handler, selects the button in the UI when a image is selected

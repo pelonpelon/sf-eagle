@@ -1,29 +1,32 @@
 <?php
 /**
  * @package Event_Geek
- * @version 1.7
+ * @version 2.5.1
  */
 /*
 Plugin Name: Event Geek
 Description: An easy to use events plugin built with jQuery UI and AJAX. Includes a calendar widget and a shortcode to display a list of events on a post or page. Several styles to choose from, or you can use your own. Includes hooks for even more customization.
 Author: Graphic Geek
 Plugin URI: http://www.graphicgeek.net/event-geek
-Version: 1.7
+Version: 2.5.1
 Author URI: http://graphicgeek.net
 */
 
 define('GG_ABSPATH', dirname(__FILE__));
 define('GG_CORE_ABSPATH', GG_ABSPATH . '/core');
-require_once GG_CORE_ABSPATH . '/gg-options.php';
 require_once GG_CORE_ABSPATH . '/gg-functions.php';
+require_once GG_CORE_ABSPATH . '/gg-options.php';
+require_once GG_CORE_ABSPATH . '/gg-styles.php';
+require_once GG_CORE_ABSPATH . '/gg-scripts.php';
 require_once GG_CORE_ABSPATH . '/gg-post-type.php';
 require_once GG_CORE_ABSPATH . '/gg-widget.php';
 require_once GG_CORE_ABSPATH . '/gg-ajax.php';
 require_once GG_CORE_ABSPATH . '/gg-shortcodes.php';
 require_once GG_CORE_ABSPATH . '/gg-template-functions.php';
+require_once GG_CORE_ABSPATH . '/gg-category-meta.php';
 
 function gg_event_housekeeping(){
-
+	
 	$gg_event_options = get_option( 'gg_event_options');//get current options
 	
 	if(!$gg_event_options['gg_event_date_format']){
@@ -52,8 +55,9 @@ function gg_event_housekeeping(){
 		
 	}//end if(!$gg_event_options['gg_event_version']){
 
-	if(floatval($gg_event_options['gg_event_version']) <= 1.5){
-		//for version 1.4.1 and lower, fix the gg_event_dates field of all events
+
+	if(floatval($gg_event_options['gg_event_version']) <= 1.7){
+		//for version 1.7 and lower, fix the gg_event_dates field of all events
 
 		global $post;
 	
@@ -69,18 +73,20 @@ function gg_event_housekeeping(){
 			$meta = gg_get_saved_meta($gg_names,$post->ID);// load meta data
 
 			if($meta['gg_is_single_day']){ 
-				$meta['gg_event_dates'] = date_i18n($gg_event_options['gg_event_date_format'], strtotime($meta['gg_event_date_start']));
+				$meta['gg_event_dates'] = date($gg_event_options['gg_event_date_format'], strtotime($meta['gg_event_date_start_standard_format']));
 			} else{
 				$meta['gg_event_dates'] = '';
-				$startDate = strtotime($meta['gg_event_date_start']);
-				$endDate = strtotime($meta['gg_event_date_end']);
+				if($meta['gg_event_date_start_standard_format']){$startDate = strtotime($meta['gg_event_date_start_standard_format']);}
+				else{$startDate = strtotime($meta['gg_event_date_start']);}
+				if($meta['gg_event_date_end_standard_format']){$endDate = strtotime($meta['gg_event_date_end_standard_format']);}
+				else{$endDate = strtotime($meta['gg_event_date_end']);}
 				
 				while($startDate <= $endDate){
-					$meta['gg_event_dates'] .= date_i18n($gg_event_options['gg_event_date_format'], $startDate);
+					$meta['gg_event_dates'] .= date($gg_event_options['gg_event_date_format'], $startDate);
 					
 					if($startDate != $endDate){$meta['gg_event_dates'] .= '|';}
 					
-					$startDate =  strtotime(date_i18n($gg_event_options['gg_event_date_format'], $startDate) . ' + 1 day');//add one day
+					$startDate =  strtotime(date($gg_event_options['gg_event_date_format'], $startDate) . ' + 1 day');//add one day
 				}//end while
 
 			}//end if($events_meta['gg_is_single_day']
@@ -89,13 +95,45 @@ function gg_event_housekeeping(){
 
 		} wp_reset_postdata();			
 		
-	}//end if(version <= 1.5
+	}//end if(version <= 1.7
 
-	$gg_event_options['gg_event_version'] = '1.7'; //set version
+	if(floatval($gg_event_options['gg_event_version']) < 2.1){
+		//for version 1.7 and lower, fix the gg_event_dates field of all events
+
+		global $post;
+	
+		$args = array(
+			'post_type' => 'gg_events',
+			'posts_per_page' => -1
+		); 		  
+		
+		$query = new WP_Query($args);//query all events
+		
+		while ( $query->have_posts() ) { $query->the_post();
+			$gg_names = get_post_meta($post->ID, 'gg_names', true); //get list of meta names
+			$meta = gg_get_saved_meta($gg_names,$post->ID);// load meta data
+
+			if($meta['gg_is_single_day']){ 
+				$events_meta['gg_event_date_end_standard_format'] = $meta['gg_event_date_start_standard_format'];
+			} 
+			
+			update_post_meta($post->ID, 'gg_event_date_end_standard_format', $events_meta['gg_event_date_end_standard_format']);	
+
+		} wp_reset_postdata();			
+		
+	}//end if(version < 2.1	
+
+	$gg_event_options['gg_event_version'] = '2.5.1'; //set version
 	update_option('gg_event_options', $gg_event_options); //update version	
 	
 	if(!get_option('date_format')){update_option('date_format', 'd/m/Y');}//set a date format if none is set
 	
 }
 add_action( 'admin_init', 'gg_event_housekeeping');
+
+function gg_event_geek_languages() {
+	load_plugin_textdomain( 'event_geek', false, dirname( plugin_basename( __FILE__ ) ) . '/languages/' );
+	//load_plugin_textdomain( 'event_geek', false, GG_ABSPATH . '/languages/' );
+}
+add_action('plugins_loaded', 'gg_event_geek_languages');
 ?>

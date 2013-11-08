@@ -20,7 +20,7 @@
             });
             ed.addButton('linebreak', {
                 title: ed.getLang('linebreak.title'),
-                image: url + '/linebreak.png',
+                //image: url + '/linebreak.png',
                 cmd: 'jwlLineBreakButton'
             });
             //ed.addShortcut('alt+ctrl+l', ed.getLang('linebreak.php'), 'jwlLineBreakButton');			

@@ -16,7 +16,7 @@
 			ed.addButton('mailto', {
 				title : ed.getLang('mailto.mailto_desc'),
 				cmd : 'mceMailTo',
-				image : url + '/images/mailto.gif'
+				//image : url + '/images/mailto.gif'
 			});
 
       ed.addCommand('mceMailTo', function() {

@@ -28,7 +28,7 @@
 			ed.addButton('imgmap', {
 				title : ed.getLang('imgmap.desc'),
 				cmd : 'mceimgmapPopup',
-				image : url + '/images/tinymce_button.gif'
+				//image : url + '/images/tinymce_button.gif'
 			});
 			
 			// Add a node change handler, selects the button in the UI when a image is selected
@@ -101,7 +101,8 @@ var TinyMCE_imgmapPlugin = {
 		}
 		return false;
 	},
-
+
+
 	handleNodeChange : function(editor_id, node, undo_index, undo_levels, visual_aid, any_selection) {
 
 		if (node == null)

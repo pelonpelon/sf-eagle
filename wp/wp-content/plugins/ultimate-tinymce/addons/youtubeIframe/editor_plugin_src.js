@@ -40,7 +40,7 @@
             ed.addButton('youtubeIframe', {
                 title: ed.getLang('youtube.desc_iframe'),
                 cmd: 'mceYoutubeIframe',
-                image: url + '/img/youtube.png'
+                //image: url + '/img/youtube.png'
             });
 
             // Add a node change handler, selects the button in the UI when a image is selected

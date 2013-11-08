@@ -55,11 +55,22 @@ if($('.ggdatepicker').size() > 0){
     dateFormat: languageoptions.dateFormat,
     firstDay: languageoptions.firstDay,
     isRTL: languageoptions.isRTL,
+	onClose: function(selectedDate){
+		var theID = $(this).attr('id');
+		
+		if(theID == 'gg_event_date_start'){
+			$( "#gg_event_date_end" ).datepicker( "option", "minDate", selectedDate );
+			}else{
+			$( "#gg_event_date_start" ).datepicker( "option", "maxDate", selectedDate );
+		}//if
+		
+		//gg_event_date_start
+		},
 	onSelect: function ( dateText, inst) { 
 		var theID = '#' + $(this).attr('id') + '_standard_format';
 		var theDate = inst.selectedYear + '/' + (inst.selectedMonth+1) + '/' + inst.selectedDay;
 		$(theID).val(theDate);
-		console.log(theDate);
+		
 		}//onSelect
 	});
 }
@@ -76,7 +87,7 @@ if($('.ggdatepicker').size() > 0){
 		$('#event_ui_theme').change(function(){
 			
 			var theTheme = $(this).val();
-			var theURL = site_vars.plugin_directory  + '/event-geek/images/' + theTheme + '.jpg';
+			var theURL = gg_event_site_vars.plugin_directory  + '/event-geek/images/' + theTheme + '.jpg';
 			$('#gg_ui_theme_thumb').attr('src', theURL);
 			
 		});			
@@ -115,15 +126,34 @@ $('.gg_delete_event_li').click(function(){
  $(this).parent().fadeOut().remove();
 });
 
-$('#customize_event_info').change(function(){
+
+$('.gg_optional_select').change(function(){
+	var theID = '#optional_' + $(this).attr('id');
 	if($(this).val() == 'yes'){
-		$('#gg_event_info_options').fadeIn();
-	} else {$('#gg_event_info_options').fadeOut();}
+		$(theID).fadeIn();
+	} else {$(theID).fadeOut();}
+	
 });
 
   
+$(".ui_slider" ).each(function(){
+var theID =  $(this).attr('ID');
+var maxValue = $(this).data('maxval');
+var minValue = $(this).data('minval');
+var stepVal = $(this).data('step');
+
+
+	$(this).empty().slider({
+		value: $("#event_"+theID).val(),
+		min: minValue,
+    	max: maxValue,
+		step: stepVal,
+    	slide: function( event, ui ) {
+        $("#event_"+theID).val( ui.value );
+      }
+		});
+	$(theID).val( $(theID).slider( "value" ) );
+	
+});
+  
 });//end doc ready
-	
-	
-
-

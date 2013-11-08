@@ -3,8 +3,8 @@ Contributors: filosofo
 Donate link: http://austinmatzko.com/wordpress-plugins/wp-db-backup/
 Tags: mysql, database, backup, cron
 Requires at least: 2.0.3
-Tested up to: 3.1
-Stable tag: 2.2.3
+Tested up to: 3.6.1
+Stable tag: 2.2.4
 
 On-demand backup of your WordPress database.
 
@@ -17,7 +17,7 @@ Released under the terms of the GNU GPL, version 2.
 
               NO WARRANTY.
 
-	Copyright (c) 2010 Austin Matzko
+	Copyright (c) 2013 Austin Matzko
 
 == Installation ==
 1. Extract the wp-db-backup/ folder file to /wp-content/plugins/
@@ -106,16 +106,16 @@ When having the database backup emailed or sent to your browser for immediate do
 == Changelog ==
 
 = 2.2.3 = 
-Nonce check fix for localized WP users from Sergey Biryukov
-Fix for gzipped files' incorrect size.
-Some styling improvements.
-Fix for JS multiple checkbox selection.
+* Nonce check fix for localized WP users from Sergey Biryukov
+* Fix for gzipped files' incorrect size.
+* Some styling improvements.
+* Fix for JS multiple checkbox selection.
 
 == Upgrade Notice ==
 
 = 2.2.3 =
-Fixes problems users had when using localized WordPress installations.
-Fixes a bug that caused the size of gzipped backup files to be reported incorrectly.
+* Fixes problems users had when using localized WordPress installations.
+* Fixes a bug that caused the size of gzipped backup files to be reported incorrectly.
 
 == Advanced ==
 If you are using WordPress version 2.1 or newer, you can schedule automated backups to be sent to the email address 
@@ -130,6 +130,7 @@ Thanks to following people for providing translation files for WP-DB-Backup:
 * Calle
 * Daniel Erb
 * Daniel Villoldo
+* Diego Pierotto
 * Eilif Nordseth
 * Eric Lassauge
 * Friedlich

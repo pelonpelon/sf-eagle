@@ -39,7 +39,7 @@
 				//title : 'acheck.desc',
 				title : ed.getLang('acheck.desc'),
 				cmd : 'mceACheck',
-				image : url + '/img/acheck.gif'
+				//image : url + '/img/acheck.gif'
 			});
 
 			// Add a node change handler, selects the button in the UI when a image is selected

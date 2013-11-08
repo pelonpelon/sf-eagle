@@ -1,5 +1,21 @@
 <?php
 
+// Create an acf version of the_content filter (acf_the_content)
+if(	isset($GLOBALS['wp_embed']) )
+{
+	add_filter( 'acf_the_content', array( $GLOBALS['wp_embed'], 'run_shortcode' ), 8 );
+	add_filter( 'acf_the_content', array( $GLOBALS['wp_embed'], 'autoembed' ), 8 );
+}
+
+add_filter( 'acf_the_content', 'capital_P_dangit', 11 );
+add_filter( 'acf_the_content', 'wptexturize' );
+add_filter( 'acf_the_content', 'convert_smilies' );
+add_filter( 'acf_the_content', 'convert_chars' );
+add_filter( 'acf_the_content', 'wpautop' );
+add_filter( 'acf_the_content', 'shortcode_unautop' );
+add_filter( 'acf_the_content', 'do_shortcode', 11);
+
+
 class acf_field_wysiwyg extends acf_field
 {
 	
@@ -169,6 +185,7 @@ class acf_field_wysiwyg extends acf_field
 <tr class="field_option field_option_<?php echo $this->name; ?>">
 	<td class="label">
 		<label><?php _e("Default Value",'acf'); ?></label>
+		<p><?php _e("Appears when creating a new post",'acf') ?></p>
 	</td>
 	<td>
 		<?php 
@@ -253,25 +270,6 @@ class acf_field_wysiwyg extends acf_field
 	
 	function format_value_for_api( $value, $post_id, $field )
 	{
-		
-		// shortcode / wp_embed
-		if(	isset($GLOBALS['wp_embed']) )
-		{
-			add_filter( 'acf_the_content', array( $GLOBALS['wp_embed'], 'run_shortcode' ), 8 );
-			add_filter( 'acf_the_content', array( $GLOBALS['wp_embed'], 'autoembed' ), 8 );
-		}
-		
-		
-		// the_content filters
-		add_filter( 'acf_the_content', 'capital_P_dangit', 11 );
-		add_filter( 'acf_the_content', 'wptexturize' );
-		add_filter( 'acf_the_content', 'convert_smilies' );
-		add_filter( 'acf_the_content', 'convert_chars' );
-		add_filter( 'acf_the_content', 'wpautop' );
-		add_filter( 'acf_the_content', 'shortcode_unautop' );
-		add_filter( 'acf_the_content', 'do_shortcode', 11);
-		
-		
 		// apply filters
 		$value = apply_filters( 'acf_the_content', $value );
 		
@@ -284,8 +282,6 @@ class acf_field_wysiwyg extends acf_field
 	}
 	
 }
-
-
 
 new acf_field_wysiwyg();
 

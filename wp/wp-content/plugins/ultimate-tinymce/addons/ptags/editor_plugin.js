@@ -30,7 +30,7 @@
             });
             ed.addButton('ptags', {
                 title: ed.getLang('ptags.title'),
-                image: url + '/ptags.png',
+                //image: url + '/ptags.png',
                 cmd: 'jwlPtagsButton'
             });
             ed.addShortcut('alt+ctrl+p', ed.getLang('ptags.php'), 'jwlPtagsButton');			

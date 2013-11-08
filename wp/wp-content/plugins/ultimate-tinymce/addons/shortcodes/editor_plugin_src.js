@@ -21,7 +21,7 @@
                         ed.addButton('shortcodes', {
                                 title : ed.getLang('shortcodes.desc'),
                                 cmd : 'mceShortcodes',
-                                image : url + '/img/shortcodes.gif'
+                                //image : url + '/img/shortcodes.gif'
                         });
                 },
 				

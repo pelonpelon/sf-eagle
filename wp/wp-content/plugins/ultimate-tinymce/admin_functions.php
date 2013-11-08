@@ -149,6 +149,7 @@ function register_options_button_group_one() {
 	add_settings_field('jwl_nextpage_field_id', __('Enable NextPage (PageBreak) Button','jwl-ultimate-tinymce'), 'jwl_nextpage_callback_function', 'jwl_options_group1', 'jwl_setting_section1');
 	
 	register_setting('jwl_options_group1','jwl_options_group1');
+	
 }
 add_action('admin_init', 'register_options_button_group_one');
 
@@ -177,15 +178,23 @@ function register_options_admin() {
 	add_settings_section('jwl_setting_section4', '', 'jwl_setting_section_callback_function4', 'jwl_options_group4');
 	
 	// Register Settings for Admin Options
+	add_settings_field('jwl_dev_support', __('Support the Developer','jwl-ultimate-tinymce'), 'jwl_dev_support_callback_function', 'jwl_options_group4', 'jwl_setting_section4');  
+	add_settings_field('jwl_tinymce_user_role', __('Select Editor User Role','jwl-ultimate-tinymce'), 'jwl_tinymce_user_role_callback_function', 'jwl_options_group4', 'jwl_setting_section4');
+	add_settings_field('jwl_menu_location', __('Change the Ultimate Tinymce Menu Location','jwl-ultimate-tinymce'), 'jwl_menu_location_callback_function', 'jwl_options_group4', 'jwl_setting_section4');  
 	add_settings_field('jwl_tinymce_add_stylesheet', __('Load editor-style.css file','jwl-ultimate-tinymce'), 'jwl_tinymce_add_stylesheet_callback_function', 'jwl_options_group4', 'jwl_setting_section4');  
 	add_settings_field('jwl_tinymce_add_widgets', __('Enable Ultimate Tinymce Widget Builder','jwl-ultimate-tinymce'), 'jwl_tinymce_add_widgets_callback_function', 'jwl_options_group4', 'jwl_setting_section4');  
 	add_settings_field('jwl_tinymce_add_context_menu', __('Enable Editor Context Menu','jwl-ultimate-tinymce'), 'jwl_tinymce_add_context_menu_callback_function', 'jwl_options_group4', 'jwl_setting_section4');  
 	add_settings_field('jwl_tinymce_custom_users', __('Enable Custom User Settings','jwl-ultimate-tinymce'), 'jwl_tinymce_custom_users_callback_function', 'jwl_options_group4', 'jwl_setting_section4');  
 	add_settings_field('jwl_tinymce_excerpt', __('Enable Ultimate Tinymce Excerpt (Posts)','jwl-ultimate-tinymce'), 'jwl_tinymce_excerpt_callback_function', 'jwl_options_group4', 'jwl_setting_section4'); 
 	add_settings_field('jwl_tinymce_excerpt_page', __('Enable Ultimate Tinymce Excerpt (Pages)','jwl-ultimate-tinymce'), 'jwl_tinymce_excerpt_page_callback_function', 'jwl_options_group4', 'jwl_setting_section4'); 
+	add_settings_field('jwl_tinymce_post_revisions', __('Set Max Post Revisions','jwl-ultimate-tinymce'), 'jwl_post_revisions_callback_function', 'jwl_options_group4', 'jwl_setting_section4'); 
+	add_settings_field('jwl_tinymce_page_revisions', __('Set Max Page Revisions','jwl-ultimate-tinymce'), 'jwl_page_revisions_callback_function', 'jwl_options_group4', 'jwl_setting_section4'); 
+	add_settings_field('jwl_tinymce_rev_deletions', __('Delete All Revisions','jwl-ultimate-tinymce'), 'jwl_del_revisions_callback_function', 'jwl_options_group4', 'jwl_setting_section4'); 
 	add_settings_field('jwl_hide_html_tab', __('Disable content editor TEXT tab','jwl-ultimate-tinymce'), 'jwl_hide_html_tab_callback_function', 'jwl_options_group4', 'jwl_setting_section4'); 
 	add_settings_field('jwl_dashboard_widget', __('Enable dashboard widget','jwl-ultimate-tinymce'), 'jwl_dashboard_widget_callback_function', 'jwl_options_group4', 'jwl_setting_section4'); 
-	add_settings_field('jwl_admin_bar_link', __('Enable admin bar link','jwl-ultimate-tinymce'), 'jwl_admin_bar_link_callback_function', 'jwl_options_group4', 'jwl_setting_section4'); 
+	add_settings_field('jwl_admin_bar_link', __('Enable admin bar link','jwl-ultimate-tinymce'), 'jwl_admin_bar_link_callback_function', 'jwl_options_group4', 'jwl_setting_section4');  
+	add_settings_field('jwl_hide_posts_list', __('Hide Selected Posts','jwl-ultimate-tinymce'), 'jwl_hide_posts_list_callback_function', 'jwl_options_group4', 'jwl_setting_section4');  
+	add_settings_field('jwl_hide_pages_list', __('Hide Selected Pages','jwl-ultimate-tinymce'), 'jwl_hide_pages_list_callback_function', 'jwl_options_group4', 'jwl_setting_section4'); 
 	add_settings_field('jwl_content_css', __('Enable content.css file','jwl-ultimate-tinymce'), 'jwl_content_css_callback_function', 'jwl_options_group4', 'jwl_setting_section4'); 
 	add_settings_field('jwl_disable_styles', __('Disable all plugin "beautifications"','jwl-ultimate-tinymce'), 'jwl_disable_styles_callback_function', 'jwl_options_group4', 'jwl_setting_section4'); 
 	add_settings_field('jwl_tinymce_refresh', __('Disable "force" refresh of tinymce','jwl-ultimate-tinymce'), 'jwl_tinymce_refresh_callback_function', 'jwl_options_group4', 'jwl_setting_section4'); 

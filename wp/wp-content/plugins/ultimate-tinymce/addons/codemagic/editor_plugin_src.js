@@ -30,7 +30,7 @@
 			ed.addButton('codemagic', {
 				title: ed.getLang('codemagic.editor_button'), 
                 cmd: 'mceCodeMagic', 
-                image: url + '/img/code.png'
+                //image: url + '/img/code.png'
 			});
 
 			ed.onNodeChange.add(function(ed, cm, n, co) {

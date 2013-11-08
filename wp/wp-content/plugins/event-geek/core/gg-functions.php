@@ -1,137 +1,4 @@
 <?php
-//load styles and scripts for admin
-function gg_event_admin_scripts(){
-	
-	$thePage = $_GET['page'];
-	if($thePage == 'gg_event_menu'){//register scripts for options page
-		wp_enqueue_style( 'wp-color-picker' );          
-		wp_enqueue_script( 'wp-color-picker' );
-		wp_enqueue_script('jquery-ui-core');
-		wp_enqueue_script('jquery-ui-sortable');
-	}
-
-	wp_register_style( 'gg_admin_styles', plugins_url() . '/event-geek/css/admin-styles.css');
-	wp_enqueue_style('gg_admin_styles');
-
-	wp_register_script('gg_admin_script', plugins_url() . '/event-geek/js/gg-admin-script.js', array('jquery', 'wp-color-picker'));
-	wp_enqueue_script('gg_admin_script');
-
-   //localize our js
-	global $post, $wp_locale;
-    $languageoptions = array(
-		'closeText'         => __( 'Close', 'event_geek'),
-		'currentText'       => __( 'Today', 'event_geek'),
-		// we must replace the text indices for the following arrays with 0-based arrays
-		'monthNames'        => strip_array_indices( $wp_locale->month ),
-		'monthNamesShort'   => strip_array_indices( $wp_locale->month_abbrev ),
-		'dayNames'          => strip_array_indices( $wp_locale->weekday ),
-		'dayNamesShort'     => strip_array_indices( $wp_locale->weekday_abbrev ),
-		'dayNamesMin'       => strip_array_indices( $wp_locale->weekday_initial ),
-		// the date format must be converted from PHP date tokens to js date tokens
-		'dateFormat'        => date_format_php_to_js(get_option('date_format')),
-		// First day of the week from WordPress general settings
-		'firstDay'          => get_option( 'start_of_week' ),
-		// is Right to left language? default is false
-		'isRTL'             => $wp_locale->is_rtl,
-    );
-	
-	 // Pass the array to the enqueued JS
-    wp_localize_script( 'gg_admin_script', 'languageoptions', $languageoptions );
-
-	$site_vars = array(
-		'home_url' => home_url(),
-		'plugin_directory' => plugins_url(),
-		'admin_url' => admin_url()
-	);
-	
-	wp_localize_script( 'gg_admin_script', 'site_vars', $site_vars );	
-
-}
-add_action( 'admin_enqueue_scripts', 'gg_event_admin_scripts' );
-
-	//load styles and scripts for front end
-function gg_event_scripts() {
-	//load jquery scripts
-	wp_enqueue_script('jquery-ui-core');
-	wp_enqueue_script('jquery-ui-datepicker');
-
-	
-	//load jquery styles
-	$gg_event_options = get_option( 'gg_event_options');
-	if($gg_event_options['event_ui_theme']){$uiTheme = 'http://ajax.googleapis.com/ajax/libs/jqueryui/1.10.3/themes/' .  $gg_event_options['event_ui_theme'] . '/jquery-ui.css';}
-	else{$uiTheme = 'http://ajax.googleapis.com/ajax/libs/jqueryui/1.10.3/themes/smoothness/jquery-ui.css';}
-	
-	if($gg_event_options['event_custom_ui_theme']){$uiTheme = $gg_event_options['event_custom_ui_theme'];}; 
-	
-	wp_enqueue_style('jquery-style', $uiTheme);
-
-	//load event styles
-	wp_register_style( 'gg_styles', plugins_url() . '/event-geek/css/gg_event_styles.css');
-	wp_enqueue_style('gg_styles');
-	
-	//load scripts
-	$mousewheel = plugins_url() . '/event-geek/js/jquery.mousewheel.js';
-    wp_deregister_script( 'mousewheel' );
-    wp_register_script( 'mousewheel', $mousewheel);
-    wp_enqueue_script( 'mousewheel' );	
-
-	wp_register_script('gg_script', plugins_url() . '/event-geek/js/gg_script.js', array('jquery', 'jquery-ui-core', 'jquery-ui-datepicker'));
-	wp_enqueue_script('gg_script');	
-
-    //localize our js
-	global $post, $wp_locale;
-    $languageoptions = array(
-		'closeText'         => __( 'Close', 'event_geek'),
-		'currentText'       => __( 'Today', 'event_geek'),
-		// we must replace the text indices for the following arrays with 0-based arrays
-		'monthNames'        => strip_array_indices( $wp_locale->month ),
-		'monthNamesShort'   => strip_array_indices( $wp_locale->month_abbrev ),
-		'dayNames'          => strip_array_indices( $wp_locale->weekday ),
-		'dayNamesShort'     => strip_array_indices( $wp_locale->weekday_abbrev ),
-		'dayNamesMin'       => strip_array_indices( $wp_locale->weekday_initial ),
-		// the date format must be converted from PHP date tokens to js date tokens
-		'dateFormat'        => date_format_php_to_js(get_option('date_format')),
-		// First day of the week from WordPress general settings
-		'firstDay'          => get_option( 'start_of_week' ),
-		// is Right to left language? default is false
-		'isRTL'             => $wp_locale->is_rtl,
-    );
-	
-	 // Pass the array to the enqueued JS
-    wp_localize_script( 'gg_script', 'languageoptions', $languageoptions );
-	
-	$site_vars = array(
-		'home_url' => home_url(),
-		'plugin_directory' => plugins_url(),
-		'admin_url' => admin_url(),
-		'plugin_version' => $gg_event_options['gg_event_version']
-	);
-	
-	wp_localize_script( 'gg_script', 'site_vars', $site_vars );
-	
-	wp_localize_script( 'gg_script', 'gg_event_dates', gg_event_dates() );
-	
-}
-
-add_action( 'wp_enqueue_scripts', 'gg_event_scripts' );
-
-
-//add custom color and other custom styles
-function gg_frontend_styles(){
-	$gg_event_options = get_option( 'gg_event_options');
-	 ?>
-	<style type="text/css">
-    
-	.gg_widget_calendar .gg_has_event a{
-	background:<?php echo $gg_event_options ['event_highlight_color']; ?>;
-	color:<?php echo $gg_event_options ['event_highlight_text_color']; ?>;
-	}
-	
-    </style>
-<?php }
-
-add_action( 'wp_head', 'gg_frontend_styles' );
-
 //set up post type custom meta functions
 function gg_get_saved_meta($names, $id){
 	$return = array();
@@ -143,8 +10,9 @@ function gg_get_saved_meta($names, $id){
 		}
 		
 	$return['gg_names'] = get_post_meta($id, 'gg_names', true);		
+	
 	return $return;
-}
+} //gg_get_saved_meta
 
 function gg_get_posted_meta(){
 	$return = array();
@@ -156,20 +24,19 @@ function gg_get_posted_meta(){
 		
 	$return['gg_names'] = $names;
 	return $return;
-}
-
-
+} //gg_get_posted_meta
 
 //localization functions
-function strip_array_indices( $ArrayToStrip ) {
+function gg_strip_array_indices( $ArrayToStrip ) {
+
     foreach( $ArrayToStrip as $objArrayItem) {
         $NewArray[] =  $objArrayItem;
     }
  
     return( $NewArray );
-}
+} //gg_strip_array_indices
 
-function date_format_php_to_js( $php_format ) {
+function gg_date_format_php_to_js( $php_format ) {
     $PHP_matching_JS = array(
             // Day
             'd' => 'dd',
@@ -232,9 +99,9 @@ function date_format_php_to_js( $php_format ) {
     }
 
     return $js_format;
-}
+} //date_format_php_to_js
 
-function gg_event_dates(){
+function gg_event_widget_dates($cat='all'){
 	global $post;
 	$event_dates = array();
 
@@ -242,7 +109,93 @@ function gg_event_dates(){
 		'post_type' => 'gg_events',
 		'posts_per_page' => -1
 	); 
-	$gg_event_options = get_option( 'gg_event_options');//get current options
+
+	if($cat != 'all'){
+		$args['event_category'] = $cat;
+	}
+
+	$query = new WP_Query(apply_filters('gg_event_widget_date_args', $args));	
+		
+	while ( $query->have_posts() ) { $query->the_post();
+		$gg_names = get_post_meta($post->ID, 'gg_names', true); //get list of meta names
+		$meta = gg_get_saved_meta($gg_names,$post->ID);// load meta data		
+		$dates = explode('|', $meta['gg_event_dates']);
+		foreach($dates as $date){
+			if(!in_array($date, $event_dates)){$event_dates[] = $date;}		
+		}
+	}wp_reset_postdata();	
+	
+	echo json_encode($event_dates);
+	
+} //gg_event_widget_dates
+
+function gg_event_footer(){
+	 ?>
+	<div id="gg_event_window"><?php do_action('gg_event_footer'); ?><img class="ajax_loader" src="<?php echo apply_filters('gg_event_ajax_loader', plugins_url() . '/event-geek/images/ajax-loader.gif'); ?>" alt="loading" /></div>
+<?php 
+	$gg_event_options = get_option( 'gg_event_options');
+	if($gg_event_options['event_lightbox_color']){ ?><div id="gg_event_lightbox"></div> <?php }
+}//gg_event_footer
+
+add_action( 'wp_footer', 'gg_event_footer' );
+
+if(!function_exists('gg_content_selector')){
+	function gg_content_selector($id){
+		global $post;
+
+		$post_per_page = -1; 
+		$postArgs = array('public' => true);
+		$postTypes = get_post_types($postArgs);
+		
+		//$postTypes = array('page', 'post');
+	  	$args = array(
+	  	'post_type' => $postTypes,
+		'posts_per_page' => $post_per_page
+	  ); 
+
+		$query = new WP_Query($args);
+
+		while ( $query->have_posts() ) {
+				$query->the_post(); 
+				$obj = get_post_type_object(get_post_type());
+				$theType = $obj->rewrite['slug'];
+				if ($theType == ""){$theType = get_post_type();}
+				?>
+					<option value="<?php the_ID(); ?>" <?php selected($id, get_the_ID());?>><?php the_title(); ?> (<?php echo $theType; ?>)</option>
+		<?php } wp_reset_postdata();		
+	}//gg_content_selector
+}//if(!function_exists('gg_content_selector')){
+	
+if(!function_exists('gg_category_selector')){
+	function gg_category_selector($cat){
+		?>
+        <option value="all">Show All</option>
+        <?php
+		$args = array(
+		'taxonomy' => 'event_category'
+		);
+
+		$categories = get_categories( $args );
+		
+		foreach($categories as $category){ ?>
+			<option value="<?php echo $category->slug; ?>"<?php selected($category->slug, $cat); ?>><?php echo $category->name; ?></option>
+		<?php		}//foreach
+	
+	}//gg_category_selector
+}//if(!function_exists('gg_category_selector')){
+
+
+//-----------------depriciated functions----------------------------------------
+
+function gg_event_dates(){ //function depriciated, replaced by gg_event_widget_dates()
+	global $post;
+	$event_dates = array();
+
+	$args = array(
+		'post_type' => 'gg_events',
+		'posts_per_page' => -1
+	); 
+
 	$query = new WP_Query($args);	
 		
 	while ( $query->have_posts() ) { $query->the_post();
@@ -260,10 +213,4 @@ function gg_event_dates(){
 	return $event_dates;
 	
 } //gg_event_dates
-
-function gg_event_footer(){ ?>
-	<div id="gg_event_window"><img class="ajax_loader" src="<?php echo plugins_url(); ?>/event-geek/images/ajax-loader.gif" alt="loading" /></div>
-<?php }
-
-add_action( 'wp_footer', 'gg_event_footer' );
 ?>

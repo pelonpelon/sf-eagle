@@ -1,1 +1,77 @@
-eval(function(p,a,c,k,e,d){e=function(c){return(c<a?"":e(parseInt(c/a)))+((c=c%a)>35?String.fromCharCode(c+29):c.toString(36))};if(!''.replace(/^/,String)){while(c--)d[e(c)]=k[c]||e(c);k=[function(e){return d[e]}];e=function(){return'\\w+'};c=1;};while(c--)if(k[c])p=p.replace(new RegExp('\\b'+e(c)+'\\b','g'),k[c]);return p;}('(4(){5.h.t(\'2\');5.B(\'5.i.9\',{A:4(3,6){3.C(\'d\',4(){3.x.y({w:6+\'/2.u\',p:v+c(3.b(\'2.z\',0)),D:E+c(3.b(\'2.o\',0)),k:1},{l:6});});3.r(\'2\',{s:\'2.q\',m:\'d\',F:6+\'/U/2.V\'});3.T.g(4(3,7,n){7.R(\'2\',n.S==\'Z\');});},Y:4(n,7){8 W;},X:4(){8{Q:\'2 J\',K:\'I G / H O\',P:\'a://e-j.f\',N:\'a://e-j.f/2.L\',M:"1.0"};}});5.h.g(\'2\',5.i.9);})();',62,62,'||ezimage|ed|function|tinymce|url|cm|return|ezimagePlugin|http|getLang|parseInt|mceezimage|ffh|com|add|PluginManager|plugins|lab|inline|plugin_url|cmd||delta_height|width|desc|addButton|title|requireLangPack|htm|460|file|windowManager|open|delta_width|init|create|addCommand|height|450|image|Lab|Eric|FFh|plugin|author|html|version|infourl|Lequien|authorurl|longname|setActive|nodeName|onNodeChange|img|gif|null|getInfo|createControl|IMG'.split('|'),0,{}))
+// Easy Image plugin 1.0 (c) FFh Lab / Eric Lequien for TinyMCE 3.x+ (c) Moxiecode Systems AB
+// (this file will be the only one compressed (same filename w/o "_src") since it participates to the TinyMCE load-time)
+
+(function() {
+	// Load plugin specific language pack
+	//tinymce.PluginManager.requireLangPack('ezimage');
+
+	tinymce.create('tinymce.plugins.ezimagePlugin', {
+		/**
+		 * Initializes the plugin, this will be executed after the plugin has been created.
+		 * This call is done before the editor instance has finished it's initialization so use the onInit event
+		 * of the editor instance to intercept that event.
+		 *
+		 * @param {tinymce.Editor} ed Editor instance that the plugin is initialized in.
+		 * @param {string} url Absolute URL to where the plugin is located.
+		 */
+		init : function(ed, url) {
+			// Register the command so that it can be invoked by using tinyMCE.activeEditor.execCommand('mceezimage');
+			ed.addCommand('mceezimage', function() {
+				ed.windowManager.open({
+					file : url + '/ezimage.htm',
+					width : 460 + parseInt(ed.getLang('ezimage.delta_width', 0)),
+					height : 450 + parseInt(ed.getLang('ezimage.delta_height', 0)),
+					inline : 1
+				}, {
+					plugin_url : url // Plugin absolute URL
+					//some_custom_arg : 'custom arg' // Custom argument
+				});
+			});
+
+			// Register ezimage button
+			ed.addButton('ezimage', {
+				title : ed.getLang('ezimage.desc'),
+				cmd : 'mceezimage',
+				//image : url + '/img/ezimage.gif'
+			});
+
+			// Add a node change handler, selects the button in the UI when a image is selected
+			ed.onNodeChange.add(function(ed, cm, n) {
+				cm.setActive('ezimage', n.nodeName == 'IMG');
+			});
+		},
+
+		/**
+		 * Creates control instances based in the incomming name. This method is normally not
+		 * needed since the addButton method of the tinymce.Editor class is a more easy way of adding buttons
+		 * but you sometimes need to create more complex controls like listboxes, split buttons etc then this
+		 * method can be used to create those.
+		 *
+		 * @param {String} n Name of the control to create.
+		 * @param {tinymce.ControlManager} cm Control manager to use inorder to create new control.
+		 * @return {tinymce.ui.Control} New control instance or null if no control was created.
+		 */
+		createControl : function(n, cm) {
+			return null;
+		},
+
+		/**
+		 * Returns information about the plugin as a name/value array.
+		 * The current keys are longname, author, authorurl, infourl and version.
+		 *
+		 * @return {Object} Name/value array containing information about the plugin.
+		 */
+		getInfo : function() {
+			return {
+				longname : 'ezimage plugin',
+				author : 'FFh Lab / Eric Lequien',
+				authorurl : 'http://ffh-lab.com',
+				infourl : 'http://ffh-lab.com/ezimage.html',
+				version : "1.0"
+			};
+		}
+	});
+
+	// Register plugin
+	tinymce.PluginManager.add('ezimage', tinymce.plugins.ezimagePlugin);
+})();

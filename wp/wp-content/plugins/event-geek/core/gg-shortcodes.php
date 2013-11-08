@@ -4,21 +4,78 @@ function gg_eventlist_shortcode( $atts, $content = null ){
  extract( shortcode_atts( array(
       'orderby' => 'meta_value_num',
 	  'order' => 'ASC',
-	  'limit' => -1
+	  'limit' => -1,
+	  'category' => 'all',
+	  'all_dates' => false,
+	  'format' => 'content'
       // ...etc
       ), $atts ) );
 
 $return = apply_filters('gg_shortcode_begin', '<div class="event-listing gg_short">');
 	  
 	global $post;
+	$gg_event_options = get_option( 'gg_event_options');//get event plugin options
+		$clickedDate = $_GET['date'];
+		$cat = $_GET['cat'];
+		
+		if($clickedDate){
+			$meta_query =  array(
+				array(
+					'key' => 'gg_event_dates',
+					'value' => date($gg_event_options['gg_event_date_format'], strtotime($clickedDate)),
+					'compare' => 'LIKE'
+				)
+			);
+				
+			$args = array(
+				'post_type' => 'gg_events',
+				'posts_per_page' => -1,
+				'meta_key' => 'gg_event_dates',
+				'orderby' => $orderby,
+				'order' => $order,
+				'meta_query' => $meta_query,
+			); 
+		} else {	
+		//set up query to show only events that haven't ended
+		$metaquery = array(
+				 array(
+					'key' => 'gg_event_date_end_standard_format',
+					'value' => date('Y/n/j'),
+					'compare' => '>=',
+					'type' => 'date'
 
+				 )
+			  );
+			  
 	  	$args = array(
-	  	'post_type' => 'gg_events',
-		'meta_key' => 'gg_event_dates',
+	  	'post_type' => 'gg_events',	
 		'orderby' => $orderby,
+		'meta_key' => 'gg_event_dates',
 		'order' => $order,
 		'posts_per_page' => $limit
-	  ); 		  
+	  ); 
+	  
+	  if(!$all_dates){
+		  $args['meta_query'] = $metaquery;
+		  }
+	  		  
+	}
+
+	if($cat && $cat != 'all'){
+		$args['event_category'] = $cat;
+		$term = get_term_by('slug', $cat, 'event_category');
+	}
+	elseif($category !='all'){
+		$args['event_category'] = $category;
+		$term = get_term_by('slug', $category, 'event_category');
+	}			
+	
+	 if($term->name){$return .= apply_filters('gg_before_event_category_title', '<h3 class="event_category_title">') .  apply_filters('gg_event_category_title', $term->name) . apply_filters('gg_after_event_category_title', '</h3>');}
+
+	if($clickedDate){
+	$return .= apply_filters('gg_before_clicked_date', '<h3>') . apply_filters('gg_clicked_date',date_i18n(get_option('date_format'), strtotime($clickedDate))) . apply_filters('gg_after_clicked_date', '</h3>'); 
+	}
+		
 	$query = new WP_Query($args);
 
 	while ( $query->have_posts() ) { $query->the_post();
@@ -26,14 +83,23 @@ $return = apply_filters('gg_shortcode_begin', '<div class="event-listing gg_shor
 		$meta = gg_get_saved_meta($gg_names,$post->ID);// load meta data
 		
 		$return .= '<div class="event-listing">';
-			$return .= apply_filters('gg_before_event_title', '<h4>');
+		
+			if($format == 'content' || !get_the_content()){
+				$before_title = '<h4>';
+				$after_title = '</h4>';
+			} else{
+				$before_title = '<h4><a href="' . get_permalink($post->ID) . '">';
+				$after_title = '</a></h4>';
+			}
+			
+			$return .= apply_filters('gg_before_event_title', $before_title);
 			$return .= get_the_title();
-			$return .= apply_filters('gg_after_event_title', '</h4>');
+			$return .= apply_filters('gg_after_event_title', $after_title);
 				
 			$return .= apply_filters('gg_before_event_dates', '<div class="event_dates">');
 		
-			$eventStartDate = apply_filters('gg_before_event_start_date' ,'<span class="datestart">') . date(get_option('date_format'),strtotime($meta['gg_event_date_start'])) . apply_filters('gg_after_event_start_date' ,'</span>');
-			$eventEndDate = apply_filters('gg_before_event_end_date' , '<span class="dateend"> ' . __('to', 'event_geek')) . ' ' . date(get_option('date_format'),strtotime($meta['gg_event_date_end'])) . apply_filters('gg_after_event_end_date' ,'</span>');
+			$eventStartDate = apply_filters('gg_before_event_start_date' ,'<span class="datestart">') . date_i18n(get_option('date_format'),strtotime($meta['gg_event_date_start_standard_format'])) . apply_filters('gg_after_event_start_date' ,'</span>');
+			$eventEndDate = apply_filters('gg_before_event_end_date' , '<span class="dateend"> ' . __('to', 'event_geek')) . ' ' . date_i18n(get_option('date_format'),strtotime($meta['gg_event_date_end_standard_format'])) . apply_filters('gg_after_event_end_date' ,'</span>');
 			 
 			$return .= apply_filters('gg_event_start_date', $eventStartDate);
 			
@@ -49,8 +115,13 @@ $return = apply_filters('gg_shortcode_begin', '<div class="event-listing gg_shor
 				}//end if($thumb)
 			
 			$return .=  get_event_geek_info($post->ID);
-	
-			$return .= get_the_content();
+			
+			if($format == 'content'){
+				$return .= apply_filters('gg_before_event_shortcode_content', '<div class="gg_event_content">', $meta);
+				$return .= get_the_content();
+				$return .= apply_filters('gg_after_event_shortcode_content', '</div>', $meta);
+			}
+			
 			$return .= '<div class="clear"></div>';
 		$return .= '</div>';// .event-listing
 	  

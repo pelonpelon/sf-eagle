@@ -39,7 +39,7 @@
 			ed.addButton('loremipsum', {
 				title : ed.getLang('loremipsum.desc'),
 				cmd : 'mceLoremIpsum',
-				image : url + '/img/loremipsum.gif'
+				//image : url + '/img/loremipsum.gif'
 			});
 
 		},

@@ -21,7 +21,7 @@
                         ed.addButton('tagwrap', {
                                 title : ed.getLang('tagwrap.desc'),
                                 cmd : 'mceTagwrap',
-                                image : url + '/img/tagwrap.png'
+                                //image : url + '/img/tagwrap.png'
                         });
                 },
 				

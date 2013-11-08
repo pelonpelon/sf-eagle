@@ -1,8 +1,10 @@
 <?php
 
+
+
 // Finally, our custom functions for how we want the options to work.
 // Functions for Row 3
-function tinymce_add_button_fontselect($buttons) { 
+function tinymce_add_button_fontselect($buttons) {
 $options = get_option('jwl_options_group1');
 $jwl_fontselect = isset($options['jwl_fontselect_field_id']); 
 if ($jwl_fontselect == "1") $buttons[] = 'fontselect'; return $buttons; }
@@ -713,8 +715,8 @@ if ($jwl_nextpage_dropdown2 == 'Row 4') { add_filter("mce_buttons_4", "tinymce_a
 
 
 // Test button
-//function tinymce_add_test_button($buttons) {  $buttons[] = 'soundcloud';  return $buttons;  }
-//add_filter("mce_buttons_3", "tinymce_add_test_button");
+//function tinymce_add_test_button($buttons) {  $buttons[] = 'spellchecker';  return $buttons;  }
+//add_filter("mce_buttons_4", "tinymce_add_test_button");
 
 // Add the plugin array for extra features
 function jwl_mce_external_plugins( $jwl_plugin_array ) {
@@ -754,10 +756,14 @@ function jwl_mce_external_plugins( $jwl_plugin_array ) {
 		$jwl_plugin_array['ptags'] = plugin_dir_url(__FILE__) . 'addons/ptags/editor_plugin.js';
 		$jwl_plugin_array['linebreak'] = plugin_dir_url(__FILE__) . 'addons/linebreak/editor_plugin.js';
 		$jwl_plugin_array['advlink'] = plugin_dir_url(__FILE__) . 'addons/advlink/editor_plugin.js';
+		
+		// Test array
+		//$jwl_plugin_array['spellchecker'] = plugin_dir_url(__FILE__) . 'addons/spellchecker/editor_plugin_src.js';
 		   
 		return $jwl_plugin_array;
 }
 add_filter( 'mce_external_plugins', 'jwl_mce_external_plugins' );
+		
 
 // Functions for miscellaneous options and features
 // Function to show post/page id in admin column area
@@ -1036,6 +1042,18 @@ add_shortcode('signoff', 'jwl_sign_off_text');
 
 
 // Functions for Admin Options
+// Function to add dev support link to footer
+
+$options_dev_support = get_option('jwl_options_group4');
+$jwl_dev_support = isset($options_dev_support['jwl_dev_support']);
+if ($jwl_dev_support == "1") {
+	function your_function() {
+		echo '<p>This website content was created with the help of <a href="http://utmce.joshlobe.com/">Ultimate Tinymce!</a></p>';
+	}
+	add_action('get_footer', 'your_function');
+}
+
+	
 // Functions to load stylesheet from front-end of website into ultimate tinymce content editor.
 $options_style = get_option('jwl_options_group4');
 $jwl_style = isset($options_style['jwl_tinymce_add_stylesheet']);
@@ -1196,9 +1214,30 @@ if ($jwl_admin_links == '1') {
 		$path = get_option('siteurl');
 		// Links to add, in the form: 'Label' => 'URL'
 		$links = array( 'Settings Page' => '' );
-		$wp_admin_bar->add_menu( array( 'id' => 'utmce', 'title' => 'Ultimate Tinymce', 'href' => false, 'id' => 'jwl_links', 'href' => $path . '/wp-admin/admin.php?page=ultimate-tinymce' ));
+		$loc = get_option('jwl_options_group4');
+			$get_loc = $loc['jwl_menu_location'];
+			
+			switch ($get_loc)
+			 {
+			 case "Main":
+			 $act_loc = 'admin.php?page=ultimate-tinymce';
+			   break;
+			 case "Appearance":
+			 $act_loc = 'themes.php?page=ultimate-tinymce';
+			   break;
+			 case "Tools":
+			 $act_loc = 'tools.php?page=ultimate-tinymce';
+			   break;
+			 case "Settings":
+			 $act_loc = 'options-general.php?page=ultimate-tinymce';
+			   break;
+			 default:
+			 $act_loc = 'admin.php?page=ultimate-tinymce';
+			   break;
+			 } 
+		$wp_admin_bar->add_menu( array( 'id' => 'utmce', 'title' => 'Ultimate Tinymce', 'href' => false, 'id' => 'jwl_links', 'href' => $path . '/wp-admin/'.$act_loc ));
 		/** * Add the submenu links. */
-		foreach ($links as $label => $url) { $wp_admin_bar->add_menu( array( 'id' => 'utmce2', 'title' => $label, 'href' => $path . '/wp-admin/admin.php?page=ultimate-tinymce', 'parent' => 'jwl_links' )); }
+		foreach ($links as $label => $url) { $wp_admin_bar->add_menu( array( 'id' => 'utmce2', 'title' => $label, 'href' => $path . '/wp-admin/'.$act_loc, 'parent' => 'jwl_links' )); }
 	}
 }
 

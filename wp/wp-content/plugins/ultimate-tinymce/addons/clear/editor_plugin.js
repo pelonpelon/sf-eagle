@@ -7,19 +7,19 @@
 				/*title : 'clear.clearleft_desc',*/
 				title : ed.getLang('div.clearleft_desc'),
 				cmd: 'clearLeft',
-				image: url + '/images/clearleft_button.gif'
+				//image: url + '/images/clearleft_button.gif'
 			});
 			ed.addButton('clearright', {
 				/*title : 'clear.clearright_desc',*/
 				title : ed.getLang('div.clearright_desc'),
 				cmd: 'clearRight',
-				image: url + '/images/clearright_button.gif'
+				//image: url + '/images/clearright_button.gif'
 			});
 			ed.addButton('clearboth', {
 				/*title : 'clear.clearboth_desc',*/
 				title : ed.getLang('div.clearboth_desc'),
 				cmd: 'clearBoth',
-				image: url + '/images/clearboth_button.gif'
+				//image: url + '/images/clearboth_button.gif'
 			});
 			var clearHTML = '<img src="' + url + '/images/trans.gif" style="clear:$1;" class="mceClear mceClear$1 mceItemNoResize" title="' + ed.getLang('clear.clear_alt') + '" />';
 			var insertClear = function (clear) {

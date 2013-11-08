@@ -34,10 +34,11 @@
 
 	// Register clker button
 	ed.addButton('clker', {
-	  /*title : 'Clker ClipArt Gallery',*/
+	  /*title : 'Clker ClipArt Gallery',*/
+
 	  title: ed.getLang('clker.gallery'),
 	      cmd : 'mceclker',
-	      image : url + '/img/clker.gif'
+	      //image : url + '/img/clker.gif'
 	      });
 
 	// Add a node change handler, selects the button in the UI when a image is selected
