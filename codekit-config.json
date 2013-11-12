@@ -50,11 +50,11 @@
       "ignoreWasSetByUser" : 0,
       "ignore" : 0,
       "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
+      "outputPathIsSetByUser" : 1,
       "inputAbbreviatedPath" : "\/jade\/merch.jade",
       "outputStyle" : 0,
       "compileDebug" : 1,
-      "outputAbbreviatedPath" : "\/merch.html",
+      "outputAbbreviatedPath" : "\/merch.php",
       "fileType" : 512
     },
     "\/js\/modernizr\/test\/caniuse_files\/table.png" : {
@@ -123,17 +123,6 @@
       "initialSize" : 32098,
       "fileType" : 4096
     },
-    "\/images\/logo-button.png" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/images\/logo-button.png",
-      "processed" : 0,
-      "outputAbbreviatedPath" : "\/images\/logo-button.png",
-      "initialSize" : 3336,
-      "fileType" : 8192
-    },
     "\/images\/merch\/hoodie-gray-front.jpg" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 0,
@@ -144,6 +133,17 @@
       "outputAbbreviatedPath" : "\/images\/merch\/hoodie-gray-front.jpg",
       "initialSize" : 8219,
       "fileType" : 4096
+    },
+    "\/images\/logo-button.png" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/images\/logo-button.png",
+      "processed" : 0,
+      "outputAbbreviatedPath" : "\/images\/logo-button.png",
+      "initialSize" : 3336,
+      "fileType" : 8192
     },
     "\/images\/icons\/twitter.png" : {
       "ignoreWasSetByUser" : 0,
@@ -350,11 +350,11 @@
       "ignoreWasSetByUser" : 0,
       "ignore" : 0,
       "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
+      "outputPathIsSetByUser" : 1,
       "inputAbbreviatedPath" : "\/jade\/staff.jade",
       "outputStyle" : 0,
       "compileDebug" : 1,
-      "outputAbbreviatedPath" : "\/staff.html",
+      "outputAbbreviatedPath" : "\/staff.php",
       "fileType" : 512
     },
     "\/scss\/partials\/singles\/_torch.scss" : {
@@ -557,17 +557,6 @@
       "initialSize" : 5764,
       "fileType" : 4096
     },
-    "\/images\/DrinkSpecials\/DrinkSpecial-absolut-jimbeamhoney-400.jpg" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/images\/DrinkSpecials\/DrinkSpecial-absolut-jimbeamhoney-400.jpg",
-      "processed" : 0,
-      "outputAbbreviatedPath" : "\/images\/DrinkSpecials\/DrinkSpecial-absolut-jimbeamhoney-400.jpg",
-      "initialSize" : 11651,
-      "fileType" : 4096
-    },
     "\/images\/icons\/touch-icon-ipad.png" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 0,
@@ -578,6 +567,17 @@
       "outputAbbreviatedPath" : "\/images\/icons\/touch-icon-ipad.png",
       "initialSize" : 2251,
       "fileType" : 8192
+    },
+    "\/images\/DrinkSpecials\/DrinkSpecial-absolut-jimbeamhoney-400.jpg" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/images\/DrinkSpecials\/DrinkSpecial-absolut-jimbeamhoney-400.jpg",
+      "processed" : 0,
+      "outputAbbreviatedPath" : "\/images\/DrinkSpecials\/DrinkSpecial-absolut-jimbeamhoney-400.jpg",
+      "initialSize" : 11651,
+      "fileType" : 4096
     },
     "\/js\/modernizr\/test\/caniuse_files\/red30x30.png" : {
       "ignoreWasSetByUser" : 0,
@@ -679,17 +679,6 @@
       "initialSize" : 26588,
       "fileType" : 4096
     },
-    "\/js\/modernizr\/test\/caniuse_files\/before-after.png" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/js\/modernizr\/test\/caniuse_files\/before-after.png",
-      "processed" : 0,
-      "outputAbbreviatedPath" : "\/js\/modernizr\/test\/caniuse_files\/before-after.png",
-      "initialSize" : 452,
-      "fileType" : 8192
-    },
     "\/images\/staff\/gage-fisher-nice-lite.jpg" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 0,
@@ -700,6 +689,17 @@
       "outputAbbreviatedPath" : "\/images\/staff\/gage-fisher-nice-lite.jpg",
       "initialSize" : 8611,
       "fileType" : 4096
+    },
+    "\/js\/modernizr\/test\/caniuse_files\/before-after.png" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/js\/modernizr\/test\/caniuse_files\/before-after.png",
+      "processed" : 0,
+      "outputAbbreviatedPath" : "\/js\/modernizr\/test\/caniuse_files\/before-after.png",
+      "initialSize" : 452,
+      "fileType" : 8192
     },
     "\/images\/icons\/icon-youtubePlaylist.jpg" : {
       "ignoreWasSetByUser" : 0,
@@ -799,7 +799,7 @@
       "inputAbbreviatedPath" : "\/jade\/index\/tease.jade",
       "outputStyle" : 0,
       "compileDebug" : 1,
-      "outputAbbreviatedPath" : "\/jade\/tease.html",
+      "outputAbbreviatedPath" : "\/tease.html",
       "fileType" : 512
     },
     "\/scss\/bits\/_buttons.scss" : {
@@ -935,7 +935,7 @@
       "inputAbbreviatedPath" : "\/jade\/common\/footer\/flyers.jade",
       "outputStyle" : 0,
       "compileDebug" : 1,
-      "outputAbbreviatedPath" : "\/jade\/common\/flyers.html",
+      "outputAbbreviatedPath" : "\/flyers.html",
       "fileType" : 512
     },
     "\/images\/events\/memorialday2013-lite.jpg" : {
@@ -957,7 +957,7 @@
       "inputAbbreviatedPath" : "\/jade\/common\/scripts.jade",
       "outputStyle" : 0,
       "compileDebug" : 1,
-      "outputAbbreviatedPath" : "\/jade\/scripts.html",
+      "outputAbbreviatedPath" : "\/scripts.html",
       "fileType" : 512
     },
     "\/scss\/theme\/_typography.scss" : {
@@ -1148,11 +1148,11 @@
       "ignoreWasSetByUser" : 0,
       "ignore" : 0,
       "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
+      "outputPathIsSetByUser" : 1,
       "inputAbbreviatedPath" : "\/jade\/jobs.jade",
       "outputStyle" : 0,
       "compileDebug" : 1,
-      "outputAbbreviatedPath" : "\/jobs.html",
+      "outputAbbreviatedPath" : "\/jobs.php",
       "fileType" : 512
     },
     "\/images\/events\/DiscoDaddy-130714-400.jpg" : {
@@ -1296,7 +1296,7 @@
       "inputAbbreviatedPath" : "\/jade\/index\/events.jade",
       "outputStyle" : 0,
       "compileDebug" : 1,
-      "outputAbbreviatedPath" : "\/jade\/events.html",
+      "outputAbbreviatedPath" : "\/events.html",
       "fileType" : 512
     },
     "\/images\/events\/sadistic-thumb.jpg" : {
@@ -1396,7 +1396,7 @@
       "inputAbbreviatedPath" : "\/jade\/index\/mast.jade",
       "outputStyle" : 0,
       "compileDebug" : 1,
-      "outputAbbreviatedPath" : "\/jade\/mast.html",
+      "outputAbbreviatedPath" : "\/mast.html",
       "fileType" : 512
     },
     "\/images\/merch\/hoodie-black-front2.jpg" : {
@@ -1507,7 +1507,7 @@
       "inputAbbreviatedPath" : "\/jade\/common\/php-errors.jade",
       "outputStyle" : 0,
       "compileDebug" : 1,
-      "outputAbbreviatedPath" : "\/jade\/php-errors.html",
+      "outputAbbreviatedPath" : "\/php-errors.html",
       "fileType" : 512
     },
     "\/images\/merch\/tank-white-back.jpg" : {
@@ -1616,6 +1616,17 @@
       "processed" : 0,
       "outputAbbreviatedPath" : "\/images\/events\/15Association-thumb.jpg",
       "initialSize" : 5470,
+      "fileType" : 4096
+    },
+    "\/images\/events\/DiscoDaddy-442x600.jpg" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/images\/events\/DiscoDaddy-442x600.jpg",
+      "processed" : 0,
+      "outputAbbreviatedPath" : "\/images\/events\/DiscoDaddy-442x600.jpg",
+      "initialSize" : 49337,
       "fileType" : 4096
     },
     "\/scss\/partials\/_all.scss" : {
@@ -1841,16 +1852,16 @@
       "fileType" : 4,
       "debugStyle" : 1
     },
-    "\/images\/events\/flag-cody-pouringabeer-lite.jpg" : {
+    "\/jade\/test.jade" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 0,
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/images\/events\/flag-cody-pouringabeer-lite.jpg",
-      "processed" : 0,
-      "outputAbbreviatedPath" : "\/images\/events\/flag-cody-pouringabeer-lite.jpg",
-      "initialSize" : 31498,
-      "fileType" : 4096
+      "inputAbbreviatedPath" : "\/jade\/test.jade",
+      "outputStyle" : 0,
+      "compileDebug" : 1,
+      "outputAbbreviatedPath" : "\/test.html",
+      "fileType" : 512
     },
     "\/images\/pinktriangle-lite.jpg" : {
       "ignoreWasSetByUser" : 0,
@@ -1863,16 +1874,27 @@
       "initialSize" : 56509,
       "fileType" : 4096
     },
-    "\/jade\/test.jade" : {
+    "\/images\/events\/flag-cody-pouringabeer-lite.jpg" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 0,
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/jade\/test.jade",
-      "outputStyle" : 0,
-      "compileDebug" : 1,
-      "outputAbbreviatedPath" : "\/test.html",
-      "fileType" : 512
+      "inputAbbreviatedPath" : "\/images\/events\/flag-cody-pouringabeer-lite.jpg",
+      "processed" : 0,
+      "outputAbbreviatedPath" : "\/images\/events\/flag-cody-pouringabeer-lite.jpg",
+      "initialSize" : 31498,
+      "fileType" : 4096
+    },
+    "\/images\/mrsfeagle.png" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/images\/mrsfeagle.png",
+      "processed" : 0,
+      "outputAbbreviatedPath" : "\/images\/mrsfeagle.png",
+      "initialSize" : 38645,
+      "fileType" : 8192
     },
     "\/scss\/partials\/home\/_events.scss" : {
       "ignoreWasSetByUser" : 0,
@@ -1994,7 +2016,7 @@
       "inputAbbreviatedPath" : "\/jade\/common\/settings.jade",
       "outputStyle" : 0,
       "compileDebug" : 1,
-      "outputAbbreviatedPath" : "\/jade\/settings.html",
+      "outputAbbreviatedPath" : "\/settings.html",
       "fileType" : 512
     },
     "\/images\/events\/flag-butt.jpg" : {
@@ -2219,6 +2241,17 @@
       "initialSize" : 3292,
       "fileType" : 8192
     },
+    "\/images\/tshirt_m.jpg" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/images\/tshirt_m.jpg",
+      "processed" : 0,
+      "outputAbbreviatedPath" : "\/images\/tshirt_m.jpg",
+      "initialSize" : 51014,
+      "fileType" : 4096
+    },
     "\/scss\/partials\/home\/mast\/_header.scss" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 1,
@@ -2230,17 +2263,6 @@
       "outputAbbreviatedPath" : "\/css\/_header.css",
       "fileType" : 4,
       "debugStyle" : 1
-    },
-    "\/images\/tshirt_m.jpg" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/images\/tshirt_m.jpg",
-      "processed" : 0,
-      "outputAbbreviatedPath" : "\/images\/tshirt_m.jpg",
-      "initialSize" : 51014,
-      "fileType" : 4096
     },
     "\/js\/modernizr\/test\/caniuse_files\/green5x5.png" : {
       "ignoreWasSetByUser" : 0,
@@ -2257,22 +2279,22 @@
       "ignoreWasSetByUser" : 0,
       "ignore" : 0,
       "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
+      "outputPathIsSetByUser" : 1,
       "inputAbbreviatedPath" : "\/jade\/calendar.jade",
       "outputStyle" : 0,
       "compileDebug" : 1,
-      "outputAbbreviatedPath" : "\/calendar.html",
+      "outputAbbreviatedPath" : "\/calendar.php",
       "fileType" : 512
     },
     "\/jade\/archives.jade" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 0,
       "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
+      "outputPathIsSetByUser" : 1,
       "inputAbbreviatedPath" : "\/jade\/archives.jade",
       "outputStyle" : 0,
       "compileDebug" : 1,
-      "outputAbbreviatedPath" : "\/archives.html",
+      "outputAbbreviatedPath" : "\/archives.php",
       "fileType" : 512
     },
     "\/images\/events\/TNL-thumb.jpg" : {
@@ -2390,22 +2412,22 @@
       "ignoreWasSetByUser" : 0,
       "ignore" : 0,
       "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
+      "outputPathIsSetByUser" : 1,
       "inputAbbreviatedPath" : "\/jade\/docs\/GayHankyCodes.jade",
       "outputStyle" : 0,
       "compileDebug" : 1,
-      "outputAbbreviatedPath" : "\/jade\/GayHankyCodes.html",
+      "outputAbbreviatedPath" : "\/GayHankyCodes.php",
       "fileType" : 512
     },
-    "\/images\/events\/cityhall-rainbow-400.jpg" : {
+    "\/images\/events\/Sadistic-generic-389x600.jpg" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 0,
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/images\/events\/cityhall-rainbow-400.jpg",
+      "inputAbbreviatedPath" : "\/images\/events\/Sadistic-generic-389x600.jpg",
       "processed" : 0,
-      "outputAbbreviatedPath" : "\/images\/events\/cityhall-rainbow-400.jpg",
-      "initialSize" : 11909,
+      "outputAbbreviatedPath" : "\/images\/events\/Sadistic-generic-389x600.jpg",
+      "initialSize" : 38251,
       "fileType" : 4096
     },
     "\/jade\/common\/footer\/links.jade" : {
@@ -2416,7 +2438,7 @@
       "inputAbbreviatedPath" : "\/jade\/common\/footer\/links.jade",
       "outputStyle" : 0,
       "compileDebug" : 1,
-      "outputAbbreviatedPath" : "\/jade\/common\/links.html",
+      "outputAbbreviatedPath" : "\/links.html",
       "fileType" : 512
     },
     "\/images\/logo-transparency-orangeeagle-cutout-400.png" : {
@@ -2450,6 +2472,17 @@
       "processed" : 0,
       "outputAbbreviatedPath" : "\/images\/events\/memorialdayposter-lite.jpg",
       "initialSize" : 37640,
+      "fileType" : 4096
+    },
+    "\/images\/events\/cityhall-rainbow-400.jpg" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/images\/events\/cityhall-rainbow-400.jpg",
+      "processed" : 0,
+      "outputAbbreviatedPath" : "\/images\/events\/cityhall-rainbow-400.jpg",
+      "initialSize" : 11909,
       "fileType" : 4096
     },
     "\/images\/icons\/calendarmonth.png" : {
@@ -2539,7 +2572,7 @@
       "inputAbbreviatedPath" : "\/jade\/common\/header.jade",
       "outputStyle" : 0,
       "compileDebug" : 1,
-      "outputAbbreviatedPath" : "\/jade\/header.html",
+      "outputAbbreviatedPath" : "\/header.html",
       "fileType" : 512
     },
     "\/images\/logo-thumb.jpg" : {
@@ -2661,7 +2694,7 @@
       "inputAbbreviatedPath" : "\/jade\/common\/footer.jade",
       "outputStyle" : 0,
       "compileDebug" : 1,
-      "outputAbbreviatedPath" : "\/jade\/footer.html",
+      "outputAbbreviatedPath" : "\/footer.html",
       "fileType" : 512
     },
     "\/images\/events\/RainbowKitty-lite.jpg" : {
@@ -2675,6 +2708,17 @@
       "initialSize" : 53254,
       "fileType" : 4096
     },
+    "\/jade\/common\/footer\/content.jade" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 1,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/jade\/common\/footer\/content.jade",
+      "outputStyle" : 0,
+      "compileDebug" : 1,
+      "outputAbbreviatedPath" : "\/content.html",
+      "fileType" : 512
+    },
     "\/images\/events\/flag-crucified.jpg" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 0,
@@ -2685,6 +2729,18 @@
       "outputAbbreviatedPath" : "\/images\/events\/flag-crucified.jpg",
       "initialSize" : 21457,
       "fileType" : 4096
+    },
+    "\/scss\/partials\/footer\/_content.scss" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 1,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/scss\/partials\/footer\/_content.scss",
+      "outputStyle" : 0,
+      "shouldRunBless" : 0,
+      "outputAbbreviatedPath" : "\/css\/_content.css",
+      "fileType" : 4,
+      "debugStyle" : 1
     },
     "\/images\/events\/SOMAScavengerHunt-thumb.jpg" : {
       "ignoreWasSetByUser" : 0,
@@ -2763,7 +2819,7 @@
     "lessOutputStyle" : 0,
     "hamlAutoOutputPathReplace2" : "",
     "draggedImportConcatenationStyle" : 1,
-    "jadeAutoOutputPathStyle" : 2,
+    "jadeAutoOutputPathStyle" : 1,
     "hamlEscapeHTMLCharacters" : 0,
     "javascriptAutoOutputPathStyle" : 0,
     "hamlOutputFormat" : 2,
@@ -2809,7 +2865,7 @@
     "slimCompileOnly" : 0,
     "slimLogicless" : 0,
     "uglifyIndent" : 2,
-    "jadeAutoOutputPathRelativePath" : "..\/",
+    "jadeAutoOutputPathRelativePath" : "\/",
     "hamlUseUnixNewlines" : 0,
     "hamlAutoOutputPathReplace1" : "",
     "javascriptAutoOutputPathReplace1" : "",
@@ -2932,7 +2988,7 @@
   "projectAttributes" : {
     "bourbonEnabled" : 0,
     "displayValue" : "storm",
-    "displayValueWasSetByUser" : 0,
+    "displayValueWasSetByUser" : 1,
     "compassEnabled" : 1
   }
 }

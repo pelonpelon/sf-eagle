@@ -798,18 +798,18 @@ html, body {
   min-height: 100%;
   height: auto !important;
   height: 100%;
-  margin-bottom: -520px;
+  margin-bottom: -580px;
 }
 /* line 18, ../../../../../../../Applications/CodeKit.app/Contents/Resources/engines/compass/frameworks/compass/stylesheets/compass/layout/_sticky-footer.scss */
 #page #page-footer {
-  height: 520px;
+  height: 580px;
 }
 
 /* line 20, ../../../../../../../Applications/CodeKit.app/Contents/Resources/engines/compass/frameworks/compass/stylesheets/compass/layout/_sticky-footer.scss */
 #footer {
   clear: both;
   position: relative;
-  height: 520px;
+  height: 580px;
 }
 
 /* line 112, ../scss/theme/_layout.scss */
@@ -1025,13 +1025,6 @@ html, body {
   #mast h2 {
     font-size: 2.8em;
   }
-}
-
-/* line 64, ../scss/partials/home/_mast.scss */
-.mrsfeagle {
-  width: 100%;
-  padding: 0 5px;
-  text-align: center;
 }
 
 @media screen and (max-width: 641px) {
@@ -1410,7 +1403,7 @@ html, body {
 /* line 11, ../scss/partials/footer/_flyers.scss */
 .flexslider {
   margin: 0 !important;
-  width: 100%;
+  width: 98%;
   height: 380px;
   border: none;
   box-shadow: none;
@@ -1481,22 +1474,26 @@ html, body {
   padding: 25px 3% 25px 3%;
   border-top: 30px solid black;
 }
-
-/* line 6, ../scss/partials/footer/_all.scss */
-.links {
+@media screen and (max-width: 641px) {
+  /* line 1, ../scss/partials/footer/_all.scss */
+  #footer {
+    padding: 15px 1% 15px 1%;
+  }
+}
+/* line 9, ../scss/partials/footer/_all.scss */
+#footer .links {
   display: inline-block;
-  width: 32%;
+  width: 28%;
   vertical-align: top;
 }
 @media screen and (max-width: 641px) {
-  /* line 11, ../scss/partials/footer/_all.scss */
-  .links {
+  /* line 14, ../scss/partials/footer/_all.scss */
+  #footer .links {
     width: 40%;
   }
 }
-
 /* line 1, ../scss/partials/footer/_links.scss */
-.social, .info {
+#footer .social, #footer .info {
   float: left;
   margin-right: 12%;
   width: 60px;
@@ -1506,45 +1503,81 @@ html, body {
   margin: 0 35px 0 0;
 }
 /* line 9, ../scss/partials/footer/_links.scss */
-.social li, .info li {
+#footer .social li, #footer .info li {
   margin-bottom: 20px;
 }
-
 /* line 13, ../scss/partials/footer/_links.scss */
-.info {
-  width: 80px;
+#footer .info {
+  min-width: 70px;
+  width: 40%;
 }
-
-/* line 18, ../scss/partials/footer/_all.scss */
-.googlemap {
+/* line 21, ../scss/partials/footer/_all.scss */
+#footer .content {
   display: inline-block;
-  width: 27%;
+  width: 38%;
   vertical-align: top;
 }
-/* line 22, ../scss/partials/footer/_all.scss */
-.googlemap img {
-  width: 80%;
+@media screen and (max-width: 641px) {
+  /* line 26, ../scss/partials/footer/_all.scss */
+  #footer .content {
+    width: 55%;
+  }
 }
-/* line 25, ../scss/partials/footer/_all.scss */
-.googlemap h3 {
+/* line 1, ../scss/partials/footer/_content.scss */
+#footer .googlemap, #footer .mrsfeagle {
+  text-align: center;
+  width: 40%;
+  margin: 0 auto;
+}
+/* line 5, ../scss/partials/footer/_content.scss */
+#footer .googlemap img, #footer .mrsfeagle img {
+  width: 100%;
+}
+/* line 8, ../scss/partials/footer/_content.scss */
+#footer .googlemap h3, #footer .mrsfeagle h3 {
   color: whitesmoke;
-  font-size: 1.4em;
+  font-size: 1em;
 }
 @media screen and (max-width: 1025px) {
-  /* line 30, ../scss/partials/footer/_all.scss */
-  .googlemap h3 {
+  /* line 13, ../scss/partials/footer/_content.scss */
+  #footer .googlemap, #footer .mrsfeagle {
+    width: 55%;
+  }
+  /* line 16, ../scss/partials/footer/_content.scss */
+  #footer .googlemap h3, #footer .mrsfeagle h3 {
     font-size: .8em;
   }
 }
 @media screen and (max-width: 641px) {
-  /* line 35, ../scss/partials/footer/_all.scss */
-  .googlemap {
-    width: 55%;
+  /* line 21, ../scss/partials/footer/_content.scss */
+  #footer .googlemap, #footer .mrsfeagle {
+    width: 70%;
+    float: right;
+  }
+  /* line 25, ../scss/partials/footer/_content.scss */
+  #footer .googlemap img, #footer .mrsfeagle img {
+    width: 70%;
   }
 }
-
-/* line 41, ../scss/partials/footer/_all.scss */
-.flyers {
+/* line 31, ../scss/partials/footer/_content.scss */
+#footer .mrsfeagle {
+  border-top: 5px solid #000;
+  padding-top: 12px;
+}
+/* line 34, ../scss/partials/footer/_content.scss */
+#footer .mrsfeagle h3 {
+  margin: 5px;
+}
+/* line 36, ../scss/partials/footer/_content.scss */
+#footer .mrsfeagle h3:hover {
+  color: red;
+}
+/* line 40, ../scss/partials/footer/_content.scss */
+#footer .mrsfeagle img {
+  margin-bottom: 5px;
+}
+/* line 33, ../scss/partials/footer/_all.scss */
+#footer .flyers {
   display: inline-block;
   width: 24%;
   margin-right: 0;
@@ -1552,32 +1585,30 @@ html, body {
   vertical-align: top;
 }
 @media screen and (max-width: 641px) {
-  /* line 48, ../scss/partials/footer/_all.scss */
-  .flyers {
+  /* line 40, ../scss/partials/footer/_all.scss */
+  #footer .flyers {
     margin-top: 50%;
     width: 100%;
   }
 }
-
 /* line 1, ../scss/partials/footer/_flyers.scss */
-.nonFlexslider {
+#footer .nonFlexslider {
   display: none;
 }
 @media screen and (max-width: 641px) {
   /* line 1, ../scss/partials/footer/_flyers.scss */
-  .nonFlexslider {
+  #footer .nonFlexslider {
     display: block;
   }
   /* line 5, ../scss/partials/footer/_flyers.scss */
-  .nonFlexslider p {
+  #footer .nonFlexslider p {
     font-size: 1.5em;
   }
 }
-
 /* line 11, ../scss/partials/footer/_flyers.scss */
-.flexslider {
+#footer .flexslider {
   margin: 0 !important;
-  width: 100%;
+  width: 98%;
   height: 380px;
   border: none;
   box-shadow: none;
@@ -1590,34 +1621,30 @@ html, body {
 }
 @media screen and (max-width: 641px) {
   /* line 11, ../scss/partials/footer/_flyers.scss */
-  .flexslider {
+  #footer .flexslider {
     display: none;
   }
 }
-
 /* line 27, ../scss/partials/footer/_flyers.scss */
-.flex-viewport {
+#footer .flex-viewport {
   -webkit-transition: all 1s ease;
   -moz-transition: all 1s ease;
   transition: all 1s ease;
 }
-
 /* line 32, ../scss/partials/footer/_flyers.scss */
-.flex-direction-nav {
+#footer .flex-direction-nav {
   display: none;
 }
-
 /* line 35, ../scss/partials/footer/_flyers.scss */
-.flex-control-nav {
+#footer .flex-control-nav {
   display: none;
 }
-
 /* line 38, ../scss/partials/footer/_flyers.scss */
-.slides {
+#footer .slides {
   zoom: 1.00;
 }
 /* line 40, ../scss/partials/footer/_flyers.scss */
-.slides p {
+#footer .slides p {
   width: 100%;
   margin: 0 auto 15px auto;
   font-size: 1.4em;
@@ -1626,16 +1653,16 @@ html, body {
   color: whitesmoke;
 }
 /* line 48, ../scss/partials/footer/_flyers.scss */
-.slides img {
+#footer .slides img {
   border: none;
 }
 @media screen and (max-width: 641px) {
   /* line 52, ../scss/partials/footer/_flyers.scss */
-  .slides img {
+  #footer .slides img {
     margin: 0 auto;
   }
   /* line 55, ../scss/partials/footer/_flyers.scss */
-  .slides p {
+  #footer .slides p {
     font-size: 1.5em;
     margin: 60px auto 30px auto;
     background-color: whitesmoke;

@@ -60,8 +60,12 @@
             <li class="hankypic"><a href="GayHankyCodes.php" title="Don't miss our monthly FLAG parties"><img src="images/hankycodes.jpeg" alt="hanky codes" class="thumb"></a>Hanky Codes</li>
           </ul>
         </div>
-        <div class="googlemap"><a href="https://maps.google.com/maps?q=Eagle+Tavern,+12th+Street,+San+Francisco,+CA,+USA&amp;hl=en&amp;sll=37.770048,-122.413315&amp;sspn=0.010974,0.01929&amp;oq=Eagle&amp;t=m&amp;z=16" target="_blank"><img src="images/google-map.jpg" width="250" height="250"></a>
-          <h3>We're just off the freeway<br>398 12th Street<br>(corner of Harrison)</h3>
+        <div class="content">
+          <div class="googlemap"><a href="https://maps.google.com/maps?q=Eagle+Tavern,+12th+Street,+San+Francisco,+CA,+USA&amp;hl=en&amp;sll=37.770048,-122.413315&amp;sspn=0.010974,0.01929&amp;oq=Eagle&amp;t=m&amp;z=16" target="_blank"><img src="images/google-map.jpg" width="250" height="250"></a>
+            <h3>We're just off the freeway<br>398 12th Street<br>(corner of Harrison)</h3>
+          </div>
+          <div class="mrsfeagle"><a href="images/mrsfeagle.png" rel="lightbox"><img src="images/mrsfeagle.png" alt="Mr. SF-Eagle Application" width="451" height="600"></a><a href="docs/mrsfeagle-application.pdf" target="_blank" alt="Mr. SF-Eagle Application">
+              <h3>DOWNLOAD PDF</h3></a></div>
         </div>
         <div class="flyers">
           <div class="flexslider">
@@ -76,7 +80,7 @@
                 <p class="rc">Friday Cigar Nights</p><a href="images/events/cigar-lite.jpg" rel="lightbox"><img src="images/events/cigar-lite.jpg"></a>
               </li>
               <li>
-                <p class="rc">Every 2nd Saturday</p><a href="images/events/sadistic-lite.jpg" rel="lightbox"><img src="images/events/sadistic-lite.jpg"></a>
+                <p class="rc">Every 4th Saturday</p><a href="images/events/Sadistic-generic-389x600.jpg" rel="lightbox"><img src="images/events/Sadistic-generic-389x600.jpg"></a>
               </li>
               <li>
                 <p class="rc">Every 2nd Sunday</p><a href="images/events/rubber-showtunes-lite.jpg" rel="lightbox"><img src="images/events/rubber-showtunes-lite.jpg"></a>
@@ -101,7 +105,7 @@
                 <p class="rc">Friday Cigar Nights</p><img src="images/events/cigar-lite.jpg">
               </li>
               <li>
-                <p class="rc">Every 2nd Saturday</p><img src="images/events/sadistic-lite.jpg">
+                <p class="rc">Every 4th Saturday</p><img src="images/events/Sadistic-generic-389x600.jpg">
               </li>
               <li>
                 <p class="rc">Every 2nd Sunday</p><img src="images/events/rubber-showtunes-lite.jpg">

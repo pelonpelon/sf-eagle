@@ -1,55 +1,48 @@
 #footer {
     padding: 25px 3% 25px 3%;
     border-top: 30px solid black;
-}
-
-.links {
-    display: inline-block;
-    width: 32%;
-    vertical-align: top;
     @media screen and (max-width: $phone) {
-        & {
-            width: 40%;
-        }
-    }
-}
-@import "links";
+        padding: 15px 1% 15px 1%;
 
-.googlemap {
-    display: inline-block;
-    width: 27%;
-    vertical-align: top;
-    img {
-        width: 80%;
     }
-    h3 {
-        color: $content-lite;
-        font-size: 1.4em;
-    }
-    @media screen and (max-width: $netbook) {
-        h3 {
-            font-size: .8em;
-        }
-    }
-    @media screen and (max-width: $phone) {
-        & {
-            width: 55%;
-        }
-    }
-}
 
-.flyers {
-    display: inline-block;
-    width: 24%;
-    margin-right: 0;
-    float: right;
-    vertical-align: top;
-    @media screen and (max-width: $phone) {
-        & {
-            margin-top: 50%;
-            width: 100%;
+    .links {
+        display: inline-block;
+        width: 28%;
+        vertical-align: top;
+        @media screen and (max-width: $phone) {
+            & {
+                width: 40%;
+            }
         }
     }
-}
-@import "flyers";
+    @import "links";
 
+    .content {
+        display: inline-block;
+        width: 38%;
+        vertical-align: top;
+        @media screen and (max-width: $phone) {
+            & {
+                width: 55%;
+            }
+        }
+    }
+    @import "content";
+
+    .flyers {
+        display: inline-block;
+        width: 24%;
+        margin-right: 0;
+        float: right;
+        vertical-align: top;
+        @media screen and (max-width: $phone) {
+            & {
+                margin-top: 50%;
+                width: 100%;
+            }
+        }
+    }
+    @import "flyers";
+
+}
