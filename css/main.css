@@ -902,10 +902,11 @@ html, body {
 /* line 25, ../scss/partials/home/_mast.scss */
 #mast nav {
   float: left;
+  clear: right;
   width: 100%;
 }
 @media screen and (max-width: 1025px) {
-  /* line 29, ../scss/partials/home/_mast.scss */
+  /* line 30, ../scss/partials/home/_mast.scss */
   #mast nav li:nth-of-type(3) {
     clear: left;
   }
@@ -985,7 +986,7 @@ html, body {
   display: table;
   clear: both;
 }
-/* line 40, ../scss/partials/home/_mast.scss */
+/* line 41, ../scss/partials/home/_mast.scss */
 #mast ul {
   *zoom: 1;
   display: inline-block;
@@ -997,32 +998,45 @@ html, body {
   clear: both;
 }
 @media screen and (max-width: 641px) {
-  /* line 40, ../scss/partials/home/_mast.scss */
+  /* line 41, ../scss/partials/home/_mast.scss */
   #mast ul {
     float: right;
   }
 }
-/* line 46, ../scss/partials/home/_mast.scss */
+/* line 47, ../scss/partials/home/_mast.scss */
 #mast ul li {
   display: block;
   float: left;
 }
 @media screen and (max-width: 641px) {
-  /* line 46, ../scss/partials/home/_mast.scss */
+  /* line 47, ../scss/partials/home/_mast.scss */
   #mast ul li {
     float: right;
     clear: both;
   }
 }
-/* line 55, ../scss/partials/home/_mast.scss */
-#mast h2 {
+/* line 56, ../scss/partials/home/_mast.scss */
+#mast .promo {
+  float: left;
+  clear: right;
+  margin: 0 auto;
   text-align: center;
-  color: #000;
-  text-shadow: 2px 4px #fff;
+}
+/* line 61, ../scss/partials/home/_mast.scss */
+#mast .promo img {
+  width: 50%;
+  height: auto;
+}
+/* line 65, ../scss/partials/home/_mast.scss */
+#mast .promo h2 {
+  margin: 0;
+  padding: 0;
+  color: #cc0000;
+  text-shadow: 1px 1px #009999;
 }
 @media screen and (max-width: 641px) {
-  /* line 55, ../scss/partials/home/_mast.scss */
-  #mast h2 {
+  /* line 65, ../scss/partials/home/_mast.scss */
+  #mast .promo h2 {
     font-size: 2.8em;
   }
 }
@@ -1870,36 +1884,31 @@ html, body {
   border: solid 5px red;
 }
 
-/* line 3, ../scss/partials/calendar/_calendar.scss */
-#page.calendar article nav {
-  padding: 0 20% 60px 20%;
-  height: 100px;
+/* line 2, ../scss/partials/calendar/_calendar.scss */
+#page.calendar nav {
+  text-align: center;
 }
-@media screen and (max-width: 1025px) {
-  /* line 3, ../scss/partials/calendar/_calendar.scss */
-  #page.calendar article nav {
-    height: 80px;
-  }
+/* line 4, ../scss/partials/calendar/_calendar.scss */
+#page.calendar nav ul {
+  display: inline-block;
+  overflow: hidden;
+  margin: 0;
 }
-@media screen and (max-width: 801px) {
-  /* line 3, ../scss/partials/calendar/_calendar.scss */
-  #page.calendar article nav {
-    height: 70px;
-    padding: 0 10% 20px 10%;
-  }
+/* line 8, ../scss/partials/calendar/_calendar.scss */
+#page.calendar nav ul li {
+  float: left;
+  max-width: 22%;
+  margin: 5px;
 }
-@media screen and (max-width: 641px) {
-  /* line 3, ../scss/partials/calendar/_calendar.scss */
-  #page.calendar article nav {
-    height: 60px;
-    padding: 0 1% 20px 1%;
+@media screen and (max-width: 361px) {
+  /* line 8, ../scss/partials/calendar/_calendar.scss */
+  #page.calendar nav ul li {
+    margin: 2px;
   }
 }
 /* line 17, ../scss/partials/calendar/_calendar.scss */
-#page.calendar article nav img {
-  display: block;
-  float: left;
-  height: 100%;
+#page.calendar nav img {
+  max-width: 120px;
   filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=70);
   opacity: 0.7;
   background-color: #660000;
@@ -1910,36 +1919,42 @@ html, body {
   -o-border-radius: 50%;
   border-radius: 50%;
 }
-/* line 31, ../scss/partials/calendar/_calendar.scss */
-#page.calendar article nav img:hover {
+@media screen and (max-width: 361px) {
+  /* line 17, ../scss/partials/calendar/_calendar.scss */
+  #page.calendar nav img {
+    max-width: 52px;
+  }
+}
+/* line 26, ../scss/partials/calendar/_calendar.scss */
+#page.calendar nav img:hover {
   background-color: #cc0000;
   border: solid 5px red;
 }
-/* line 37, ../scss/partials/calendar/_calendar.scss */
-#page.calendar article table {
-  margin: 0 auto 60px auto;
+/* line 32, ../scss/partials/calendar/_calendar.scss */
+#page.calendar table {
+  margin: 0px auto 60px auto;
   filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=80);
   opacity: 0.8;
 }
-/* line 41, ../scss/partials/calendar/_calendar.scss */
-#page.calendar article table tr td {
+/* line 36, ../scss/partials/calendar/_calendar.scss */
+#page.calendar table tr td {
   border: 2px #000000 solid;
   text-align: center;
   vertical-align: middle;
   height: 100px;
 }
-/* line 46, ../scss/partials/calendar/_calendar.scss */
-#page.calendar article table tr td p {
+/* line 41, ../scss/partials/calendar/_calendar.scss */
+#page.calendar table tr td p {
   padding: 0;
 }
-/* line 50, ../scss/partials/calendar/_calendar.scss */
-#page.calendar article table tr td:first-of-type {
+/* line 45, ../scss/partials/calendar/_calendar.scss */
+#page.calendar table tr td:first-of-type {
   width: 30%;
   background-color: #660000;
   font-size: .8em;
 }
-/* line 55, ../scss/partials/calendar/_calendar.scss */
-#page.calendar article table tr td + td {
+/* line 50, ../scss/partials/calendar/_calendar.scss */
+#page.calendar table tr td + td {
   font-family: "Jolly Lodger";
   width: 30%;
   background-color: #999999;
@@ -1947,21 +1962,21 @@ html, body {
   font-size: 2em;
   font-weight: 800;
 }
-/* line 62, ../scss/partials/calendar/_calendar.scss */
-#page.calendar article table tr td + td h5 {
+/* line 57, ../scss/partials/calendar/_calendar.scss */
+#page.calendar table tr td + td h5 {
   font-size: 1em;
   margin: 10px 0;
 }
-/* line 66, ../scss/partials/calendar/_calendar.scss */
-#page.calendar article table tr td + td h5:hover {
+/* line 61, ../scss/partials/calendar/_calendar.scss */
+#page.calendar table tr td + td h5:hover {
   color: #cc0000;
 }
-/* line 70, ../scss/partials/calendar/_calendar.scss */
-#page.calendar article table tr td + td + td {
+/* line 65, ../scss/partials/calendar/_calendar.scss */
+#page.calendar table tr td + td + td {
   background-color: #660000;
 }
-/* line 72, ../scss/partials/calendar/_calendar.scss */
-#page.calendar article table tr td + td + td img {
+/* line 67, ../scss/partials/calendar/_calendar.scss */
+#page.calendar table tr td + td + td img {
   max-width: 120px;
   width: 75%;
   padding: 15px 0;
@@ -1970,16 +1985,38 @@ html, body {
   vertical-align: middle;
 }
 @media screen and (max-width: 801px) {
-  /* line 72, ../scss/partials/calendar/_calendar.scss */
-  #page.calendar article table tr td + td + td img {
+  /* line 67, ../scss/partials/calendar/_calendar.scss */
+  #page.calendar table tr td + td + td img {
     width: 95%;
   }
 }
 
-/* line 2, ../scss/partials/jobs/_jobs.scss */
-article img {
+/* line 3, ../scss/partials/jobs/_jobs.scss */
+.jobs article img {
   height: 60px;
   width: auto;
+}
+
+/* line 2, ../scss/partials/singles/_gotfur.scss */
+.gotfur article {
+  color: #999999 !important;
+}
+/* line 4, ../scss/partials/singles/_gotfur.scss */
+.gotfur article a {
+  color: #cc0000;
+}
+/* line 7, ../scss/partials/singles/_gotfur.scss */
+.gotfur article .bigtype {
+  font-family: "Jolly Lodger";
+  font-size: 2.6em;
+  color: #009999;
+  margin-right: 5px;
+}
+/* line 13, ../scss/partials/singles/_gotfur.scss */
+.gotfur article img {
+  float: right;
+  width: 40%;
+  margin-left: 3%;
 }
 
 /* line 2, ../scss/style.scss */

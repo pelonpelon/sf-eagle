@@ -41,6 +41,9 @@
               <li><a href="calendar.php" class="button"><span>Calendar</span></a></li>
             </ul>
           </nav>
+          <div class="promo">Coming Saturday, November 30th
+            <p>FROM LONDON</p><a href="gotfur.php" target="_blank"><img src="images/events/Lovefur-2415913_advert_san_fb-388x600.jpg" alt="lovefur"></a>
+          </div>
         </div><a name="tease"></a>
         <div id="tease"><?php
     global $post;

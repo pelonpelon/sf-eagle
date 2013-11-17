@@ -24,6 +24,7 @@
 
     nav {
         float: left;
+        clear: right;
         width: 100%;
         @media screen and (max-width: $netbook) {
             li:nth-of-type(3) {
@@ -52,12 +53,23 @@
             }
         }
     }
-    h2 {
+    .promo {
+        float: left;
+        clear: right;
+        margin: 0 auto;
         text-align: center;
-        color: #000;
-        text-shadow: 2px 4px #fff;
-        @media screen and (max-width:$phone) {
-            font-size: 2.8em;
+        img {
+            width: 50%;
+            height: auto;
+        }
+        h2 {
+            margin: 0;
+            padding: 0;
+            color: $decor-medium;
+            text-shadow: 1px 1px $decor-highlight;
+            @media screen and (max-width:$phone) {
+                font-size: 2.8em;
+            }
         }
     }
 }
