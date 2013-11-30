@@ -36,15 +36,15 @@
             padding: 10px 3%;
             @include box-shadow(0px 0px 20px $decor-lite);
             @include border-radius(35px);
-            @include opacity(0.6);
+            @include opacity(1.0);
         }
         .without_thumbnail {
             max-width: 65%;
             margin: 0 auto 60px auto;
             padding: 10px 3%;
-            @include box-shadow(0px 0px 20px yellow);
+            @include box-shadow(0px 0px 20px $decor-lite);
             @include border-radius(35px);
-            @include opacity(0.6);
+            @include opacity(1.0);
         }
         p {
             margin: 0;

@@ -1104,24 +1104,24 @@ html, body {
   -ms-border-radius: 35px;
   -o-border-radius: 35px;
   border-radius: 35px;
-  filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=60);
-  opacity: 0.6;
+  filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=100);
+  opacity: 1;
 }
 /* line 41, ../scss/partials/home/_tease.scss */
 #tease .drink_special .without_thumbnail {
   max-width: 65%;
   margin: 0 auto 60px auto;
   padding: 10px 3%;
-  -webkit-box-shadow: 0px 0px 20px yellow;
-  -moz-box-shadow: 0px 0px 20px yellow;
-  box-shadow: 0px 0px 20px yellow;
+  -webkit-box-shadow: 0px 0px 20px red;
+  -moz-box-shadow: 0px 0px 20px red;
+  box-shadow: 0px 0px 20px red;
   -webkit-border-radius: 35px;
   -moz-border-radius: 35px;
   -ms-border-radius: 35px;
   -o-border-radius: 35px;
   border-radius: 35px;
-  filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=60);
-  opacity: 0.6;
+  filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=100);
+  opacity: 1;
 }
 /* line 49, ../scss/partials/home/_tease.scss */
 #tease .drink_special p {
