@@ -5,7 +5,7 @@
     .drink_special {
         display: none;
         height: 150px;
-        margin: 0 auto 90px auto;
+        margin: 0 auto 0px auto;
         @media screen and (max-width: $phone) {
             margin: 30px auto 60px auto;
         }
@@ -42,7 +42,7 @@
             max-width: 65%;
             margin: 0 auto 60px auto;
             padding: 10px 3%;
-            @include box-shadow(0px 0px 20px $decor-lite);
+            @include box-shadow(0px 0px 20px yellow);
             @include border-radius(35px);
             @include opacity(0.6);
         }

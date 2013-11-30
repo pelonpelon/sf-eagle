@@ -99,6 +99,10 @@
 		"selected_items":
 		[
 			[
+				"todo",
+				"Show TODOs: Project and open files"
+			],
+			[
 				"coffe",
 				"Coffee: Lint"
 			],
@@ -255,10 +259,6 @@
 				"Snippet: border"
 			],
 			[
-				"todo",
-				"Show TODOs: Project and open files"
-			],
-			[
 				"linter",
 				"SublimeLinter: Extract Annotations"
 			],
@@ -379,7 +379,7 @@
 				"Package Control: Discover Packages"
 			]
 		],
-		"width": 787.0
+		"width": 647.0
 	},
 	"console":
 	{
@@ -411,6 +411,40 @@
 	},
 	"file_history":
 	[
+		"/Users/pelon/Sites/sf-eagle/www/storm/scss/partials/home/_mast.scss",
+		"/Users/pelon/Sites/sf-eagle/www/storm/scss/partials/singles/_gotfur.scss",
+		"/Users/pelon/Sites/sf-eagle/www/storm/scss/theme/_typography.scss",
+		"/Users/pelon/Sites/sf-eagle/www/storm/jade/index/mast.jade",
+		"/Users/pelon/Sites/sf-eagle/www/storm/jade/singles/gotfur.jade",
+		"/Users/pelon/Sites/sf-eagle/www/storm/scss/partials/calendar/_calendar.scss",
+		"/Users/pelon/Sites/sf-eagle/www/storm/jade/calendar.jade",
+		"/Users/pelon/Sites/sf-eagle/www/storm/scss/theme/_defaults.scss",
+		"/Users/pelon/Sites/sf-eagle/www/storm/jade/common/footer.jade",
+		"/Users/pelon/Sites/sf-eagle/www/storm/jade/common/footer/content.jade",
+		"/Users/pelon/Sites/sf-eagle/www/storm/scss/partials/footer/_all.scss",
+		"/Users/pelon/Sites/sf-eagle/www/storm/scss/partials/footer/_links.scss",
+		"/Users/pelon/Sites/sf-eagle/www/storm/scss/partials/footer/_content.scss",
+		"/Users/pelon/Sites/sf-eagle/www/storm/scss/theme/_layout.scss",
+		"/Users/pelon/Sites/sf-eagle/www/storm/includes/index.flyers.html",
+		"/Users/pelon/Sites/sf-eagle/www/storm/jade/common/footer/links.jade",
+		"/Users/pelon/Sites/sf-eagle/www/storm/jade/common/footer/flyers.jade",
+		"/Users/pelon/Sites/sf-eagle/www/storm/scss/partials/footer/_flyers.scss",
+		"/Users/pelon/Sites/sf-eagle/www/storm/css/main.css",
+		"/Users/pelon/Sites/sf-eagle/www/storm/.sfeagle.TODO",
+		"/Users/pelon/Sites/sf-eagle/www/storm/scss/partials/_all.scss",
+		"/Users/pelon/Sites/sf-eagle/www/storm/scss/partials/jobs/_jobs.scss",
+		"/Users/pelon/Sites/sf-eagle/www/storm/gotfur.php",
+		"/Users/pelon/Sites/sf-eagle/www/storm/index.php",
+		"/Users/pelon/Sites/sf-eagle/www/storm/jade/common/settings.jade",
+		"/Users/pelon/Sites/sf-eagle/www/storm/jade/calendar-page-loop.php",
+		"/var/folders/cd/3fx0mm952yj526t4mgybqzxc0000gn/T/mc-pelon/fish0H2Xmb.htaccess",
+		"/var/folders/cd/3fx0mm952yj526t4mgybqzxc0000gn/T/mc-pelon/fishHvhead.htaccess",
+		"/Users/pelon/Sites/sf-eagle/www/storm/jade/index/events-db-loop.php",
+		"/Users/pelon/Sites/sf-eagle/www/storm/GayHankyCodes.php",
+		"/Users/pelon/Sites/sf-eagle/www/storm/wp/wp-content/plugins/wp-mvc/core/controllers/mvc_controller.php",
+		"/Users/pelon/Sites/sf-eagle/www/storm/wp/wp-content/plugins/events-calendar-example/app/views/speakers/index.php",
+		"/Users/pelon/Sites/sf-eagle/www/storm/index.html",
+		"/Users/pelon/Sites/sf-eagle/www/storm/jade/mast.html",
 		"/Users/pelon/Sites/sf-eagle/www/lab/jade/index/mast.jade",
 		"/Users/pelon/Sites/sf-eagle/www/lab/scss/partials/home/_tease.scss",
 		"/Users/pelon/Sites/sf-eagle/www/lab/jade/common/footer/flyers.jade",
@@ -504,41 +538,7 @@
 		"/Users/pelon/Sites/sf-eagle/lab/scss/partials/home/_tease.scss",
 		"/Users/pelon/Sites/sf-eagle/lab/js/.gitattributes",
 		"/Users/pelon/Sites/sf-eagle/lab/js/README.md",
-		"/Users/pelon/Dropbox/pelon/sublime/Packages/User/lorempic.sublime-snippet",
-		"/Users/pelon/Dropbox/pelon/sublime/Packages/User/background-image-div.sublime-snippet",
-		"/Users/pelon/Sites/sf-eagle/lab/css/wp.css",
-		"/Users/pelon/Dropbox/pelon/sublime/Packages/User/media-query.sublime.snippet",
-		"/Users/pelon/Library/Application Support/Sublime Text 3/Packages/User/Default (OSX).sublime-keymap",
-		"/Users/pelon/Library/Application Support/Sublime Text 3/Packages/Vintage/Default.sublime-keymap",
-		"/Users/pelon/Sites/sf-eagle/lab/lab.sublime-project",
-		"/Users/pelon/Sites/sf-eagle/lab/coffee/main.coffee",
-		"/Users/pelon/Dropbox/pelon/sublime/Packages/User/favicon.sublime-snippet",
-		"/Users/pelon/Dropbox/pelon/sublime/Packages/User/breakpoint-scss-mixin.sublime-snippet",
-		"/Users/pelon/Library/Application Support/Sublime Text 3/Packages/User/Git.sublime-settings",
-		"/Users/pelon/Sites/sf-eagle/lab/about.html",
-		"/Users/pelon/Library/Application Support/Sublime Text 3/Packages/Git/Git.sublime-settings",
-		"/Users/pelon/Sites/sf-eagle/lab/js/main.js",
-		"/Users/pelon/Library/Application Support/Sublime Text 3/Installed Packages/p/phpunit.py",
-		"/var/folders/cd/3fx0mm952yj526t4mgybqzxc0000gn/T/mc-pelon/extfsKJBs8aphpunit.py",
-		"/Users/pelon/3/Installed",
-		"/Users/pelon/Text",
-		"/Users/pelon/Support/Sublime",
-		"/Users/pelon/Library/Application",
-		"/Users/pelon/Packages/PHPUnit.sublime-package",
-		"/Users/pelon/.config/mc/menu",
-		"/Users/pelon/Sites/sf-eagle/lab/scss/style.scss",
-		"/Users/pelon/Sites/sf-eagle/lab/jade/archives.jade",
-		"/Users/pelon/Sites/sf-eagle/lab/js/countdown.js",
-		"/Users/pelon/Sites/sf-eagle/lab/wp/wp-includes/general-template.php",
-		"/Users/pelon/Sites/sf-eagle/lab/css/style.css",
-		"/Users/pelon/Sites/Design Tools.md",
-		"/Users/pelon/Sites/sandbox/topcoat/try/package.json",
-		"/Users/pelon/Sites/sf-eagle/lab/wp/wp-includes/php-mysqli-connection.sublime-snippet",
-		"/Users/pelon/Dropbox/pelon/sublime/Packages/User/php-mysqli-connection.sublime-snippet",
-		"/Users/pelon/Library/Application Support/Sublime Text 3/Packages/SublimeLinter/README.md",
-		"/Users/pelon/Library/Application Support/Sublime Text 3/Packages/User/SublimeLinter.sublime-settings",
-		"/Users/pelon/Library/Application Support/Sublime Text 3/Packages/STProjectMaker/STProjectMaker.sublime-settings",
-		"/Users/pelon/Library/Application Support/Sublime Text 3/Packages/SublimeLinter/Default (OSX).sublime-keymap"
+		"/Users/pelon/Dropbox/pelon/sublime/Packages/User/lorempic.sublime-snippet"
 	],
 	"find":
 	{
@@ -559,6 +559,21 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"nsk",
+			"yandex",
+			"font-family",
+			"bigtype",
+			"promo",
+			"gotfur",
+			"tnl-font",
+			"font",
+			"gotfur",
+			"teesh",
+			"FIXX\\: | NOTE\\: ",
+			" FIXX: | NOTE: ",
+			" FIXX | NOTE ",
+			" FIXX | NOTE",
+			"FIXX",
 			"60px",
 			"height",
 			"$\n",
@@ -602,7 +617,7 @@
 		"highlight": true,
 		"in_selection": false,
 		"preserve_case": false,
-		"regex": false,
+		"regex": true,
 		"replace_history":
 		[
 			"src=logo",
@@ -610,7 +625,7 @@
 			"."
 		],
 		"reverse": false,
-		"show_context": false,
+		"show_context": true,
 		"use_buffer2": true,
 		"whole_word": false,
 		"wrap": true
@@ -788,6 +803,7 @@
 	{
 		"vintage":
 		{
+			"_cmdline_cd": "/Users/pelon/Sites/sf-eagle/www/storm/wp/wp-content/plugins/wp-mvc/core/controllers"
 		}
 	},
 	"show_minimap": true,
