@@ -1,44 +1,4 @@
 <?php
-    global $post;
-    $category_id = get_cat_ID('Drink Special');
-    $args = array(
-    'category'      => $category_id,
-    'orderby'       => 'post_date',
-    'order'         => 'DESC',
-    'post_type'     => 'post',
-    'post_status'   => 'scheduled',
-    'numberposts'   => 1
-    );
-    $custom_posts = get_posts($args);
-    foreach($custom_posts as $post)
-    {
-    if ( !$custom_posts || !($post->post_status == 'future') )
-    {
-        continue;
-    }
-    setup_postdata($post);
-    if ( $post->post_status == "private" ) { continue; }
-    include 'includes/timegames.php';
-        // MEMO Check that $publishtime works here
-    if ( $now > $publish_time ) { continue; } ?>
-    <section class="drink_special" style="display: block;"> <?php
-    if ( has_post_thumbnail($post->ID) )
-    {
-    $image_thumb = wp_get_attachment_image_src( get_post_thumbnail_id($post->ID), 'thumbnail'); ?>
-        <img src="<?php echo $image_thumb[0] ?>"
-             width="<?php echo $image_thumb[1]; ?>"
-             height="<?php echo $image_thumb[2]; ?>"
-             alt="Drink Special" > <div class="with_thumbnail"><?php
-        }
-        else
-        {?>
-        <div class="without_thumbnail"><?php
-        }
-            the_content(); ?></div> <?php
-    } ?>
-    </section>
-
-<?php
 $empty = true;
 global $post; // required
 $category_id = get_cat_ID('Tease Now');

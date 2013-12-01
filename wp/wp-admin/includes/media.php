@@ -1055,7 +1055,7 @@ function get_attachment_fields_to_edit($post, $errors = null) {
 			'html'  => image_align_input_fields($post, get_option('image_default_align')),
 		);
 
-		$form_fields['image-size'] = image_size_input_fields( $post, get_option('image_default_size', 'medium') );
+		$form_fields['image-size'] = image_size_input_fields( $post, get_option('image_default_size', 'large') );
 
 	} else {
 		unset( $form_fields['image_alt'] );

@@ -1017,27 +1017,36 @@ html, body {
 }
 /* line 56, ../scss/partials/home/_mast.scss */
 #mast .promo {
+  background-color: gold;
   float: left;
   clear: right;
   margin: 0 auto;
+  padding: 10px;
   text-align: center;
 }
-/* line 61, ../scss/partials/home/_mast.scss */
+/* line 63, ../scss/partials/home/_mast.scss */
 #mast .promo img {
-  width: 50%;
+  width: 80%;
   height: auto;
 }
-/* line 65, ../scss/partials/home/_mast.scss */
-#mast .promo h2 {
-  margin: 0;
-  padding: 0;
-  color: #cc0000;
-  text-shadow: 1px 1px #009999;
+@media screen and (max-width: 641px) {
+  /* line 56, ../scss/partials/home/_mast.scss */
+  #mast .promo {
+    float: none;
+    margin: 0 auto;
+  }
+}
+/* line 71, ../scss/partials/home/_mast.scss */
+#mast .promo p {
+  color: #000;
+  font-family: "Coming Soon";
+  font-weight: 900;
+  text-shadow: 1px 1px #660000;
 }
 @media screen and (max-width: 641px) {
-  /* line 65, ../scss/partials/home/_mast.scss */
-  #mast .promo h2 {
-    font-size: 2.8em;
+  /* line 71, ../scss/partials/home/_mast.scss */
+  #mast .promo p {
+    font-size: 1.4em;
   }
 }
 

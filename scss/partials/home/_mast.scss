@@ -54,21 +54,27 @@
         }
     }
     .promo {
+        background-color: gold;
         float: left;
         clear: right;
         margin: 0 auto;
+        padding: 10px;
         text-align: center;
         img {
-            width: 50%;
+            width: 80%;
             height: auto;
         }
-        h2 {
-            margin: 0;
-            padding: 0;
-            color: $decor-medium;
-            text-shadow: 1px 1px $decor-highlight;
+        @media screen and (max-width:$phone) {
+            float: none;
+            margin: 0 auto;
+        }
+        p {
+            color: #000;
+            font-family: "Coming Soon";
+            font-weight: 900;
+            text-shadow: 1px 1px $decor-dark;
             @media screen and (max-width:$phone) {
-                font-size: 2.8em;
+                font-size: 1.4em;
             }
         }
     }

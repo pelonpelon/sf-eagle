@@ -546,3 +546,12 @@ function twentythirteen_customize_preview_js() {
 	wp_enqueue_script( 'twentythirteen-customizer', get_template_directory_uri() . '/js/theme-customizer.js', array( 'customize-preview' ), '20130226', true );
 }
 add_action( 'customize_preview_init', 'twentythirteen_customize_preview_js' );
+
+function mytheme_setup() {
+	// Set default values for the upload media box
+	update_option('image_default_align', 'center' );
+	update_option('image_default_link_type', 'media' );
+	update_option('image_default_size', 'large' );
+
+}
+add_action('after_setup_theme', 'mytheme_setup');
