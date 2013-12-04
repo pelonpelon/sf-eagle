@@ -19,6 +19,13 @@
     <link rel="apple-touch-icon" sizes="72x72" href="images/icons/touch-icon-ipad.png">
     <link rel="apple-touch-icon" sizes="114x114" href="images/icons/touch-icon-iphone-retina.png">
     <link rel="apple-touch-icon" sizes="144x144" href="images/icons/touch-icon-ipad-retina.png">
+    <!-- [if gte IE 9]-->
+    <style type="text/css">
+      .gradient {
+         filter: none;
+      }
+    </style>
+    <!-- [endif]-->
     <script>
       (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
       (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
@@ -105,7 +112,7 @@
           <ul class="social">
             <li class="faceboook"><a href="http://www.facebook.com/SFEagle" title="We're on Facebook" target="_blank" width="60" height="60"><img src="images/icons/facebook.png" alt="facebook" class="thumb"></a></li>
             <li class="twitter"><a href="https://twitter.com/sfeaglebar" title="We're on Twitter" target="_blank" width="60" height="60"><img src="images/icons/twitter.png" alt="twitter" class="thumb"></a></li>
-            <li class="google"><a href="https://plus.google.com/109544451979985071388/posts" rel="published" title="We're on Google Plus" target="_blank" width="60" height="60"><img src="images/icons/google-plus-icon.png" alt="google+" class="thumb"></a></li>
+            <li class="google"><a href="https://plus.google.com/109544451979985071388/posts" rel="publisher" title="We're on Google Plus" target="_blank" width="60" height="60"><img src="images/icons/google-plus-icon.png" alt="google+" class="thumb"></a></li>
             <li class="youtube"><a href="http://www.youtube.com/channel/UCmzgZ3-nEo1S8tnyjGJ3WoQ/videos" title="We're on Youtube" target="_blank" width="60" height="60"><img src="images/icons/youtube-icon.png" alt="youtube" class="thumb"></a></li>
             <li class="email"><a href="mailto:info@sf-eagle.com?subject=Sent%20via%20website" title="Send us email" width="60" height="60"><img src="images/icons/email.png" alt="email" class="thumb"></a></li>
           </ul>
@@ -197,5 +204,12 @@
       
     </script>
     <script src="js/main.js"></script>
+    <script src="js/fastclick.min.js"></script>
+    <script>
+      window.addEventListener('load', function() {
+        FastClick.attach(document.body);
+      }, false);
+      
+    </script>
   </body>
 </html>

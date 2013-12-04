@@ -4,6 +4,11 @@ jQuery ->
     m = $ ('#mast')
     $(document).bind 'keypress', (e) ->
         location.reload() if e.which is 114
+        
+    # add lightbox to Drink Special img
+    $promoImg = $(".promo img")
+    $imgsrc = $promoImg.attr("src")
+    $promoImg.wrap("<a href=\""+$imgsrc+"\" rel=\"lightbox\"></a>")
 
 
     # Calendar filtering

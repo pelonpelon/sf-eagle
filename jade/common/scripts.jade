@@ -22,3 +22,10 @@ script.
 
 script(src='js/main.js').
 
+script(src='js/fastclick.min.js').
+
+script
+  window.addEventListener('load', function() {
+    FastClick.attach(document.body);
+  }, false);
+

@@ -2,70 +2,8 @@
     @media screen and (max-width: $phone) {
         border: 15px solid $decor-dark;
     }
-    .drink_special {
-        display: none;
-        height: 150px;
-        margin: 0 auto 0px auto;
-        @media screen and (max-width: $phone) {
-            margin: 30px auto 60px auto;
-        }
-        @include border-radius(35px);
-        img {
-            float: left;
-            height: auto;
-            width: auto;
-            max-width: 150px;
-            max-height: 150px;
-            margin: 0;
-            padding: 0 2% 0 15%;
-            @media screen and (max-width: $tablet) {
-                padding: 0 2% 0 10%;
-                max-width: 110px;
-                max-height: 110px;
-            }
-            @media screen and (max-width: $phone) {
-                padding: 0 4% 0 8%;
-                max-width: 110px;
-                max-height: 110px;
-            }
-        }
-        .with_thumbnail {
-            float: left;
-            max-width: 45%;
-            margin: 0 0 60px 0;
-            padding: 10px 3%;
-            @include box-shadow(0px 0px 20px $decor-lite);
-            @include border-radius(35px);
-            @include opacity(1.0);
-        }
-        .without_thumbnail {
-            max-width: 65%;
-            margin: 0 auto 60px auto;
-            padding: 10px 3%;
-            @include box-shadow(0px 0px 20px $decor-lite);
-            @include border-radius(35px);
-            @include opacity(1.0);
-        }
-        p {
-            margin: 0;
-            color: $decor-lite;
-            text-align: center;
-            font-size: 1.4em;
-            font-weight: 800;
-            font-family: "times new roman";
-            @media screen and (max-width:$netbook) {
-                font-size: 1.4em;
-            }
-            @media screen and (max-width:$tablet) {
-                font-size: 1.2em;
-            }
-            @media screen and (max-width:$phone) {
-                font-size: 1.2em;
-            }
-        }
-    }
     .tease_now, .event {
-        margin-bottom: 60px;
+        margin-bottom: 0px;
         font-family: 'Coming Soon' cursive;
         font-size: 1em;
         line-height: 20px;
@@ -86,7 +24,7 @@
         }
         img {
             display: block;
-            margin: 10px auto;
+            margin: 0px auto 30px auto;
             @include box-shadow(0px 0px 20px $box-shadow);
             border: solid 10px rgba(#555, 0.2);
             @include border-radius(35px);
@@ -95,7 +33,7 @@
                 width: 70%;
             }
             @media screen and (max-width:$phone) {
-                width: 80%;
+                width: 90%;
             }
         }
         p {
@@ -111,9 +49,6 @@
                 color: $decor-medium;
                 @include text-shadow(2px 2px 3px darken($decor-lite, 30%));
             }
-        }
-        @media screen and (max-width:$phone) {
-            padding-bottom: 10px;
         }
     }
 }
