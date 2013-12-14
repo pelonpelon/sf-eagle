@@ -48,6 +48,9 @@
             a {
                 color: $decor-medium;
                 @include text-shadow(2px 2px 3px darken($decor-lite, 30%));
+                &:hover {
+                   color: $decor-lite;
+                }
             }
         }
     }

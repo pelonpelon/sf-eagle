@@ -1,8 +1,11 @@
 #footer {
+    height: 100%;
+    min-height: 600px;
+    overflow: hidden;
     padding: 25px 3% 25px 3%;
     border-top: 30px solid black;
     @media screen and (max-width: $phone) {
-        padding: 15px 1% 15px 1%;
+        padding: 15px 1% 0 1%;
 
     }
 
@@ -11,9 +14,7 @@
         width: 28%;
         vertical-align: top;
         @media screen and (max-width: $phone) {
-            & {
-                width: 40%;
-            }
+            width: 40%;
         }
     }
     @import "links";
@@ -22,10 +23,10 @@
         display: inline-block;
         width: 38%;
         vertical-align: top;
+        text-align: center;
         @media screen and (max-width: $phone) {
-            & {
-                width: 55%;
-            }
+            width: 58%;
+            float: right;
         }
     }
     @import "content";
@@ -37,10 +38,8 @@
         float: right;
         vertical-align: top;
         @media screen and (max-width: $phone) {
-            & {
-                margin-top: 50%;
-                width: 100%;
-            }
+            margin-top: 50%;
+            width: 100%;
         }
     }
     @import "flyers";

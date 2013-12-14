@@ -108,7 +108,7 @@
   }
 }
 
-@include sticky-footer(580px, "#page", "#page-footer", "#footer");
+@include sticky-footer(100%, "#page", "#page-footer", "#footer");
 #footer {
     margin-top: 25px;
 }

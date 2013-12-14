@@ -798,18 +798,18 @@ html, body {
   min-height: 100%;
   height: auto !important;
   height: 100%;
-  margin-bottom: -580px;
+  margin-bottom: -100%;
 }
 /* line 18, ../../../../../../../Applications/CodeKit.app/Contents/Resources/engines/compass/frameworks/compass/stylesheets/compass/layout/_sticky-footer.scss */
 #page #page-footer {
-  height: 580px;
+  height: 100%;
 }
 
 /* line 20, ../../../../../../../Applications/CodeKit.app/Contents/Resources/engines/compass/frameworks/compass/stylesheets/compass/layout/_sticky-footer.scss */
 #footer {
   clear: both;
   position: relative;
-  height: 580px;
+  height: 100%;
 }
 
 /* line 112, ../scss/theme/_layout.scss */
@@ -1028,12 +1028,13 @@ html, body {
   background-image: linear-gradient(top, rgba(225, 225, 225, 0.8) 0%, rgba(225, 225, 225, 0.4) 55%, rgba(225, 225, 225, 0.2) 92%, rgba(225, 225, 225, 0.8) 100%);
   float: left;
   clear: right;
-  width: 96%;
+  width: 88%;
+  border: #660000 solid 10px;
   margin: 0 auto;
   padding: 0 10px;
   text-align: center;
 }
-/* line 69, ../scss/partials/home/_mast.scss */
+/* line 70, ../scss/partials/home/_mast.scss */
 #mast .promo section img {
   width: 90%;
   height: auto;
@@ -1047,7 +1048,7 @@ html, body {
     padding-top: 1px;
   }
 }
-/* line 79, ../scss/partials/home/_mast.scss */
+/* line 80, ../scss/partials/home/_mast.scss */
 #mast .promo section p {
   color: #000;
   font-family: "Coming Soon";
@@ -1055,10 +1056,14 @@ html, body {
   text-shadow: 1px 1px #660000;
 }
 @media screen and (max-width: 641px) {
-  /* line 79, ../scss/partials/home/_mast.scss */
+  /* line 80, ../scss/partials/home/_mast.scss */
   #mast .promo section p {
     font-size: 1.4em;
   }
+}
+/* line 89, ../scss/partials/home/_mast.scss */
+#mast .promo section a:hover {
+  color: red;
 }
 
 @media screen and (max-width: 641px) {
@@ -1136,6 +1141,10 @@ html, body {
 #tease .tease_now p a, #tease .event p a {
   color: #cc0000;
   text-shadow: 2px 2px 3px #660000;
+}
+/* line 51, ../scss/partials/home/_tease.scss */
+#tease .tease_now p a:hover, #tease .event p a:hover {
+  color: red;
 }
 
 /* line 3, ../scss/partials/home/_events.scss */
@@ -1396,112 +1405,115 @@ html, body {
 
 /* line 1, ../scss/partials/footer/_all.scss */
 #footer {
+  height: 100%;
+  min-height: 600px;
+  overflow: hidden;
   padding: 25px 3% 25px 3%;
   border-top: 30px solid black;
 }
 @media screen and (max-width: 641px) {
   /* line 1, ../scss/partials/footer/_all.scss */
   #footer {
-    padding: 15px 1% 15px 1%;
+    padding: 15px 1% 0 1%;
   }
 }
-/* line 9, ../scss/partials/footer/_all.scss */
+/* line 12, ../scss/partials/footer/_all.scss */
 #footer .links {
   display: inline-block;
   width: 28%;
   vertical-align: top;
 }
 @media screen and (max-width: 641px) {
-  /* line 14, ../scss/partials/footer/_all.scss */
+  /* line 12, ../scss/partials/footer/_all.scss */
   #footer .links {
     width: 40%;
   }
 }
 /* line 1, ../scss/partials/footer/_links.scss */
-#footer .social, #footer .info {
+#footer .social {
   float: left;
-  margin-right: 12%;
   width: 60px;
   font-size: .8em;
   text-align: center;
   padding-bottom: 10px;
-  margin: 0 35px 0 0;
+  margin: 0 15px 0 0;
 }
-/* line 9, ../scss/partials/footer/_links.scss */
-#footer .social li, #footer .info li {
+/* line 8, ../scss/partials/footer/_links.scss */
+#footer .social li {
   margin-bottom: 20px;
 }
-/* line 13, ../scss/partials/footer/_links.scss */
-#footer .info {
-  min-width: 70px;
-  width: 40%;
-}
-/* line 21, ../scss/partials/footer/_all.scss */
+/* line 22, ../scss/partials/footer/_all.scss */
 #footer .content {
   display: inline-block;
   width: 38%;
   vertical-align: top;
+  text-align: center;
 }
 @media screen and (max-width: 641px) {
-  /* line 26, ../scss/partials/footer/_all.scss */
+  /* line 22, ../scss/partials/footer/_all.scss */
   #footer .content {
-    width: 55%;
+    width: 58%;
+    float: right;
   }
 }
 /* line 1, ../scss/partials/footer/_content.scss */
-#footer .googlemap, #footer .mrsfeagle {
+#footer .googlemap, #footer .mrsfeagle, #footer .hankypic {
   text-align: center;
   width: 40%;
   margin: 0 auto;
 }
 /* line 5, ../scss/partials/footer/_content.scss */
-#footer .googlemap img, #footer .mrsfeagle img {
+#footer .googlemap img, #footer .mrsfeagle img, #footer .hankypic img {
   width: 100%;
 }
 /* line 8, ../scss/partials/footer/_content.scss */
-#footer .googlemap h3, #footer .mrsfeagle h3 {
+#footer .googlemap h3, #footer .mrsfeagle h3, #footer .hankypic h3 {
   color: whitesmoke;
   font-size: 1em;
 }
 @media screen and (max-width: 1025px) {
-  /* line 13, ../scss/partials/footer/_content.scss */
-  #footer .googlemap, #footer .mrsfeagle {
+  /* line 1, ../scss/partials/footer/_content.scss */
+  #footer .googlemap, #footer .mrsfeagle, #footer .hankypic {
     width: 55%;
   }
-  /* line 16, ../scss/partials/footer/_content.scss */
-  #footer .googlemap h3, #footer .mrsfeagle h3 {
+  /* line 14, ../scss/partials/footer/_content.scss */
+  #footer .googlemap h3, #footer .mrsfeagle h3, #footer .hankypic h3 {
     font-size: .8em;
   }
 }
 @media screen and (max-width: 641px) {
-  /* line 21, ../scss/partials/footer/_content.scss */
-  #footer .googlemap, #footer .mrsfeagle {
-    width: 70%;
-    float: right;
+  /* line 1, ../scss/partials/footer/_content.scss */
+  #footer .googlemap, #footer .mrsfeagle, #footer .hankypic {
+    width: 90%;
   }
-  /* line 25, ../scss/partials/footer/_content.scss */
-  #footer .googlemap img, #footer .mrsfeagle img {
-    width: 70%;
+  /* line 20, ../scss/partials/footer/_content.scss */
+  #footer .googlemap img, #footer .mrsfeagle img, #footer .hankypic img {
+    width: 90%;
   }
 }
-/* line 31, ../scss/partials/footer/_content.scss */
-#footer .mrsfeagle {
-  border-top: 5px solid #000;
-  padding-top: 12px;
+/* line 26, ../scss/partials/footer/_content.scss */
+#footer .mrsfeagle, #footer .hankypic {
+  padding-top: 20px;
 }
-/* line 34, ../scss/partials/footer/_content.scss */
-#footer .mrsfeagle h3 {
-  margin: 5px;
+/* line 28, ../scss/partials/footer/_content.scss */
+#footer .mrsfeagle h3, #footer .hankypic h3 {
+  margin: 0;
 }
-/* line 36, ../scss/partials/footer/_content.scss */
-#footer .mrsfeagle h3:hover {
+/* line 30, ../scss/partials/footer/_content.scss */
+#footer .mrsfeagle h3:hover, #footer .hankypic h3:hover {
   color: red;
 }
-/* line 40, ../scss/partials/footer/_content.scss */
-#footer .mrsfeagle img {
-  margin-bottom: 5px;
+/* line 37, ../scss/partials/footer/_content.scss */
+#footer .hankypic {
+  width: 30%;
 }
-/* line 33, ../scss/partials/footer/_all.scss */
+@media screen and (max-width: 641px) {
+  /* line 37, ../scss/partials/footer/_content.scss */
+  #footer .hankypic {
+    width: 70%;
+  }
+}
+/* line 34, ../scss/partials/footer/_all.scss */
 #footer .flyers {
   display: inline-block;
   width: 24%;
@@ -1510,7 +1522,7 @@ html, body {
   vertical-align: top;
 }
 @media screen and (max-width: 641px) {
-  /* line 40, ../scss/partials/footer/_all.scss */
+  /* line 34, ../scss/partials/footer/_all.scss */
   #footer .flyers {
     margin-top: 50%;
     width: 100%;

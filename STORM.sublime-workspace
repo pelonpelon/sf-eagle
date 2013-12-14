@@ -4,6 +4,10 @@
 		"selected_items":
 		[
 			[
+				"the_c",
+				"the_content"
+			],
+			[
 				"src",
 				"src	src=\"\""
 			],
@@ -91,6 +95,14 @@
 	},
 	"buffers":
 	[
+		{
+			"file": "jade/common/scripts.jade",
+			"settings":
+			{
+				"buffer_size": 685,
+				"line_ending": "Unix"
+			}
+		}
 	],
 	"build_system": "Packages/Better CoffeeScript/CoffeeScript.sublime-build",
 	"command_palette":
@@ -98,6 +110,18 @@
 		"height": 392.0,
 		"selected_items":
 		[
+			[
+				"pack",
+				"Preferences: Browse Packages"
+			],
+			[
+				"updte",
+				"Package Control: Upgrade/Overwrite All Packages"
+			],
+			[
+				"inst",
+				"Package Control: Install Package"
+			],
 			[
 				"todo",
 				"Show TODOs: Project and open files"
@@ -113,10 +137,6 @@
 			[
 				"gist",
 				"Gist: Open Gist in Browser"
-			],
-			[
-				"inst",
-				"Package Control: Install Package"
 			],
 			[
 				"color",
@@ -287,10 +307,6 @@
 				"Fetch: Manage"
 			],
 			[
-				"pack",
-				"Fetch: Package"
-			],
-			[
 				"brow",
 				"Preferences: Browse Packages"
 			],
@@ -411,10 +427,27 @@
 	},
 	"file_history":
 	[
+		"/Users/pelon/Sites/sf-eagle/www/storm/jade/common/footer/links.jade",
+		"/Users/pelon/Sites/sf-eagle/www/storm/index.php",
+		"/Users/pelon/Sites/sf-eagle/www/storm/jade/common/header.jade",
+		"/Users/pelon/Sites/sf-eagle/www/storm/jade/common/IE.jade",
+		"/Users/pelon/Sites/sf-eagle/www/storm/jade/common/settings.jade",
+		"/Users/pelon/Sites/sf-eagle/www/storm/scss/partials/home/_tease.scss",
+		"/Users/pelon/Sites/sf-eagle/www/storm/jade/index/mast.jade",
 		"/Users/pelon/Sites/sf-eagle/www/storm/scss/partials/home/_mast.scss",
+		"/Users/pelon/Sites/sf-eagle/www/storm/jade/index/tease.jade",
+		"/Users/pelon/Sites/sf-eagle/www/storm/wp/wp-content/themes/twentythirteen/attachment.php",
+		"/Users/pelon/Sites/sf-eagle/www/storm/wp/wp-content/themes/twentythirteen/functions.php",
+		"/Users/pelon/Sites/sf-eagle/www/storm/wp/wp-includes/media.php",
+		"/Users/pelon/Sites/sf-eagle/www/storm/wp/wp-admin/includes/media.php",
+		"/Users/pelon/Sites/sf-eagle/www/storm/jade/index/tease-db-loop.php",
+		"/Users/pelon/Sites/sf-eagle/www/storm/jade/index/promo-db-loop.php",
+		"/Users/pelon/Sites/sf-eagle/www/storm/scss/partials/footer/_links.scss",
+		"/Users/pelon/Library/Application Support/Sublime Text 3/Packages/User/Preferences.sublime-settings",
+		"/Users/pelon/Library/Application Support/Sublime Text 3/Packages/Default/Default (OSX).sublime-keymap",
+		"/Users/pelon/Library/Application Support/Sublime Text 3/Packages/Default/Preferences.sublime-settings",
 		"/Users/pelon/Sites/sf-eagle/www/storm/scss/partials/singles/_gotfur.scss",
 		"/Users/pelon/Sites/sf-eagle/www/storm/scss/theme/_typography.scss",
-		"/Users/pelon/Sites/sf-eagle/www/storm/jade/index/mast.jade",
 		"/Users/pelon/Sites/sf-eagle/www/storm/jade/singles/gotfur.jade",
 		"/Users/pelon/Sites/sf-eagle/www/storm/scss/partials/calendar/_calendar.scss",
 		"/Users/pelon/Sites/sf-eagle/www/storm/jade/calendar.jade",
@@ -422,11 +455,9 @@
 		"/Users/pelon/Sites/sf-eagle/www/storm/jade/common/footer.jade",
 		"/Users/pelon/Sites/sf-eagle/www/storm/jade/common/footer/content.jade",
 		"/Users/pelon/Sites/sf-eagle/www/storm/scss/partials/footer/_all.scss",
-		"/Users/pelon/Sites/sf-eagle/www/storm/scss/partials/footer/_links.scss",
 		"/Users/pelon/Sites/sf-eagle/www/storm/scss/partials/footer/_content.scss",
 		"/Users/pelon/Sites/sf-eagle/www/storm/scss/theme/_layout.scss",
 		"/Users/pelon/Sites/sf-eagle/www/storm/includes/index.flyers.html",
-		"/Users/pelon/Sites/sf-eagle/www/storm/jade/common/footer/links.jade",
 		"/Users/pelon/Sites/sf-eagle/www/storm/jade/common/footer/flyers.jade",
 		"/Users/pelon/Sites/sf-eagle/www/storm/scss/partials/footer/_flyers.scss",
 		"/Users/pelon/Sites/sf-eagle/www/storm/css/main.css",
@@ -434,8 +465,6 @@
 		"/Users/pelon/Sites/sf-eagle/www/storm/scss/partials/_all.scss",
 		"/Users/pelon/Sites/sf-eagle/www/storm/scss/partials/jobs/_jobs.scss",
 		"/Users/pelon/Sites/sf-eagle/www/storm/gotfur.php",
-		"/Users/pelon/Sites/sf-eagle/www/storm/index.php",
-		"/Users/pelon/Sites/sf-eagle/www/storm/jade/common/settings.jade",
 		"/Users/pelon/Sites/sf-eagle/www/storm/jade/calendar-page-loop.php",
 		"/var/folders/cd/3fx0mm952yj526t4mgybqzxc0000gn/T/mc-pelon/fish0H2Xmb.htaccess",
 		"/var/folders/cd/3fx0mm952yj526t4mgybqzxc0000gn/T/mc-pelon/fishHvhead.htaccess",
@@ -456,7 +485,6 @@
 		"/Users/pelon/Sites/sf-eagle/www/lab/scss/theme/_layout.scss",
 		"/Users/pelon/Sites/sf-eagle/www/lab/jade/index.jade",
 		"/Users/pelon/Sites/sf-eagle/www/lab/coffee/main.coffee",
-		"/Users/pelon/Library/Application Support/Sublime Text 3/Packages/User/Preferences.sublime-settings",
 		"/Users/pelon/Sites/sf-eagle/www/lab/jade/common/settings.jade",
 		"/Users/pelon/Library/Application Support/Google/Chrome/Default/Extensions/memcdolmmnmnleeiodllgpibdjlkbpim/1.0.0_0/css/popup.css",
 		"/Users/pelon/Dropbox/pelon/sublime/Packages/HTML-CSS-JS Prettify/.jsbeautifyrc",
@@ -526,19 +554,7 @@
 		"/Users/pelon/Sites/sf-eagle/lab/jade/index/tease-db-loop.php",
 		"/Users/pelon/Sites/sf-eagle/lab/scss/partials/home/_mast.scss",
 		"/Users/pelon/Sites/sf-eagle/lab/index.php",
-		"/Users/pelon/Sites/sf-eagle/lab/scss/main.scss",
-		"/Users/pelon/Sites/sf-eagle/lab/merch-email.html",
-		"/Users/pelon/Sites/sf-eagle/lab/scss/partials/merch/_merch.scss",
-		"/Users/pelon/Sites/sf-eagle/lab/scss/theme/_typography.scss",
-		"/Users/pelon/Sites/sf-eagle/lab/config.rb",
-		"/Users/pelon/Sites/sf-eagle/lab/scss/theme/_defaults.scss",
-		"/Users/pelon/Sites/sf-eagle/lab/scss/partials/home/_events.scss",
-		"/Users/pelon/Sites/sf-eagle/lab/scss/partials/calendar/_calendar.scss",
-		"/Users/pelon/Sites/sf-eagle/lab/jade/index/mast.jade",
-		"/Users/pelon/Sites/sf-eagle/lab/scss/partials/home/_tease.scss",
-		"/Users/pelon/Sites/sf-eagle/lab/js/.gitattributes",
-		"/Users/pelon/Sites/sf-eagle/lab/js/README.md",
-		"/Users/pelon/Dropbox/pelon/sublime/Packages/User/lorempic.sublime-snippet"
+		"/Users/pelon/Sites/sf-eagle/lab/scss/main.scss"
 	],
 	"find":
 	{
@@ -559,6 +575,10 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"image_default_size",
+			"vin",
+			"vim",
+			"large",
 			"nsk",
 			"yandex",
 			"font-family",
@@ -633,8 +653,260 @@
 	"groups":
 	[
 		{
+			"selected": 0,
 			"sheets":
 			[
+				{
+					"buffer": 0,
+					"file": "jade/common/scripts.jade",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 685,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								572,
+								572
+							]
+						],
+						"settings":
+						{
+							"annotations":
+							[
+								"TODO",
+								"README",
+								"FIXME"
+							],
+							"codeintel": true,
+							"codeintel_config":
+							{
+								"JavaScript":
+								{
+									"codeintel_max_recursive_dir_depth": 2,
+									"codeintel_scan_files_in_project": false,
+									"javascriptExtraPaths":
+									[
+									]
+								},
+								"PHP":
+								{
+									"codeintel_max_recursive_dir_depth": 5,
+									"codeintel_scan_files_in_project": false,
+									"phpExtraPaths":
+									[
+									]
+								},
+								"Python":
+								{
+									"env":
+									{
+									}
+								}
+							},
+							"codeintel_enabled_languages":
+							[
+								"JavaScript",
+								"Mason",
+								"XBL",
+								"XUL",
+								"RHTML",
+								"SCSS",
+								"Python",
+								"HTML",
+								"Ruby",
+								"Python3",
+								"XML",
+								"Sass",
+								"XSLT",
+								"Django",
+								"HTML5",
+								"Perl",
+								"CSS",
+								"Twig",
+								"Less",
+								"Smarty",
+								"Node.js",
+								"Tcl",
+								"TemplateToolkit",
+								"PHP",
+								"Jade"
+							],
+							"codeintel_live": true,
+							"codeintel_live_enabled_languages":
+							[
+								"JavaScript",
+								"Mason",
+								"XBL",
+								"XUL",
+								"RHTML",
+								"SCSS",
+								"Python",
+								"HTML",
+								"Ruby",
+								"Python3",
+								"XML",
+								"Sass",
+								"XSLT",
+								"Django",
+								"HTML5",
+								"Perl",
+								"CSS",
+								"Twig",
+								"Less",
+								"Smarty",
+								"Node.js",
+								"Tcl",
+								"TemplateToolkit",
+								"PHP",
+								"Jade"
+							],
+							"codeintel_max_recursive_dir_depth": 10,
+							"codeintel_scan_exclude_dir":
+							{
+								"JavaScript":
+								[
+									"/build/",
+									"/min/"
+								]
+							},
+							"codeintel_scan_files_in_project": true,
+							"codeintel_selected_catalogs":
+							[
+								"HTML5",
+								"jQuery",
+								"PECL",
+								"PyWin32"
+							],
+							"codeintel_snippets": true,
+							"codeintel_syntax_map":
+							{
+								"Python Django": "Python"
+							},
+							"codeintel_tooltips": "popup",
+							"csslint_options":
+							{
+								"adjoining-classes": "warning",
+								"box-model": true,
+								"box-sizing": "warning",
+								"compatible-vendor-prefixes": "warning",
+								"display-property-grouping": true,
+								"duplicate-background-images": "warning",
+								"duplicate-properties": true,
+								"empty-rules": true,
+								"errors": true,
+								"fallback-colors": "warning",
+								"floats": "warning",
+								"font-faces": "warning",
+								"font-sizes": "warning",
+								"gradients": "warning",
+								"ids": "false",
+								"import": "warning",
+								"important": "warning",
+								"known-properties": true,
+								"outline-none": "warning",
+								"overqualified-elements": "warning",
+								"qualified-headings": "warning",
+								"regex-selectors": "warning",
+								"rules-count": "warning",
+								"shorthand": "warning",
+								"star-property-hack": "warning",
+								"text-indent": "warning",
+								"underscore-property-hack": "warning",
+								"unique-headings": "warning",
+								"universal-selector": "warning",
+								"vendor-prefix": true,
+								"zero-units": "warning"
+							},
+							"gjslint_ignore":
+							[
+								110
+							],
+							"gjslint_options":
+							[
+							],
+							"highlight_line": false,
+							"javascript_linter": "jshint",
+							"jshint_options":
+							{
+								"browser": true,
+								"evil": true,
+								"regexdash": true,
+								"sub": true,
+								"trailing": true,
+								"wsh": true
+							},
+							"last_modified_indicator": true,
+							"last_modified_indicator_multiline": true,
+							"pep8": true,
+							"pep8_ignore":
+							[
+								"E501"
+							],
+							"perl_linter": "perlcritic",
+							"pyflakes_ignore":
+							[
+							],
+							"pyflakes_ignore_import_*": true,
+							"sublime_auto_complete": true,
+							"sublimelinter": true,
+							"sublimelinter_delay": 2,
+							"sublimelinter_disable":
+							[
+							],
+							"sublimelinter_executable_map":
+							{
+							},
+							"sublimelinter_fill_outlines": false,
+							"sublimelinter_gutter_marks": true,
+							"sublimelinter_gutter_marks_theme": "simple",
+							"sublimelinter_mark_style": "fill",
+							"sublimelinter_notes": false,
+							"sublimelinter_objj_check_ascii": false,
+							"sublimelinter_popup_errors_on_save": false,
+							"sublimelinter_syntax_map":
+							{
+								"C++": "c",
+								"Python Django": "python",
+								"Ruby on Rails": "ruby"
+							},
+							"sublimelinter_wrap_find": true,
+							"syntax": "Packages/Jade/Syntaxes/Jade.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true,
+							"vintage":
+							{
+								"action": null,
+								"action_digits":
+								[
+								],
+								"cancel_action": false,
+								"expecting_register": false,
+								"expecting_user_input": false,
+								"mode": 2,
+								"motion": null,
+								"motion_digits":
+								[
+								],
+								"next_mode": 2,
+								"next_mode_command": null,
+								"register": null,
+								"stashed_action": null,
+								"user_action_input": null,
+								"user_input": null,
+								"user_motion_input": null,
+								"xpos": 28
+							}
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				}
 			]
 		}
 	],
@@ -803,7 +1075,8 @@
 	{
 		"vintage":
 		{
-			"_cmdline_cd": "/Users/pelon/Sites/sf-eagle/www/storm/wp/wp-content/plugins/wp-mvc/core/controllers"
+			"_cmdline_cd": "/Users/pelon/Sites/sf-eagle/www/storm/jade/common",
+			"last_buffer_search": "image_default"
 		}
 	},
 	"show_minimap": true,
