@@ -107,6 +107,30 @@ http://support.advancedcustomfields.com/
 
 == Changelog ==
 
+= 4.3.2 =
+* Color Picker field: Fixed JS bug preventing wpColorPicker from updating value correctly
+* Google Map field: Added new setting for initial zoom level
+* Relationship field: minor update to fix compatibility issue with Polylang plugin
+* Relationship field: Fixed bug causing filters / actions using $field['name'] to not fire correctly
+* API: Fixed bug with have_rows/has_sub_field function where looping through multiple posts each containing nested repeater fields would result in an endless loop
+* Export: Fixed bug causing exported XML fields to become corrupt due to line breaks
+* Core: Fixed bug where duplicating a field would cause conditional logic to appear blank
+* Core: Added Conditional Logic support to hide entire column of a repeater field where max_row is 1.
+* Core: Added new field group 'hide on screen' option for 'permalink' which hides the permalink URL and buttons below the post title
+
+= 4.3.1 =
+* API: Fixed bug with has_sub_field and have_rows functions causing complicated nested loops to produce incorrect results
+* API: Fixed bug with get_fields function preventing values to be returned from options page and taxonomy terms
+* Core: Fixed bug causing some SQL LIKE statements to not work correctly on windows servers
+* Core: Removed __() wrappers from PHP export, as these did not work as expected
+* Core: Fixed bug with get_pages() causing sort order issue in child page location rule
+* Core: Added specific position to ACF menu item to reduce conflicts with 3rd party plugins
+* JS: Fixed bug where conditional logic rules did not save when added using a '+' button above the last rule
+* Radio field: Fixed bug where 'other' would be selected when no value exists
+* WYSIWYG field: Added support for users with disabled visual editor setting
+* JS: Improved validation for fields that are hidden by a tab
+* Google maps field: Add refresh action when hidden / shown by a tab
+
 = 4.3.0 =
 * Core: get_field can now be used within the functions.php file
 * Core: Added new Google maps field
