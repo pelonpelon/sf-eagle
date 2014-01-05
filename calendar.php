@@ -186,8 +186,6 @@ foreach($custom_posts as $post)
           <div class="googlemap"><a href="https://maps.google.com/maps?q=Eagle+Tavern,+12th+Street,+San+Francisco,+CA,+USA&amp;hl=en&amp;sll=37.770048,-122.413315&amp;sspn=0.010974,0.01929&amp;oq=Eagle&amp;t=m&amp;z=16" target="_blank"><img src="images/google-map.jpg" width="250" height="250"></a>
             <h3>We're just off the freeway<br>398 12th Street<br>(corner of Harrison)</h3>
           </div>
-          <div class="mrsfeagle"><a href="images/mrsfeagle.png" rel="lightbox"><img src="images/mrsfeagle.png" alt="Mr. SF-Eagle Application" width="451" height="600"></a><a href="docs/mrsfeagle-application.pdf" target="_blank" alt="Mr. SF-Eagle Application">
-              <h3>DOWNLOAD PDF</h3></a></div>
           <div class="hankypic"><a href="GayHankyCodes.php" title="Don't miss our monthly FLAG parties"><img src="images/hankycodes.jpeg" alt="hanky codes" class="thumb">
               <h3>HANKY CODES</h3></a></div>
         </div>
@@ -207,13 +205,7 @@ foreach($custom_posts as $post)
                 <p class="rc">Every 4th Saturday</p><a href="images/events/Sadistic-generic-389x600.jpg" rel="lightbox"><img src="images/events/Sadistic-generic-389x600.jpg"></a>
               </li>
               <li>
-                <p class="rc">Every 2nd Sunday</p><a href="images/events/rubber-showtunes-lite.jpg" rel="lightbox"><img src="images/events/rubber-showtunes-lite.jpg"></a>
-              </li>
-              <li>
                 <p class="rc">Every 3rd Saturday</p><a href="images/events/bluf-lite.jpg" rel="lightbox"><img src="images/events/bluf-lite.jpg"></a>
-              </li>
-              <li>
-                <p class="rc">Every Now and Then</p><a href="images/events/flag-crucified.jpg" rel="lightbox"><img src="images/events/flag-crucified.jpg"></a>
               </li>
             </ul>
           </div>
@@ -232,13 +224,7 @@ foreach($custom_posts as $post)
                 <p class="rc">Every 4th Saturday</p><img src="images/events/Sadistic-generic-389x600.jpg">
               </li>
               <li>
-                <p class="rc">Every 2nd Sunday</p><img src="images/events/rubber-showtunes-lite.jpg">
-              </li>
-              <li>
                 <p class="rc">Every 3rd Saturday</p><img src="images/events/bluf-lite.jpg">
-              </li>
-              <li>
-                <p class="rc">Every Now and Then</p><img src="images/events/flag-crucified.jpg">
               </li>
             </ul>
           </div>
