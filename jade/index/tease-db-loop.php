@@ -43,17 +43,24 @@ if ( $empty )
     foreach($custom_posts as $post)
     {
         setup_postdata($post);
-        if ( !get_field('tease') ) { continue;}
-        include 'includes/timegames.php';
-        if ( $begintime > ($now + 60*60*24*7) || $now > $endtime ) { continue; } ?>
-        <section class="event" style="display: block;"> <?php
-        if ( get_field('include_title') )
-        { ?>
-            <h1> <?php echo $post->post_title; ?> </h1> <?php
+        if ( get_field('tease') )
+        {
+            include 'includes/timegames.php';
+            if ( $begintime > ($now + 60*60*24*7) || $now > $endtime ) { continue; } ?>
+            <section class="event" style="display: block;"> <?php
+            if ( get_field('lead') )
+            {
+                 ?>
+                <div class="lead"><?php echo (get_field('lead')); ?> </div> <?php
+            }
+            if ( get_field('include_title') )
+            { ?>
+                <h1> <?php echo $post->post_title; ?> </h1> <?php
+            }
+            fill_tease($post);
+            break; ?>
+                </section><?php
         }
-        fill_tease($post);
-        break; ?>
-            </section> <?php
     }
 }
 

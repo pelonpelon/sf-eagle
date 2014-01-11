@@ -53,5 +53,15 @@
                 }
             }
         }
+        .lead {
+            text-align: center;
+            font-size: 3.5em;
+            font-weight: 900;
+            color: $decor-highlight;
+            margin: 70px 0;
+            @media screen and (max-width: $phone) {
+                margin: 20px 0 40px 0;
+            }
+        }
     }
 }

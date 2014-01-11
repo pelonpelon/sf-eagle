@@ -1150,6 +1150,20 @@ html, body {
 #tease .tease_now p a:hover, #tease .event p a:hover {
   color: red;
 }
+/* line 56, ../scss/partials/home/_tease.scss */
+#tease .tease_now .lead, #tease .event .lead {
+  text-align: center;
+  font-size: 3.5em;
+  font-weight: 900;
+  color: #01fe45;
+  margin: 70px 0;
+}
+@media screen and (max-width: 641px) {
+  /* line 56, ../scss/partials/home/_tease.scss */
+  #tease .tease_now .lead, #tease .event .lead {
+    margin: 20px 0 40px 0;
+  }
+}
 
 /* line 3, ../scss/partials/home/_events.scss */
 #events .day h3 {
@@ -1936,7 +1950,7 @@ html, body {
 .gotfur article .bigtype {
   font-family: "Jolly Lodger";
   font-size: 2.6em;
-  color: #009999;
+  color: #01fe45;
   margin-right: 5px;
 }
 /* line 13, ../scss/partials/singles/_gotfur.scss */
