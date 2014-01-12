@@ -1155,6 +1155,7 @@ html, body {
   text-align: center;
   font-size: 3.5em;
   font-weight: 900;
+  line-height: 1em;
   color: #01fe45;
   margin: 70px 0;
 }
@@ -1432,7 +1433,7 @@ html, body {
 @media screen and (max-width: 641px) {
   /* line 1, ../scss/partials/footer/_all.scss */
   #footer {
-    padding: 15px 1% 0 1%;
+    padding: 15px 0 0 0;
   }
 }
 /* line 12, ../scss/partials/footer/_all.scss */
@@ -1542,7 +1543,6 @@ html, body {
 @media screen and (max-width: 641px) {
   /* line 34, ../scss/partials/footer/_all.scss */
   #footer .flyers {
-    margin-top: 50%;
     width: 100%;
   }
 }
@@ -1622,6 +1622,34 @@ html, body {
     margin: 60px auto 30px auto;
     background-color: whitesmoke;
     color: #660000;
+  }
+}
+/* line 46, ../scss/partials/footer/_all.scss */
+#footer .instagramWidget {
+  width: 100%;
+  clear: both;
+  vertical-align: bottom;
+  text-align: center;
+}
+/* line 51, ../scss/partials/footer/_all.scss */
+#footer .instagramWidget .instagramWidgetMax {
+  display: block;
+}
+@media screen and (max-width: 641px) {
+  /* line 51, ../scss/partials/footer/_all.scss */
+  #footer .instagramWidget .instagramWidgetMax {
+    display: none;
+  }
+}
+/* line 57, ../scss/partials/footer/_all.scss */
+#footer .instagramWidget .instagramWidgetPhone {
+  display: none;
+}
+@media screen and (max-width: 641px) {
+  /* line 57, ../scss/partials/footer/_all.scss */
+  #footer .instagramWidget .instagramWidgetPhone {
+    display: block;
+    margin-left: -6px;
   }
 }
 

@@ -24,17 +24,6 @@
       "initialSize" : 8775,
       "fileType" : 4096
     },
-    "\/images\/icons\/TNL-button-les_paul-hover.png" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/images\/icons\/TNL-button-les_paul-hover.png",
-      "processed" : 0,
-      "outputAbbreviatedPath" : "\/images\/icons\/TNL-button-les_paul-hover.png",
-      "initialSize" : 4381,
-      "fileType" : 8192
-    },
     "\/images\/events\/speakeasyipa.jpg" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 0,
@@ -45,6 +34,17 @@
       "outputAbbreviatedPath" : "\/images\/events\/speakeasyipa.jpg",
       "initialSize" : 4614,
       "fileType" : 4096
+    },
+    "\/images\/icons\/TNL-button-les_paul-hover.png" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/images\/icons\/TNL-button-les_paul-hover.png",
+      "processed" : 0,
+      "outputAbbreviatedPath" : "\/images\/icons\/TNL-button-les_paul-hover.png",
+      "initialSize" : 4381,
+      "fileType" : 8192
     },
     "\/jade\/merch.jade" : {
       "ignoreWasSetByUser" : 0,
@@ -90,17 +90,6 @@
       "initialSize" : 20236,
       "fileType" : 4096
     },
-    "\/js\/modernizr\/test\/caniuse_files\/svg-html-blur.png" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/js\/modernizr\/test\/caniuse_files\/svg-html-blur.png",
-      "processed" : 0,
-      "outputAbbreviatedPath" : "\/js\/modernizr\/test\/caniuse_files\/svg-html-blur.png",
-      "initialSize" : 1232,
-      "fileType" : 8192
-    },
     "\/images\/events\/BSJ-DiscoDaddy-thumb.jpg" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 0,
@@ -111,6 +100,17 @@
       "outputAbbreviatedPath" : "\/images\/events\/BSJ-DiscoDaddy-thumb.jpg",
       "initialSize" : 5364,
       "fileType" : 4096
+    },
+    "\/js\/modernizr\/test\/caniuse_files\/svg-html-blur.png" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/js\/modernizr\/test\/caniuse_files\/svg-html-blur.png",
+      "processed" : 0,
+      "outputAbbreviatedPath" : "\/js\/modernizr\/test\/caniuse_files\/svg-html-blur.png",
+      "initialSize" : 1232,
+      "fileType" : 8192
     },
     "\/images\/events\/TheOhSees060813-lite.jpg" : {
       "ignoreWasSetByUser" : 0,
@@ -235,6 +235,17 @@
       "initialSize" : 5158,
       "fileType" : 4096
     },
+    "\/images\/icons\/frame.png" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/images\/icons\/frame.png",
+      "processed" : 0,
+      "outputAbbreviatedPath" : "\/images\/icons\/frame.png",
+      "initialSize" : 960,
+      "fileType" : 8192
+    },
     "\/images\/icons\/email.png" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 0,
@@ -267,17 +278,6 @@
       "outputAbbreviatedPath" : "\/images\/staff\/cody-joseph-virgin-mary-thumb.jpg",
       "initialSize" : 3763,
       "fileType" : 4096
-    },
-    "\/images\/icons\/frame.png" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/images\/icons\/frame.png",
-      "processed" : 0,
-      "outputAbbreviatedPath" : "\/images\/icons\/frame.png",
-      "initialSize" : 960,
-      "fileType" : 8192
     },
     "\/images\/events\/torche-poster-flat-lite.jpg" : {
       "ignoreWasSetByUser" : 0,
@@ -612,6 +612,17 @@
       "initialSize" : 9155,
       "fileType" : 4096
     },
+    "\/jade\/common\/footer\/instagramWidget.jade" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 1,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/jade\/common\/footer\/instagramWidget.jade",
+      "outputStyle" : 0,
+      "compileDebug" : 1,
+      "outputAbbreviatedPath" : "\/instagramWidget.html",
+      "fileType" : 512
+    },
     "\/js\/modernizr\/test\/caniuse_files\/alpha.png" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 0,
@@ -621,6 +632,17 @@
       "processed" : 0,
       "outputAbbreviatedPath" : "\/js\/modernizr\/test\/caniuse_files\/alpha.png",
       "initialSize" : 160,
+      "fileType" : 8192
+    },
+    "\/images\/icons\/list.png" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/images\/icons\/list.png",
+      "processed" : 0,
+      "outputAbbreviatedPath" : "\/images\/icons\/list.png",
+      "initialSize" : 2757,
       "fileType" : 8192
     },
     "\/images\/events\/Charlie_Horse-No_Pride-lite.jpg" : {
@@ -633,17 +655,6 @@
       "outputAbbreviatedPath" : "\/images\/events\/Charlie_Horse-No_Pride-lite.jpg",
       "initialSize" : 28122,
       "fileType" : 4096
-    },
-    "\/images\/icons\/list.png" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/images\/icons\/list.png",
-      "processed" : 0,
-      "outputAbbreviatedPath" : "\/images\/icons\/list.png",
-      "initialSize" : 2757,
-      "fileType" : 8192
     },
     "\/scss\/vendor\/_flexslider.scss" : {
       "ignoreWasSetByUser" : 0,
@@ -2041,6 +2052,17 @@
       "initialSize" : 9423,
       "fileType" : 4096
     },
+    "\/images\/events\/TheOhSees060813-thumb.jpg" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/images\/events\/TheOhSees060813-thumb.jpg",
+      "processed" : 0,
+      "outputAbbreviatedPath" : "\/images\/events\/TheOhSees060813-thumb.jpg",
+      "initialSize" : 5234,
+      "fileType" : 4096
+    },
     "\/images\/events\/TNL130711b-lite.jpg" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 0,
@@ -2074,17 +2096,6 @@
       "initialSize" : 20284,
       "fileType" : 4096
     },
-    "\/images\/events\/TheOhSees060813-thumb.jpg" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/images\/events\/TheOhSees060813-thumb.jpg",
-      "processed" : 0,
-      "outputAbbreviatedPath" : "\/images\/events\/TheOhSees060813-thumb.jpg",
-      "initialSize" : 5234,
-      "fileType" : 4096
-    },
     "\/images\/icons\/tom_of_finland.png" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 0,
@@ -2096,16 +2107,16 @@
       "initialSize" : 2987,
       "fileType" : 8192
     },
-    "\/images\/merch\/tee-red-front.jpg" : {
+    "\/jade\/common\/footer\/instagramWidgetPhone.jade" : {
       "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
+      "ignore" : 1,
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/images\/merch\/tee-red-front.jpg",
-      "processed" : 0,
-      "outputAbbreviatedPath" : "\/images\/merch\/tee-red-front.jpg",
-      "initialSize" : 9066,
-      "fileType" : 4096
+      "inputAbbreviatedPath" : "\/jade\/common\/footer\/instagramWidgetPhone.jade",
+      "outputStyle" : 0,
+      "compileDebug" : 1,
+      "outputAbbreviatedPath" : "\/instagramWidgetPhone.html",
+      "fileType" : 512
     },
     "\/images\/tnl.jpg" : {
       "ignoreWasSetByUser" : 0,
@@ -2116,6 +2127,17 @@
       "processed" : 0,
       "outputAbbreviatedPath" : "\/images\/tnl.jpg",
       "initialSize" : 37316,
+      "fileType" : 4096
+    },
+    "\/images\/merch\/tee-red-front.jpg" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/images\/merch\/tee-red-front.jpg",
+      "processed" : 0,
+      "outputAbbreviatedPath" : "\/images\/merch\/tee-red-front.jpg",
+      "initialSize" : 9066,
       "fileType" : 4096
     },
     "\/images\/events\/TNL071813-lite.jpg" : {
@@ -2530,17 +2552,6 @@
       "initialSize" : 14982,
       "fileType" : 8192
     },
-    "\/images\/events\/memorialdayposter-lite.jpg" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/images\/events\/memorialdayposter-lite.jpg",
-      "processed" : 0,
-      "outputAbbreviatedPath" : "\/images\/events\/memorialdayposter-lite.jpg",
-      "initialSize" : 37640,
-      "fileType" : 4096
-    },
     "\/jade\/index.jade" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 0,
@@ -2551,6 +2562,17 @@
       "compileDebug" : 1,
       "outputAbbreviatedPath" : "\/index.php",
       "fileType" : 512
+    },
+    "\/images\/events\/memorialdayposter-lite.jpg" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/images\/events\/memorialdayposter-lite.jpg",
+      "processed" : 0,
+      "outputAbbreviatedPath" : "\/images\/events\/memorialdayposter-lite.jpg",
+      "initialSize" : 37640,
+      "fileType" : 4096
     },
     "\/images\/events\/cityhall-rainbow-400.jpg" : {
       "ignoreWasSetByUser" : 0,
@@ -2620,17 +2642,6 @@
       "fileType" : 4,
       "debugStyle" : 1
     },
-    "\/images\/logo-transparency-whiteeagle-cutout-400.png" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/images\/logo-transparency-whiteeagle-cutout-400.png",
-      "processed" : 0,
-      "outputAbbreviatedPath" : "\/images\/logo-transparency-whiteeagle-cutout-400.png",
-      "initialSize" : 16021,
-      "fileType" : 8192
-    },
     "\/images\/events\/heartthrob-lite.jpg" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 0,
@@ -2640,6 +2651,17 @@
       "processed" : 0,
       "outputAbbreviatedPath" : "\/images\/events\/heartthrob-lite.jpg",
       "initialSize" : 43067,
+      "fileType" : 4096
+    },
+    "\/images\/logo-thumb.jpg" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/images\/logo-thumb.jpg",
+      "processed" : 0,
+      "outputAbbreviatedPath" : "\/images\/logo-thumb.jpg",
+      "initialSize" : 3686,
       "fileType" : 4096
     },
     "\/jade\/common\/header.jade" : {
@@ -2653,16 +2675,16 @@
       "outputAbbreviatedPath" : "\/header.html",
       "fileType" : 512
     },
-    "\/images\/logo-thumb.jpg" : {
+    "\/images\/logo-transparency-whiteeagle-cutout-400.png" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 0,
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/images\/logo-thumb.jpg",
+      "inputAbbreviatedPath" : "\/images\/logo-transparency-whiteeagle-cutout-400.png",
       "processed" : 0,
-      "outputAbbreviatedPath" : "\/images\/logo-thumb.jpg",
-      "initialSize" : 3686,
-      "fileType" : 4096
+      "outputAbbreviatedPath" : "\/images\/logo-transparency-whiteeagle-cutout-400.png",
+      "initialSize" : 16021,
+      "fileType" : 8192
     },
     "\/images\/events\/PRIDE_CBHS_reduced-thumb.jpg" : {
       "ignoreWasSetByUser" : 0,

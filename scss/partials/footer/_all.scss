@@ -5,7 +5,7 @@
     padding: 25px 3% 25px 3%;
     border-top: 30px solid black;
     @media screen and (max-width: $phone) {
-        padding: 15px 1% 0 1%;
+        padding: 15px 0 0 0;
 
     }
 
@@ -38,10 +38,28 @@
         float: right;
         vertical-align: top;
         @media screen and (max-width: $phone) {
-            margin-top: 50%;
             width: 100%;
         }
     }
     @import "flyers";
 
+    .instagramWidget{
+        width: 100%;
+        clear: both;
+        vertical-align: bottom;
+        text-align: center ;
+        .instagramWidgetMax {
+            display: block;
+            @media  screen and (max-width: $phone) {
+                display: none;
+            }
+        }
+        .instagramWidgetPhone {
+            display: none;
+            @media  screen and (max-width: $phone) {
+                display: block;
+                margin-left: -6px;
+            }
+        }
+    }
 }

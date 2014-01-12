@@ -44,8 +44,9 @@
           <nav>
             <ul>
               <li class="thisweek"><a href="#events" class="button"><span>This<br>Week</span></a></li>
-              <li><a href="merch.php" class="button"><span>Hoodies<br>Tanks<br>& Tees</span></a></li>
               <li><a href="calendar.php" class="button"><span>Calendar</span></a></li>
+              <li><a href="#instagram" class="button"><span>Latest<br>Pics</span></a></li>
+              <li><a href="merch.php" class="button"><span>Hoodies<br>Tanks<br>& Tees</span></a></li>
               <li><a href="#footer" class="button"><span>Contact<br>Us</span></a></li>
             </ul>
           </nav>
@@ -359,6 +360,14 @@ foreach($custom_posts as $post)
                 <p class="rc">Every 3rd Saturday</p><img src="images/events/bluf-lite.jpg">
               </li>
             </ul>
+          </div>
+        </div>
+        <div class="instagramWidget"><a name="instagram"></a>
+          <div class="instagramWidgetMax">
+            <iframe width="760" height="240" src="http://statigr.am/widget.php?choice=myfeed&amp;username=sfeagle&amp;show_infos=false&amp;linking=instagram&amp;width=760&amp;height=240&amp;mode=grid&amp;layout_x=6&amp;layout_y=1&amp;padding=0&amp;photo_border=false&amp;background=000000&amp;text=CC0000&amp;widget_border=false&amp;radius=5&amp;border-color=990000&amp;user_id=0&amp;time=0" allowTransparency="true" frameborder="0" scrolling="no" style="border:none; overflow:hidden; width:760px; height:240px;"></iframe>
+          </div>
+          <div class="instagramWidgetPhone">
+            <iframe name="instagram" width="320" height="2400" src="http://statigr.am/widget.php?choice=myfeed&amp;username=sfeagle&amp;show_infos=false&amp;linking=instagram&amp;width=320&amp;height=2000&amp;mode=grid&amp;layout_x=1&amp;layout_y=8&amp;padding=5&amp;photo_border=true&amp;background=000000&amp;text=CC0000&amp;widget_border=false&amp;radius=5&amp;border-color=990000&amp;user_id=723500402&amp;time=1389483326810" allowTransparency="true" frameborder="0" scrolling="no" style="border:none; overflow:hidden; width:320px;"></iframe>
           </div>
         </div>
       </div>
