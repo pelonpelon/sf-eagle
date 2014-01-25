@@ -29,8 +29,13 @@
             border: solid 10px rgba(#555, 0.2);
             @include border-radius(35px);
             max-width: 450px;
+            @media screen and (max-width:$netbook) {
+                width: 90%;
+            }
             @media screen and (max-width:$tablet) {
-                width: 70%;
+                width: 90%;
+                margin: 0px auto 60px auto;
+
             }
             @media screen and (max-width:$phone) {
                 width: 90%;

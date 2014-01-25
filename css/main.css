@@ -758,6 +758,7 @@ h6 {
   #tease {
     width: 70%;
     clear: right;
+    margin-top: 30px;
   }
 }
 @media screen and (max-width: 641px) {
@@ -766,11 +767,11 @@ h6 {
     float: left;
     clear: right;
     width: 90%;
-    margin: 30px auto 1em auto;
+    margin: 60px auto 1em auto;
   }
 }
 
-/* line 97, ../scss/theme/_layout.scss */
+/* line 98, ../scss/theme/_layout.scss */
 #events {
   float: left;
   clear: right;
@@ -778,14 +779,14 @@ h6 {
   margin: -20px 0 20px 0;
 }
 @media screen and (max-width: 1025px) {
-  /* line 97, ../scss/theme/_layout.scss */
+  /* line 98, ../scss/theme/_layout.scss */
   #events {
     width: 40%;
     margin: 60px 30%;
   }
 }
 @media screen and (max-width: 641px) {
-  /* line 97, ../scss/theme/_layout.scss */
+  /* line 98, ../scss/theme/_layout.scss */
   #events {
     width: 100%;
   }
@@ -816,7 +817,7 @@ html, body {
   height: 100%;
 }
 
-/* line 113, ../scss/theme/_layout.scss */
+/* line 114, ../scss/theme/_layout.scss */
 #footer {
   margin-top: 25px;
 }
@@ -882,18 +883,23 @@ html, body {
   filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=90);
   opacity: 0.9;
 }
-@media screen and (max-width: 641px) {
+@media screen and (max-width: 801px) {
+  /* line 8, ../scss/partials/home/_mast.scss */
+  #mast header img.logo {
+    width: 60%;
+  }
+}
+@media screen and (max-width: 801px) {
   /* line 5, ../scss/partials/home/_mast.scss */
   #mast header {
     width: 60%;
     clear: none;
-    margin-bottom: 30px;
   }
 }
 @media screen and (max-width: 641px) {
   /* line 5, ../scss/partials/home/_mast.scss */
   #mast header {
-    width: 60%;
+    width: 50%;
     clear: none;
     margin-bottom: 30px;
   }
@@ -903,20 +909,20 @@ html, body {
   border: 0;
   color: whitesmoke;
 }
-/* line 25, ../scss/partials/home/_mast.scss */
+/* line 27, ../scss/partials/home/_mast.scss */
 #mast nav {
   float: left;
   clear: right;
   width: 100%;
 }
 @media screen and (max-width: 1025px) {
-  /* line 30, ../scss/partials/home/_mast.scss */
+  /* line 32, ../scss/partials/home/_mast.scss */
   #mast nav li:nth-of-type(3) {
     clear: left;
   }
 }
 @media screen and (max-width: 641px) {
-  /* line 25, ../scss/partials/home/_mast.scss */
+  /* line 27, ../scss/partials/home/_mast.scss */
   #mast nav {
     float: right;
     width: 100px;
@@ -990,7 +996,7 @@ html, body {
   display: table;
   clear: both;
 }
-/* line 41, ../scss/partials/home/_mast.scss */
+/* line 43, ../scss/partials/home/_mast.scss */
 #mast ul {
   *zoom: 1;
   display: inline-block;
@@ -1002,24 +1008,24 @@ html, body {
   clear: both;
 }
 @media screen and (max-width: 641px) {
-  /* line 41, ../scss/partials/home/_mast.scss */
+  /* line 43, ../scss/partials/home/_mast.scss */
   #mast ul {
     float: right;
   }
 }
-/* line 47, ../scss/partials/home/_mast.scss */
+/* line 49, ../scss/partials/home/_mast.scss */
 #mast ul li {
   display: block;
   float: left;
 }
 @media screen and (max-width: 641px) {
-  /* line 47, ../scss/partials/home/_mast.scss */
+  /* line 49, ../scss/partials/home/_mast.scss */
   #mast ul li {
     float: right;
     clear: both;
   }
 }
-/* line 57, ../scss/partials/home/_mast.scss */
+/* line 59, ../scss/partials/home/_mast.scss */
 #mast .promo section {
   *zoom: 1;
   filter: progid:DXImageTransform.Microsoft.gradient(gradientType=0, startColorstr='#FFFFD700', endColorstr='#FFFFD700');
@@ -1030,29 +1036,61 @@ html, body {
   background-image: -moz-linear-gradient(top, rgba(225, 225, 225, 0.8) 0%, rgba(225, 225, 225, 0.4) 55%, rgba(225, 225, 225, 0.2) 92%, rgba(225, 225, 225, 0.8) 100%);
   background-image: -o-linear-gradient(top, rgba(225, 225, 225, 0.8) 0%, rgba(225, 225, 225, 0.4) 55%, rgba(225, 225, 225, 0.2) 92%, rgba(225, 225, 225, 0.8) 100%);
   background-image: linear-gradient(top, rgba(225, 225, 225, 0.8) 0%, rgba(225, 225, 225, 0.4) 55%, rgba(225, 225, 225, 0.2) 92%, rgba(225, 225, 225, 0.8) 100%);
+  background-color: #000;
   float: left;
   clear: right;
-  width: 88%;
-  border: #660000 solid 10px;
+  width: 96%;
+  border: #660000 solid 4px;
   margin: 0 auto;
-  padding: 0 10px;
+  padding: 0;
+  overflow: hidden;
   text-align: center;
 }
-/* line 70, ../scss/partials/home/_mast.scss */
+@media screen and (max-width: 1025px) {
+  /* line 59, ../scss/partials/home/_mast.scss */
+  #mast .promo section {
+    z-index: 99;
+    position: absolute;
+    top: 440px;
+    width: 30%;
+    height: auto;
+    background-image: none;
+  }
+}
+@media screen and (max-width: 801px) {
+  /* line 59, ../scss/partials/home/_mast.scss */
+  #mast .promo section {
+    top: 365px;
+    width: 28%;
+  }
+}
+@media screen and (max-width: 641px) {
+  /* line 59, ../scss/partials/home/_mast.scss */
+  #mast .promo section {
+    top: 190px;
+    width: 60%;
+  }
+}
+@media screen and (max-width: 361px) {
+  /* line 59, ../scss/partials/home/_mast.scss */
+  #mast .promo section {
+    top: 120px;
+  }
+}
+/* line 93, ../scss/partials/home/_mast.scss */
 #mast .promo section img {
   width: 90%;
-  height: auto;
   margin: 5px auto 0 auto;
 }
 @media screen and (max-width: 641px) {
-  /* line 57, ../scss/partials/home/_mast.scss */
+  /* line 59, ../scss/partials/home/_mast.scss */
   #mast .promo section {
     float: none;
     margin: 0 auto;
     padding-top: 1px;
   }
 }
-/* line 80, ../scss/partials/home/_mast.scss */
+/* line 102, ../scss/partials/home/_mast.scss */
 #mast .promo section p {
   color: #000;
   font-family: "Coming Soon";
@@ -1060,14 +1098,129 @@ html, body {
   text-shadow: 1px 1px #660000;
 }
 @media screen and (max-width: 641px) {
-  /* line 80, ../scss/partials/home/_mast.scss */
+  /* line 102, ../scss/partials/home/_mast.scss */
   #mast .promo section p {
     font-size: 1.4em;
   }
 }
-/* line 89, ../scss/partials/home/_mast.scss */
+/* line 111, ../scss/partials/home/_mast.scss */
 #mast .promo section a:hover {
   color: red;
+}
+@media screen and (max-width: 1025px) {
+  /* line 115, ../scss/partials/home/_mast.scss */
+  #mast .promo .fetch-tweets-item {
+    display: none;
+  }
+}
+@media screen and (max-width: 1025px) {
+  /* line 120, ../scss/partials/home/_mast.scss */
+  #mast .promo .fetch-tweets-item:nth-of-type(-n+2) {
+    display: block;
+  }
+}
+/* line 125, ../scss/partials/home/_mast.scss */
+#mast .promo .fetch-tweets {
+  background-color: #000 !important;
+  max-height: none !important;
+  width: 100%;
+  padding-top: 10px;
+}
+/* line 130, ../scss/partials/home/_mast.scss */
+#mast .promo .fetch-tweets li {
+  float: left;
+  clear: none;
+}
+/* line 137, ../scss/partials/home/_mast.scss */
+#mast .promo .fetch-tweets-profile-image {
+  display: none;
+}
+/* line 140, ../scss/partials/home/_mast.scss */
+#mast .promo .fetch-tweets-main {
+  margin: 0 !important;
+  padding: 0px 4% 0 4%;
+}
+/* line 144, ../scss/partials/home/_mast.scss */
+#mast .promo .fetch-tweets-heading {
+  font-size: .6rem !important;
+  color: #c90;
+  text-align: right;
+  font-family: "Verdana";
+  padding: 0 0 4px 0;
+}
+/* line 150, ../scss/partials/home/_mast.scss */
+#mast .promo .fetch-tweets-heading:hover {
+  color: #fc0;
+}
+@media screen and (max-width: 641px) {
+  /* line 144, ../scss/partials/home/_mast.scss */
+  #mast .promo .fetch-tweets-heading {
+    font-size: 1em;
+  }
+}
+/* line 156, ../scss/partials/home/_mast.scss */
+#mast .promo .fetch-tweets-heading .fetch-tweets-tweet-created-at {
+  font-size: 0.3rem;
+}
+/* line 160, ../scss/partials/home/_mast.scss */
+#mast .promo .fetch-tweets-intent-buttons {
+  width: 100%;
+  height: 32px;
+  text-align: center;
+  margin: 0;
+}
+@media screen and (max-width: 641px) {
+  /* line 160, ../scss/partials/home/_mast.scss */
+  #mast .promo .fetch-tweets-intent-buttons {
+    height: 28px;
+    background-color: #000;
+  }
+}
+/* line 170, ../scss/partials/home/_mast.scss */
+#mast .promo .fetch-tweets-intent-icon {
+  display: inline-block;
+  min-width: 36px;
+  min-height: 36px;
+  margin: 0 4px;
+  background-position: -36px;
+  background-size: cover;
+}
+@media screen and (max-width: 641px) {
+  /* line 170, ../scss/partials/home/_mast.scss */
+  #mast .promo .fetch-tweets-intent-icon {
+    min-width: 32px;
+    min-height: 32px;
+    background-position: -32px;
+    margin: 0 8px;
+  }
+}
+/* line 185, ../scss/partials/home/_mast.scss */
+#mast .promo .fetch-tweets-intent-reply {
+  display: none;
+}
+/* line 188, ../scss/partials/home/_mast.scss */
+#mast .promo .fetch-tweets-intent-favorite {
+  display: none;
+}
+/* line 191, ../scss/partials/home/_mast.scss */
+#mast .promo .fetch-tweets-text {
+  font-family: "Trebuchet";
+  text-shadow: none;
+  font-weight: 500;
+  font-size: .8rem;
+  color: whitesmoke;
+  text-align: left;
+  margin: 0;
+}
+/* line 199, ../scss/partials/home/_mast.scss */
+#mast .promo .fetch-tweets-text a {
+  color: #999999;
+}
+@media screen and (max-width: 1025px) {
+  /* line 191, ../scss/partials/home/_mast.scss */
+  #mast .promo .fetch-tweets-text {
+    font-size: 1rem;
+  }
 }
 
 @media screen and (max-width: 641px) {
@@ -1117,10 +1270,17 @@ html, body {
   border-radius: 35px;
   max-width: 450px;
 }
+@media screen and (max-width: 1025px) {
+  /* line 25, ../scss/partials/home/_tease.scss */
+  #tease .tease_now img, #tease .event img {
+    width: 90%;
+  }
+}
 @media screen and (max-width: 801px) {
   /* line 25, ../scss/partials/home/_tease.scss */
   #tease .tease_now img, #tease .event img {
-    width: 70%;
+    width: 90%;
+    margin: 0px auto 60px auto;
   }
 }
 @media screen and (max-width: 641px) {
@@ -1129,28 +1289,28 @@ html, body {
     width: 90%;
   }
 }
-/* line 39, ../scss/partials/home/_tease.scss */
+/* line 44, ../scss/partials/home/_tease.scss */
 #tease .tease_now p, #tease .event p {
   margin: 0 auto 50px auto;
   width: 70%;
   text-shadow: 2px 2px 3px darkgrey;
 }
 @media screen and (max-width: 641px) {
-  /* line 39, ../scss/partials/home/_tease.scss */
+  /* line 44, ../scss/partials/home/_tease.scss */
   #tease .tease_now p, #tease .event p {
     width: 90%;
   }
 }
-/* line 48, ../scss/partials/home/_tease.scss */
+/* line 53, ../scss/partials/home/_tease.scss */
 #tease .tease_now p a, #tease .event p a {
   color: #cc0000;
   text-shadow: 2px 2px 3px #660000;
 }
-/* line 51, ../scss/partials/home/_tease.scss */
+/* line 56, ../scss/partials/home/_tease.scss */
 #tease .tease_now p a:hover, #tease .event p a:hover {
   color: red;
 }
-/* line 56, ../scss/partials/home/_tease.scss */
+/* line 61, ../scss/partials/home/_tease.scss */
 #tease .tease_now .lead, #tease .event .lead {
   text-align: center;
   font-size: 3.5em;
@@ -1160,7 +1320,7 @@ html, body {
   margin: 70px 0;
 }
 @media screen and (max-width: 641px) {
-  /* line 56, ../scss/partials/home/_tease.scss */
+  /* line 61, ../scss/partials/home/_tease.scss */
   #tease .tease_now .lead, #tease .event .lead {
     margin: 20px 0 40px 0;
   }
