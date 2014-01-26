@@ -2,6 +2,17 @@
   "CodeKitInfo" : "This is a CodeKit project configuration file. It is designed to sync project settings across multiple machines. Modifying the contents of this file can be a poor life decision if you don't know what you're doing. This file is not useful unless accompanied by the project that created it in CodeKit. For more information, see: http:\/\/incident57.com\/codekit",
   "creatorBuild" : "8322",
   "files" : {
+    "\/images\/events\/SOMAScavengerHunt.jpg" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/images\/events\/SOMAScavengerHunt.jpg",
+      "processed" : 0,
+      "outputAbbreviatedPath" : "\/images\/events\/SOMAScavengerHunt.jpg",
+      "initialSize" : 33260,
+      "fileType" : 4096
+    },
     "\/images\/logo-cropped-320.jpg" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 0,
@@ -11,17 +22,6 @@
       "processed" : 0,
       "outputAbbreviatedPath" : "\/images\/logo-cropped-320.jpg",
       "initialSize" : 8775,
-      "fileType" : 4096
-    },
-    "\/images\/events\/charliehorse-lite.jpg" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/images\/events\/charliehorse-lite.jpg",
-      "processed" : 0,
-      "outputAbbreviatedPath" : "\/images\/events\/charliehorse-lite.jpg",
-      "initialSize" : 35024,
       "fileType" : 4096
     },
     "\/images\/icons\/TNL-button-les_paul-hover.png" : {
@@ -123,17 +123,6 @@
       "initialSize" : 32098,
       "fileType" : 4096
     },
-    "\/images\/logo-button.png" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/images\/logo-button.png",
-      "processed" : 0,
-      "outputAbbreviatedPath" : "\/images\/logo-button.png",
-      "initialSize" : 3336,
-      "fileType" : 8192
-    },
     "\/images\/merch\/hoodie-gray-front.jpg" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 0,
@@ -144,6 +133,17 @@
       "outputAbbreviatedPath" : "\/images\/merch\/hoodie-gray-front.jpg",
       "initialSize" : 8219,
       "fileType" : 4096
+    },
+    "\/images\/logo-button.png" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/images\/logo-button.png",
+      "processed" : 0,
+      "outputAbbreviatedPath" : "\/images\/logo-button.png",
+      "initialSize" : 3336,
+      "fileType" : 8192
     },
     "\/fetch-tweets\/image\/screen_icon_32x32.png" : {
       "ignoreWasSetByUser" : 0,
@@ -178,18 +178,6 @@
       "initialSize" : 3018,
       "fileType" : 4096
     },
-    "\/coffee\/main.coffee" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/coffee\/main.coffee",
-      "checkOutputStyle" : 0,
-      "minifyOutput" : 0,
-      "outputAbbreviatedPath" : "\/js\/main.js",
-      "outputStyle" : 0,
-      "fileType" : 32
-    },
     "\/images\/events\/TNL130718-600.jpg" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 0,
@@ -212,17 +200,6 @@
       "initialSize" : 37051,
       "fileType" : 8192
     },
-    "\/images\/icons\/google-plus-icon.png" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/images\/icons\/google-plus-icon.png",
-      "processed" : 0,
-      "outputAbbreviatedPath" : "\/images\/icons\/google-plus-icon.png",
-      "initialSize" : 1241,
-      "fileType" : 8192
-    },
     "\/scss\/theme\/_layout.scss" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 1,
@@ -235,16 +212,16 @@
       "fileType" : 4,
       "debugStyle" : 1
     },
-    "\/images\/events\/Aids-Emergency-Fund---Dark-Days-thumb.jpg" : {
+    "\/images\/icons\/google-plus-icon.png" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 0,
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/images\/events\/Aids-Emergency-Fund---Dark-Days-thumb.jpg",
+      "inputAbbreviatedPath" : "\/images\/icons\/google-plus-icon.png",
       "processed" : 0,
-      "outputAbbreviatedPath" : "\/images\/events\/Aids-Emergency-Fund---Dark-Days-thumb.jpg",
-      "initialSize" : 5158,
-      "fileType" : 4096
+      "outputAbbreviatedPath" : "\/images\/icons\/google-plus-icon.png",
+      "initialSize" : 1241,
+      "fileType" : 8192
     },
     "\/images\/icons\/frame.png" : {
       "ignoreWasSetByUser" : 0,
@@ -257,6 +234,17 @@
       "initialSize" : 960,
       "fileType" : 8192
     },
+    "\/images\/events\/Aids-Emergency-Fund---Dark-Days-thumb.jpg" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/images\/events\/Aids-Emergency-Fund---Dark-Days-thumb.jpg",
+      "processed" : 0,
+      "outputAbbreviatedPath" : "\/images\/events\/Aids-Emergency-Fund---Dark-Days-thumb.jpg",
+      "initialSize" : 5158,
+      "fileType" : 4096
+    },
     "\/images\/icons\/email.png" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 0,
@@ -267,17 +255,6 @@
       "outputAbbreviatedPath" : "\/images\/icons\/email.png",
       "initialSize" : 1389,
       "fileType" : 8192
-    },
-    "\/images\/events\/TNL130711-lite.jpg" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/images\/events\/TNL130711-lite.jpg",
-      "processed" : 0,
-      "outputAbbreviatedPath" : "\/images\/events\/TNL130711-lite.jpg",
-      "initialSize" : 23810,
-      "fileType" : 4096
     },
     "\/images\/staff\/cody-joseph-virgin-mary-thumb.jpg" : {
       "ignoreWasSetByUser" : 0,
@@ -290,6 +267,29 @@
       "initialSize" : 3763,
       "fileType" : 4096
     },
+    "\/images\/events\/TNL130711-lite.jpg" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/images\/events\/TNL130711-lite.jpg",
+      "processed" : 0,
+      "outputAbbreviatedPath" : "\/images\/events\/TNL130711-lite.jpg",
+      "initialSize" : 23810,
+      "fileType" : 4096
+    },
+    "\/coffee\/main.coffee" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/coffee\/main.coffee",
+      "checkOutputStyle" : 0,
+      "minifyOutput" : 0,
+      "outputAbbreviatedPath" : "\/js\/main.js",
+      "outputStyle" : 0,
+      "fileType" : 32
+    },
     "\/images\/events\/torche-poster-flat-lite.jpg" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 0,
@@ -299,6 +299,17 @@
       "processed" : 0,
       "outputAbbreviatedPath" : "\/images\/events\/torche-poster-flat-lite.jpg",
       "initialSize" : 35092,
+      "fileType" : 4096
+    },
+    "\/images\/events\/TNL130718-160.jpg" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/images\/events\/TNL130718-160.jpg",
+      "processed" : 0,
+      "outputAbbreviatedPath" : "\/images\/events\/TNL130718-160.jpg",
+      "initialSize" : 2935,
       "fileType" : 4096
     },
     "\/fetch-tweets\/image\/menu_icon_16x16.png" : {
@@ -311,17 +322,6 @@
       "outputAbbreviatedPath" : "\/fetch-tweets\/image\/menu_icon_16x16.png",
       "initialSize" : 729,
       "fileType" : 8192
-    },
-    "\/images\/events\/cubtrap-130712-600.jpg" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/images\/events\/cubtrap-130712-600.jpg",
-      "processed" : 0,
-      "outputAbbreviatedPath" : "\/images\/events\/cubtrap-130712-600.jpg",
-      "initialSize" : 38629,
-      "fileType" : 4096
     },
     "\/images\/events\/BSJ-DiscoDaddy-lite.jpg" : {
       "ignoreWasSetByUser" : 0,
@@ -346,15 +346,15 @@
       "fileType" : 4,
       "debugStyle" : 1
     },
-    "\/images\/events\/TNL130718-160.jpg" : {
+    "\/images\/events\/cubtrap-130712-600.jpg" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 0,
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/images\/events\/TNL130718-160.jpg",
+      "inputAbbreviatedPath" : "\/images\/events\/cubtrap-130712-600.jpg",
       "processed" : 0,
-      "outputAbbreviatedPath" : "\/images\/events\/TNL130718-160.jpg",
-      "initialSize" : 2935,
+      "outputAbbreviatedPath" : "\/images\/events\/cubtrap-130712-600.jpg",
+      "initialSize" : 38629,
       "fileType" : 4096
     },
     "\/images\/patio_by_urso_sm.jpg" : {
@@ -457,17 +457,6 @@
       "initialSize" : 43331,
       "fileType" : 4096
     },
-    "\/images\/events\/Tamale-Lady---Virginia-Ramos-lite.jpg" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/images\/events\/Tamale-Lady---Virginia-Ramos-lite.jpg",
-      "processed" : 0,
-      "outputAbbreviatedPath" : "\/images\/events\/Tamale-Lady---Virginia-Ramos-lite.jpg",
-      "initialSize" : 27696,
-      "fileType" : 4096
-    },
     "\/fetch-tweets\/image\/reply_48x16.png" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 0,
@@ -478,6 +467,17 @@
       "outputAbbreviatedPath" : "\/fetch-tweets\/image\/reply_48x16.png",
       "initialSize" : 399,
       "fileType" : 8192
+    },
+    "\/images\/events\/Tamale-Lady---Virginia-Ramos-lite.jpg" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/images\/events\/Tamale-Lady---Virginia-Ramos-lite.jpg",
+      "processed" : 0,
+      "outputAbbreviatedPath" : "\/images\/events\/Tamale-Lady---Virginia-Ramos-lite.jpg",
+      "initialSize" : 27696,
+      "fileType" : 4096
     },
     "\/images\/_hcc_thumbs\/patio_by_urso_sm.jpg-thumb-80.jpg" : {
       "ignoreWasSetByUser" : 0,
@@ -601,17 +601,6 @@
       "outputAbbreviatedPath" : "\/IE.html",
       "fileType" : 512
     },
-    "\/images\/icons\/touch-icon-ipad.png" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/images\/icons\/touch-icon-ipad.png",
-      "processed" : 0,
-      "outputAbbreviatedPath" : "\/images\/icons\/touch-icon-ipad.png",
-      "initialSize" : 2251,
-      "fileType" : 8192
-    },
     "\/images\/DrinkSpecials\/DrinkSpecial-absolut-jimbeamhoney-400.jpg" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 0,
@@ -622,6 +611,17 @@
       "outputAbbreviatedPath" : "\/images\/DrinkSpecials\/DrinkSpecial-absolut-jimbeamhoney-400.jpg",
       "initialSize" : 11651,
       "fileType" : 4096
+    },
+    "\/images\/icons\/touch-icon-ipad.png" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/images\/icons\/touch-icon-ipad.png",
+      "processed" : 0,
+      "outputAbbreviatedPath" : "\/images\/icons\/touch-icon-ipad.png",
+      "initialSize" : 2251,
+      "fileType" : 8192
     },
     "\/js\/modernizr\/test\/caniuse_files\/red30x30.png" : {
       "ignoreWasSetByUser" : 0,
@@ -734,17 +734,6 @@
       "initialSize" : 26588,
       "fileType" : 4096
     },
-    "\/images\/staff\/gage-fisher-nice-lite.jpg" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/images\/staff\/gage-fisher-nice-lite.jpg",
-      "processed" : 0,
-      "outputAbbreviatedPath" : "\/images\/staff\/gage-fisher-nice-lite.jpg",
-      "initialSize" : 8611,
-      "fileType" : 4096
-    },
     "\/js\/modernizr\/test\/caniuse_files\/before-after.png" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 0,
@@ -756,6 +745,17 @@
       "initialSize" : 452,
       "fileType" : 8192
     },
+    "\/images\/staff\/gage-fisher-nice-lite.jpg" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/images\/staff\/gage-fisher-nice-lite.jpg",
+      "processed" : 0,
+      "outputAbbreviatedPath" : "\/images\/staff\/gage-fisher-nice-lite.jpg",
+      "initialSize" : 8611,
+      "fileType" : 4096
+    },
     "\/images\/icons\/icon-youtubePlaylist.jpg" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 0,
@@ -765,17 +765,6 @@
       "processed" : 0,
       "outputAbbreviatedPath" : "\/images\/icons\/icon-youtubePlaylist.jpg",
       "initialSize" : 4093,
-      "fileType" : 4096
-    },
-    "\/images\/events\/agave-syrup1-nectar-600.jpg" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/images\/events\/agave-syrup1-nectar-600.jpg",
-      "processed" : 0,
-      "outputAbbreviatedPath" : "\/images\/events\/agave-syrup1-nectar-600.jpg",
-      "initialSize" : 12544,
       "fileType" : 4096
     },
     "\/scss\/theme\/_defaults.scss" : {
@@ -789,6 +778,17 @@
       "outputAbbreviatedPath" : "\/css\/_defaults.css",
       "fileType" : 4,
       "debugStyle" : 1
+    },
+    "\/images\/events\/agave-syrup1-nectar-600.jpg" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/images\/events\/agave-syrup1-nectar-600.jpg",
+      "processed" : 0,
+      "outputAbbreviatedPath" : "\/images\/events\/agave-syrup1-nectar-600.jpg",
+      "initialSize" : 12544,
+      "fileType" : 4096
     },
     "\/images\/events\/sonny-and-the-sunsets-thumb.jpg" : {
       "ignoreWasSetByUser" : 0,
@@ -1073,17 +1073,6 @@
       "fileType" : 4,
       "debugStyle" : 1
     },
-    "\/images\/events\/flag1-thumb.jpg" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/images\/events\/flag1-thumb.jpg",
-      "processed" : 0,
-      "outputAbbreviatedPath" : "\/images\/events\/flag1-thumb.jpg",
-      "initialSize" : 7816,
-      "fileType" : 4096
-    },
     "\/images\/events\/TNL130711-160.jpg" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 0,
@@ -1093,6 +1082,17 @@
       "processed" : 0,
       "outputAbbreviatedPath" : "\/images\/events\/TNL130711-160.jpg",
       "initialSize" : 3045,
+      "fileType" : 4096
+    },
+    "\/images\/events\/flag1-thumb.jpg" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/images\/events\/flag1-thumb.jpg",
+      "processed" : 0,
+      "outputAbbreviatedPath" : "\/images\/events\/flag1-thumb.jpg",
+      "initialSize" : 7816,
       "fileType" : 4096
     },
     "\/js\/modernizr\/test\/caniuse_files\/stroked-text.png" : {
@@ -1310,17 +1310,6 @@
       "initialSize" : 24028,
       "fileType" : 4096
     },
-    "\/images\/events\/peppersprayshoes-600.jpg" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/images\/events\/peppersprayshoes-600.jpg",
-      "processed" : 0,
-      "outputAbbreviatedPath" : "\/images\/events\/peppersprayshoes-600.jpg",
-      "initialSize" : 14939,
-      "fileType" : 4096
-    },
     "\/images\/staff\/cody-thumb.jpg" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 0,
@@ -1330,6 +1319,17 @@
       "processed" : 0,
       "outputAbbreviatedPath" : "\/images\/staff\/cody-thumb.jpg",
       "initialSize" : 6096,
+      "fileType" : 4096
+    },
+    "\/images\/events\/peppersprayshoes-600.jpg" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/images\/events\/peppersprayshoes-600.jpg",
+      "processed" : 0,
+      "outputAbbreviatedPath" : "\/images\/events\/peppersprayshoes-600.jpg",
+      "initialSize" : 14939,
       "fileType" : 4096
     },
     "\/images\/events\/memorialdayposter-thumb.jpg" : {
@@ -1354,17 +1354,6 @@
       "initialSize" : 60382,
       "fileType" : 4096
     },
-    "\/images\/DrinkSpecials\/DrinkSpecial-absolut-jimbeamhoney-600.jpg" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/images\/DrinkSpecials\/DrinkSpecial-absolut-jimbeamhoney-600.jpg",
-      "processed" : 0,
-      "outputAbbreviatedPath" : "\/images\/DrinkSpecials\/DrinkSpecial-absolut-jimbeamhoney-600.jpg",
-      "initialSize" : 21618,
-      "fileType" : 4096
-    },
     "\/images\/events\/TNL130627-thumb.jpg" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 0,
@@ -1374,6 +1363,17 @@
       "processed" : 0,
       "outputAbbreviatedPath" : "\/images\/events\/TNL130627-thumb.jpg",
       "initialSize" : 5800,
+      "fileType" : 4096
+    },
+    "\/images\/DrinkSpecials\/DrinkSpecial-absolut-jimbeamhoney-600.jpg" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/images\/DrinkSpecials\/DrinkSpecial-absolut-jimbeamhoney-600.jpg",
+      "processed" : 0,
+      "outputAbbreviatedPath" : "\/images\/DrinkSpecials\/DrinkSpecial-absolut-jimbeamhoney-600.jpg",
+      "initialSize" : 21618,
       "fileType" : 4096
     },
     "\/js\/modernizr\/test\/caniuse_files\/text-shadow1.png" : {
@@ -1840,17 +1840,6 @@
       "initialSize" : 6200,
       "fileType" : 4096
     },
-    "\/images\/hankycodes.jpeg" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/images\/hankycodes.jpeg",
-      "processed" : 0,
-      "outputAbbreviatedPath" : "\/images\/hankycodes.jpeg",
-      "initialSize" : 3624,
-      "fileType" : 4096
-    },
     "\/images\/logo.jpg" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 0,
@@ -1860,6 +1849,17 @@
       "processed" : 0,
       "outputAbbreviatedPath" : "\/images\/logo.jpg",
       "initialSize" : 81012,
+      "fileType" : 4096
+    },
+    "\/images\/hankycodes.jpeg" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/images\/hankycodes.jpeg",
+      "processed" : 0,
+      "outputAbbreviatedPath" : "\/images\/hankycodes.jpeg",
+      "initialSize" : 3624,
       "fileType" : 4096
     },
     "\/images\/events\/TorcheNov2011CLR-177-lite.jpg" : {
@@ -2017,17 +2017,6 @@
       "outputAbbreviatedPath" : "\/test.html",
       "fileType" : 512
     },
-    "\/images\/mrsfeagle.png" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/images\/mrsfeagle.png",
-      "processed" : 0,
-      "outputAbbreviatedPath" : "\/images\/mrsfeagle.png",
-      "initialSize" : 38645,
-      "fileType" : 8192
-    },
     "\/scss\/partials\/home\/_events.scss" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 1,
@@ -2039,6 +2028,17 @@
       "outputAbbreviatedPath" : "\/css\/_events.css",
       "fileType" : 4,
       "debugStyle" : 1
+    },
+    "\/images\/mrsfeagle.png" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/images\/mrsfeagle.png",
+      "processed" : 0,
+      "outputAbbreviatedPath" : "\/images\/mrsfeagle.png",
+      "initialSize" : 38645,
+      "fileType" : 8192
     },
     "\/images\/events\/pepperspray-logo-icon.jpg" : {
       "ignoreWasSetByUser" : 0,
@@ -2118,6 +2118,17 @@
       "initialSize" : 9423,
       "fileType" : 4096
     },
+    "\/jade\/common\/settings.jade" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 1,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/jade\/common\/settings.jade",
+      "outputStyle" : 0,
+      "compileDebug" : 1,
+      "outputAbbreviatedPath" : "\/settings.html",
+      "fileType" : 512
+    },
     "\/images\/events\/TheOhSees060813-thumb.jpg" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 0,
@@ -2127,17 +2138,6 @@
       "processed" : 0,
       "outputAbbreviatedPath" : "\/images\/events\/TheOhSees060813-thumb.jpg",
       "initialSize" : 5234,
-      "fileType" : 4096
-    },
-    "\/images\/events\/TNL130711b-lite.jpg" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/images\/events\/TNL130711b-lite.jpg",
-      "processed" : 0,
-      "outputAbbreviatedPath" : "\/images\/events\/TNL130711b-lite.jpg",
-      "initialSize" : 30467,
       "fileType" : 4096
     },
     "\/images\/events\/flag-butt.jpg" : {
@@ -2151,16 +2151,16 @@
       "initialSize" : 20284,
       "fileType" : 4096
     },
-    "\/jade\/common\/settings.jade" : {
+    "\/images\/events\/TNL130711b-lite.jpg" : {
       "ignoreWasSetByUser" : 0,
-      "ignore" : 1,
+      "ignore" : 0,
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/jade\/common\/settings.jade",
-      "outputStyle" : 0,
-      "compileDebug" : 1,
-      "outputAbbreviatedPath" : "\/settings.html",
-      "fileType" : 512
+      "inputAbbreviatedPath" : "\/images\/events\/TNL130711b-lite.jpg",
+      "processed" : 0,
+      "outputAbbreviatedPath" : "\/images\/events\/TNL130711b-lite.jpg",
+      "initialSize" : 30467,
+      "fileType" : 4096
     },
     "\/images\/icons\/tom_of_finland.png" : {
       "ignoreWasSetByUser" : 0,
@@ -2641,17 +2641,6 @@
       "initialSize" : 14982,
       "fileType" : 8192
     },
-    "\/jade\/index.jade" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 1,
-      "inputAbbreviatedPath" : "\/jade\/index.jade",
-      "outputStyle" : 0,
-      "compileDebug" : 1,
-      "outputAbbreviatedPath" : "\/index.php",
-      "fileType" : 512
-    },
     "\/images\/events\/memorialdayposter-lite.jpg" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 0,
@@ -2673,6 +2662,17 @@
       "outputAbbreviatedPath" : "\/images\/events\/cityhall-rainbow-400.jpg",
       "initialSize" : 11909,
       "fileType" : 4096
+    },
+    "\/jade\/index.jade" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 1,
+      "inputAbbreviatedPath" : "\/jade\/index.jade",
+      "outputStyle" : 0,
+      "compileDebug" : 1,
+      "outputAbbreviatedPath" : "\/index.php",
+      "fileType" : 512
     },
     "\/images\/icons\/calendarmonth.png" : {
       "ignoreWasSetByUser" : 0,
@@ -2731,6 +2731,17 @@
       "fileType" : 4,
       "debugStyle" : 1
     },
+    "\/images\/logo-transparency-whiteeagle-cutout-400.png" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/images\/logo-transparency-whiteeagle-cutout-400.png",
+      "processed" : 0,
+      "outputAbbreviatedPath" : "\/images\/logo-transparency-whiteeagle-cutout-400.png",
+      "initialSize" : 16021,
+      "fileType" : 8192
+    },
     "\/images\/events\/heartthrob-lite.jpg" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 0,
@@ -2763,17 +2774,6 @@
       "outputAbbreviatedPath" : "\/images\/logo-thumb.jpg",
       "initialSize" : 3686,
       "fileType" : 4096
-    },
-    "\/images\/logo-transparency-whiteeagle-cutout-400.png" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/images\/logo-transparency-whiteeagle-cutout-400.png",
-      "processed" : 0,
-      "outputAbbreviatedPath" : "\/images\/logo-transparency-whiteeagle-cutout-400.png",
-      "initialSize" : 16021,
-      "fileType" : 8192
     },
     "\/images\/events\/PRIDE_CBHS_reduced-thumb.jpg" : {
       "ignoreWasSetByUser" : 0,
@@ -2986,15 +2986,15 @@
       "initialSize" : 27910,
       "fileType" : 4096
     },
-    "\/images\/events\/SOMAScavengerHunt.jpg" : {
+    "\/images\/events\/charliehorse-lite.jpg" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 0,
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/images\/events\/SOMAScavengerHunt.jpg",
+      "inputAbbreviatedPath" : "\/images\/events\/charliehorse-lite.jpg",
       "processed" : 0,
-      "outputAbbreviatedPath" : "\/images\/events\/SOMAScavengerHunt.jpg",
-      "initialSize" : 33260,
+      "outputAbbreviatedPath" : "\/images\/events\/charliehorse-lite.jpg",
+      "initialSize" : 35024,
       "fileType" : 4096
     },
     "\/scss\/bits\/_all.scss" : {

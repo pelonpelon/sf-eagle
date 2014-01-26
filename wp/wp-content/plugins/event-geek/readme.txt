@@ -3,8 +3,8 @@ Contributors: graphicgeek
 Donate link: http://graphicgeek.net/donations/
 Tags: event, events, calendar, calendar widget, ajax, free calendar, simple event calendar, sidebar, event calendar, event list, event post type
 Requires at least: 3.5
-Tested up to: 3.7.1
-Stable tag: 2.5.1
+Tested up to: 3.8
+Stable tag: 2.5.2
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
@@ -74,6 +74,12 @@ Features Includes:
 6. You can select event day text and highlight colors for each category
 
 == Changelog ==
+
+= 2.5.2 =
+* Added spanish translation
+* Fixed glitch with slide indicators on options page
+* Add ability to remove event images
+* Tested with WordPress 3.8
 
 = 2.5.1 =
 * Added hooks for before and after the shortcode content
@@ -203,6 +209,12 @@ Features Includes:
 * Fixed bug in Javascript that may have broken the AJAX on some development sites* Added Shortcode* Added Readme file and screenshots= 1.0 =* Testing version
 
 == Upgrade Notice ==
+
+= 2.5.2 =
+* Added spanish translation
+* Fixed glitch with slide indicators on options page
+* Add ability to remove event images
+* Tested with WordPress 3.8
 
 = 2.5.1 =
 * Added hooks for before and after the shortcode content

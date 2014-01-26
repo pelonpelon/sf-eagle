@@ -1,6 +1,14 @@
 #tease {
-    @media screen and (max-width: $phone) {
-        border: 15px solid $decor-dark;
+    section {
+        @media screen and (max-width: $phone) {
+        }
+    }
+    hr {
+        height: 3px;
+        border: none;
+        background-color: $content-lite;
+        margin: 40px auto;
+        width: 50%;
     }
     .tease_now, .event {
         margin-bottom: 0px;
@@ -9,7 +17,8 @@
         line-height: 20px;
         @include text-shadow(2px 2px 3px darken($content-lite, 30%));
         h1 {
-            color: $decor-medium;
+            color: $decor-dark;
+            @include text-shadow(2px 2px 3px lighten($decor-dark, 20%));
             font-family: "Coming Soon";
             line-height: 1em;
             text-align: center;

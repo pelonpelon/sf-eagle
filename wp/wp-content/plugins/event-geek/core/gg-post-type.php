@@ -156,7 +156,7 @@ if($gg_event_options['customize_event_info']){ //if info customization is turned
 <?php if($meta['event_image_id']) {
 	//if an image is already set, load it now
 	$eventImg = wp_get_attachment_image_src( $meta['event_image_id'], 'thumbnail'); // returns an array
-	 ?><img id="gg_event_image_img" class="gg_media_image" src="<?php echo $eventImg[0]; ?>" /><?php } else {?>
+	 ?><span class="gg_remove_event_image">Remove</span><img id="gg_event_image_img" class="gg_media_image" src="<?php echo $eventImg[0]; ?>" /><?php } else {?>
 <img id="gg_event_image_img" class="gg_media_image" src="" /><?php } ?>
 
 <input class="gg_media_id" type="hidden" name="event_image_id" id="gg_event_image_id" value="<?php echo $meta['event_image_id']; ?>">

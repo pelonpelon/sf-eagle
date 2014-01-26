@@ -1,14 +1,14 @@
 <?php
 /**
  * @package Event_Geek
- * @version 2.5.1
+ * @version 2.5.2
  */
 /*
 Plugin Name: Event Geek
 Description: An easy to use events plugin built with jQuery UI and AJAX. Includes a calendar widget and a shortcode to display a list of events on a post or page. Several styles to choose from, or you can use your own. Includes hooks for even more customization.
 Author: Graphic Geek
 Plugin URI: http://www.graphicgeek.net/event-geek
-Version: 2.5.1
+Version: 2.5.2
 Author URI: http://graphicgeek.net
 */
 
@@ -123,7 +123,7 @@ function gg_event_housekeeping(){
 		
 	}//end if(version < 2.1	
 
-	$gg_event_options['gg_event_version'] = '2.5.1'; //set version
+	$gg_event_options['gg_event_version'] = '2.5.2'; //set version
 	update_option('gg_event_options', $gg_event_options); //update version	
 	
 	if(!get_option('date_format')){update_option('date_format', 'd/m/Y');}//set a date format if none is set

@@ -1,3 +1,6 @@
+@media screen and (max-width:$tablet) {
+  body { margin: 0}
+}
 #page {
   max-width: $max_page_width;
   margin: 0 auto;
@@ -68,7 +71,7 @@
   float: left;
   width: 22%;
   @media screen and (max-width: $netbook) {
-    width: 30%;
+    width: 33%;
   }
   @media screen and (max-width: $phone) {
     float: left;
@@ -83,15 +86,13 @@
   width: 54%;
   padding-top: 15px;
   @media screen and (max-width: $netbook) {
-    width: 70%;
+    width: 67%;
     clear: right;
     margin-top: 30px;
   }
   @media screen and (max-width: $phone) {
-    float: left;
-    clear: right;
-    width: 90%;
-    margin: 60px auto 1em auto;
+    width: 100%;
+    margin: 60px auto;
   }
 }
 

@@ -1,10 +1,10 @@
 === Ultimate TinyMCE ===
 Contributors: josh401, Marventus
 Donate link: https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=A9E5VNRBMVBCS
-Tags: tinymce, editor, buttons, button, add, cut, copy, paste, font, font style, font select, font color, table, tables, visual editor, emoticons, emotions, smilies, smiley, smily, search, replace, colors, color, anchor, advance, advanced, links, link, popup, javascript, upgrade, update, admin, image, images, citations, preview, html, custom, custom css, css, borders, pages, posts, pretty, colorful, moods, animated smilieswidget, php, php widget, shortcode, shortcodes, style, styles, plugin, login, excerpt, id, post, page, youtube, syntax, highlight, highlighter, image maps
+Tags: editor, buttons, button, add, font, font style, font select, table, tables, visual editor, search, replace, colors, color, anchor, advance, advanced, links, link, popup, javascript, upgrade, update, admin, image, images, citations, preview, html, custom, custom css, css, borders, pages, posts, pretty, colorful, php, php widget, shortcode, shortcodes, style, styles, plugin, login, excerpt, id, post, page, youtube, syntax, highlight, highlighter, image maps, tinymce, Tinymce, ultimate, Ultimate Tinymce
 Requires at least: 3.5.1
-Tested up to: 3.8 beta
-Stable tag: 5.1
+Tested up to: 3.8-RC2
+Stable tag: 5.2
 License: GPLv2
 
 Description: Beef up the WordPress TinyMCE content editor with a plethora of advanced options.
@@ -29,13 +29,6 @@ Are you a visual person?  Do the letter combinations "HTML" and "CSS" send you r
 <li>Ultimate Tinymce will add more than 50 new buttons and features to your visual editor.</li>
 </ul>
 
-<strong>Note:</strong>
-We have decided to discontinue development of Ultimate Tinymce. We wil continue to maintain the plugin, and ensure it remains compatible with future releases of WordPress.
-
-However, our development efforts will be focused on the PRO version.  All new features will only be added to PRO.  Thank you for understanding.
-
-<a href="http://ultimatetinymcepro.com/">Ultimate Tinymce PRO</a>
-
 
 == Installation ==
 
@@ -43,7 +36,7 @@ However, our development efforts will be focused on the PRO version.  All new fe
      
 2. Activate the plugin through the 'Plugins' menu in WordPress.
 
-3. You will need to manually activate your buttons the first time you install.  You can do this by going to the admin panel, settings page, Ultimate TinyMCE.  Here, you can set your preferences.
+3.  You will need to manually activate your buttons the first time you install.  You can do this by going to the admin panel, settings page, Ultimate TinyMCE.  Here, you can set your preferences.
 
 
 == Frequently Asked Questions ==
@@ -54,19 +47,27 @@ Please use my <a href="http://forum.joshlobe.com/member.php?action=register&refe
 
 == Screenshots ==
 
-Rather than "bloat" the plugin with screenshots. Please check out tons of screenshots and descriptions on the <a href="http://ultimatetinymcepro.com/wiki/">Ultimate Tinymce Official Wiki</a>.
+Rather than "bloat" the plugin with screenshots. Please check out tons of screenshots and descriptions on the <a href="http://utmce.joshlobe.com/button-definitions/">Ultimate Tinymce Official Website</a>.
 
 == Upgrade Notice ==
 * Upgrade notice.
 
 == Features ==
 
-* Simply too many features to list!!  Please visit the <a href="http://ultimatetinymcepro.com">Ultimate Tinymce</a> website for a complete list.
+* Simply too many features to list!!  Please visit the <a href="http://utmce.joshlobe.com">Ultimate Tinymce</a> website for a complete list.
 
 == Changelog ==
 
+= 5.2 =
+* 12-22-2013
+
+= Tweaks =
+* Checked all code to ensure WordPress 3.8 compliance.
+* Adjusted miscellaneous links and nuances.
+* Fixed overlapping input field on signup form.
+
 = 5.1 =
-* 11-03-2013
+* 11-01-2013
 
 = IMPORTANT =
 * Secured a risk-factor in the plugin.  THANK YOU to @dd32 from WordPress.org for bringing this to my attention.  

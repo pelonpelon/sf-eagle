@@ -1,14 +1,14 @@
 <?php
 /**
  * @package Ultimate TinyMCE
- * @version 5.1
+ * @version 5.2
  */
 /*
 Plugin Name: Ultimate TinyMCE
 Plugin URI: http://www.plugins.joshlobe.com/
 Description: Beef up your visual tinymce editor with a plethora of advanced options.
 Author: Josh Lobe
-Version: 5.1
+Version: 5.2
 Author URI: http://joshlobe.com
 
 */
@@ -574,11 +574,11 @@ class jwl_metabox_admin {
             
             <div class="jwl_support_sidebar">
             	<h3><?php _e('Need Support?', 'jwl-ultimate-tinymce'); ?></h3>
-                <p><a target="_blank" href="http://docs.joshlobe.com/"><?php _e('Ultimate Tinymce WIKI', 'jwl-ultimate-tinymce'); ?></a></p>
+                <p><a target="_blank" href="http://ultimatetinymcepro.com/wiki"><?php _e('Ultimate Tinymce WIKI', 'jwl-ultimate-tinymce'); ?></a></p>
                 <p><a target="_blank" href="http://forum.joshlobe.com/member.php?action=register&referrer=1"><?php _e('Dedicated Support Forum', 'jwl-ultimate-tinymce'); ?></a></p>
                 <p><a target="_blank" href="http://www.plugins.joshlobe.com/contact/"><?php _e('Contact Me', 'jwl-ultimate-tinymce'); ?></a></p>
-                <p><a target="_blank" href="http://utmce.joshlobe.com/button-definitions/"><?php _e('Button Definitions', 'jwl-ultimate-tinymce'); ?></a></p>
-                <p><a target="_blank" href="http://utmce.joshlobe.com/other-plugin-features/"><?php _e('Other Plugin Features', 'jwl-ultimate-tinymce'); ?></a></p>
+                <p><a target="_blank" href="http://ultimatetinymcepro.com/button-definitions/"><?php _e('Button Definitions', 'jwl-ultimate-tinymce'); ?></a></p>
+                <p><a target="_blank" href="http://ultimatetinymcepro.com/other-plugin-features/"><?php _e('Other Plugin Features', 'jwl-ultimate-tinymce'); ?></a></p>
             </div> <!-- End Div .jwl_support_sidebar -->
             
             <div class="jwl_follow_sidebar">
@@ -606,11 +606,11 @@ class jwl_metabox_admin {
                     </tr>
                     <tr>
                     <td valign="top"><span style="font-family: &quot;verdana&quot;, &quot;geneva&quot;; font-size: 10pt;"><?php _e('Name:', 'jwl-ultimate-tinymce'); ?></span></td>
-                    <td valign="top"><input value="<?php echo $jwl_blog_title; ?>" size="30" name="YMP1" type="text" /></td>
+                    <td valign="top"><input value="<?php echo $jwl_blog_title; ?>" size="25" name="YMP1" type="text" /></td>
                     </tr>
                     <tr>
                     <td valign="top"><span style="font-family: &quot;verdana&quot;, &quot;geneva&quot;; font-size: 10pt;"><?php _e('Email:', 'jwl-ultimate-tinymce'); ?></span></td>
-                    <td valign="top"><input value="<?php echo $jwl_admin_email; ?>" size="30" name="YMP0" type="text" /></td>
+                    <td valign="top"><input value="<?php echo $jwl_admin_email; ?>" size="25" name="YMP0" type="text" /></td>
                     </tr>
                     <tr>
                     <td colspan="2"><input checked="checked" value="subscribe" name="action" type="radio" /> <span style="font-family: &quot;verdana&quot;, &quot;geneva&quot;; font-size: 10pt;"><?php _e('Subscribe', 'jwl-ultimate-tinymce'); ?></span><input style="margin-left:20px;" value="unsubscribe" name="action" type="radio" /> <span style="font-family: &quot;verdana&quot;, &quot;geneva&quot;; font-size: 10pt;"><?php _e('Unsubscribe', 'jwl-ultimate-tinymce'); ?></span></td>
@@ -862,8 +862,8 @@ if (!class_exists ('JWL_UtmcePointers')) {
 			return self::$instance;
 		}
 		
-		const DISPLAY_VERSION = 'v5.1';
-		const VERSION = '51';
+		const DISPLAY_VERSION = 'v5.2';
+		const VERSION = '52';
 		
 		function admin_enqueue_scripts () {
 			$dismissed = explode (',', get_user_meta (wp_get_current_user ()->ID, 'dismissed_wp_pointers', true));

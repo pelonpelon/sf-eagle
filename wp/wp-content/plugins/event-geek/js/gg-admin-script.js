@@ -156,4 +156,9 @@ var stepVal = $(this).data('step');
 	
 });
   
+$('.gg_remove_event_image').click(function(){
+	$('#gg_event_image_img').remove();
+	$('#gg_event_image_id').val('');
+});
+  
 });//end doc ready

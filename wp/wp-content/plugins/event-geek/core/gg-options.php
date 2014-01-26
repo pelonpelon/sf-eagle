@@ -75,6 +75,15 @@ function gg_event_options() {
 		add_option( "gg_event_options", $gg_event_defaults );
 		$gg_event_options = get_option( 'gg_event_options');
 	}//if(!$gg_event_options)
+	
+	$defaults = array(
+		'event_popup_border_width' => 1,
+		'event_lightbox_transparency' => .5,
+		'event_popup_info_border_width' => 1,
+		'event_popup_info_box_width' => 25
+	);
+	
+	$gg_event_options = array_merge($defaults, $gg_event_options);
 
 ?>
 
