@@ -12,8 +12,8 @@
     <meta http-equiv="Content-Type" content="text/html" charset="utf-8">
     <meta name="viewport" content="width=device-width, minimum-scale=1.0, target-densityDpi=160">
     <link rel="prefetch" href="images/logo.svg">
-    <link rel="stylesheet" href="//themes.googleusercontent.com/static/fonts/comingsoon/v3/myblyOycMnPMGjfPG-DzP4bN6UDyHWBl620a-IRfuBk.woff" type="text/css">
-    <link rel="stylesheet" href="//themes.googleusercontent.com/static/fonts/jollylodger/v1/RX8HnkBgaEKQSHQyP9itiXhCUOGz7vYGh680lGh-uXM.woff" type="text/css">
+    <link rel="prefetch stylesheet" href="//themes.googleusercontent.com/static/fonts/comingsoon/v3/myblyOycMnPMGjfPG-DzP4bN6UDyHWBl620a-IRfuBk.woff" type="text/css">
+    <link rel="prefetch stylesheet" href="//themes.googleusercontent.com/static/fonts/jollylodger/v1/RX8HnkBgaEKQSHQyP9itiXhCUOGz7vYGh680lGh-uXM.woff" type="text/css">
     <link rel="stylesheet" href="css/main.css">
     <link rel="apple-touch-icon" href="images/icons/apple-touch-icon-57x57.png">
     <link rel="apple-touch-icon" sizes="72x72" href="images/icons/touch-icon-ipad.png">
@@ -96,25 +96,26 @@ $custom_posts = get_posts($args);
 foreach($custom_posts as $post)
 {
     setup_postdata($post);
+    if ( $post->post_status == "draft" ) { continue; }
     if ( $post->post_status == "private" ) { continue; }
+    if ( $post->post_status == "archived" ) { continue; }
     if ( get_field('tease') )
     {
         include 'includes/timegames.php';
         if ( $begintime > ($now + 60*60*24*7) || $now > $endtime ) { continue; } ?>
+
         <section class="event" style="display: block;"> <?php
         if ( get_field('lead') )
-        {
-             ?>
+        { ?>
             <div class="lead"><?php echo (get_field('lead')); ?> </div> <?php
         }
         if ( get_field('include_title') )
         { ?>
             <h1> <?php echo $post->post_title; ?> </h1> <?php
         }
-        fill_tease($post);
+        fill_tease($post, "scheduled");
         ?>
-            </section>
-            <hr>
+        </section>
         <?php
         break;
     }
@@ -130,49 +131,61 @@ $args = array(
     'post_status'   => 'published',
     'numberposts'   => -1
 );
-$custom_posts = get_posts($args);
-foreach($custom_posts as $post)
+$posts = get_posts($args);
+foreach($posts as $post)
 {
-    if ( !$custom_posts )
-    {
-        continue;
-    }
     setup_postdata($post);
     if ( $post->post_status == "draft" ) { continue; }
     if ( $post->post_status == "private" ) { continue; }
     if ( $post->post_status == "archived" ) { continue; }
     include 'includes/timegames.php'; ?>
-    <section class="tease_now" style="display: block;">
-    <?php
-    if ( has_category( "print-post-title", $post ) ) { ?>
-        <h1> <?php the_title(); ?> </h1>
-        <?php
-    }
-    fill_tease($post);
-} ?>
-</section>
 
-<?php
+    <hr>
+    <section class="tease_now custom" style="display: block;"> <?php
+      fill_tease($post, "custom"); ?>
+    </section> <?php
+}
+
 /**
  * fill the center of the top of the home page with
  * a drink special or an announcement w/ images
  * @param  obj $post
  * @return null
  */
-function fill_tease($post)
+function fill_tease($post, $kind)
 {
+  if ( has_category( "print-post-title", $post ) ) { ?>
+
+      <h1> <?php the_title(); ?> </h1> <?php
+
+  }
+  if (has_post_thumbnail( $post_id )) {
     $image_large = wp_get_attachment_image_src( get_post_thumbnail_id($post->ID), 'large'); ?>
+
     <div>
-        <a href="<?php echo $image_large[0] ?>" rel="lightbox">
-            <img src="<?php echo $image_large[0] ?>"
-                 width="<?php echo $image_large[1]; ?>"
-                 height="<?php echo $image_large[2]; ?>"
-                 alt="<?php get_the_title($post->ID); ?>" >
-        </a>
-        <?php the_content(); ?>
-    </div>
-    <p><?php the_field('blurb'); ?> </p><?php
+      <a href="<?php echo $image_large[0] ?>" rel="lightbox">
+        <img src="<?php echo $image_large[0] ?>"
+             width="<?php echo $image_large[1]; ?>"
+             height="<?php echo $image_large[2]; ?>"
+             alt="<?php get_the_title($post->ID); ?>" >
+      </a>
+    </div><?php
+
+  }
+  if($post->post_content != "") { ?>
+
+    <div class="post-content">
+      <?php the_content(); ?>
+    </div> <?php
+
+  }
+  if (the_field('blurb') != "") { ?>
+
+  <p><?php the_field('blurb'); ?> </p> <?php
+
+  }
 } ?>
+
         </div><a name="events"></a>
         <div id="events"><ul class="listing">
 
@@ -376,6 +389,35 @@ foreach($custom_posts as $post)
             <iframe name="instagram" width="320" height="2400" src="http://statigr.am/widget.php?choice=myfeed&amp;username=sfeagle&amp;show_infos=false&amp;linking=instagram&amp;width=320&amp;height=2000&amp;mode=grid&amp;layout_x=1&amp;layout_y=8&amp;padding=5&amp;photo_border=true&amp;background=000000&amp;text=CC0000&amp;widget_border=false&amp;radius=5&amp;border-color=990000&amp;user_id=723500402&amp;time=1389483326810" allowTransparency="true" frameborder="0" scrolling="no" style="border:none; overflow:hidden; width:320px;"></iframe>
           </div>
         </div>
+        <div class="footer-widgets"><?php
+    global $post;
+    $category_id = get_cat_ID('Add to footer');
+    $args = array(
+    'category'      => $category_id,
+    'orderby'       => 'post_date',
+    'order'         => 'DESC',
+    'post_type'     => 'post',
+    'post_status'   => 'scheduled',
+    'numberposts'   => -1
+    );
+    $custom_posts = get_posts($args);
+    foreach($custom_posts as $post)
+    {
+        if ( !$custom_posts) { continue; }
+        setup_postdata($post);
+        if ( $post->post_status == "draft" ) { continue; }
+        if ( $post->post_status == "private" ) { continue; }
+        if ( $post->post_status == "archived" ) { continue; }
+        include 'includes/timegames.php';
+            // MEMO Check that $publishtime works here
+        ?>
+        <section class="footer-widget" style="display: block;">
+        <h3><?php the_title() ?></h3>
+        <?php the_content(); ?>
+        </section><?php
+    }?>
+
+        </div>
       </div>
     </div>
     <script src="//ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js"></script>
@@ -405,11 +447,13 @@ foreach($custom_posts as $post)
     </script>
     <script src="js/main.js"></script>
     <script src="js/fastclick.min.js"></script>
-    <script>
-      window.addEventListener('load', function() {
-        FastClick.attach(document.body);
-      }, false);
-      
+    <script>(function() {
+  window.addEventListener('load', function() {
+    return FastClick.attach(document.body, false);
+  });
+
+}).call(this);
+
     </script>
   </body>
 </html>

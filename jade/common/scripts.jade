@@ -28,7 +28,7 @@ script(src='js/main.js').
 script(src='js/fastclick.min.js').
 
 script
-  window.addEventListener('load', function() {
-    FastClick.attach(document.body);
-  }, false);
-
+  :coffee
+    window.addEventListener 'load', ->
+      FastClick.attach document.body,
+      false

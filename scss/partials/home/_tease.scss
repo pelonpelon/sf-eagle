@@ -1,7 +1,9 @@
 #tease {
-    section {
-        @media screen and (max-width: $phone) {
+        @media screen and (max-width: $tablet) {
+          float: right;
+          clear: right;
         }
+    section {
     }
     hr {
         height: 3px;
