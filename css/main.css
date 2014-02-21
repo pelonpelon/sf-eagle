@@ -492,6 +492,15 @@ body {
   background-color: #cc0000;
 }
 
+/* line 30, ../scss/theme/_colors.scss */
+.longbutton {
+  background-color: #660000;
+}
+/* line 32, ../scss/theme/_colors.scss */
+.longbutton:hover {
+  background-color: #cc0000;
+}
+
 /* line 9, ../scss/theme/_defaults.scss */
 img {
   width: 100%;
@@ -649,8 +658,14 @@ h6 {
 #page.simple {
   margin-bottom: 0;
 }
-/* line 14, ../scss/theme/_layout.scss */
-#page.simple img.logo {
+/* line 13, ../scss/theme/_layout.scss */
+#page.simple *, #page.simple *:before, #page.simple *:after {
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+/* line 17, ../scss/theme/_layout.scss */
+#page.simple .logo {
   filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=70);
   opacity: 0.7;
   position: fixed;
@@ -658,93 +673,119 @@ h6 {
   left: 0;
   border: 0;
   width: 15%;
-  padding: 5px 2%;
-}
-@media screen and (max-width: 1025px) {
-  /* line 14, ../scss/theme/_layout.scss */
-  #page.simple img.logo {
-    width: 20%;
-  }
 }
 @media screen and (max-width: 641px) {
-  /* line 14, ../scss/theme/_layout.scss */
-  #page.simple img.logo {
+  /* line 17, ../scss/theme/_layout.scss */
+  #page.simple .logo {
+    width: 30%;
     position: relative;
   }
-  /* line 26, ../scss/theme/_layout.scss */
-  #page.simple img.logo img {
-    width: 40%;
-  }
+}
+/* line 29, ../scss/theme/_layout.scss */
+#page.simple .content {
+  padding: 50px 0 0 15%;
 }
 @media screen and (max-width: 801px) {
-  /* line 33, ../scss/theme/_layout.scss */
-  #page.simple img.logo {
-    width: 25%;
-    display: block;
-    float: left;
-  }
-}
-/* line 39, ../scss/theme/_layout.scss */
-#page.simple section {
-  padding-left: 10%;
-}
-@media screen and (max-width: 801px) {
-  /* line 39, ../scss/theme/_layout.scss */
-  #page.simple section {
+  /* line 29, ../scss/theme/_layout.scss */
+  #page.simple .content {
     padding-left: 20%;
   }
 }
 @media screen and (max-width: 641px) {
-  /* line 39, ../scss/theme/_layout.scss */
-  #page.simple section {
-    padding-left: 1%;
+  /* line 29, ../scss/theme/_layout.scss */
+  #page.simple .content {
+    padding: 10px 0 0 1%;
   }
 }
-/* line 47, ../scss/theme/_layout.scss */
-#page.simple section header {
+/* line 37, ../scss/theme/_layout.scss */
+#page.simple .content header {
+  display: block;
+  padding: 0 15% 10px 0;
   text-align: center;
+  font-family: "Jolly Lodger";
+  font-size: 4rem;
+  color: #01fe45;
+}
+@media screen and (max-width: 641px) {
+  /* line 37, ../scss/theme/_layout.scss */
+  #page.simple .content header {
+    padding: 0 0 20px;
+    font-size: 3rem;
+  }
+}
+/* line 49, ../scss/theme/_layout.scss */
+#page.simple .content section {
+  padding: 30px 15% 0px 0;
+}
+@media screen and (max-width: 641px) {
+  /* line 49, ../scss/theme/_layout.scss */
+  #page.simple .content section {
+    padding: 0 0 20px 0;
+  }
+}
+/* line 54, ../scss/theme/_layout.scss */
+#page.simple .content section header {
+  text-align: center;
+  font-family: "JollyLodger";
+  padding: 0 20px;
+}
+@media screen and (max-width: 641px) {
+  /* line 54, ../scss/theme/_layout.scss */
+  #page.simple .content section header {
+    float: none;
+    padding: 0;
+  }
+}
+/* line 63, ../scss/theme/_layout.scss */
+#page.simple .content section .thumb {
+  float: right;
+  width: 25%;
+  padding: 0px 0 10px 20px;
+}
+@media screen and (max-width: 641px) {
+  /* line 63, ../scss/theme/_layout.scss */
+  #page.simple .content section .thumb {
+    width: 40%;
+    padding: 20px 5% 0 5%;
+  }
+}
+/* line 72, ../scss/theme/_layout.scss */
+#page.simple .content section article {
+  font-size: 1rem;
   font-family: "Coming Soon";
-  padding: 0 15%;
-}
-@media screen and (max-width: 641px) {
-  /* line 47, ../scss/theme/_layout.scss */
-  #page.simple section header {
-    padding: 0 5%;
-  }
-}
-/* line 55, ../scss/theme/_layout.scss */
-#page.simple section article {
-  font-size: 14px;
-  font-family: tahoma;
   color: #C0C0C0;
-  padding: 0 15%;
 }
-@media screen and (max-width: 801px) {
-  /* line 55, ../scss/theme/_layout.scss */
-  #page.simple section article {
-    padding: 5px 10%;
-  }
+/* line 76, ../scss/theme/_layout.scss */
+#page.simple .content section article .title {
+  height: 20px;
+  text-align: center;
 }
-@media screen and (max-width: 641px) {
-  /* line 55, ../scss/theme/_layout.scss */
-  #page.simple section article {
-    padding: 5px 1% 5px 0;
-  }
+/* line 80, ../scss/theme/_layout.scss */
+#page.simple .content section article .thumb {
+  float: left;
+  width: 25%;
+  padding: 0 3% 10px 0;
+  min-height: 120px;
+  max-height: 240px;
+}
+/* line 86, ../scss/theme/_layout.scss */
+#page.simple .content section article .thumb img {
+  height: auto;
 }
 
-/* line 70, ../scss/theme/_layout.scss */
+/* line 95, ../scss/theme/_layout.scss */
 #mast {
   float: left;
   width: 22%;
 }
 @media screen and (max-width: 1025px) {
-  /* line 70, ../scss/theme/_layout.scss */
+  /* line 95, ../scss/theme/_layout.scss */
   #mast {
     width: 33%;
   }
 }
 @media screen and (max-width: 641px) {
-  /* line 70, ../scss/theme/_layout.scss */
+  /* line 95, ../scss/theme/_layout.scss */
   #mast {
     float: left;
     clear: right;
@@ -753,14 +794,14 @@ h6 {
   }
 }
 
-/* line 84, ../scss/theme/_layout.scss */
+/* line 109, ../scss/theme/_layout.scss */
 #tease {
   float: left;
   width: 54%;
   padding-top: 15px;
 }
 @media screen and (max-width: 1025px) {
-  /* line 84, ../scss/theme/_layout.scss */
+  /* line 109, ../scss/theme/_layout.scss */
   #tease {
     width: 67%;
     clear: right;
@@ -768,14 +809,14 @@ h6 {
   }
 }
 @media screen and (max-width: 641px) {
-  /* line 84, ../scss/theme/_layout.scss */
+  /* line 109, ../scss/theme/_layout.scss */
   #tease {
     width: 100%;
     margin: 60px auto;
   }
 }
 
-/* line 99, ../scss/theme/_layout.scss */
+/* line 124, ../scss/theme/_layout.scss */
 #events {
   float: left;
   clear: right;
@@ -783,14 +824,14 @@ h6 {
   margin: -20px 0 20px 0;
 }
 @media screen and (max-width: 1025px) {
-  /* line 99, ../scss/theme/_layout.scss */
+  /* line 124, ../scss/theme/_layout.scss */
   #events {
     width: 40%;
     margin: 60px 30%;
   }
 }
 @media screen and (max-width: 641px) {
-  /* line 99, ../scss/theme/_layout.scss */
+  /* line 124, ../scss/theme/_layout.scss */
   #events {
     width: 100%;
   }
@@ -821,7 +862,7 @@ html, body {
   height: 100%;
 }
 
-/* line 115, ../scss/theme/_layout.scss */
+/* line 140, ../scss/theme/_layout.scss */
 #footer {
   margin-top: 25px;
 }
@@ -862,6 +903,31 @@ html, body {
   text-align: center;
   line-height: 1.2em;
   font-size: 1em;
+  margin: 0;
+  padding: 0;
+}
+
+/* line 19, ../scss/bits/_buttons.scss */
+.longbutton, .longbuttonless {
+  display: table;
+  width: auto;
+  height: auto;
+  margin: 1px;
+  padding: 0 4px;
+  -webkit-border-radius: 4px;
+  -moz-border-radius: 4px;
+  -ms-border-radius: 4px;
+  -o-border-radius: 4px;
+  border-radius: 4px;
+}
+
+/* line 28, ../scss/bits/_buttons.scss */
+.longbutton > span, .longbuttonless > span {
+  display: table-cell;
+  vertical-align: middle;
+  text-align: center;
+  font-size: 1.1rem;
+  font-weight: 600;
   margin: 0;
   padding: 0;
 }
@@ -2035,45 +2101,49 @@ html, body {
   }
 }
 /* line 14, ../scss/partials/merch/_merch.scss */
+#page.merch #hoodiequality {
+  text-align: center;
+}
+/* line 17, ../scss/partials/merch/_merch.scss */
 #page.merch table {
   display: none;
   background-color: black;
   margin: 10px 5%;
 }
-/* line 20, ../scss/partials/merch/_merch.scss */
+/* line 23, ../scss/partials/merch/_merch.scss */
 #page.merch #merchemail #logo > img {
   max-width: 100%;
 }
-/* line 22, ../scss/partials/merch/_merch.scss */
+/* line 25, ../scss/partials/merch/_merch.scss */
 #page.merch #merchemail #logo {
   position: absolute;
   top: 1%;
   left: 1%;
   width: 20%;
 }
-/* line 27, ../scss/partials/merch/_merch.scss */
+/* line 30, ../scss/partials/merch/_merch.scss */
 #page.merch #merchemail #content {
   margin: 20% 0 50px 0;
 }
-/* line 29, ../scss/partials/merch/_merch.scss */
+/* line 32, ../scss/partials/merch/_merch.scss */
 #page.merch #merchemail p {
   max-width: 60%;
   margin: 20px auto;
   text-align: center;
 }
 @media screen and (max-width: 801px) {
-  /* line 29, ../scss/partials/merch/_merch.scss */
+  /* line 32, ../scss/partials/merch/_merch.scss */
   #page.merch #merchemail p {
     font-size: 1.5em;
   }
 }
 @media screen and (max-width: 1025px) {
-  /* line 29, ../scss/partials/merch/_merch.scss */
+  /* line 32, ../scss/partials/merch/_merch.scss */
   #page.merch #merchemail p {
     font-size: 1.5em;
   }
 }
-/* line 41, ../scss/partials/merch/_merch.scss */
+/* line 44, ../scss/partials/merch/_merch.scss */
 #page.merch div.rc {
   border: solid 5px yellow;
   max-width: 100px;
@@ -2082,38 +2152,41 @@ html, body {
   text-align: center;
   margin: 50px auto;
 }
-/* line 48, ../scss/partials/merch/_merch.scss */
+/* line 51, ../scss/partials/merch/_merch.scss */
 #page.merch div.rc:hover {
   border: solid 5px red;
 }
 
 /* line 2, ../scss/partials/calendar/_calendar.scss */
-#page.calendar nav {
+#page.calendar section {
   text-align: center;
 }
-/* line 4, ../scss/partials/calendar/_calendar.scss */
-#page.calendar nav ul {
+/* line 6, ../scss/partials/calendar/_calendar.scss */
+#page.calendar section nav ul li {
   display: inline-block;
-  overflow: hidden;
-  margin: 0;
+  width: 24%;
+  max-width: 120px;
 }
-/* line 8, ../scss/partials/calendar/_calendar.scss */
-#page.calendar nav ul li {
-  float: left;
-  max-width: 22%;
-  margin: 5px;
-}
-@media screen and (max-width: 361px) {
-  /* line 8, ../scss/partials/calendar/_calendar.scss */
-  #page.calendar nav ul li {
-    margin: 2px;
+@media screen and (max-width: 801px) {
+  /* line 6, ../scss/partials/calendar/_calendar.scss */
+  #page.calendar section nav ul li {
+    max-width: 100px;
   }
 }
-/* line 17, ../scss/partials/calendar/_calendar.scss */
-#page.calendar nav img {
-  max-width: 120px;
-  filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=70);
-  opacity: 0.7;
+@media screen and (max-width: 641px) {
+  /* line 6, ../scss/partials/calendar/_calendar.scss */
+  #page.calendar section nav ul li {
+    max-width: 80px;
+  }
+}
+/* line 16, ../scss/partials/calendar/_calendar.scss */
+#page.calendar section nav ul li .thumb {
+  float: none !important;
+  width: auto !important;
+  padding: 0 !important;
+}
+/* line 20, ../scss/partials/calendar/_calendar.scss */
+#page.calendar section nav ul li .thumb img {
   background-color: #660000;
   border: solid 5px #cc0000;
   -webkit-border-radius: 50%;
@@ -2122,42 +2195,46 @@ html, body {
   -o-border-radius: 50%;
   border-radius: 50%;
 }
-@media screen and (max-width: 361px) {
-  /* line 17, ../scss/partials/calendar/_calendar.scss */
-  #page.calendar nav img {
-    max-width: 52px;
-  }
-}
-/* line 26, ../scss/partials/calendar/_calendar.scss */
-#page.calendar nav img:hover {
-  background-color: #cc0000;
-  border: solid 5px red;
+/* line 29, ../scss/partials/calendar/_calendar.scss */
+#page.calendar section table {
+  margin: 0 auto;
 }
 /* line 32, ../scss/partials/calendar/_calendar.scss */
-#page.calendar table {
-  margin: 0px auto 60px auto;
-  filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=80);
-  opacity: 0.8;
-}
-/* line 36, ../scss/partials/calendar/_calendar.scss */
-#page.calendar table tr td {
+#page.calendar section table tr td {
   border: 2px #000000 solid;
   text-align: center;
   vertical-align: middle;
   height: 100px;
 }
-/* line 41, ../scss/partials/calendar/_calendar.scss */
-#page.calendar table tr td p {
+/* line 37, ../scss/partials/calendar/_calendar.scss */
+#page.calendar section table tr td p {
   padding: 0;
 }
-/* line 45, ../scss/partials/calendar/_calendar.scss */
-#page.calendar table tr td:first-of-type {
+/* line 40, ../scss/partials/calendar/_calendar.scss */
+#page.calendar section table tr td hr {
+  border-color: black;
+}
+/* line 44, ../scss/partials/calendar/_calendar.scss */
+#page.calendar section table tr td:first-of-type {
   width: 30%;
   background-color: #660000;
-  font-size: .8em;
 }
-/* line 50, ../scss/partials/calendar/_calendar.scss */
-#page.calendar table tr td + td {
+@media screen and (max-width: 641px) {
+  /* line 44, ../scss/partials/calendar/_calendar.scss */
+  #page.calendar section table tr td:first-of-type {
+    font-size: 1rem;
+  }
+  /* line 49, ../scss/partials/calendar/_calendar.scss */
+  #page.calendar section table tr td:first-of-type sup {
+    font-size: .6rem;
+  }
+  /* line 52, ../scss/partials/calendar/_calendar.scss */
+  #page.calendar section table tr td:first-of-type .time {
+    font-size: .7rem;
+  }
+}
+/* line 57, ../scss/partials/calendar/_calendar.scss */
+#page.calendar section table tr td + td {
   font-family: "Jolly Lodger";
   width: 30%;
   background-color: #999999;
@@ -2165,33 +2242,40 @@ html, body {
   font-size: 2em;
   font-weight: 800;
 }
-/* line 57, ../scss/partials/calendar/_calendar.scss */
-#page.calendar table tr td + td h5 {
-  font-size: 1em;
-  margin: 10px 0;
-}
-/* line 61, ../scss/partials/calendar/_calendar.scss */
-#page.calendar table tr td + td h5:hover {
-  color: #cc0000;
-}
-/* line 65, ../scss/partials/calendar/_calendar.scss */
-#page.calendar table tr td + td + td {
-  background-color: #660000;
+@media screen and (max-width: 641px) {
+  /* line 57, ../scss/partials/calendar/_calendar.scss */
+  #page.calendar section table tr td + td {
+    font-size: 1.2rem !important;
+  }
 }
 /* line 67, ../scss/partials/calendar/_calendar.scss */
-#page.calendar table tr td + td + td img {
-  max-width: 120px;
-  width: 75%;
-  padding: 15px 0;
+#page.calendar section table tr td + td a:hover {
+  color: #cc0000;
+}
+/* line 71, ../scss/partials/calendar/_calendar.scss */
+#page.calendar section table tr td + td + td {
+  background-color: #660000;
+}
+/* line 73, ../scss/partials/calendar/_calendar.scss */
+#page.calendar section table tr td + td + td .thumb {
+  float: none !important;
+  margin: 0 auto;
+  width: 100% !important;
+  max-width: 180px;
+  padding: 0 !important;
   height: auto;
   border: 0;
   vertical-align: middle;
 }
 @media screen and (max-width: 801px) {
-  /* line 67, ../scss/partials/calendar/_calendar.scss */
-  #page.calendar table tr td + td + td img {
+  /* line 73, ../scss/partials/calendar/_calendar.scss */
+  #page.calendar section table tr td + td + td .thumb {
     width: 95%;
   }
+}
+/* line 86, ../scss/partials/calendar/_calendar.scss */
+#page.calendar section table tr td + td + td img {
+  padding: 0;
 }
 
 /* line 3, ../scss/partials/jobs/_jobs.scss */
@@ -2200,26 +2284,68 @@ html, body {
   width: auto;
 }
 
-/* line 2, ../scss/partials/singles/_gotfur.scss */
-.gotfur article {
-  color: #999999 !important;
+/* line 3, ../scss/partials/singles/_bearweekend.scss */
+.bearweekend .intro article {
+  font-family: "Coming Soon";
+  font-size: 1.1rem;
 }
-/* line 4, ../scss/partials/singles/_gotfur.scss */
-.gotfur article a {
+/* line 6, ../scss/partials/singles/_bearweekend.scss */
+.bearweekend .intro article a {
   color: #cc0000;
 }
-/* line 7, ../scss/partials/singles/_gotfur.scss */
-.gotfur article .bigtype {
-  font-family: "Jolly Lodger";
-  font-size: 2.6em;
-  color: #01fe45;
-  margin-right: 5px;
+/* line 8, ../scss/partials/singles/_bearweekend.scss */
+.bearweekend .intro article a:hover {
+  color: red;
 }
-/* line 13, ../scss/partials/singles/_gotfur.scss */
-.gotfur article img {
-  float: right;
-  width: 40%;
-  margin-left: 3%;
+/* line 14, ../scss/partials/singles/_bearweekend.scss */
+.bearweekend .events {
+  padding-top: 30px;
+  text-align: center;
+}
+/* line 17, ../scss/partials/singles/_bearweekend.scss */
+.bearweekend .events .event {
+  display: inline-block;
+  width: 20%;
+  vertical-align: top;
+  height: auto;
+  overflow: hidden;
+  padding-bottom: 3%;
+}
+@media screen and (max-width: 641px) {
+  /* line 17, ../scss/partials/singles/_bearweekend.scss */
+  .bearweekend .events .event {
+    width: 24%;
+  }
+}
+/* line 27, ../scss/partials/singles/_bearweekend.scss */
+.bearweekend .events .event .title {
+  font-size: .8rem;
+  display: block;
+  vertical-align: middle;
+  text-align: center;
+  height: 38px !important;
+}
+@media screen and (max-width: 641px) {
+  /* line 27, ../scss/partials/singles/_bearweekend.scss */
+  .bearweekend .events .event .title {
+    font-size: .8em;
+  }
+}
+/* line 37, ../scss/partials/singles/_bearweekend.scss */
+.bearweekend .events .event .thumb {
+  margin: 0;
+  float: none;
+  padding: 0 !important;
+  width: 100% !important;
+}
+/* line 42, ../scss/partials/singles/_bearweekend.scss */
+.bearweekend .events .event .thumb img {
+  display: block;
+  margin: 0 auto;
+  width: auto;
+  height: auto;
+  max-height: 100%;
+  max-width: 100%;
 }
 
 /* line 2, ../scss/style.scss */

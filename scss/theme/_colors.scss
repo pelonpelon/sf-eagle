@@ -27,3 +27,9 @@ body {
     background-color: $decor-medium;
   }
 }
+.longbutton {
+  background-color: $decor-dark;
+  &:hover {
+    background-color: $decor-medium;
+  }
+}

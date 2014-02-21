@@ -12,8 +12,8 @@
     <meta http-equiv="Content-Type" content="text/html" charset="utf-8">
     <meta name="viewport" content="width=device-width, minimum-scale=1.0, target-densityDpi=160">
     <link rel="prefetch" href="images/logo.svg">
-    <link rel="prefetch stylesheet" href="//themes.googleusercontent.com/static/fonts/comingsoon/v3/myblyOycMnPMGjfPG-DzP4bN6UDyHWBl620a-IRfuBk.woff" type="text/css">
-    <link rel="prefetch stylesheet" href="//themes.googleusercontent.com/static/fonts/jollylodger/v1/RX8HnkBgaEKQSHQyP9itiXhCUOGz7vYGh680lGh-uXM.woff" type="text/css">
+    <link rel="prefetch font/woff" href="//themes.googleusercontent.com/static/fonts/comingsoon/v3/myblyOycMnPMGjfPG-DzP4bN6UDyHWBl620a-IRfuBk.woff" type="text/css">
+    <link rel="prefetch font/woff" href="//themes.googleusercontent.com/static/fonts/jollylodger/v1/RX8HnkBgaEKQSHQyP9itiXhCUOGz7vYGh680lGh-uXM.woff" type="text/css">
     <link rel="stylesheet" href="css/main.css">
     <link rel="apple-touch-icon" href="images/icons/apple-touch-icon-57x57.png">
     <link rel="apple-touch-icon" sizes="72x72" href="images/icons/touch-icon-ipad.png">
@@ -34,6 +34,7 @@
       ga('create', 'UA-42163204-1', 'sf-eagle.com');
       ga('send', 'pageview');
     </script>
+    <script src="//ajax.googleapis.com/ajax/libs/jquery/1.8.2/jquery.min.js"></script>
   </head>
   <body><!-- hello -->
     <!-- #background-->
@@ -469,7 +470,7 @@
           <div class="flexslider">
             <ul class="slides">
               <li>
-                <p class="rc">Once A Month</p><a href="images/events/DiscoDaddy-442x600.jpg" rel="lightbox"><img src="images/events/DiscoDaddy-442x600.jpg"></a>
+                <p class="rc">3rd and 5th Sundays</p><a href="images/events/DiscoDaddy-442x600.jpg" rel="lightbox"><img src="images/events/DiscoDaddy-442x600.jpg"></a>
               </li>
               <li>
                 <p class="rc">Every 3rd Friday</p><a href="images/events/CubHouse-600.jpg" rel="lightbox"><img src="images/events/CubHouse-600.jpg"></a>
@@ -488,7 +489,7 @@
           <div class="nonFlexslider">
             <ul class="slides">
               <li>
-                <p class="rc">Once A Month</p><img src="images/events/DiscoDaddy-442x600.jpg">
+                <p class="rc">3rd and 5th Sundays</p><img src="images/events/DiscoDaddy-442x600.jpg">
               </li>
               <li>
                 <p class="rc">Every 3rd Friday</p><img src="images/events/CubHouse-600.jpg">
@@ -524,27 +525,25 @@
     'post_status'   => 'scheduled',
     'numberposts'   => -1
     );
-    $custom_posts = get_posts($args);
-    foreach($custom_posts as $post)
+    $posts = get_posts($args);
+    foreach($posts as $post)
     {
-        if ( !$custom_posts) { continue; }
+        if ( !$posts) { continue; }
         setup_postdata($post);
         if ( $post->post_status == "draft" ) { continue; }
         if ( $post->post_status == "private" ) { continue; }
         if ( $post->post_status == "archived" ) { continue; }
         include 'includes/timegames.php';
-            // MEMO Check that $publishtime works here
         ?>
         <section class="footer-widget" style="display: block;">
-        <h3><?php the_title() ?></h3>
-        <?php the_content(); ?>
+          <h3><?php the_title() ?></h3>
+          <div class="footer-widget-content"><?php the_content(); ?></div>
         </section><?php
     }?>
 
         </div>
       </div>
     </div>
-    <script src="//ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js"></script>
     <script src="widgets/lightbox/js/lightbox-ck.js"></script>
     <script>
       $(document).ready(function(){

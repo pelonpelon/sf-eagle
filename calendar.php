@@ -12,8 +12,8 @@
     <meta http-equiv="Content-Type" content="text/html" charset="utf-8">
     <meta name="viewport" content="width=device-width, minimum-scale=1.0, target-densityDpi=160">
     <link rel="prefetch" href="images/logo.svg">
-    <link rel="prefetch stylesheet" href="//themes.googleusercontent.com/static/fonts/comingsoon/v3/myblyOycMnPMGjfPG-DzP4bN6UDyHWBl620a-IRfuBk.woff" type="text/css">
-    <link rel="prefetch stylesheet" href="//themes.googleusercontent.com/static/fonts/jollylodger/v1/RX8HnkBgaEKQSHQyP9itiXhCUOGz7vYGh680lGh-uXM.woff" type="text/css">
+    <link rel="prefetch font/woff" href="//themes.googleusercontent.com/static/fonts/comingsoon/v3/myblyOycMnPMGjfPG-DzP4bN6UDyHWBl620a-IRfuBk.woff" type="text/css">
+    <link rel="prefetch font/woff" href="//themes.googleusercontent.com/static/fonts/jollylodger/v1/RX8HnkBgaEKQSHQyP9itiXhCUOGz7vYGh680lGh-uXM.woff" type="text/css">
     <link rel="stylesheet" href="css/main.css">
     <link rel="apple-touch-icon" href="images/icons/apple-touch-icon-57x57.png">
     <link rel="apple-touch-icon" sizes="72x72" href="images/icons/touch-icon-ipad.png">
@@ -34,24 +34,33 @@
       ga('create', 'UA-42163204-1', 'sf-eagle.com');
       ga('send', 'pageview');
     </script>
+    <script src="//ajax.googleapis.com/ajax/libs/jquery/1.8.2/jquery.min.js"></script>
   </head>
   <body><!-- hello -->
     <!-- #background-->
     <div id="root">
       <div id="page" class="simple calendar"><a href="index.php"><img src="images/logo.svg" alt="logo" class="logo"></a>
-        <section>
-          <header>
-            <h1>EAGLE CALENDAR</h1>
-          </header>
-          <article>
+        <div class="content">
+          <header><span>EAGLE CALENDAR</span></header>
+          <section>
             <nav>
               <ul>
-                <li><a href="#"><img src="images/icons/TNL-button-les_paul.png" width="120" height="120" alt="Thursday Night Live Button" class="music"></a></li>
-                <li><a href="#"><img src="images/icons/calbears-button.png" width="120" height="120" alt="Bears Button" class="bears"></a></li>
-                <li><a href="#"><img src="images/icons/tom_of_finland.png" width="120" height="120" alt="Leather Button" class="leather"></a></li>
-                <li><a href="#"><img src="images/icons/icon-specialEvents.svg" width="120" height="120" alt="Special Events Button" class="special"></a></li>
+                <li>
+                  <div class="thumb"><a href="#"><img src="images/icons/TNL-button-les_paul.png" width="120" height="120" alt="Thursday Night Live Button" class="music"></a></div>
+                </li>
+                <li>
+                  <div class="thumb"><a href="#"><img src="images/icons/calbears-button.png" width="120" height="120" alt="Bears Button" class="bears"></a></div>
+                </li>
+                <li>
+                  <div class="thumb"><a href="#"><img src="images/icons/tom_of_finland.png" width="120" height="120" alt="Leather Button" class="leather"></a></div>
+                </li>
+                <li>
+                  <div class="thumb"><a href="#"><img src="images/icons/icon-specialEvents.svg" width="120" height="120" alt="Special Events Button" class="special"></a></div>
+                </li>
               </ul>
             </nav>
+          </section>
+          <section>
             <table><?php global $post; // required
        $args=array('post_type'=>'event','numberposts'=>-1);
        $custom_posts=get_posts($args);
@@ -93,11 +102,10 @@ foreach($custom_posts as $post)
     else { $image = wp_get_attachment_image_src(get_field('image'), 'full'); }
 
     ?>
-        <tr class="<?php echo get_post_meta(get_the_ID(), 'crowd', true); ?>">
+        <tr class="<?php echo implode(" ", get_post_meta(get_the_ID(), 'crowd', true)); ?>">
             <td>
-                <h2> <?php $day = date('l', $begintime);
+              <?php $day = date('l', $begintime);
                     echo $day; ?> <sup><?php echo date('n/j', $begintime ); ?></sup>
-                </h2>
                 <p class="time"> <?php
                     echo $start . " - " . $finish;
                     ?>
@@ -107,37 +115,32 @@ foreach($custom_posts as $post)
         if ( $type_of_event[0] === 'music' )
         { ?>
             <td>
-                <h5>
                     <a href="<?php the_field('band_#1_link'); ?>" target="_blank" >
                         <?php the_field('band_#1'); ?>
                     </a>
-                </h5>
+                    <hr>
                 <?php
                 if ( get_field('band_#2') !== "" )
                 { ?>
-                    <h5>
-                        <a href="<?php the_field('band_#2_link'); ?>" target="_blank" >
-                            <?php the_field('band_#2'); ?>
-                        </a>
-                    </h5>
+                    <a href="<?php the_field('band_#2_link'); ?>" target="_blank" >
+                        <?php the_field('band_#2'); ?>
+                    </a>
+                    <hr>
                 <?php
                 }
                 if ( get_field('band_#3') !== "" )
                 { ?>
-                    <h5>
-                        <a href="<?php the_field('band_#3_link'); ?>" target="_blank" >
-                            <?php the_field('band_#3'); ?>
-                        </a>
-                    </h5>
+                    <a href="<?php the_field('band_#3_link'); ?>" target="_blank" >
+                        <?php the_field('band_#3'); ?>
+                    </a>
+                    <hr>
                 <?php
                 }
                 if ( get_field('band_#4') !== "" )
                 { ?>
-                    <h5>
-                        <a href="<?php the_field('band_#4_link'); ?>" target="_blank">
-                            <?php the_field('band_#4'); ?>
-                        </a>
-                    </h5>
+                    <a href="<?php the_field('band_#4_link'); ?>" target="_blank">
+                        <?php the_field('band_#4'); ?>
+                    </a>
                 <?php
                 } ?>
             </td> <?php
@@ -145,11 +148,9 @@ foreach($custom_posts as $post)
             else
             { ?>
                 <td>
-                    <h5>
                         <a href="<?php the_field('link'); ?>" target="_blank" >
                             <?php the_title(); ?>
                         </a>
-                    </h5>
                 </td> <?php
             } ?>
             <td>
@@ -157,17 +158,24 @@ foreach($custom_posts as $post)
                 $image_large = wp_get_attachment_image_src( get_post_thumbnail_id($post->ID), 'large');
                 $image_thumbnail = wp_get_attachment_image_src( get_post_thumbnail_id($post->ID), 'thumbnail');
                 ?>
+              <div class="thumb">
                 <a href="<?php echo $image_large[0] ?>" width="<?php echo $image_large[1]; ?>" height="<?php echo $image_large[2]; ?>" rel="lightbox">
-                    <img src="<?php echo $image_thumbnail[0] ?>" width="<?php echo $image_thumbnail[1]; ?>" height="<?php echo $image_thumbnail[2]; ?>" alt="<?php the_title(); ?>" class="thumb">
-                </a>
+                    <img src="<?php echo $image_thumbnail[0] ?>" width="<?php echo $image_thumbnail[1]; ?>" height="<?php echo $image_thumbnail[2]; ?>" alt="<?php the_title(); ?>">
+                    </a> <?php
+    if ( $type_of_event[0] === "music" ) { ?>
+        <a href="<?php the_field('youtube_playlist'); ?>" target="_blank">
+            <img src="images/icons/icon-youtubePlaylist.jpg" alt="Youtube Playlist">
+        </a><?php
+        } ?>
+              </div>
             </td>
         </tr>
 <?php
 } ?>
 
             </table>
-          </article>
-        </section>
+          </section>
+        </div>
         <div id="page-footer"></div>
       </div>
       <div id="footer">
@@ -193,7 +201,7 @@ foreach($custom_posts as $post)
           <div class="flexslider">
             <ul class="slides">
               <li>
-                <p class="rc">Once A Month</p><a href="images/events/DiscoDaddy-442x600.jpg" rel="lightbox"><img src="images/events/DiscoDaddy-442x600.jpg"></a>
+                <p class="rc">3rd and 5th Sundays</p><a href="images/events/DiscoDaddy-442x600.jpg" rel="lightbox"><img src="images/events/DiscoDaddy-442x600.jpg"></a>
               </li>
               <li>
                 <p class="rc">Every 3rd Friday</p><a href="images/events/CubHouse-600.jpg" rel="lightbox"><img src="images/events/CubHouse-600.jpg"></a>
@@ -212,7 +220,7 @@ foreach($custom_posts as $post)
           <div class="nonFlexslider">
             <ul class="slides">
               <li>
-                <p class="rc">Once A Month</p><img src="images/events/DiscoDaddy-442x600.jpg">
+                <p class="rc">3rd and 5th Sundays</p><img src="images/events/DiscoDaddy-442x600.jpg">
               </li>
               <li>
                 <p class="rc">Every 3rd Friday</p><img src="images/events/CubHouse-600.jpg">
@@ -248,27 +256,25 @@ foreach($custom_posts as $post)
     'post_status'   => 'scheduled',
     'numberposts'   => -1
     );
-    $custom_posts = get_posts($args);
-    foreach($custom_posts as $post)
+    $posts = get_posts($args);
+    foreach($posts as $post)
     {
-        if ( !$custom_posts) { continue; }
+        if ( !$posts) { continue; }
         setup_postdata($post);
         if ( $post->post_status == "draft" ) { continue; }
         if ( $post->post_status == "private" ) { continue; }
         if ( $post->post_status == "archived" ) { continue; }
         include 'includes/timegames.php';
-            // MEMO Check that $publishtime works here
         ?>
         <section class="footer-widget" style="display: block;">
-        <h3><?php the_title() ?></h3>
-        <?php the_content(); ?>
+          <h3><?php the_title() ?></h3>
+          <div class="footer-widget-content"><?php the_content(); ?></div>
         </section><?php
     }?>
 
         </div>
       </div>
     </div>
-    <script src="//ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js"></script>
     <script src="widgets/lightbox/js/lightbox-ck.js"></script>
     <script>
       $(document).ready(function(){
