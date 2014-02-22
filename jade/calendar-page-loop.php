@@ -98,8 +98,9 @@ foreach($custom_posts as $post)
               <div class="thumb">
                 <a href="<?php echo $image_large[0] ?>" width="<?php echo $image_large[1]; ?>" height="<?php echo $image_large[2]; ?>" rel="lightbox">
                     <img src="<?php echo $image_thumbnail[0] ?>" width="<?php echo $image_thumbnail[1]; ?>" height="<?php echo $image_thumbnail[2]; ?>" alt="<?php the_title(); ?>">
-                    </a> <?php
-    if ( $type_of_event[0] === "music" ) { ?>
+                    </a></div><?php
+                if ( $type_of_event[0] === "music" ) { ?>
+              <div class="youtube">
         <a href="<?php the_field('youtube_playlist'); ?>" target="_blank">
             <img src="images/icons/icon-youtubePlaylist.jpg" alt="Youtube Playlist">
         </a><?php

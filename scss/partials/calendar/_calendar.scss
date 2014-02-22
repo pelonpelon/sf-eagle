@@ -83,6 +83,16 @@
             border: 0;
             vertical-align: middle;
           }
+          .youtube {
+            width:30%; 
+            margin:0 auto;
+            @media screen and (max-width: $tablet) {
+              width:50%;
+            }
+            @media screen and (max-width: $netbook) {
+              width:95%;
+            }
+          }
           img {
             padding:0;
           }

@@ -2274,6 +2274,23 @@ html, body {
   }
 }
 /* line 86, ../scss/partials/calendar/_calendar.scss */
+#page.calendar section table tr td + td + td .youtube {
+  width: 30%;
+  margin: 0 auto;
+}
+@media screen and (max-width: 801px) {
+  /* line 86, ../scss/partials/calendar/_calendar.scss */
+  #page.calendar section table tr td + td + td .youtube {
+    width: 50%;
+  }
+}
+@media screen and (max-width: 1025px) {
+  /* line 86, ../scss/partials/calendar/_calendar.scss */
+  #page.calendar section table tr td + td + td .youtube {
+    width: 95%;
+  }
+}
+/* line 96, ../scss/partials/calendar/_calendar.scss */
 #page.calendar section table tr td + td + td img {
   padding: 0;
 }

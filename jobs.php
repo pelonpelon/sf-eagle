@@ -44,7 +44,7 @@
           <header class="cf"><span>We are accepting applications for employment</span></header>
           <section>
             <article>
-              <p><a href="sfe_application.pdf"></a><img src="download_pdf_button.png" height="34" width="130" alt=""></p><br>
+              <p><a href="sfe_application.pdf"><img src="download_pdf_button.png" height="34" width="130" alt=""></a></p><br>
               <p>*all applicants must complete L.E.A.D. training with the California ABC (Alcoholic Beverage Control)</p>
               <p>LEAD training courses are available through the ABC at no charge.</p>
               <p>More information available on the ABC website<a href="http://www.abc.ca.gov/programs/lead.html" target="_blank" class="longbutton"><span>abc.ca.gov</span></a></p>
