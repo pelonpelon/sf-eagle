@@ -44,7 +44,7 @@
           <header class="cf"><span>We are accepting applications for employment</span></header>
           <section>
             <article>
-              <p><a href="sfe_application.pdf"><img src="download_pdf_button.png" height="34" width="130" alt=""></a></p><br>
+              <p><a href="sfe_application.pdf" target="_blank"><img src="download_pdf_button.png" height="34" width="130" alt=""></a></p><br>
               <p>*all applicants must complete L.E.A.D. training with the California ABC (Alcoholic Beverage Control)</p>
               <p>LEAD training courses are available through the ABC at no charge.</p>
               <p>More information available on the ABC website<a href="http://www.abc.ca.gov/programs/lead.html" target="_blank" class="longbutton"><span>abc.ca.gov</span></a></p>
@@ -57,13 +57,12 @@
       <div id="footer">
         <div class="links">
           <ul class="social">
+            <li class="email"><a href="mailto:info@sf-eagle.com?subject=Sent%20via%20website" title="Send us email" width="60" height="60"><img src="images/icons/email.png" alt="email" class="thumb"></a></li>
             <li class="faceboook"><a href="http://www.facebook.com/theSFEagle" title="We're on Facebook" target="_blank" width="60" height="60"><img src="images/icons/facebook.png" alt="facebook" class="thumb"></a></li>
             <li class="twitter"><a href="https://twitter.com/sfeaglebar" title="We're on Twitter" target="_blank" width="60" height="60"><img src="images/icons/twitter.png" alt="twitter" class="thumb"></a></li>
             <li class="google"><a href="https://plus.google.com/104184281608152528049/posts" rel="publisher" title="We're on Google Plus" target="_blank" width="60" height="60"><img src="images/icons/google-plus-icon.png" alt="google+" class="thumb"></a>
             </li>
             <li class="youtube"><a href="http://www.youtube.com/channel/UCmzgZ3-nEo1S8tnyjGJ3WoQ/videos" title="We're on Youtube" target="_blank" width="60" height="60"><img src="images/icons/youtube-icon.png" alt="youtube" class="thumb"></a></li>
-            <li class="instagram"><a href="http://instagram.com/sfeagle" title="We're on Instagram" target="_blank" width="60" height="60"><img src="images/icons/instagram-60x60.png" alt="instagram" class="thumb"></a></li>
-            <li class="email"><a href="mailto:info@sf-eagle.com?subject=Sent%20via%20website" title="Send us email" width="60" height="60"><img src="images/icons/email.png" alt="email" class="thumb"></a></li>
           </ul>
         </div>
         <div class="content">
