@@ -1,0 +1,445 @@
+# Copyright (C) 2013 
+# This file is distributed under the same license as the  package.
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"Report-Msgid-Bugs-To: http://wordpress.org/tag/event-geek\n"
+"POT-Creation-Date: 2013-11-28 17:22:35+00:00\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"PO-Revision-Date: 2013-12-15 10:59-0700\n"
+"Last-Translator: \n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"X-Generator: Poedit 1.5.7\n"
+
+#: core/gg-ajax.php:49 core/gg-shortcodes.php:134
+#: core/gg-template-functions.php:109
+msgid "Powered by"
+msgstr "Potenciado por"
+
+#: core/gg-category-meta.php:44 core/gg-category-meta.php:48
+#: core/gg-options.php:138
+msgid "Event Date Background color"
+msgstr "Color de fondo de la Fecha del Evento"
+
+#: core/gg-category-meta.php:50 core/gg-options.php:141
+msgid "Event Date Text Color"
+msgstr "Color de Texto de la Fecha del Evento"
+
+#: core/gg-options.php:6 core/gg-options.php:82
+msgid "Event Geek Options"
+msgstr "Opciones del Event Geek"
+
+#: core/gg-options.php:7 core/gg-options.php:9
+msgid "Event Options"
+msgstr "Opciones de Evento"
+
+#: core/gg-options.php:10 core/gg-post-type.php:40
+msgid "Options"
+msgstr "Opciones"
+
+#: core/gg-options.php:57
+msgid "Security Error. Try again."
+msgstr "Error de Seguridad. Intente nuevamente."
+
+#: core/gg-options.php:62
+msgid "You do not have sufficient permissions to access this page."
+msgstr "Usted no tiene los permisos suficientes para acceder a esta página."
+
+#: core/gg-options.php:87
+msgid "Updated"
+msgstr "Actualizado"
+
+#: core/gg-options.php:98
+msgid "Style Options"
+msgstr "Opciones de Estilo"
+
+#: core/gg-options.php:100
+msgid "Select a style"
+msgstr "Seleccione un estilo"
+
+#: core/gg-options.php:130
+msgid "Use your own theme (enter URL)"
+msgstr "Utilice su propio tema (entre la URL)"
+
+#: core/gg-options.php:131
+msgid "Read more about jQuery UI themes"
+msgstr "Lea más acerca de los temas de jQuery UI"
+
+#: core/gg-options.php:145
+msgid "Pop Up Styles"
+msgstr "Estilos del Pop Up"
+
+#: core/gg-options.php:147
+msgid "Background color"
+msgstr "Color de Fondo"
+
+#: core/gg-options.php:149
+msgid "Border color"
+msgstr "Color del borde"
+
+#: core/gg-options.php:150
+msgid "Border width"
+msgstr "Ancho del borde"
+
+#: core/gg-options.php:152 core/gg-options.php:183
+msgid "none"
+msgstr "ninguno"
+
+#: core/gg-options.php:152 core/gg-options.php:183
+msgid "10 pixels"
+msgstr "10 píxeles"
+
+#: core/gg-options.php:154 core/gg-options.php:189
+msgid "Text color"
+msgstr "Color de texto"
+
+#: core/gg-options.php:155 core/gg-options.php:190
+msgid "Link color"
+msgstr "Color del enlace"
+
+#: core/gg-options.php:159
+msgid "Use Lightbox Background"
+msgstr "Utilice Fondo del Lightbox"
+
+#: core/gg-options.php:161 core/gg-options.php:201 core/gg-options.php:258
+msgid "No"
+msgstr "No"
+
+#: core/gg-options.php:162 core/gg-options.php:202
+msgid "Yes"
+msgstr "Si"
+
+#: core/gg-options.php:168
+msgid "Lightbox color"
+msgstr "Color del Lightbox"
+
+#: core/gg-options.php:170
+msgid "Transparency level"
+msgstr "Nivel de transparencia"
+
+#: core/gg-options.php:172
+msgid "Transparent"
+msgstr "Transparente"
+
+#: core/gg-options.php:172
+msgid "Opaque"
+msgstr "Opaco"
+
+#: core/gg-options.php:179
+msgid "Info Background color"
+msgstr "Color de fondo de la información"
+
+#: core/gg-options.php:180
+msgid "Info Border color"
+msgstr "Color del borde de la información"
+
+#: core/gg-options.php:181
+msgid "Info Border width"
+msgstr "Ancho del borde de la información"
+
+#: core/gg-options.php:185
+msgid "Info box width"
+msgstr "Ancho de la casilla de la información"
+
+#: core/gg-options.php:197
+msgid "Other Options"
+msgstr "Otras Opciones"
+
+#: core/gg-options.php:199
+msgid "Customize Event Info"
+msgstr "Personalizar Información del Evento"
+
+#: core/gg-options.php:208
+msgid "Click and Drag to Sort"
+msgstr "Hacer Clic y Arrastrar para Ordenar"
+
+#: core/gg-options.php:213 core/gg-post-type.php:148
+#: core/gg-template-functions.php:181
+msgid "Address"
+msgstr "Dirección"
+
+#: core/gg-options.php:214 core/gg-post-type.php:149
+msgid "Address Line 2"
+msgstr "Línea de Dirección 2"
+
+#: core/gg-options.php:215 core/gg-post-type.php:150
+#: core/gg-template-functions.php:184
+msgid "Phone"
+msgstr "Teléfono"
+
+#: core/gg-options.php:216
+msgid "Web Address"
+msgstr "Dirección Web"
+
+#: core/gg-options.php:233
+msgid "Label"
+msgstr "Etiqueta"
+
+#: core/gg-options.php:234
+msgid "Type"
+msgstr "Tipo"
+
+#: core/gg-options.php:235
+msgid "Text"
+msgstr "Texto"
+
+#: core/gg-options.php:236
+msgid "Link"
+msgstr "Enlace"
+
+#: core/gg-options.php:237
+msgid "Email"
+msgstr "Correo electrónico"
+
+#: core/gg-options.php:244
+msgid "Add"
+msgstr "Adicionar"
+
+#: core/gg-options.php:245
+msgid ""
+"Note: Once you have saved event info using these labels, changing the labels "
+"will result in some info no longer appearing."
+msgstr ""
+"Nota: Una vez que usted ha salvado la información del evento usando estas "
+"etiquetas, cambiar las etiquetas resultará en que alguna información no "
+"aparezca."
+
+#: core/gg-options.php:248
+msgid "Select Events Page:"
+msgstr "Página de Seleccionar Eventos:"
+
+#: core/gg-options.php:250
+msgid "None"
+msgstr "Ninguna"
+
+#: core/gg-options.php:255
+msgid "Include link to help promote Event Geek"
+msgstr "Incluir enlace para ayudar a promover el Event Geek"
+
+#: core/gg-options.php:257
+msgid "Yes (thank you!)"
+msgstr "Sí (¡Gracias!)"
+
+#: core/gg-options.php:267
+msgid "Thank you for using Event Geek. For support see the"
+msgstr "Gracias por usar Event Geek."
+
+#: core/gg-options.php:267
+msgid "WordPress support forum"
+msgstr "Foro de soporte en WordPress"
+
+#: core/gg-options.php:267
+msgid "contact Graphic Geek"
+msgstr "contactar Graphic Geek"
+
+#: core/gg-options.php:267
+msgid "or"
+msgstr "o"
+
+#: core/gg-options.php:267
+msgid "leave a comment here"
+msgstr "dejar un comentario aquí"
+
+#: core/gg-options.php:268
+msgid ""
+"To help support the continued improvement of this plugin, please consider "
+"making a"
+msgstr ""
+"Para ayudar a soportar el mejoramiento continuado de este plugin, por favor "
+"considere hacer una"
+
+#: core/gg-options.php:268
+msgid "small donation"
+msgstr "pequeña donación"
+
+#: core/gg-options.php:268
+msgid "Also be sure to give it a"
+msgstr "Además esté seguro de darle un"
+
+#: core/gg-options.php:268
+msgid "good rating and/or review"
+msgstr "buen rankeo y/o comentario"
+
+#: core/gg-post-type.php:5
+msgid "events"
+msgstr "eventos"
+
+#: core/gg-post-type.php:11
+msgid "Events"
+msgstr "Eventos"
+
+#: core/gg-post-type.php:12
+msgid "Event"
+msgstr "Evento"
+
+#: core/gg-post-type.php:13 core/gg-post-type.php:14 core/gg-post-type.php:16
+msgid "Add New Event"
+msgstr "Adicionar Nuevo Evento"
+
+#: core/gg-post-type.php:15
+msgid "Edit Event"
+msgstr "Editar Evento"
+
+#: core/gg-post-type.php:17
+msgid "View Event"
+msgstr "Ver Evento"
+
+#: core/gg-post-type.php:18
+msgid "Search Events"
+msgstr "Buscar Eventos"
+
+#: core/gg-post-type.php:19
+msgid "No Events found"
+msgstr "No se encontraron Eventos"
+
+#: core/gg-post-type.php:20
+msgid "No Events found in trash"
+msgstr "No se encontraron Eventos en la papelera de reciclaje"
+
+#: core/gg-post-type.php:119
+msgid "Event Date"
+msgstr "Fecha del Evento"
+
+#: core/gg-post-type.php:120
+msgid "Start"
+msgstr "Comienzo"
+
+#: core/gg-post-type.php:123
+msgid "End"
+msgstr "Fin"
+
+#: core/gg-post-type.php:125
+msgid "Single Day Event"
+msgstr "Evento de un Día Simple"
+
+#: core/gg-post-type.php:139
+msgid "Link Text"
+msgstr "Texto de Enlace"
+
+#: core/gg-post-type.php:151
+msgid "Website"
+msgstr "Sitio Web"
+
+#: core/gg-post-type.php:154
+msgid "Event Image"
+msgstr "Imagen de Evento"
+
+#: core/gg-post-type.php:154
+msgid "Set Event Thumbnail"
+msgstr "Establecer Miniatura de Evento"
+
+#: core/gg-post-type.php:154
+msgid "Upload"
+msgstr "Subir"
+
+#: core/gg-post-type.php:234
+msgctxt "Taxonomy General Name"
+msgid "Event Categories"
+msgstr "Categorías de Evento"
+
+#: core/gg-post-type.php:235
+msgctxt "Taxonomy Singular Name"
+msgid "Event Category"
+msgstr "Categoría de Evento"
+
+#: core/gg-post-type.php:236
+msgid "Event Categories"
+msgstr "Categorías de Evento"
+
+#: core/gg-post-type.php:237
+msgid "All Categories"
+msgstr "Todas las Categorías"
+
+#: core/gg-post-type.php:238
+msgid "Parent Category"
+msgstr "Categoría Padre"
+
+#: core/gg-post-type.php:239
+msgid "Parent Category:"
+msgstr "Categoría Padre:"
+
+#: core/gg-post-type.php:240
+msgid "New Category"
+msgstr "Nueva Categoría"
+
+#: core/gg-post-type.php:241
+msgid "Add New Category"
+msgstr "Adicionar Nueva Categoría"
+
+#: core/gg-post-type.php:242
+msgid "Edit Category"
+msgstr "Editar Categoría"
+
+#: core/gg-post-type.php:243
+msgid "Update Category"
+msgstr "Actualizar Categoría"
+
+#: core/gg-post-type.php:244
+msgid "Separate Categories with commas"
+msgstr "Separar Categorías con comas"
+
+#: core/gg-post-type.php:245
+msgid "Search categories"
+msgstr "Buscar categorías"
+
+#: core/gg-post-type.php:246
+msgid "Add or remove categories"
+msgstr "Adicionar o eliminar categorías"
+
+#: core/gg-post-type.php:247
+msgid "Choose from the most used categories"
+msgstr "Escoger de las categorías más usadas"
+
+#: core/gg-scripts.php:25 core/gg-scripts.php:83
+msgid "Close"
+msgstr "Escoger"
+
+#: core/gg-scripts.php:26 core/gg-scripts.php:84
+msgid "Today"
+msgstr "Hoy"
+
+#: core/gg-shortcodes.php:102 core/gg-template-functions.php:249
+msgid "to"
+msgstr "a"
+
+#: core/gg-template-functions.php:95
+msgid "Later Events"
+msgstr "Eventos Tardíos"
+
+#: core/gg-template-functions.php:96
+msgid "Earlier Events"
+msgstr "Eventos Tempranos"
+
+#: core/gg-widget.php:10
+msgid "Show a Calendar of Events"
+msgstr "Mostrar un Calendario de Eventos"
+
+#: core/gg-widget.php:21
+msgid "Title:"
+msgstr "Título:"
+
+#: core/gg-widget.php:25
+msgid "Include Link to Event Page:"
+msgstr "Incluir Enlace a la Página de Evento:"
+
+#: core/gg-widget.php:30
+msgid "Do Not Use Popup:"
+msgstr "No usar Popup:"
+
+#: core/gg-widget.php:32
+msgid "Be sure you have selected a template page on the "
+msgstr "Esté seguro de que seleccionó una página plantilla en la"
+
+#: core/gg-widget.php:32
+msgid "options page"
+msgstr "página de opciones"
+
+#: core/gg-widget.php:36
+msgid "Category:"
+msgstr "Categoría:"
+
+#: core/gg-widget.php:107
+msgid "More Events"
+msgstr "Más Eventos"

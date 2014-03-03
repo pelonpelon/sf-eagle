@@ -1,100 +1,102 @@
 #page.calendar {
-  section {
-    text-align:center;
-    nav {
-      ul {
-        li {
-          display:inline-block;
-          width:24%;
-          max-width: 120px;
-          @media screen and (max-width: $tablet) {
-            max-width: 100px;
-          }
-          @media screen and (max-width: $phone) {
-            max-width: 80px;
-          }
-          .thumb {
-            float:none !important;
-            width:auto !important;
-            padding:0 !important;
-            img {
-              background-color: $decor-dark;
-              border: solid 5px $decor-medium;
-              @include border-radius(50%);
+  .content {
+    section {
+      text-align:center;
+      nav {
+        ul {
+          li {
+            display:inline-block;
+            width:24%;
+            max-width: 120px;
+            @media screen and (max-width: $tablet) {
+              max-width: 100px;
+            }
+            @media screen and (max-width: $phone) {
+              max-width: 80px;
+            }
+            .thumb {
+              float:none;
+              width:auto;
+              padding:0;
+              img {
+                background-color: $decor-dark;
+                border: solid 5px $decor-medium;
+                @include border-radius(50%);
+              }
             }
           }
         }
       }
-    }
-    table {
-      margin:0 auto;
-      tr {
-        td {
-          border: 2px #000000 solid;
-          text-align: center;
-          vertical-align: middle;
-          height: 100px;
-          p {
-            padding: 0;
-          }
-          hr {
-            border-color:$base-dark;
-          }
-        }
-        td:first-of-type {
-          width: 30%;
-          background-color: $decor-dark;
-          @media screen and (max-width: $phone) {
-              font-size: 1rem;
-            sup {
-              font-size:.6rem;
-            }
-            .time {
-              font-size:.7rem;
-            }   
-          }
-        }
-        td+td {
-          font-family: $tnl-font;
-          width: 30%;
-          background-color: $content-dark;
-          color: #000000;
-          font-size: 2em;
-          @media screen and (max-width: $phone) {
-            font-size:1.2rem !important;
-          }
-          font-weight: 800;
-          a:hover {
-            color: $decor-medium;
-          }
-        }
-        td+td+td {
-          background-color: $decor-dark;
-          .thumb {
-            float:none !important;
-            margin:0 auto;
-            width:100% !important;  
-            max-width: 180px;
-            padding:0 !important;
-            @media screen and (max-width: $tablet) {
-              width: 95%;
-            }
-            height: auto;
-            border: 0;
+      table {
+        margin:0 auto;
+        tr {
+          td {
+            border: 2px #000000 solid;
+            text-align: center;
             vertical-align: middle;
-          }
-          .youtube {
-            width:30%; 
-            margin:0 auto;
-            @media screen and (max-width: $tablet) {
-              width:50%;
+            height: 100px;
+            p {
+              padding: 0;
             }
-            @media screen and (max-width: $netbook) {
-              width:95%;
+            hr {
+              border-color:$base-dark;
             }
           }
-          img {
-            padding:0;
+          td:first-of-type {
+            width: 30%;
+            background-color: $decor-dark;
+            @media screen and (max-width: $phone) {
+                font-size: 1rem;
+              sup {
+                font-size:.6rem;
+              }
+              .time {
+                font-size:.7rem;
+              }   
+            }
+          }
+          td+td {
+            font-family: $tnl-font;
+            width: 30%;
+            background-color: $content-dark;
+            color: #000000;
+            font-size: 2em;
+            @media screen and (max-width: $phone) {
+              font-size:1.2rem !important;
+            }
+            font-weight: 800;
+            a:hover {
+              color: $decor-medium;
+            }
+          }
+          td+td+td {
+            background-color: $decor-dark;
+            .thumb {
+              float:none;
+              margin:0 auto;
+              width:100%;  
+              max-width: 180px;
+              padding:0;
+              @media screen and (max-width: $tablet) {
+                width: 95%;
+              }
+              height: auto;
+              border: 0;
+              vertical-align: middle;
+            }
+            .youtube {
+              width:30%; 
+              margin:0 auto;
+              @media screen and (max-width: $tablet) {
+                width:50%;
+              }
+              @media screen and (max-width: $netbook) {
+                width:95%;
+              }
+            }
+            img {
+              padding:0;
+            }
           }
         }
       }

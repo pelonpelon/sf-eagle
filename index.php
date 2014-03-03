@@ -300,8 +300,14 @@ foreach($custom_posts as $post)
             <img src="<?php echo $image_thumbnail[0] ?>" width="<?php echo $image_thumbnail[1]; ?>" height="<?php echo $image_thumbnail[2]; ?>" alt="<?php the_title(); ?>">
         </a><?php
 
-    if ( $type_of_event[0] === "music" ) { ?>
-        <a href="<?php the_field('youtube_playlist'); ?>" target="_blank">
+    if ( $type_of_event[0] === "music" ) {
+                if ( get_field('youtube_playlist') !== "" )
+                { ?>
+                  <a href="<?php the_field('youtube_playlist'); ?>" target="_blank"> <?php
+                }
+                else{ ?>
+                  <a href="http://www.youtube.com/channel/UCmzgZ3-nEo1S8tnyjGJ3WoQ/playlists" target="_blank"> <?php
+                } ?>
             <img src="images/icons/icon-youtubePlaylist.jpg" alt="Youtube Playlist">
         </a><?php
         } ?>
@@ -331,7 +337,7 @@ foreach($custom_posts as $post)
             <li class="twitter"><a href="https://twitter.com/sfeaglebar" title="We're on Twitter" target="_blank" width="60" height="60"><img src="images/icons/twitter.png" alt="twitter" class="thumb"></a></li>
             <li class="google"><a href="https://plus.google.com/104184281608152528049/posts" rel="publisher" title="We're on Google Plus" target="_blank" width="60" height="60"><img src="images/icons/google-plus-icon.png" alt="google+" class="thumb"></a>
             </li>
-            <li class="youtube"><a href="http://www.youtube.com/channel/UCmzgZ3-nEo1S8tnyjGJ3WoQ/videos" title="We're on Youtube" target="_blank" width="60" height="60"><img src="images/icons/youtube-icon.png" alt="youtube" class="thumb"></a></li>
+            <li class="youtube"><a href="http://www.youtube.com/channel/UCmzgZ3-nEo1S8tnyjGJ3WoQ/playlists" title="We're on Youtube" target="_blank" width="60" height="60"><img src="images/icons/youtube-icon.png" alt="youtube" class="thumb"></a></li>
           </ul>
         </div>
         <div class="content">
@@ -383,10 +389,8 @@ foreach($custom_posts as $post)
         </div>
         <div class="instagramWidget"><a name="instagram"></a>
           <div class="instagramWidgetMax">
-            <iframe width="760" height="240" src="http://statigr.am/widget.php?choice=myfeed&amp;username=sfeagle&amp;show_infos=false&amp;linking=instagram&amp;width=760&amp;height=240&amp;mode=grid&amp;layout_x=6&amp;layout_y=1&amp;padding=0&amp;photo_border=false&amp;background=000000&amp;text=CC0000&amp;widget_border=false&amp;radius=5&amp;border-color=990000&amp;user_id=0&amp;time=0" allowTransparency="true" frameborder="0" scrolling="no" style="border:none; overflow:hidden; width:760px; height:240px;"></iframe>
           </div>
           <div class="instagramWidgetPhone">
-            <iframe name="instagram" width="320" height="2400" src="http://statigr.am/widget.php?choice=myfeed&amp;username=sfeagle&amp;show_infos=false&amp;linking=instagram&amp;width=320&amp;height=2000&amp;mode=grid&amp;layout_x=1&amp;layout_y=8&amp;padding=5&amp;photo_border=true&amp;background=000000&amp;text=CC0000&amp;widget_border=false&amp;radius=5&amp;border-color=990000&amp;user_id=723500402&amp;time=1389483326810" allowTransparency="true" frameborder="0" scrolling="no" style="border:none; overflow:hidden; width:320px;"></iframe>
           </div>
         </div>
         <div class="footer-widgets"><?php

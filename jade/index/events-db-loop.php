@@ -110,8 +110,14 @@ foreach($custom_posts as $post)
             <img src="<?php echo $image_thumbnail[0] ?>" width="<?php echo $image_thumbnail[1]; ?>" height="<?php echo $image_thumbnail[2]; ?>" alt="<?php the_title(); ?>">
         </a><?php
 
-    if ( $type_of_event[0] === "music" ) { ?>
-        <a href="<?php the_field('youtube_playlist'); ?>" target="_blank">
+    if ( $type_of_event[0] === "music" ) {
+                if ( get_field('youtube_playlist') !== "" )
+                { ?>
+                  <a href="<?php the_field('youtube_playlist'); ?>" target="_blank"> <?php
+                }
+                else{ ?>
+                  <a href="http://www.youtube.com/channel/UCmzgZ3-nEo1S8tnyjGJ3WoQ/playlists" target="_blank"> <?php
+                } ?>
             <img src="images/icons/icon-youtubePlaylist.jpg" alt="Youtube Playlist">
         </a><?php
         } ?>

@@ -1,0 +1,268 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Event Geek 2.2\n"
+"POT-Creation-Date: \n"
+"PO-Revision-Date: \n"
+"Last-Translator: \n"
+"Language-Team: LANGUAGE <iulianbrinzoi@gmail.com>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=iso-8859-1\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.5.7\n"
+"Language: ro_RO\n"
+
+#: core/gg-ajax.php:52 core/gg-shortcodes.php:36
+#: core/gg-template-functions.php:41
+msgid "to"
+msgstr "catre"
+
+#: core/gg-ajax.php:86 core/gg-shortcodes.php:63
+#: core/gg-template-functions.php:79
+msgid "Powered by"
+msgstr "Dezvoltat de"
+
+#: core/gg-functions.php:22 core/gg-functions.php:84
+msgid "Close"
+msgstr "Inchis"
+
+#: core/gg-functions.php:23 core/gg-functions.php:85
+msgid "Today"
+msgstr "Astazi"
+
+#: core/gg-options.php:6 core/gg-options.php:69
+msgid "Event Geek Options"
+msgstr "Optiune Eveniment Geek"
+
+#: core/gg-options.php:7 core/gg-options.php:9
+msgid "Event Options"
+msgstr "Optiune Eveniment"
+
+#: core/gg-options.php:10 core/gg-post-type.php:35
+msgid "Options"
+msgstr "Optiune"
+
+#: core/gg-options.php:44
+msgid "Security Error. Try again."
+msgstr "Eroare Securitate. Incercati din nou."
+
+#: core/gg-options.php:49
+msgid "You do not have sufficient permissions to access this page."
+msgstr "Nu avei suficiente permisiuni pentru a accesa aceasta pagina."
+
+#: core/gg-options.php:74
+msgid "Updated"
+msgstr "Updatat"
+
+#: core/gg-options.php:85
+msgid "Style Options"
+msgstr "Optiune de stil"
+
+#: core/gg-options.php:87
+msgid "Select a style"
+msgstr "Selecteaza un stil"
+
+#: core/gg-options.php:117
+msgid "Use your own theme (enter URL)"
+msgstr "Floseste propria tema (introduceti URL-ul)"
+
+#: core/gg-options.php:118
+msgid "Read more about jQuery UI themes"
+msgstr "Vezi mai multe despre UI themes"
+
+#: core/gg-options.php:125
+msgid "Event Date Background color"
+msgstr "Culoare de fundal"
+
+#: core/gg-options.php:128
+msgid "Event Date Text Color"
+msgstr "Culoarea textului"
+
+#: core/gg-options.php:132
+msgid "Other Options"
+msgstr "Alte optiuni"
+
+#: core/gg-options.php:134
+msgid "Customize Event Info"
+msgstr "Customizare Info Eveniment"
+
+#: core/gg-options.php:136 core/gg-options.php:185
+msgid "No"
+msgstr "Nu"
+
+#: core/gg-options.php:137
+msgid "Yes"
+msgstr "Da"
+
+#: core/gg-options.php:143
+msgid "Click and Drag to Sort"
+msgstr "Click si trage pentru sortare"
+
+#: core/gg-options.php:148 core/gg-post-type.php:130
+#: core/gg-template-functions.php:149
+msgid "Address"
+msgstr "Adresa"
+
+#: core/gg-options.php:149 core/gg-post-type.php:131
+msgid "Address Line 2"
+msgstr "Adresa linia 2"
+
+#: core/gg-options.php:150 core/gg-post-type.php:132
+#: core/gg-template-functions.php:152
+msgid "Phone"
+msgstr "Telefon"
+
+#: core/gg-options.php:151
+msgid "Web Address"
+msgstr "Adresa de Web"
+
+#: core/gg-options.php:168
+msgid "Label"
+msgstr "Eticheta"
+
+#: core/gg-options.php:169
+msgid "Type"
+msgstr "Catagoria"
+
+#: core/gg-options.php:170
+msgid "Text"
+msgstr "Texte"
+
+#: core/gg-options.php:171
+msgid "Link"
+msgstr "Legatura"
+
+#: core/gg-options.php:172
+msgid "Email"
+msgstr "Email"
+
+#: core/gg-options.php:179
+msgid "Add"
+msgstr "Adaugare"
+
+#: core/gg-options.php:180
+msgid ""
+"Note: Once you have saved event info using these labels, changing the labels "
+"will result in some info no longer appearing."
+msgstr ""
+"Nota: Dupa ce ati salvat un Info eveniment cu ajutorul acestor etichete, "
+"schimbarea etichetelor va duce la unele informatii ce nu mai apar."
+
+#: core/gg-options.php:183
+msgid "Include link to help promote Event Geek"
+msgstr "Include link-ul pentru promovarea Event Geek"
+
+#: core/gg-options.php:186
+msgid "Yes (thank you!)"
+msgstr "Multumesc"
+
+#: core/gg-options.php:195
+msgid "Thank you for using Event Geek. For support see the"
+msgstr "Va mul?umim pentru pluginul Event Geek. Pentru suport vedeti"
+
+#: core/gg-options.php:195
+msgid "WordPress support forum"
+msgstr "Forum de support WordPress"
+
+#: core/gg-options.php:195
+msgid "contact Graphic Geek"
+msgstr "contact Graphic Geek"
+
+#: core/gg-options.php:195
+msgid "or"
+msgstr "sau"
+
+#: core/gg-options.php:195
+msgid "leave a comment here"
+msgstr "lasati un comentariu aici"
+
+#: core/gg-options.php:196
+msgid ""
+"To help support the continued improvement of this plugin, please consider "
+"making a"
+msgstr ""
+"Pentru a ajuta sprijine îmbunata?irea acestui plug-in, va rugam sa Lua?i în "
+"considerare a face o"
+
+#: core/gg-options.php:196
+msgid "small donation"
+msgstr "O mica donatie."
+
+#: core/gg-options.php:196
+msgid "Also be sure to give it a"
+msgstr "De asemenea, asigura?i-va ca pentru a da o"
+
+#: core/gg-options.php:196
+msgid "good rating and/or review"
+msgstr "bun de rating ?i / sau revizuire"
+
+#: core/gg-post-type.php:7
+msgid "Events"
+msgstr "Evenimente"
+
+#: core/gg-post-type.php:8
+msgid "Event"
+msgstr "Eveniment"
+
+#: core/gg-post-type.php:9 core/gg-post-type.php:10 core/gg-post-type.php:12
+msgid "Add New Event"
+msgstr "adaugare Eveniment nou"
+
+#: core/gg-post-type.php:11
+msgid "Edit Event"
+msgstr "Editare Eveniment"
+
+#: core/gg-post-type.php:13
+msgid "View Event"
+msgstr "Vizualizare Eveniment"
+
+#: core/gg-post-type.php:14
+msgid "Search Events"
+msgstr "Cautare Evenimente"
+
+#: core/gg-post-type.php:15
+msgid "No Events found"
+msgstr "Nu sunt Evenimente"
+
+#: core/gg-post-type.php:16
+msgid "No Events found in trash"
+msgstr "Nu sunt evenimente in gunoi"
+
+#: core/gg-post-type.php:107
+msgid "Event Date"
+msgstr "Data Evenimentului"
+
+#: core/gg-post-type.php:108
+msgid "Start"
+msgstr "Inceput"
+
+#: core/gg-post-type.php:111
+msgid "End"
+msgstr "Sfarsit"
+
+#: core/gg-post-type.php:113
+msgid "Single Day Event"
+msgstr "Événiment o singura zi"
+
+#: core/gg-post-type.php:133
+msgid "Website"
+msgstr "Site Web"
+
+#: core/gg-post-type.php:136
+msgid "Event Image"
+msgstr "Imagine Eveniment"
+
+#: core/gg-post-type.php:136
+msgid "Set Event Thumbnail"
+msgstr "Seteaza Eveniment Miniatura"
+
+#: core/gg-post-type.php:136
+msgid "Upload"
+msgstr "Incarcarer"
+
+#: core/gg-widget.php:10
+msgid "Show a Calendar of Events"
+msgstr "Afiseaza Calendarul Evenimentelor"
+
+#: core/gg-widget.php:25
+msgid "Title:"
+msgstr "Titlu:"

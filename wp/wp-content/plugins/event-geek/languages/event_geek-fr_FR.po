@@ -1,0 +1,270 @@
+# Copyright (C) 2013 
+# This file is distributed under the same license as the  package.
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"Report-Msgid-Bugs-To: http://wordpress.org/tag/event-geek\n"
+"POT-Creation-Date: 2013-07-14 07:19:31+00:00\n"
+"PO-Revision-Date: 2013-08-15 08:28-0700\n"
+"Last-Translator: \n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.5.7\n"
+
+#: core/gg-ajax.php:52 core/gg-shortcodes.php:36
+#: core/gg-template-functions.php:41
+msgid "to"
+msgstr "à"
+
+#: core/gg-ajax.php:86 core/gg-shortcodes.php:63
+#: core/gg-template-functions.php:79
+msgid "Powered by"
+msgstr "Propulsé par"
+
+#: core/gg-functions.php:22 core/gg-functions.php:84
+msgid "Close"
+msgstr "Fermer"
+
+#: core/gg-functions.php:23 core/gg-functions.php:85
+msgid "Today"
+msgstr "Aujourd'hui"
+
+#: core/gg-options.php:6 core/gg-options.php:69
+msgid "Event Geek Options"
+msgstr "Options d'Event Geek"
+
+#: core/gg-options.php:7 core/gg-options.php:9
+msgid "Event Options"
+msgstr "Options d'événements"
+
+#: core/gg-options.php:10 core/gg-post-type.php:35
+msgid "Options"
+msgstr "Options"
+
+#: core/gg-options.php:44
+msgid "Security Error. Try again."
+msgstr "Erreur de sécurité. Essayez à nouveau."
+
+#: core/gg-options.php:49
+msgid "You do not have sufficient permissions to access this page."
+msgstr "Vous n'avez pas les permissions suffisantes pour accéder à cette page."
+
+#: core/gg-options.php:74
+msgid "Updated"
+msgstr "Mise à jour"
+
+#: core/gg-options.php:85
+msgid "Style Options"
+msgstr "Options de style"
+
+#: core/gg-options.php:87
+msgid "Select a style"
+msgstr "Sélectionner un style"
+
+#: core/gg-options.php:117
+msgid "Use your own theme (enter URL)"
+msgstr "Choisir votre propre thème (entrez l'URL)"
+
+#: core/gg-options.php:118
+msgid "Read more about jQuery UI themes"
+msgstr "En savoir plus sur les thèmes jQuery UI"
+
+#: core/gg-options.php:125
+msgid "Event Date Background color"
+msgstr "Couleur de fond"
+
+#: core/gg-options.php:128
+msgid "Event Date Text Color"
+msgstr "Couleur de texte"
+
+#: core/gg-options.php:132
+msgid "Other Options"
+msgstr "Autres options"
+
+#: core/gg-options.php:134
+msgid "Customize Event Info"
+msgstr "Personnaliser ce module d'extension"
+
+#: core/gg-options.php:136 core/gg-options.php:185
+msgid "No"
+msgstr "Non"
+
+#: core/gg-options.php:137
+msgid "Yes"
+msgstr "Oui"
+
+#: core/gg-options.php:143
+msgid "Click and Drag to Sort"
+msgstr "Cliquez et faites glisser pour trier"
+
+#: core/gg-options.php:148 core/gg-post-type.php:130
+#: core/gg-template-functions.php:149
+msgid "Address"
+msgstr "Adresse"
+
+#: core/gg-options.php:149 core/gg-post-type.php:131
+msgid "Address Line 2"
+msgstr "Adresse ligne 2"
+
+#: core/gg-options.php:150 core/gg-post-type.php:132
+#: core/gg-template-functions.php:152
+msgid "Phone"
+msgstr "Téléphone"
+
+#: core/gg-options.php:151
+msgid "Web Address"
+msgstr "Adresse du site Internet"
+
+#: core/gg-options.php:168
+msgid "Label"
+msgstr "Étiquette"
+
+#: core/gg-options.php:169
+msgid "Type"
+msgstr "Catégorie"
+
+#: core/gg-options.php:170
+msgid "Text"
+msgstr "Texte"
+
+#: core/gg-options.php:171
+msgid "Link"
+msgstr "Lien"
+
+#: core/gg-options.php:172
+msgid "Email"
+msgstr "Courriel"
+
+#: core/gg-options.php:179
+msgid "Add"
+msgstr "Ajouter"
+
+#: core/gg-options.php:180
+msgid ""
+"Note: Once you have saved event info using these labels, changing the labels "
+"will result in some info no longer appearing."
+msgstr ""
+"Note: Une fois que vous avez enregistré les modifications des libellés vous "
+"pouvez perdre des informations si vous changez à nouveau les libellés.  "
+
+#: core/gg-options.php:183
+msgid "Include link to help promote Event Geek"
+msgstr "Inclure le lien pour aider à promouvoir Event Geek"
+
+#: core/gg-options.php:186
+msgid "Yes (thank you!)"
+msgstr "Oui (merci!)"
+
+#: core/gg-options.php:195
+msgid "Thank you for using Event Geek. For support see the"
+msgstr "Merci d'utiliser Event Geek. Pour voir le support"
+
+#: core/gg-options.php:195
+msgid "WordPress support forum"
+msgstr "Forum de support WordPress"
+
+#: core/gg-options.php:195
+msgid "contact Graphic Geek"
+msgstr "contacter Graphic Geek"
+
+#: core/gg-options.php:195
+msgid "or"
+msgstr "ou"
+
+#: core/gg-options.php:195
+msgid "leave a comment here"
+msgstr "laisser un commentaire ici"
+
+#: core/gg-options.php:196
+msgid ""
+"To help support the continued improvement of this plugin, please consider "
+"making a"
+msgstr ""
+"Pour aider à soutenir l'amélioration de ce plugin, s'il vous plaît, "
+"envisager de faire un"
+
+#: core/gg-options.php:196
+msgid "small donation"
+msgstr "petit don."
+
+#: core/gg-options.php:196
+msgid "Also be sure to give it a"
+msgstr "Veuillez également lui donner une"
+
+#: core/gg-options.php:196
+msgid "good rating and/or review"
+msgstr "bonne note ou une bonne critique"
+
+#: core/gg-post-type.php:7
+msgid "Events"
+msgstr "Événements"
+
+#: core/gg-post-type.php:8
+msgid "Event"
+msgstr "Événement"
+
+#: core/gg-post-type.php:9 core/gg-post-type.php:10 core/gg-post-type.php:12
+msgid "Add New Event"
+msgstr "Ajouter un nouvel événement"
+
+#: core/gg-post-type.php:11
+msgid "Edit Event"
+msgstr "Modifier l'événement"
+
+#: core/gg-post-type.php:13
+msgid "View Event"
+msgstr "Voir l'événement"
+
+#: core/gg-post-type.php:14
+msgid "Search Events"
+msgstr "Rechercher des événements"
+
+#: core/gg-post-type.php:15
+msgid "No Events found"
+msgstr "Aucun événement trouvé"
+
+#: core/gg-post-type.php:16
+msgid "No Events found in trash"
+msgstr "Aucun événement n'a été trouvé dans la poubelle"
+
+#: core/gg-post-type.php:107
+msgid "Event Date"
+msgstr "Date de l'événement"
+
+#: core/gg-post-type.php:108
+msgid "Start"
+msgstr "Début"
+
+#: core/gg-post-type.php:111
+msgid "End"
+msgstr "Fin"
+
+#: core/gg-post-type.php:113
+msgid "Single Day Event"
+msgstr "Événement sur une journée"
+
+#: core/gg-post-type.php:133
+msgid "Website"
+msgstr "Site Web"
+
+#: core/gg-post-type.php:136
+msgid "Event Image"
+msgstr "Ajouter une image"
+
+#: core/gg-post-type.php:136
+msgid "Set Event Thumbnail"
+msgstr "Choisir une vignette"
+
+#: core/gg-post-type.php:136
+msgid "Upload"
+msgstr "Télécharger"
+
+#: core/gg-widget.php:10
+msgid "Show a Calendar of Events"
+msgstr "Afficher le calendrier"
+
+#: core/gg-widget.php:25
+msgid "Title:"
+msgstr "Titre:"
