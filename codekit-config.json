@@ -112,16 +112,16 @@
       "initialSize" : 1232,
       "fileType" : 8192
     },
-    "\/images\/events\/TheOhSees060813-lite.jpg" : {
+    "\/images\/logo-button.png" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 0,
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/images\/events\/TheOhSees060813-lite.jpg",
+      "inputAbbreviatedPath" : "\/images\/logo-button.png",
       "processed" : 0,
-      "outputAbbreviatedPath" : "\/images\/events\/TheOhSees060813-lite.jpg",
-      "initialSize" : 32098,
-      "fileType" : 4096
+      "outputAbbreviatedPath" : "\/images\/logo-button.png",
+      "initialSize" : 3336,
+      "fileType" : 8192
     },
     "\/images\/merch\/hoodie-gray-front.jpg" : {
       "ignoreWasSetByUser" : 0,
@@ -134,16 +134,16 @@
       "initialSize" : 8219,
       "fileType" : 4096
     },
-    "\/images\/logo-button.png" : {
+    "\/images\/events\/TheOhSees060813-lite.jpg" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 0,
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/images\/logo-button.png",
+      "inputAbbreviatedPath" : "\/images\/events\/TheOhSees060813-lite.jpg",
       "processed" : 0,
-      "outputAbbreviatedPath" : "\/images\/logo-button.png",
-      "initialSize" : 3336,
-      "fileType" : 8192
+      "outputAbbreviatedPath" : "\/images\/events\/TheOhSees060813-lite.jpg",
+      "initialSize" : 32098,
+      "fileType" : 4096
     },
     "\/fetch-tweets\/image\/screen_icon_32x32.png" : {
       "ignoreWasSetByUser" : 0,
@@ -235,17 +235,6 @@
       "fileType" : 4,
       "debugStyle" : 1
     },
-    "\/images\/events\/Aids-Emergency-Fund---Dark-Days-thumb.jpg" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/images\/events\/Aids-Emergency-Fund---Dark-Days-thumb.jpg",
-      "processed" : 0,
-      "outputAbbreviatedPath" : "\/images\/events\/Aids-Emergency-Fund---Dark-Days-thumb.jpg",
-      "initialSize" : 5158,
-      "fileType" : 4096
-    },
     "\/images\/icons\/frame.png" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 0,
@@ -268,6 +257,17 @@
       "initialSize" : 1389,
       "fileType" : 8192
     },
+    "\/images\/events\/TNL130711-lite.jpg" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/images\/events\/TNL130711-lite.jpg",
+      "processed" : 0,
+      "outputAbbreviatedPath" : "\/images\/events\/TNL130711-lite.jpg",
+      "initialSize" : 23810,
+      "fileType" : 4096
+    },
     "\/images\/staff\/cody-joseph-virgin-mary-thumb.jpg" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 0,
@@ -279,15 +279,15 @@
       "initialSize" : 3763,
       "fileType" : 4096
     },
-    "\/images\/events\/TNL130711-lite.jpg" : {
+    "\/images\/events\/Aids-Emergency-Fund---Dark-Days-thumb.jpg" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 0,
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/images\/events\/TNL130711-lite.jpg",
+      "inputAbbreviatedPath" : "\/images\/events\/Aids-Emergency-Fund---Dark-Days-thumb.jpg",
       "processed" : 0,
-      "outputAbbreviatedPath" : "\/images\/events\/TNL130711-lite.jpg",
-      "initialSize" : 23810,
+      "outputAbbreviatedPath" : "\/images\/events\/Aids-Emergency-Fund---Dark-Days-thumb.jpg",
+      "initialSize" : 5158,
       "fileType" : 4096
     },
     "\/images\/events\/torche-poster-flat-lite.jpg" : {
@@ -301,6 +301,17 @@
       "initialSize" : 35092,
       "fileType" : 4096
     },
+    "\/images\/events\/TNL130718-160.jpg" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/images\/events\/TNL130718-160.jpg",
+      "processed" : 0,
+      "outputAbbreviatedPath" : "\/images\/events\/TNL130718-160.jpg",
+      "initialSize" : 2935,
+      "fileType" : 4096
+    },
     "\/fetch-tweets\/image\/menu_icon_16x16.png" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 0,
@@ -311,17 +322,6 @@
       "outputAbbreviatedPath" : "\/fetch-tweets\/image\/menu_icon_16x16.png",
       "initialSize" : 729,
       "fileType" : 8192
-    },
-    "\/images\/events\/cubtrap-130712-600.jpg" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/images\/events\/cubtrap-130712-600.jpg",
-      "processed" : 0,
-      "outputAbbreviatedPath" : "\/images\/events\/cubtrap-130712-600.jpg",
-      "initialSize" : 38629,
-      "fileType" : 4096
     },
     "\/images\/events\/BSJ-DiscoDaddy-lite.jpg" : {
       "ignoreWasSetByUser" : 0,
@@ -346,15 +346,15 @@
       "fileType" : 4,
       "debugStyle" : 1
     },
-    "\/images\/events\/TNL130718-160.jpg" : {
+    "\/images\/events\/cubtrap-130712-600.jpg" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 0,
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/images\/events\/TNL130718-160.jpg",
+      "inputAbbreviatedPath" : "\/images\/events\/cubtrap-130712-600.jpg",
       "processed" : 0,
-      "outputAbbreviatedPath" : "\/images\/events\/TNL130718-160.jpg",
-      "initialSize" : 2935,
+      "outputAbbreviatedPath" : "\/images\/events\/cubtrap-130712-600.jpg",
+      "initialSize" : 38629,
       "fileType" : 4096
     },
     "\/images\/patio_by_urso_sm.jpg" : {
@@ -601,17 +601,6 @@
       "outputAbbreviatedPath" : "\/IE.html",
       "fileType" : 512
     },
-    "\/images\/icons\/touch-icon-ipad.png" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/images\/icons\/touch-icon-ipad.png",
-      "processed" : 0,
-      "outputAbbreviatedPath" : "\/images\/icons\/touch-icon-ipad.png",
-      "initialSize" : 2251,
-      "fileType" : 8192
-    },
     "\/images\/DrinkSpecials\/DrinkSpecial-absolut-jimbeamhoney-400.jpg" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 0,
@@ -622,6 +611,17 @@
       "outputAbbreviatedPath" : "\/images\/DrinkSpecials\/DrinkSpecial-absolut-jimbeamhoney-400.jpg",
       "initialSize" : 11651,
       "fileType" : 4096
+    },
+    "\/images\/icons\/touch-icon-ipad.png" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/images\/icons\/touch-icon-ipad.png",
+      "processed" : 0,
+      "outputAbbreviatedPath" : "\/images\/icons\/touch-icon-ipad.png",
+      "initialSize" : 2251,
+      "fileType" : 8192
     },
     "\/js\/modernizr\/test\/caniuse_files\/red30x30.png" : {
       "ignoreWasSetByUser" : 0,
@@ -1153,6 +1153,17 @@
       "fileType" : 4,
       "debugStyle" : 1
     },
+    "\/js\/modernizr\/test\/caniuse_files\/text-shadow2.png" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/js\/modernizr\/test\/caniuse_files\/text-shadow2.png",
+      "processed" : 0,
+      "outputAbbreviatedPath" : "\/js\/modernizr\/test\/caniuse_files\/text-shadow2.png",
+      "initialSize" : 1680,
+      "fileType" : 8192
+    },
     "\/scss\/partials\/home\/_mast.scss" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 1,
@@ -1164,17 +1175,6 @@
       "outputAbbreviatedPath" : "\/css\/_mast.css",
       "fileType" : 4,
       "debugStyle" : 1
-    },
-    "\/js\/modernizr\/test\/caniuse_files\/text-shadow2.png" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/js\/modernizr\/test\/caniuse_files\/text-shadow2.png",
-      "processed" : 0,
-      "outputAbbreviatedPath" : "\/js\/modernizr\/test\/caniuse_files\/text-shadow2.png",
-      "initialSize" : 1680,
-      "fileType" : 8192
     },
     "\/images\/DrinkSpecials\/Dickel-3.png" : {
       "ignoreWasSetByUser" : 0,
@@ -1773,6 +1773,17 @@
       "initialSize" : 5470,
       "fileType" : 4096
     },
+    "\/images\/events\/DiscoDaddy-442x600.jpg" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/images\/events\/DiscoDaddy-442x600.jpg",
+      "processed" : 0,
+      "outputAbbreviatedPath" : "\/images\/events\/DiscoDaddy-442x600.jpg",
+      "initialSize" : 49337,
+      "fileType" : 4096
+    },
     "\/scss\/partials\/_all.scss" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 1,
@@ -1784,17 +1795,6 @@
       "outputAbbreviatedPath" : "\/css\/_all.css",
       "fileType" : 4,
       "debugStyle" : 1
-    },
-    "\/images\/events\/DiscoDaddy-442x600.jpg" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/images\/events\/DiscoDaddy-442x600.jpg",
-      "processed" : 0,
-      "outputAbbreviatedPath" : "\/images\/events\/DiscoDaddy-442x600.jpg",
-      "initialSize" : 49337,
-      "fileType" : 4096
     },
     "\/images\/events\/thejourney-blow-a-brat_web-thumb.jpg" : {
       "ignoreWasSetByUser" : 0,
@@ -1818,17 +1818,6 @@
       "initialSize" : 6897,
       "fileType" : 4096
     },
-    "\/fetch-tweets\/template\/plain\/screenshot.jpg" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/fetch-tweets\/template\/plain\/screenshot.jpg",
-      "processed" : 0,
-      "outputAbbreviatedPath" : "\/fetch-tweets\/template\/plain\/screenshot.jpg",
-      "initialSize" : 61193,
-      "fileType" : 4096
-    },
     "\/scss\/sprites\/_icons.scss" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 1,
@@ -1850,6 +1839,17 @@
       "processed" : 0,
       "outputAbbreviatedPath" : "\/images\/events\/TNL130711-thumb.jpg",
       "initialSize" : 3792,
+      "fileType" : 4096
+    },
+    "\/fetch-tweets\/template\/plain\/screenshot.jpg" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/fetch-tweets\/template\/plain\/screenshot.jpg",
+      "processed" : 0,
+      "outputAbbreviatedPath" : "\/fetch-tweets\/template\/plain\/screenshot.jpg",
+      "initialSize" : 61193,
       "fileType" : 4096
     },
     "\/images\/_hcc_thumbs\/patio_by_urso.jpg-thumb-80.jpg" : {
@@ -2163,17 +2163,6 @@
       "initialSize" : 30467,
       "fileType" : 4096
     },
-    "\/jade\/common\/settings.jade" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 1,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/jade\/common\/settings.jade",
-      "outputStyle" : 0,
-      "compileDebug" : 1,
-      "outputAbbreviatedPath" : "\/settings.html",
-      "fileType" : 512
-    },
     "\/images\/events\/flag-butt.jpg" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 0,
@@ -2184,6 +2173,17 @@
       "outputAbbreviatedPath" : "\/images\/events\/flag-butt.jpg",
       "initialSize" : 20284,
       "fileType" : 4096
+    },
+    "\/jade\/common\/settings.jade" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 1,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/jade\/common\/settings.jade",
+      "outputStyle" : 0,
+      "compileDebug" : 1,
+      "outputAbbreviatedPath" : "\/settings.html",
+      "fileType" : 512
     },
     "\/images\/icons\/tom_of_finland.png" : {
       "ignoreWasSetByUser" : 0,
@@ -2586,15 +2586,15 @@
       "initialSize" : 10826,
       "fileType" : 8192
     },
-    "\/images\/events\/whipping-elvis-lite.jpg" : {
+    "\/images\/events\/cigar-lite.jpg" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 0,
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/images\/events\/whipping-elvis-lite.jpg",
+      "inputAbbreviatedPath" : "\/images\/events\/cigar-lite.jpg",
       "processed" : 0,
-      "outputAbbreviatedPath" : "\/images\/events\/whipping-elvis-lite.jpg",
-      "initialSize" : 24524,
+      "outputAbbreviatedPath" : "\/images\/events\/cigar-lite.jpg",
+      "initialSize" : 18712,
       "fileType" : 4096
     },
     "\/scss\/partials\/singles\/_gotfur.scss" : {
@@ -2609,15 +2609,15 @@
       "fileType" : 4,
       "debugStyle" : 1
     },
-    "\/images\/events\/cigar-lite.jpg" : {
+    "\/images\/events\/whipping-elvis-lite.jpg" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 0,
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/images\/events\/cigar-lite.jpg",
+      "inputAbbreviatedPath" : "\/images\/events\/whipping-elvis-lite.jpg",
       "processed" : 0,
-      "outputAbbreviatedPath" : "\/images\/events\/cigar-lite.jpg",
-      "initialSize" : 18712,
+      "outputAbbreviatedPath" : "\/images\/events\/whipping-elvis-lite.jpg",
+      "initialSize" : 24524,
       "fileType" : 4096
     },
     "\/jade\/docs\/GayHankyCodes.jade" : {
@@ -2653,6 +2653,28 @@
       "outputAbbreviatedPath" : "\/links.html",
       "fileType" : 512
     },
+    "\/images\/events\/cityhall-rainbow-400.jpg" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/images\/events\/cityhall-rainbow-400.jpg",
+      "processed" : 0,
+      "outputAbbreviatedPath" : "\/images\/events\/cityhall-rainbow-400.jpg",
+      "initialSize" : 11909,
+      "fileType" : 4096
+    },
+    "\/images\/events\/memorialdayposter-lite.jpg" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/images\/events\/memorialdayposter-lite.jpg",
+      "processed" : 0,
+      "outputAbbreviatedPath" : "\/images\/events\/memorialdayposter-lite.jpg",
+      "initialSize" : 37640,
+      "fileType" : 4096
+    },
     "\/images\/logo-transparency-orangeeagle-cutout-400.png" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 0,
@@ -2674,28 +2696,6 @@
       "compileDebug" : 1,
       "outputAbbreviatedPath" : "\/index.php",
       "fileType" : 512
-    },
-    "\/images\/events\/memorialdayposter-lite.jpg" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/images\/events\/memorialdayposter-lite.jpg",
-      "processed" : 0,
-      "outputAbbreviatedPath" : "\/images\/events\/memorialdayposter-lite.jpg",
-      "initialSize" : 37640,
-      "fileType" : 4096
-    },
-    "\/images\/events\/cityhall-rainbow-400.jpg" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/images\/events\/cityhall-rainbow-400.jpg",
-      "processed" : 0,
-      "outputAbbreviatedPath" : "\/images\/events\/cityhall-rainbow-400.jpg",
-      "initialSize" : 11909,
-      "fileType" : 4096
     },
     "\/images\/icons\/calendarmonth.png" : {
       "ignoreWasSetByUser" : 0,
@@ -2765,6 +2765,17 @@
       "initialSize" : 16021,
       "fileType" : 8192
     },
+    "\/images\/events\/heartthrob-lite.jpg" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/images\/events\/heartthrob-lite.jpg",
+      "processed" : 0,
+      "outputAbbreviatedPath" : "\/images\/events\/heartthrob-lite.jpg",
+      "initialSize" : 43067,
+      "fileType" : 4096
+    },
     "\/jade\/common\/header.jade" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 1,
@@ -2785,17 +2796,6 @@
       "processed" : 0,
       "outputAbbreviatedPath" : "\/images\/logo-thumb.jpg",
       "initialSize" : 3686,
-      "fileType" : 4096
-    },
-    "\/images\/events\/heartthrob-lite.jpg" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/images\/events\/heartthrob-lite.jpg",
-      "processed" : 0,
-      "outputAbbreviatedPath" : "\/images\/events\/heartthrob-lite.jpg",
-      "initialSize" : 43067,
       "fileType" : 4096
     },
     "\/images\/events\/PRIDE_CBHS_reduced-thumb.jpg" : {

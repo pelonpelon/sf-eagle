@@ -55,7 +55,7 @@
             }
         }
     }
-    .promo {
+    .promo_container {
             @media screen and (max-width:$phone) {
                 width: 67%;
                 float: left;
@@ -106,7 +106,7 @@
                 padding-top: 1px;
             }
             p {
-                color: #000;
+                color: $decor-medium;
                 font-family: "Coming Soon";
                 font-weight: 900;
                 text-shadow: 1px 1px $decor-dark;

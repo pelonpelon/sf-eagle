@@ -130,7 +130,7 @@
           <div class="flexslider">
             <ul class="slides">
               <li>
-                <p class="rc">3rd and 5th Sundays</p><a href="images/events/DiscoDaddy-442x600.jpg" rel="lightbox"><img src="images/events/DiscoDaddy-442x600.jpg"></a>
+                <p class="rc">Every Other Wednesday</p><a href="images/events/underwear-generic-421x650.jpg" rel="lightbox"><img src="images/events/underwear-generic-421x650.jpg"></a>
               </li>
               <li>
                 <p class="rc">Every 3rd Friday</p><a href="images/events/CubHouse-600.jpg" rel="lightbox"><img src="images/events/CubHouse-600.jpg"></a>
@@ -139,17 +139,20 @@
                 <p class="rc">Friday Cigar Nights</p><a href="images/events/cigar-lite.jpg" rel="lightbox"><img src="images/events/cigar-lite.jpg"></a>
               </li>
               <li>
+                <p class="rc">Every 3rd Saturday</p><a href="images/events/bluf-lite.jpg" rel="lightbox"><img src="images/events/bluf-lite.jpg"></a>
+              </li>
+              <li>
                 <p class="rc">Every 4th Saturday</p><a href="images/events/Sadistic-generic-389x600.jpg" rel="lightbox"><img src="images/events/Sadistic-generic-389x600.jpg"></a>
               </li>
               <li>
-                <p class="rc">Every 3rd Saturday</p><a href="images/events/bluf-lite.jpg" rel="lightbox"><img src="images/events/bluf-lite.jpg"></a>
+                <p class="rc">3rd and 5th Sundays</p><a href="images/events/DiscoDaddy-442x600.jpg" rel="lightbox"><img src="images/events/DiscoDaddy-442x600.jpg"></a>
               </li>
             </ul>
           </div>
           <div class="nonFlexslider">
             <ul class="slides">
               <li>
-                <p class="rc">3rd and 5th Sundays</p><img src="images/events/DiscoDaddy-442x600.jpg">
+                <p class="rc">Every Other Wednesday</p><img src="images/events/underwear-generic-421x650.jpg">
               </li>
               <li>
                 <p class="rc">Every 3rd Friday</p><img src="images/events/CubHouse-600.jpg">
@@ -158,10 +161,13 @@
                 <p class="rc">Friday Cigar Nights</p><img src="images/events/cigar-lite.jpg">
               </li>
               <li>
+                <p class="rc">Every 3rd Saturday</p><img src="images/events/bluf-lite.jpg">
+              </li>
+              <li>
                 <p class="rc">Every 4th Saturday</p><img src="images/events/Sadistic-generic-389x600.jpg">
               </li>
               <li>
-                <p class="rc">Every 3rd Saturday</p><img src="images/events/bluf-lite.jpg">
+                <p class="rc">3rd and 5th Sundays</p><img src="images/events/DiscoDaddy-442x600.jpg">
               </li>
             </ul>
           </div>

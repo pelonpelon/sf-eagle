@@ -52,7 +52,7 @@
               <li><a href="jobs.php" class="button"><span>Jobs</span></a></li>
             </ul>
           </nav>
-          <div class="promo"><?php
+          <div class="promo_container"><?php
     global $post;
     $category_id = get_cat_ID('Add to sidebar');
     $args = array(
@@ -60,21 +60,20 @@
     'orderby'       => 'post_date',
     'order'         => 'DESC',
     'post_type'     => 'post',
-    'post_status'   => 'scheduled',
+    'post_status'   => 'publish',
     'numberposts'   => 2
     );
     $custom_posts = get_posts($args);
     foreach($custom_posts as $post)
     {
       if ( !$custom_posts ) { continue; }
-
       setup_postdata($post);
       if ( $post->post_status == "draft" ) { continue; }
       if ( $post->post_status == "private" ) { continue; }
       if ( $post->post_status == "archived" ) { continue; }
       include 'includes/timegames.php';
       ?>
-      <section class="drink_special" style="display: block;">
+      <section class="promo" style="display: block;">
           <div class="with_thumbnail"><?php
           the_content();?>
       </section><?php
@@ -351,7 +350,7 @@ foreach($custom_posts as $post)
           <div class="flexslider">
             <ul class="slides">
               <li>
-                <p class="rc">3rd and 5th Sundays</p><a href="images/events/DiscoDaddy-442x600.jpg" rel="lightbox"><img src="images/events/DiscoDaddy-442x600.jpg"></a>
+                <p class="rc">Every Other Wednesday</p><a href="images/events/underwear-generic-421x650.jpg" rel="lightbox"><img src="images/events/underwear-generic-421x650.jpg"></a>
               </li>
               <li>
                 <p class="rc">Every 3rd Friday</p><a href="images/events/CubHouse-600.jpg" rel="lightbox"><img src="images/events/CubHouse-600.jpg"></a>
@@ -360,17 +359,20 @@ foreach($custom_posts as $post)
                 <p class="rc">Friday Cigar Nights</p><a href="images/events/cigar-lite.jpg" rel="lightbox"><img src="images/events/cigar-lite.jpg"></a>
               </li>
               <li>
+                <p class="rc">Every 3rd Saturday</p><a href="images/events/bluf-lite.jpg" rel="lightbox"><img src="images/events/bluf-lite.jpg"></a>
+              </li>
+              <li>
                 <p class="rc">Every 4th Saturday</p><a href="images/events/Sadistic-generic-389x600.jpg" rel="lightbox"><img src="images/events/Sadistic-generic-389x600.jpg"></a>
               </li>
               <li>
-                <p class="rc">Every 3rd Saturday</p><a href="images/events/bluf-lite.jpg" rel="lightbox"><img src="images/events/bluf-lite.jpg"></a>
+                <p class="rc">3rd and 5th Sundays</p><a href="images/events/DiscoDaddy-442x600.jpg" rel="lightbox"><img src="images/events/DiscoDaddy-442x600.jpg"></a>
               </li>
             </ul>
           </div>
           <div class="nonFlexslider">
             <ul class="slides">
               <li>
-                <p class="rc">3rd and 5th Sundays</p><img src="images/events/DiscoDaddy-442x600.jpg">
+                <p class="rc">Every Other Wednesday</p><img src="images/events/underwear-generic-421x650.jpg">
               </li>
               <li>
                 <p class="rc">Every 3rd Friday</p><img src="images/events/CubHouse-600.jpg">
@@ -379,10 +381,13 @@ foreach($custom_posts as $post)
                 <p class="rc">Friday Cigar Nights</p><img src="images/events/cigar-lite.jpg">
               </li>
               <li>
+                <p class="rc">Every 3rd Saturday</p><img src="images/events/bluf-lite.jpg">
+              </li>
+              <li>
                 <p class="rc">Every 4th Saturday</p><img src="images/events/Sadistic-generic-389x600.jpg">
               </li>
               <li>
-                <p class="rc">Every 3rd Saturday</p><img src="images/events/bluf-lite.jpg">
+                <p class="rc">3rd and 5th Sundays</p><img src="images/events/DiscoDaddy-442x600.jpg">
               </li>
             </ul>
           </div>

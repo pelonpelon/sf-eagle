@@ -1097,13 +1097,13 @@ html, body {
 }
 @media screen and (max-width: 641px) {
   /* line 58, ../scss/partials/home/_mast.scss */
-  #mast .promo {
+  #mast .promo_container {
     width: 67%;
     float: left;
   }
 }
 /* line 63, ../scss/partials/home/_mast.scss */
-#mast .promo section {
+#mast .promo_container section {
   *zoom: 1;
   filter: progid:DXImageTransform.Microsoft.gradient(gradientType=0, startColorstr='#FFFFD700', endColorstr='#FFFFD700');
   background-image: url('data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0idXRmLTgiPz4gPHN2ZyB2ZXJzaW9uPSIxLjEiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+PGRlZnM+PGxpbmVhckdyYWRpZW50IGlkPSJncmFkIiBncmFkaWVudFVuaXRzPSJ1c2VyU3BhY2VPblVzZSIgeDE9IjUwJSIgeTE9IjAlIiB4Mj0iNTAlIiB5Mj0iMTAwJSI+PHN0b3Agb2Zmc2V0PSIwJSIgc3RvcC1jb2xvcj0icmdiYSgyMjUsIDIyNSwgMjI1LCAwLjgpIi8+PHN0b3Agb2Zmc2V0PSI1NSUiIHN0b3AtY29sb3I9InJnYmEoMjI1LCAyMjUsIDIyNSwgMC40KSIvPjxzdG9wIG9mZnNldD0iOTIlIiBzdG9wLWNvbG9yPSJyZ2JhKDIyNSwgMjI1LCAyMjUsIDAuMikiLz48c3RvcCBvZmZzZXQ9IjEwMCUiIHN0b3AtY29sb3I9InJnYmEoMjI1LCAyMjUsIDIyNSwgMC44KSIvPjwvbGluZWFyR3JhZGllbnQ+PC9kZWZzPjxyZWN0IHg9IjAiIHk9IjAiIHdpZHRoPSIxMDAlIiBoZWlnaHQ9IjEwMCUiIGZpbGw9InVybCgjZ3JhZCkiIC8+PC9zdmc+IA==');
@@ -1124,7 +1124,7 @@ html, body {
 }
 @media screen and (max-width: 1025px) {
   /* line 63, ../scss/partials/home/_mast.scss */
-  #mast .promo section {
+  #mast .promo_container section {
     z-index: 99;
     float: left;
     clear: both;
@@ -1134,7 +1134,7 @@ html, body {
 }
 @media screen and (max-width: 801px) {
   /* line 63, ../scss/partials/home/_mast.scss */
-  #mast .promo section {
+  #mast .promo_container section {
     top: 365px;
     float: right;
     border: none;
@@ -1145,78 +1145,78 @@ html, body {
 }
 @media screen and (max-width: 641px) {
   /* line 63, ../scss/partials/home/_mast.scss */
-  #mast .promo section {
+  #mast .promo_container section {
     width: 100%;
     top: 0;
     z-index: 0;
   }
 }
 /* line 99, ../scss/partials/home/_mast.scss */
-#mast .promo section img {
+#mast .promo_container section img {
   width: 90%;
   margin: 5px auto 0 auto;
 }
 @media screen and (max-width: 641px) {
   /* line 63, ../scss/partials/home/_mast.scss */
-  #mast .promo section {
+  #mast .promo_container section {
     float: none;
     margin: 0 auto;
     padding-top: 1px;
   }
 }
 /* line 108, ../scss/partials/home/_mast.scss */
-#mast .promo section p {
-  color: #000;
+#mast .promo_container section p {
+  color: #cc0000;
   font-family: "Coming Soon";
   font-weight: 900;
   text-shadow: 1px 1px #660000;
 }
 @media screen and (max-width: 641px) {
   /* line 108, ../scss/partials/home/_mast.scss */
-  #mast .promo section p {
+  #mast .promo_container section p {
     font-size: 1.4em;
     margin-top: 0;
   }
 }
 /* line 118, ../scss/partials/home/_mast.scss */
-#mast .promo section a:hover {
+#mast .promo_container section a:hover {
   color: red;
 }
 @media screen and (max-width: 1025px) {
   /* line 122, ../scss/partials/home/_mast.scss */
-  #mast .promo .fetch-tweets-item {
+  #mast .promo_container .fetch-tweets-item {
     display: none;
   }
 }
 @media screen and (max-width: 1025px) {
   /* line 127, ../scss/partials/home/_mast.scss */
-  #mast .promo .fetch-tweets-item:nth-of-type(-n+2) {
+  #mast .promo_container .fetch-tweets-item:nth-of-type(-n+2) {
     display: block;
   }
 }
 /* line 132, ../scss/partials/home/_mast.scss */
-#mast .promo .fetch-tweets {
+#mast .promo_container .fetch-tweets {
   background-color: #000 !important;
   max-height: none !important;
   width: 100%;
   padding-top: 10px;
 }
 /* line 137, ../scss/partials/home/_mast.scss */
-#mast .promo .fetch-tweets li {
+#mast .promo_container .fetch-tweets li {
   float: left;
   clear: none;
 }
 /* line 144, ../scss/partials/home/_mast.scss */
-#mast .promo .fetch-tweets-profile-image {
+#mast .promo_container .fetch-tweets-profile-image {
   display: none;
 }
 /* line 147, ../scss/partials/home/_mast.scss */
-#mast .promo .fetch-tweets-main {
+#mast .promo_container .fetch-tweets-main {
   margin: 0 !important;
   padding: 0px 4% 0 4%;
 }
 /* line 151, ../scss/partials/home/_mast.scss */
-#mast .promo .fetch-tweets-heading {
+#mast .promo_container .fetch-tweets-heading {
   font-size: .6rem !important;
   color: #c90;
   text-align: right;
@@ -1224,21 +1224,21 @@ html, body {
   padding: 0 0 4px 0;
 }
 /* line 157, ../scss/partials/home/_mast.scss */
-#mast .promo .fetch-tweets-heading:hover {
+#mast .promo_container .fetch-tweets-heading:hover {
   color: #fc0;
 }
 @media screen and (max-width: 641px) {
   /* line 151, ../scss/partials/home/_mast.scss */
-  #mast .promo .fetch-tweets-heading {
+  #mast .promo_container .fetch-tweets-heading {
     font-size: 1em;
   }
 }
 /* line 163, ../scss/partials/home/_mast.scss */
-#mast .promo .fetch-tweets-heading .fetch-tweets-tweet-created-at {
+#mast .promo_container .fetch-tweets-heading .fetch-tweets-tweet-created-at {
   font-size: 0.3rem;
 }
 /* line 167, ../scss/partials/home/_mast.scss */
-#mast .promo .fetch-tweets-intent-buttons {
+#mast .promo_container .fetch-tweets-intent-buttons {
   width: 100%;
   height: 32px;
   text-align: center;
@@ -1246,13 +1246,13 @@ html, body {
 }
 @media screen and (max-width: 641px) {
   /* line 167, ../scss/partials/home/_mast.scss */
-  #mast .promo .fetch-tweets-intent-buttons {
+  #mast .promo_container .fetch-tweets-intent-buttons {
     height: 28px;
     background-color: #000;
   }
 }
 /* line 177, ../scss/partials/home/_mast.scss */
-#mast .promo .fetch-tweets-intent-icon {
+#mast .promo_container .fetch-tweets-intent-icon {
   display: inline-block;
   min-width: 36px;
   min-height: 36px;
@@ -1262,7 +1262,7 @@ html, body {
 }
 @media screen and (max-width: 641px) {
   /* line 177, ../scss/partials/home/_mast.scss */
-  #mast .promo .fetch-tweets-intent-icon {
+  #mast .promo_container .fetch-tweets-intent-icon {
     min-width: 32px;
     min-height: 32px;
     background-position: -32px;
@@ -1270,15 +1270,15 @@ html, body {
   }
 }
 /* line 192, ../scss/partials/home/_mast.scss */
-#mast .promo .fetch-tweets-intent-reply {
+#mast .promo_container .fetch-tweets-intent-reply {
   display: none;
 }
 /* line 195, ../scss/partials/home/_mast.scss */
-#mast .promo .fetch-tweets-intent-favorite {
+#mast .promo_container .fetch-tweets-intent-favorite {
   display: none;
 }
 /* line 198, ../scss/partials/home/_mast.scss */
-#mast .promo .fetch-tweets-text {
+#mast .promo_container .fetch-tweets-text {
   font-family: "Trebuchet";
   text-shadow: none;
   font-weight: 500;
@@ -1288,12 +1288,12 @@ html, body {
   margin: 0;
 }
 /* line 206, ../scss/partials/home/_mast.scss */
-#mast .promo .fetch-tweets-text a {
+#mast .promo_container .fetch-tweets-text a {
   color: #999999;
 }
 @media screen and (max-width: 1025px) {
   /* line 198, ../scss/partials/home/_mast.scss */
-  #mast .promo .fetch-tweets-text {
+  #mast .promo_container .fetch-tweets-text {
     font-size: 1rem;
   }
 }
