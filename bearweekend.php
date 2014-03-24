@@ -117,79 +117,80 @@
               <p>We know you'll have a great time and our Hirsute Bartenders will be waiting to welcome you to what is sure to be an amazing weekend.</p>
             </article>
           </section>
-          <div id="page-footer"></div>
         </div>
-        <div id="footer">
-          <div class="links">
-            <ul class="social">
-              <li class="email"><a href="mailto:info@sf-eagle.com?subject=Sent%20via%20website" title="Send us email" width="60" height="60"><img src="images/icons/email.png" alt="email" class="thumb"></a></li>
-              <li class="faceboook"><a href="http://www.facebook.com/theSFEagle" title="We're on Facebook" target="_blank" width="60" height="60"><img src="images/icons/facebook.png" alt="facebook" class="thumb"></a></li>
-              <li class="twitter"><a href="https://twitter.com/sfeaglebar" title="We're on Twitter" target="_blank" width="60" height="60"><img src="images/icons/twitter.png" alt="twitter" class="thumb"></a></li>
-              <li class="google"><a href="https://plus.google.com/104184281608152528049/posts" rel="publisher" title="We're on Google Plus" target="_blank" width="60" height="60"><img src="images/icons/google-plus-icon.png" alt="google+" class="thumb"></a>
+        <div id="page-footer"></div>
+      </div>
+      <div id="footer">
+        <div class="links">
+          <ul class="social">
+            <li class="email"><a href="mailto:info@sf-eagle.com?subject=Sent%20via%20website" title="Send us email" width="60" height="60"><img src="images/icons/email.png" alt="email" class="thumb"></a></li>
+            <li class="faceboook"><a href="http://www.facebook.com/theSFEagle" title="We're on Facebook" target="_blank" width="60" height="60"><img src="images/icons/facebook.png" alt="facebook" class="thumb"></a></li>
+            <li class="twitter"><a href="https://twitter.com/sfeaglebar" title="We're on Twitter" target="_blank" width="60" height="60"><img src="images/icons/twitter.png" alt="twitter" class="thumb"></a></li>
+            <li class="google"><a href="https://plus.google.com/104184281608152528049/posts" rel="publisher" title="We're on Google Plus" target="_blank" width="60" height="60"><img src="images/icons/google-plus-icon.png" alt="google+" class="thumb"></a>
+            </li>
+            <li class="youtube"><a href="http://www.youtube.com/channel/UCmzgZ3-nEo1S8tnyjGJ3WoQ/playlists" title="We're on Youtube" target="_blank" width="60" height="60"><img src="images/icons/youtube-icon.png" alt="youtube" class="thumb"></a></li>
+          </ul>
+        </div>
+        <div class="content">
+          <div class="googlemap"><a href="https://maps.google.com/maps?q=Eagle+Tavern,+12th+Street,+San+Francisco,+CA,+USA&amp;hl=en&amp;sll=37.770048,-122.413315&amp;sspn=0.010974,0.01929&amp;oq=Eagle&amp;t=m&amp;z=16" target="_blank"><img src="images/google-map.jpg" width="250" height="250"></a>
+            <h3>We're just off the freeway<br>398 12th Street<br>(corner of Harrison)</h3>
+          </div>
+          <div class="hankypic"><a href="GayHankyCodes.php" title="Don't miss our monthly FLAG parties"><img src="images/hankycodes.jpeg" alt="hanky codes" class="thumb">
+              <h3>HANKY CODES</h3></a></div>
+        </div>
+        <div class="flyers">
+          <div class="flexslider">
+            <ul class="slides">
+              <li>
+                <p class="rc">Every Other Wednesday</p><a href="images/events/underwear-generic-421x650.jpg" rel="lightbox"><img src="images/events/underwear-generic-421x650.jpg"></a>
               </li>
-              <li class="youtube"><a href="http://www.youtube.com/channel/UCmzgZ3-nEo1S8tnyjGJ3WoQ/playlists" title="We're on Youtube" target="_blank" width="60" height="60"><img src="images/icons/youtube-icon.png" alt="youtube" class="thumb"></a></li>
+              <li>
+                <p class="rc">Every 3rd Friday</p><a href="images/events/CubHouse-600.jpg" rel="lightbox"><img src="images/events/CubHouse-600.jpg"></a>
+              </li>
+              <li>
+                <p class="rc">Friday Cigar Nights</p><a href="images/events/cigar-lite.jpg" rel="lightbox"><img src="images/events/cigar-lite.jpg"></a>
+              </li>
+              <li>
+                <p class="rc">Every 3rd Saturday</p><a href="images/events/bluf-lite.jpg" rel="lightbox"><img src="images/events/bluf-lite.jpg"></a>
+              </li>
+              <li>
+                <p class="rc">Every 4th Saturday</p><a href="images/events/Sadistic-generic-389x600.jpg" rel="lightbox"><img src="images/events/Sadistic-generic-389x600.jpg"></a>
+              </li>
+              <li>
+                <p class="rc">3rd and 5th Sundays</p><a href="images/events/DiscoDaddy-442x600.jpg" rel="lightbox"><img src="images/events/DiscoDaddy-442x600.jpg"></a>
+              </li>
             </ul>
           </div>
-          <div class="content">
-            <div class="googlemap"><a href="https://maps.google.com/maps?q=Eagle+Tavern,+12th+Street,+San+Francisco,+CA,+USA&amp;hl=en&amp;sll=37.770048,-122.413315&amp;sspn=0.010974,0.01929&amp;oq=Eagle&amp;t=m&amp;z=16" target="_blank"><img src="images/google-map.jpg" width="250" height="250"></a>
-              <h3>We're just off the freeway<br>398 12th Street<br>(corner of Harrison)</h3>
-            </div>
-            <div class="hankypic"><a href="GayHankyCodes.php" title="Don't miss our monthly FLAG parties"><img src="images/hankycodes.jpeg" alt="hanky codes" class="thumb">
-                <h3>HANKY CODES</h3></a></div>
+          <div class="nonFlexslider">
+            <ul class="slides">
+              <li>
+                <p class="rc">Every Other Wednesday</p><img src="images/events/underwear-generic-421x650.jpg">
+              </li>
+              <li>
+                <p class="rc">Every 3rd Friday</p><img src="images/events/CubHouse-600.jpg">
+              </li>
+              <li>
+                <p class="rc">Friday Cigar Nights</p><img src="images/events/cigar-lite.jpg">
+              </li>
+              <li>
+                <p class="rc">Every 3rd Saturday</p><img src="images/events/bluf-lite.jpg">
+              </li>
+              <li>
+                <p class="rc">Every 4th Saturday</p><img src="images/events/Sadistic-generic-389x600.jpg">
+              </li>
+              <li>
+                <p class="rc">3rd and 5th Sundays</p><img src="images/events/DiscoDaddy-442x600.jpg">
+              </li>
+            </ul>
           </div>
-          <div class="flyers">
-            <div class="flexslider">
-              <ul class="slides">
-                <li>
-                  <p class="rc">Every Other Wednesday</p><a href="images/events/underwear-generic-421x650.jpg" rel="lightbox"><img src="images/events/underwear-generic-421x650.jpg"></a>
-                </li>
-                <li>
-                  <p class="rc">Every 3rd Friday</p><a href="images/events/CubHouse-600.jpg" rel="lightbox"><img src="images/events/CubHouse-600.jpg"></a>
-                </li>
-                <li>
-                  <p class="rc">Friday Cigar Nights</p><a href="images/events/cigar-lite.jpg" rel="lightbox"><img src="images/events/cigar-lite.jpg"></a>
-                </li>
-                <li>
-                  <p class="rc">Every 3rd Saturday</p><a href="images/events/bluf-lite.jpg" rel="lightbox"><img src="images/events/bluf-lite.jpg"></a>
-                </li>
-                <li>
-                  <p class="rc">Every 4th Saturday</p><a href="images/events/Sadistic-generic-389x600.jpg" rel="lightbox"><img src="images/events/Sadistic-generic-389x600.jpg"></a>
-                </li>
-                <li>
-                  <p class="rc">3rd and 5th Sundays</p><a href="images/events/DiscoDaddy-442x600.jpg" rel="lightbox"><img src="images/events/DiscoDaddy-442x600.jpg"></a>
-                </li>
-              </ul>
-            </div>
-            <div class="nonFlexslider">
-              <ul class="slides">
-                <li>
-                  <p class="rc">Every Other Wednesday</p><img src="images/events/underwear-generic-421x650.jpg">
-                </li>
-                <li>
-                  <p class="rc">Every 3rd Friday</p><img src="images/events/CubHouse-600.jpg">
-                </li>
-                <li>
-                  <p class="rc">Friday Cigar Nights</p><img src="images/events/cigar-lite.jpg">
-                </li>
-                <li>
-                  <p class="rc">Every 3rd Saturday</p><img src="images/events/bluf-lite.jpg">
-                </li>
-                <li>
-                  <p class="rc">Every 4th Saturday</p><img src="images/events/Sadistic-generic-389x600.jpg">
-                </li>
-                <li>
-                  <p class="rc">3rd and 5th Sundays</p><img src="images/events/DiscoDaddy-442x600.jpg">
-                </li>
-              </ul>
-            </div>
+        </div>
+        <div class="instagramWidget"><a name="instagram"></a>
+          <div class="instagramWidgetMax">
           </div>
-          <div class="instagramWidget"><a name="instagram"></a>
-            <div class="instagramWidgetMax">
-            </div>
-            <div class="instagramWidgetPhone">
-            </div>
+          <div class="instagramWidgetPhone">
           </div>
-          <div class="footer-widgets"><?php
+        </div>
+        <div class="footer-widgets"><?php
     global $post;
     $category_id = get_cat_ID('Add to footer');
     $args = array(
@@ -216,43 +217,42 @@
         </section><?php
     }?>
 
-          </div>
         </div>
       </div>
-      <script src="widgets/lightbox/js/lightbox-ck.js"></script>
-      <script>
-        $(document).ready(function(){
-        $.get('index.flyers.html', function(data) {
-        $('#flyers').html(data);
-        });
-        });
-        $('div.lb-nav').on('click', function(e) {
-        window.close();return false;});
-        addEventListener("load", function() {
-          window.scrollTo(1, 0);
-        }, false);
-        
-      </script>
-      <script src="widgets/flexslider/jquery.flexslider-ck.js"></script>
-      <script>
-        $(window).load(function() {
-        $('.flexslider').flexslider({
-        animation: "slide",
-        animationLoop: "true"
-        });
-        });
-        
-      </script>
-      <script src="js/main.js"></script>
-      <script src="js/fastclick.min.js"></script>
-      <script>(function() {
+    </div>
+    <script src="widgets/lightbox/js/lightbox-ck.js"></script>
+    <script>
+      $(document).ready(function(){
+      $.get('index.flyers.html', function(data) {
+      $('#flyers').html(data);
+      });
+      });
+      $('div.lb-nav').on('click', function(e) {
+      window.close();return false;});
+      addEventListener("load", function() {
+        window.scrollTo(1, 0);
+      }, false);
+      
+    </script>
+    <script src="widgets/flexslider/jquery.flexslider-ck.js"></script>
+    <script>
+      $(window).load(function() {
+      $('.flexslider').flexslider({
+      animation: "slide",
+      animationLoop: "true"
+      });
+      });
+      
+    </script>
+    <script src="js/main.js"></script>
+    <script src="js/fastclick.min.js"></script>
+    <script>(function() {
   window.addEventListener('load', function() {
     return FastClick.attach(document.body, false);
   });
 
 }).call(this);
 
-      </script>
-    </div>
+    </script>
   </body>
 </html>

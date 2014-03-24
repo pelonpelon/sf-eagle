@@ -6,8 +6,12 @@ nav {
     padding: 0;
   }
   a.button {
-    margin: 5px 0;
-    padding: 3px 0 0 2px;
+    margin: 0px 0;
+    padding: 0px 0 0 2px;
+    @media screen and (max-width:$phone) {
+      margin:0;
+      padding:0;
+    }
     @include border-radius(40px);
     background-color: $decor-dark;
     // background-image: url("../images/logo-button.png");
@@ -19,7 +23,7 @@ nav {
       font-family: "Coming Soon";
       font-size: .7em;
       @media screen and (max-width:$phone) {
-        font-size: .8em;
+        font-size: .7rem;
       }
       font-weight: 800;
       @include text-shadow(1px 2px 4px darken($decor-dark, 30%));
@@ -31,11 +35,6 @@ nav {
       @media screen and (max-width:$netbook) {
         display: block;
       }
-    }
-    li.hankypic {
-      clear: left;
-      @include pie-clearfix;
-      text-align: center;
     }
   }
 }

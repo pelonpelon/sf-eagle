@@ -1,15 +1,18 @@
 #events {
   .day {
     h3 {
-      margin: 20px 0 0 0;
+      margin: 30px 0 0 0;
       padding: 12px 4px 1px 4px;
       background-color: #444;
       @include opacity(0.9);
       @include border-top-radius(15px);
+      font-variant: small-caps;
+      font-size: 4rem;
+      font-family: "Impact", "Futura-CondensedExtraBold", sans-serif;
     }
     sup {
-      font-size: 1rem;
-      font-weight: 300;
+      display:none;
+      font: 1rem "Tahoma";
     }
   }
   .more_events {
@@ -23,8 +26,8 @@
   }
   .event {
     margin-bottom: 0;
-    background-color: #222222;
-    @include opacity(0.8);
+    background-color: #282828;
+    @include opacity(0.7);
     @include border-bottom-radius(0px);
     li {
     overflow: hidden;
@@ -40,7 +43,7 @@
       width:100%;
       font-size: .8em;
       font-weight: 800;
-      color: #f00;
+      color: #999;
       clear: left;
       text-align:left;
       margin-bottom: 2px;
@@ -61,7 +64,7 @@
       float: right;
       width: 30%;
       @include min-height(60px);
-      margin-bottom: 20px ;
+      margin: 7px 0 20px 0;
     }
     .youtubePlaylistIcon {
       float: right;
@@ -70,6 +73,7 @@
     }
     .button, .buttonless {
       float: left;
+      padding:5px;
       font-size: 1.3em;
       @media screen and (max-width: $netbook) {
         width: 100%;
@@ -85,10 +89,13 @@
   }
   .event-list {
     float:left;
-    width:60%;
+    width:63%;
+    padding:5px;
     height: 100%;
     .button, .buttonless {
-      width:100%;
+      width:90%;
+      color:#DFAE48;
+      font-weight:700;
     }
   }
   .tnl {

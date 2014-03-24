@@ -46,6 +46,7 @@
             <ul>
               <li class="thisweek"><a href="#events" class="button"><span>This<br>Week</span></a></li>
               <li><a href="calendar.php" class="button"><span>Calendar</span></a></li>
+              <li><a href="softball.php" class="button"><span>Softball<br>Schedule</span></a></li>
               <li><a href="#instagram" class="button"><span>Latest<br>Pics</span></a></li>
               <li><a href="merch.php" class="button"><span>Hoodies<br>Tanks<br>& Tees</span></a></li>
               <li><a href="#footer" class="button"><span>Contact<br>Us</span></a></li>

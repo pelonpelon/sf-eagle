@@ -700,7 +700,7 @@ h6 {
 /* line 37, ../scss/theme/_layout.scss */
 #page.simple .content header {
   display: block;
-  padding: 0 15% 10px 0;
+  padding: 50px 15% 10px 0;
   text-align: center;
   font-family: "Jolly Lodger";
   font-size: 4rem;
@@ -774,34 +774,51 @@ h6 {
 }
 
 /* line 95, ../scss/theme/_layout.scss */
+#page.simple.softball article.intro {
+  max-width: 70%;
+  margin: 0 auto;
+}
+/* line 100, ../scss/theme/_layout.scss */
+#page.simple.softball article.schedules h2 {
+  display: inline-block;
+}
+/* line 103, ../scss/theme/_layout.scss */
+#page.simple.softball article.schedules a {
+  margin: 0 10%;
+  font-family: "Jolly Lodger";
+  font-size: 2rem;
+  color: #01fe45;
+}
+
+/* line 112, ../scss/theme/_layout.scss */
 #mast {
   float: left;
   width: 22%;
 }
 @media screen and (max-width: 1025px) {
-  /* line 95, ../scss/theme/_layout.scss */
+  /* line 112, ../scss/theme/_layout.scss */
   #mast {
     width: 33%;
   }
 }
 @media screen and (max-width: 641px) {
-  /* line 95, ../scss/theme/_layout.scss */
+  /* line 112, ../scss/theme/_layout.scss */
   #mast {
     float: left;
     clear: right;
-    width: 98%;
+    width: 100%;
     margin: 0;
   }
 }
 
-/* line 109, ../scss/theme/_layout.scss */
+/* line 126, ../scss/theme/_layout.scss */
 #tease {
   float: left;
   width: 54%;
   padding-top: 15px;
 }
 @media screen and (max-width: 1025px) {
-  /* line 109, ../scss/theme/_layout.scss */
+  /* line 126, ../scss/theme/_layout.scss */
   #tease {
     width: 67%;
     clear: right;
@@ -809,14 +826,14 @@ h6 {
   }
 }
 @media screen and (max-width: 641px) {
-  /* line 109, ../scss/theme/_layout.scss */
+  /* line 126, ../scss/theme/_layout.scss */
   #tease {
     width: 100%;
     margin: 60px auto;
   }
 }
 
-/* line 124, ../scss/theme/_layout.scss */
+/* line 141, ../scss/theme/_layout.scss */
 #events {
   float: left;
   clear: right;
@@ -824,14 +841,14 @@ h6 {
   margin: -20px 0 20px 0;
 }
 @media screen and (max-width: 1025px) {
-  /* line 124, ../scss/theme/_layout.scss */
+  /* line 141, ../scss/theme/_layout.scss */
   #events {
     width: 40%;
     margin: 60px 30%;
   }
 }
 @media screen and (max-width: 641px) {
-  /* line 124, ../scss/theme/_layout.scss */
+  /* line 141, ../scss/theme/_layout.scss */
   #events {
     width: 100%;
   }
@@ -862,7 +879,7 @@ html, body {
   height: 100%;
 }
 
-/* line 140, ../scss/theme/_layout.scss */
+/* line 157, ../scss/theme/_layout.scss */
 #footer {
   margin-top: 25px;
 }
@@ -985,12 +1002,6 @@ html, body {
   clear: right;
   width: 100%;
 }
-@media screen and (max-width: 1025px) {
-  /* line 32, ../scss/partials/home/_mast.scss */
-  #mast nav li:nth-of-type(3) {
-    clear: left;
-  }
-}
 @media screen and (max-width: 641px) {
   /* line 27, ../scss/partials/home/_mast.scss */
   #mast nav {
@@ -1018,8 +1029,8 @@ html, body {
 }
 /* line 8, ../scss/partials/home/mast/_nav.scss */
 #mast nav a.button {
-  margin: 5px 0;
-  padding: 3px 0 0 2px;
+  margin: 0px 0;
+  padding: 0px 0 0 2px;
   -webkit-border-radius: 40px;
   -moz-border-radius: 40px;
   -ms-border-radius: 40px;
@@ -1027,11 +1038,18 @@ html, body {
   border-radius: 40px;
   background-color: #660000;
 }
-/* line 14, ../scss/partials/home/mast/_nav.scss */
+@media screen and (max-width: 641px) {
+  /* line 8, ../scss/partials/home/mast/_nav.scss */
+  #mast nav a.button {
+    margin: 0;
+    padding: 0;
+  }
+}
+/* line 18, ../scss/partials/home/mast/_nav.scss */
 #mast nav a.button:hover {
   background-color: #cc0000;
 }
-/* line 18, ../scss/partials/home/mast/_nav.scss */
+/* line 22, ../scss/partials/home/mast/_nav.scss */
 #mast nav a.button span {
   font-family: "Coming Soon";
   font-size: .7em;
@@ -1039,34 +1057,22 @@ html, body {
   text-shadow: 1px 2px 4px black;
 }
 @media screen and (max-width: 641px) {
-  /* line 18, ../scss/partials/home/mast/_nav.scss */
+  /* line 22, ../scss/partials/home/mast/_nav.scss */
   #mast nav a.button span {
-    font-size: .8em;
+    font-size: .7rem;
   }
 }
-/* line 29, ../scss/partials/home/mast/_nav.scss */
+/* line 33, ../scss/partials/home/mast/_nav.scss */
 #mast nav ul li.thisweek {
   display: none;
 }
 @media screen and (max-width: 1025px) {
-  /* line 29, ../scss/partials/home/mast/_nav.scss */
+  /* line 33, ../scss/partials/home/mast/_nav.scss */
   #mast nav ul li.thisweek {
     display: block;
   }
 }
-/* line 35, ../scss/partials/home/mast/_nav.scss */
-#mast nav ul li.hankypic {
-  clear: left;
-  *zoom: 1;
-  text-align: center;
-}
-/* line 38, ../../../../../../../Applications/CodeKit.app/Contents/Resources/engines/compass/frameworks/compass/stylesheets/compass/utilities/general/_clearfix.scss */
-#mast nav ul li.hankypic:after {
-  content: "";
-  display: table;
-  clear: both;
-}
-/* line 43, ../scss/partials/home/_mast.scss */
+/* line 38, ../scss/partials/home/_mast.scss */
 #mast ul {
   *zoom: 1;
   display: inline-block;
@@ -1078,42 +1084,32 @@ html, body {
   clear: both;
 }
 @media screen and (max-width: 641px) {
-  /* line 43, ../scss/partials/home/_mast.scss */
+  /* line 38, ../scss/partials/home/_mast.scss */
   #mast ul {
     float: right;
   }
 }
-/* line 49, ../scss/partials/home/_mast.scss */
+/* line 44, ../scss/partials/home/_mast.scss */
 #mast ul li {
   display: block;
   float: left;
 }
 @media screen and (max-width: 641px) {
-  /* line 49, ../scss/partials/home/_mast.scss */
+  /* line 44, ../scss/partials/home/_mast.scss */
   #mast ul li {
     float: right;
     clear: both;
   }
 }
 @media screen and (max-width: 641px) {
-  /* line 58, ../scss/partials/home/_mast.scss */
+  /* line 53, ../scss/partials/home/_mast.scss */
   #mast .promo_container {
     width: 67%;
     float: left;
   }
 }
-/* line 63, ../scss/partials/home/_mast.scss */
+/* line 58, ../scss/partials/home/_mast.scss */
 #mast .promo_container section {
-  *zoom: 1;
-  filter: progid:DXImageTransform.Microsoft.gradient(gradientType=0, startColorstr='#FFFFD700', endColorstr='#FFFFD700');
-  background-image: url('data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0idXRmLTgiPz4gPHN2ZyB2ZXJzaW9uPSIxLjEiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+PGRlZnM+PGxpbmVhckdyYWRpZW50IGlkPSJncmFkIiBncmFkaWVudFVuaXRzPSJ1c2VyU3BhY2VPblVzZSIgeDE9IjUwJSIgeTE9IjAlIiB4Mj0iNTAlIiB5Mj0iMTAwJSI+PHN0b3Agb2Zmc2V0PSIwJSIgc3RvcC1jb2xvcj0icmdiYSgyMjUsIDIyNSwgMjI1LCAwLjgpIi8+PHN0b3Agb2Zmc2V0PSI1NSUiIHN0b3AtY29sb3I9InJnYmEoMjI1LCAyMjUsIDIyNSwgMC40KSIvPjxzdG9wIG9mZnNldD0iOTIlIiBzdG9wLWNvbG9yPSJyZ2JhKDIyNSwgMjI1LCAyMjUsIDAuMikiLz48c3RvcCBvZmZzZXQ9IjEwMCUiIHN0b3AtY29sb3I9InJnYmEoMjI1LCAyMjUsIDIyNSwgMC44KSIvPjwvbGluZWFyR3JhZGllbnQ+PC9kZWZzPjxyZWN0IHg9IjAiIHk9IjAiIHdpZHRoPSIxMDAlIiBoZWlnaHQ9IjEwMCUiIGZpbGw9InVybCgjZ3JhZCkiIC8+PC9zdmc+IA==');
-  background-size: 100%;
-  background-image: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, rgba(225, 225, 225, 0.8)), color-stop(55%, rgba(225, 225, 225, 0.4)), color-stop(92%, rgba(225, 225, 225, 0.2)), color-stop(100%, rgba(225, 225, 225, 0.8)));
-  background-image: -webkit-linear-gradient(top, rgba(225, 225, 225, 0.8) 0%, rgba(225, 225, 225, 0.4) 55%, rgba(225, 225, 225, 0.2) 92%, rgba(225, 225, 225, 0.8) 100%);
-  background-image: -moz-linear-gradient(top, rgba(225, 225, 225, 0.8) 0%, rgba(225, 225, 225, 0.4) 55%, rgba(225, 225, 225, 0.2) 92%, rgba(225, 225, 225, 0.8) 100%);
-  background-image: -o-linear-gradient(top, rgba(225, 225, 225, 0.8) 0%, rgba(225, 225, 225, 0.4) 55%, rgba(225, 225, 225, 0.2) 92%, rgba(225, 225, 225, 0.8) 100%);
-  background-image: linear-gradient(top, rgba(225, 225, 225, 0.8) 0%, rgba(225, 225, 225, 0.4) 55%, rgba(225, 225, 225, 0.2) 92%, rgba(225, 225, 225, 0.8) 100%);
-  background-color: #000;
   float: left;
   clear: right;
   width: 96%;
@@ -1122,8 +1118,12 @@ html, body {
   overflow: hidden;
   text-align: center;
 }
+/* line 69, ../scss/partials/home/_mast.scss */
+#mast .promo_container section:nth-of-type(0n+1) {
+  margin: 0 auto 40px auto;
+}
 @media screen and (max-width: 1025px) {
-  /* line 63, ../scss/partials/home/_mast.scss */
+  /* line 58, ../scss/partials/home/_mast.scss */
   #mast .promo_container section {
     z-index: 99;
     float: left;
@@ -1133,38 +1133,31 @@ html, body {
   }
 }
 @media screen and (max-width: 801px) {
-  /* line 63, ../scss/partials/home/_mast.scss */
+  /* line 58, ../scss/partials/home/_mast.scss */
   #mast .promo_container section {
     top: 365px;
     float: right;
     border: none;
     width: 100%;
-    margin: 0;
     background-image: none;
   }
 }
 @media screen and (max-width: 641px) {
-  /* line 63, ../scss/partials/home/_mast.scss */
+  /* line 58, ../scss/partials/home/_mast.scss */
   #mast .promo_container section {
+    float: none;
+    padding-top: 1px;
     width: 100%;
     top: 0;
     z-index: 0;
   }
 }
-/* line 99, ../scss/partials/home/_mast.scss */
+/* line 98, ../scss/partials/home/_mast.scss */
 #mast .promo_container section img {
   width: 90%;
   margin: 5px auto 0 auto;
 }
-@media screen and (max-width: 641px) {
-  /* line 63, ../scss/partials/home/_mast.scss */
-  #mast .promo_container section {
-    float: none;
-    margin: 0 auto;
-    padding-top: 1px;
-  }
-}
-/* line 108, ../scss/partials/home/_mast.scss */
+/* line 102, ../scss/partials/home/_mast.scss */
 #mast .promo_container section p {
   color: #cc0000;
   font-family: "Coming Soon";
@@ -1172,86 +1165,90 @@ html, body {
   text-shadow: 1px 1px #660000;
 }
 @media screen and (max-width: 641px) {
-  /* line 108, ../scss/partials/home/_mast.scss */
+  /* line 102, ../scss/partials/home/_mast.scss */
   #mast .promo_container section p {
     font-size: 1.4em;
     margin-top: 0;
   }
 }
-/* line 118, ../scss/partials/home/_mast.scss */
+/* line 112, ../scss/partials/home/_mast.scss */
 #mast .promo_container section a:hover {
   color: red;
 }
+/* line 116, ../scss/partials/home/_mast.scss */
+#mast .promo_container .fetch-tweets-item {
+  margin-bottom: 40px;
+}
 @media screen and (max-width: 1025px) {
-  /* line 122, ../scss/partials/home/_mast.scss */
+  /* line 116, ../scss/partials/home/_mast.scss */
   #mast .promo_container .fetch-tweets-item {
     display: none;
   }
 }
 @media screen and (max-width: 1025px) {
-  /* line 127, ../scss/partials/home/_mast.scss */
+  /* line 122, ../scss/partials/home/_mast.scss */
   #mast .promo_container .fetch-tweets-item:nth-of-type(-n+2) {
     display: block;
   }
 }
-/* line 132, ../scss/partials/home/_mast.scss */
+/* line 127, ../scss/partials/home/_mast.scss */
 #mast .promo_container .fetch-tweets {
-  background-color: #000 !important;
   max-height: none !important;
   width: 100%;
   padding-top: 10px;
 }
-/* line 137, ../scss/partials/home/_mast.scss */
+/* line 132, ../scss/partials/home/_mast.scss */
 #mast .promo_container .fetch-tweets li {
   float: left;
   clear: none;
 }
-/* line 144, ../scss/partials/home/_mast.scss */
+/* line 139, ../scss/partials/home/_mast.scss */
 #mast .promo_container .fetch-tweets-profile-image {
   display: none;
 }
-/* line 147, ../scss/partials/home/_mast.scss */
+/* line 142, ../scss/partials/home/_mast.scss */
 #mast .promo_container .fetch-tweets-main {
   margin: 0 !important;
   padding: 0px 4% 0 4%;
 }
-/* line 151, ../scss/partials/home/_mast.scss */
+/* line 146, ../scss/partials/home/_mast.scss */
 #mast .promo_container .fetch-tweets-heading {
+  display: none;
   font-size: .6rem !important;
   color: #c90;
   text-align: right;
   font-family: "Verdana";
   padding: 0 0 4px 0;
 }
-/* line 157, ../scss/partials/home/_mast.scss */
+/* line 153, ../scss/partials/home/_mast.scss */
 #mast .promo_container .fetch-tweets-heading:hover {
   color: #fc0;
 }
 @media screen and (max-width: 641px) {
-  /* line 151, ../scss/partials/home/_mast.scss */
+  /* line 146, ../scss/partials/home/_mast.scss */
   #mast .promo_container .fetch-tweets-heading {
     font-size: 1em;
   }
 }
-/* line 163, ../scss/partials/home/_mast.scss */
+/* line 159, ../scss/partials/home/_mast.scss */
 #mast .promo_container .fetch-tweets-heading .fetch-tweets-tweet-created-at {
   font-size: 0.3rem;
 }
-/* line 167, ../scss/partials/home/_mast.scss */
+/* line 163, ../scss/partials/home/_mast.scss */
 #mast .promo_container .fetch-tweets-intent-buttons {
   width: 100%;
   height: 32px;
-  text-align: center;
   margin: 0;
+  background: transparent;
+  text-align: center;
 }
 @media screen and (max-width: 641px) {
-  /* line 167, ../scss/partials/home/_mast.scss */
+  /* line 163, ../scss/partials/home/_mast.scss */
   #mast .promo_container .fetch-tweets-intent-buttons {
     height: 28px;
-    background-color: #000;
   }
 }
-/* line 177, ../scss/partials/home/_mast.scss */
+/* line 173, ../scss/partials/home/_mast.scss */
 #mast .promo_container .fetch-tweets-intent-icon {
   display: inline-block;
   min-width: 36px;
@@ -1261,7 +1258,7 @@ html, body {
   background-size: cover;
 }
 @media screen and (max-width: 641px) {
-  /* line 177, ../scss/partials/home/_mast.scss */
+  /* line 173, ../scss/partials/home/_mast.scss */
   #mast .promo_container .fetch-tweets-intent-icon {
     min-width: 32px;
     min-height: 32px;
@@ -1269,32 +1266,32 @@ html, body {
     margin: 0 8px;
   }
 }
-/* line 192, ../scss/partials/home/_mast.scss */
+/* line 188, ../scss/partials/home/_mast.scss */
 #mast .promo_container .fetch-tweets-intent-reply {
   display: none;
 }
-/* line 195, ../scss/partials/home/_mast.scss */
+/* line 191, ../scss/partials/home/_mast.scss */
 #mast .promo_container .fetch-tweets-intent-favorite {
   display: none;
 }
-/* line 198, ../scss/partials/home/_mast.scss */
+/* line 194, ../scss/partials/home/_mast.scss */
 #mast .promo_container .fetch-tweets-text {
-  font-family: "Trebuchet";
+  font-family: "Courier";
   text-shadow: none;
   font-weight: 500;
   font-size: .8rem;
-  color: aliceblue;
+  color: #20a0a0;
   text-align: left;
   margin: 0;
 }
-/* line 206, ../scss/partials/home/_mast.scss */
+/* line 203, ../scss/partials/home/_mast.scss */
 #mast .promo_container .fetch-tweets-text a {
   color: #999999;
 }
 @media screen and (max-width: 1025px) {
-  /* line 198, ../scss/partials/home/_mast.scss */
+  /* line 194, ../scss/partials/home/_mast.scss */
   #mast .promo_container .fetch-tweets-text {
-    font-size: 1rem;
+    font-size: .8rem;
   }
 }
 
@@ -1413,7 +1410,7 @@ html, body {
 
 /* line 3, ../scss/partials/home/_events.scss */
 #events .day h3 {
-  margin: 20px 0 0 0;
+  margin: 30px 0 0 0;
   padding: 12px 4px 1px 4px;
   background-color: #444;
   filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=90);
@@ -1424,13 +1421,16 @@ html, body {
   -moz-border-radius-topright: 15px;
   -webkit-border-top-right-radius: 15px;
   border-top-right-radius: 15px;
+  font-variant: small-caps;
+  font-size: 4rem;
+  font-family: "Impact", "Futura-CondensedExtraBold", sans-serif;
 }
-/* line 10, ../scss/partials/home/_events.scss */
+/* line 13, ../scss/partials/home/_events.scss */
 #events .day sup {
-  font-size: 1rem;
-  font-weight: 300;
+  display: none;
+  font: 1rem "Tahoma";
 }
-/* line 15, ../scss/partials/home/_events.scss */
+/* line 18, ../scss/partials/home/_events.scss */
 #events .more_events {
   margin: 20px 0 0 0;
   padding: 12px 4px 1px 4px;
@@ -1451,12 +1451,12 @@ html, body {
   border-bottom-right-radius: 15px;
   text-align: right;
 }
-/* line 24, ../scss/partials/home/_events.scss */
+/* line 27, ../scss/partials/home/_events.scss */
 #events .event {
   margin-bottom: 0;
-  background-color: #222222;
-  filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=80);
-  opacity: 0.8;
+  background-color: #282828;
+  filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=70);
+  opacity: 0.7;
   -moz-border-radius-bottomleft: 0px;
   -webkit-border-bottom-left-radius: 0px;
   border-bottom-left-radius: 0px;
@@ -1464,35 +1464,35 @@ html, body {
   -webkit-border-bottom-right-radius: 0px;
   border-bottom-right-radius: 0px;
 }
-/* line 29, ../scss/partials/home/_events.scss */
+/* line 32, ../scss/partials/home/_events.scss */
 #events .event li {
   overflow: hidden;
 }
-/* line 32, ../scss/partials/home/_events.scss */
+/* line 35, ../scss/partials/home/_events.scss */
 #events .event p {
   padding: 0 0;
   font-size: 1.3em;
   margin: 5px 0 0 0;
   text-align: center;
 }
-/* line 38, ../scss/partials/home/_events.scss */
+/* line 41, ../scss/partials/home/_events.scss */
 #events .event .time {
   float: left;
   width: 100%;
   font-size: .8em;
   font-weight: 800;
-  color: #f00;
+  color: #999;
   clear: left;
   text-align: left;
   margin-bottom: 2px;
 }
-/* line 48, ../scss/partials/home/_events.scss */
+/* line 51, ../scss/partials/home/_events.scss */
 #events .event .price {
   padding-left: 10px;
   color: #999999;
   font-weight: 100;
 }
-/* line 53, ../scss/partials/home/_events.scss */
+/* line 56, ../scss/partials/home/_events.scss */
 #events .event .promoter {
   font-family: "Bitstream Charter";
   display: block;
@@ -1500,16 +1500,16 @@ html, body {
   font-size: .8em;
   padding: 12px 0 8px 0;
 }
-/* line 60, ../scss/partials/home/_events.scss */
+/* line 63, ../scss/partials/home/_events.scss */
 #events .event img {
   float: right;
   width: 30%;
   min-height: 60px;
   height: auto !important;
   height: 60px;
-  margin-bottom: 20px;
+  margin: 7px 0 20px 0;
 }
-/* line 66, ../scss/partials/home/_events.scss */
+/* line 69, ../scss/partials/home/_events.scss */
 #events .event .youtubePlaylistIcon {
   float: right;
   width: 30%;
@@ -1517,44 +1517,48 @@ html, body {
   height: auto !important;
   height: 60px;
 }
-/* line 71, ../scss/partials/home/_events.scss */
+/* line 74, ../scss/partials/home/_events.scss */
 #events .event .button, #events .event .buttonless {
   float: left;
+  padding: 5px;
   font-size: 1.3em;
 }
 @media screen and (max-width: 1025px) {
-  /* line 71, ../scss/partials/home/_events.scss */
+  /* line 74, ../scss/partials/home/_events.scss */
   #events .event .button, #events .event .buttonless {
     width: 100%;
     padding: 10px 0;
   }
 }
 @media screen and (max-width: 641px) {
-  /* line 71, ../scss/partials/home/_events.scss */
+  /* line 74, ../scss/partials/home/_events.scss */
   #events .event .button, #events .event .buttonless {
     padding: 12px 0;
   }
 }
-/* line 82, ../scss/partials/home/_events.scss */
+/* line 86, ../scss/partials/home/_events.scss */
 #events .event .buttonless {
   font-size: 1.1em;
 }
-/* line 86, ../scss/partials/home/_events.scss */
+/* line 90, ../scss/partials/home/_events.scss */
 #events .event-list {
   float: left;
-  width: 60%;
+  width: 63%;
+  padding: 5px;
   height: 100%;
 }
-/* line 90, ../scss/partials/home/_events.scss */
+/* line 95, ../scss/partials/home/_events.scss */
 #events .event-list .button, #events .event-list .buttonless {
-  width: 100%;
+  width: 90%;
+  color: #DFAE48;
+  font-weight: 700;
 }
-/* line 94, ../scss/partials/home/_events.scss */
+/* line 101, ../scss/partials/home/_events.scss */
 #events .tnl {
   font-family: "Jolly Lodger", cursive;
   font-size: 1.5em;
 }
-/* line 97, ../scss/partials/home/_events.scss */
+/* line 104, ../scss/partials/home/_events.scss */
 #events .tnl .buttonless {
   background-color: #660000;
 }
@@ -1565,11 +1569,11 @@ html, body {
     width: 60%;
     margin: 60px 20%;
   }
-  /* line 105, ../scss/partials/home/_events.scss */
+  /* line 112, ../scss/partials/home/_events.scss */
   #events .time {
     font-size: 1em;
   }
-  /* line 108, ../scss/partials/home/_events.scss */
+  /* line 115, ../scss/partials/home/_events.scss */
   #events .flexslider .slides {
     zoom: .5;
   }
@@ -1581,7 +1585,7 @@ html, body {
     clear: left;
     margin: 0 0;
   }
-  /* line 116, ../scss/partials/home/_events.scss */
+  /* line 123, ../scss/partials/home/_events.scss */
   #events ul ul li {
     max-width: 100%;
     font-size: 1em;

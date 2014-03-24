@@ -34,9 +34,11 @@ function duplicate_post_get_clone_post_link( $id = 0, $context = 'display', $dra
 	if ($draft)
 	$action_name = "duplicate_post_save_as_new_post_draft";
 	else
-	$action_name = "duplicate_post_save_as_new_post";
+	$action_name = "duplicate_post_save_as_new_post_draft";
+  //	$action_name = "duplicate_post_save_as_new_post";
+  // clone doesn't seem to work so New Draft is the only option
 
-	if ( 'display' == $context )
+  if ( 'display' == $context )
 	$action = '?action='.$action_name.'&amp;post='.$post->ID;
 	else
 	$action = '?action='.$action_name.'&post='.$post->ID;
