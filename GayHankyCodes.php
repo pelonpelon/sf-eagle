@@ -547,7 +547,7 @@
         </div>
       </div>
     </div>
-    <script src="widgets/lightbox/js/lightbox-ck.js"></script>
+    <script async src="widgets/lightbox/js/lightbox-ck.js"></script>
     <script>
       $(document).ready(function(){
       $.get('index.flyers.html', function(data) {
@@ -561,7 +561,7 @@
       }, false);
       
     </script>
-    <script src="widgets/flexslider/jquery.flexslider-ck.js"></script>
+    <script async src="widgets/flexslider/jquery.flexslider-ck.js"></script>
     <script>
       $(window).load(function() {
       $('.flexslider').flexslider({
@@ -571,8 +571,8 @@
       });
       
     </script>
-    <script src="js/main.js"></script>
-    <script src="js/fastclick.min.js"></script>
+    <script async src="js/main.js"></script>
+    <script async src="js/fastclick.min.js"></script>
     <script>(function() {
   window.addEventListener('load', function() {
     return FastClick.attach(document.body, false);

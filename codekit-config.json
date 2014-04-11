@@ -223,6 +223,18 @@
       "initialSize" : 1241,
       "fileType" : 8192
     },
+    "\/scss\/theme\/_layout.scss" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 1,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/scss\/theme\/_layout.scss",
+      "outputStyle" : 0,
+      "shouldRunBless" : 0,
+      "outputAbbreviatedPath" : "\/css\/_layout.css",
+      "fileType" : 4,
+      "debugStyle" : 1
+    },
     "\/images\/icons\/frame.png" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 0,
@@ -233,17 +245,6 @@
       "outputAbbreviatedPath" : "\/images\/icons\/frame.png",
       "initialSize" : 960,
       "fileType" : 8192
-    },
-    "\/images\/events\/Aids-Emergency-Fund---Dark-Days-thumb.jpg" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/images\/events\/Aids-Emergency-Fund---Dark-Days-thumb.jpg",
-      "processed" : 0,
-      "outputAbbreviatedPath" : "\/images\/events\/Aids-Emergency-Fund---Dark-Days-thumb.jpg",
-      "initialSize" : 5158,
-      "fileType" : 4096
     },
     "\/images\/icons\/email.png" : {
       "ignoreWasSetByUser" : 0,
@@ -278,17 +279,16 @@
       "initialSize" : 3763,
       "fileType" : 4096
     },
-    "\/scss\/theme\/_layout.scss" : {
+    "\/images\/events\/Aids-Emergency-Fund---Dark-Days-thumb.jpg" : {
       "ignoreWasSetByUser" : 0,
-      "ignore" : 1,
+      "ignore" : 0,
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/scss\/theme\/_layout.scss",
-      "outputStyle" : 0,
-      "shouldRunBless" : 0,
-      "outputAbbreviatedPath" : "\/css\/_layout.css",
-      "fileType" : 4,
-      "debugStyle" : 1
+      "inputAbbreviatedPath" : "\/images\/events\/Aids-Emergency-Fund---Dark-Days-thumb.jpg",
+      "processed" : 0,
+      "outputAbbreviatedPath" : "\/images\/events\/Aids-Emergency-Fund---Dark-Days-thumb.jpg",
+      "initialSize" : 5158,
+      "fileType" : 4096
     },
     "\/images\/events\/torche-poster-flat-lite.jpg" : {
       "ignoreWasSetByUser" : 0,
@@ -312,16 +312,16 @@
       "initialSize" : 2935,
       "fileType" : 4096
     },
-    "\/fetch-tweets\/image\/menu_icon_16x16.png" : {
+    "\/images\/events\/cubtrap-130712-600.jpg" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 0,
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/fetch-tweets\/image\/menu_icon_16x16.png",
+      "inputAbbreviatedPath" : "\/images\/events\/cubtrap-130712-600.jpg",
       "processed" : 0,
-      "outputAbbreviatedPath" : "\/fetch-tweets\/image\/menu_icon_16x16.png",
-      "initialSize" : 729,
-      "fileType" : 8192
+      "outputAbbreviatedPath" : "\/images\/events\/cubtrap-130712-600.jpg",
+      "initialSize" : 38629,
+      "fileType" : 4096
     },
     "\/images\/events\/BSJ-DiscoDaddy-lite.jpg" : {
       "ignoreWasSetByUser" : 0,
@@ -346,16 +346,16 @@
       "fileType" : 4,
       "debugStyle" : 1
     },
-    "\/images\/events\/cubtrap-130712-600.jpg" : {
+    "\/fetch-tweets\/image\/menu_icon_16x16.png" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 0,
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/images\/events\/cubtrap-130712-600.jpg",
+      "inputAbbreviatedPath" : "\/fetch-tweets\/image\/menu_icon_16x16.png",
       "processed" : 0,
-      "outputAbbreviatedPath" : "\/images\/events\/cubtrap-130712-600.jpg",
-      "initialSize" : 38629,
-      "fileType" : 4096
+      "outputAbbreviatedPath" : "\/fetch-tweets\/image\/menu_icon_16x16.png",
+      "initialSize" : 729,
+      "fileType" : 8192
     },
     "\/images\/patio_by_urso_sm.jpg" : {
       "ignoreWasSetByUser" : 0,
@@ -524,17 +524,6 @@
       "fileType" : 4,
       "debugStyle" : 1
     },
-    "\/images\/events\/TheOhSees060813-background.jpg" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/images\/events\/TheOhSees060813-background.jpg",
-      "processed" : 0,
-      "outputAbbreviatedPath" : "\/images\/events\/TheOhSees060813-background.jpg",
-      "initialSize" : 7020,
-      "fileType" : 4096
-    },
     "\/images\/icons\/calbears-button.png" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 0,
@@ -545,6 +534,17 @@
       "outputAbbreviatedPath" : "\/images\/icons\/calbears-button.png",
       "initialSize" : 3176,
       "fileType" : 8192
+    },
+    "\/images\/events\/TheOhSees060813-background.jpg" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/images\/events\/TheOhSees060813-background.jpg",
+      "processed" : 0,
+      "outputAbbreviatedPath" : "\/images\/events\/TheOhSees060813-background.jpg",
+      "initialSize" : 7020,
+      "fileType" : 4096
     },
     "\/images\/logo-transparency-nowhite-lite.png" : {
       "ignoreWasSetByUser" : 0,
@@ -667,17 +667,6 @@
       "initialSize" : 160,
       "fileType" : 8192
     },
-    "\/images\/events\/Charlie_Horse-No_Pride-lite.jpg" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/images\/events\/Charlie_Horse-No_Pride-lite.jpg",
-      "processed" : 0,
-      "outputAbbreviatedPath" : "\/images\/events\/Charlie_Horse-No_Pride-lite.jpg",
-      "initialSize" : 28122,
-      "fileType" : 4096
-    },
     "\/images\/icons\/list.png" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 0,
@@ -688,6 +677,17 @@
       "outputAbbreviatedPath" : "\/images\/icons\/list.png",
       "initialSize" : 2757,
       "fileType" : 8192
+    },
+    "\/images\/events\/Charlie_Horse-No_Pride-lite.jpg" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/images\/events\/Charlie_Horse-No_Pride-lite.jpg",
+      "processed" : 0,
+      "outputAbbreviatedPath" : "\/images\/events\/Charlie_Horse-No_Pride-lite.jpg",
+      "initialSize" : 28122,
+      "fileType" : 4096
     },
     "\/scss\/vendor\/_flexslider.scss" : {
       "ignoreWasSetByUser" : 0,
@@ -734,17 +734,6 @@
       "initialSize" : 26588,
       "fileType" : 4096
     },
-    "\/images\/staff\/gage-fisher-nice-lite.jpg" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/images\/staff\/gage-fisher-nice-lite.jpg",
-      "processed" : 0,
-      "outputAbbreviatedPath" : "\/images\/staff\/gage-fisher-nice-lite.jpg",
-      "initialSize" : 8611,
-      "fileType" : 4096
-    },
     "\/js\/modernizr\/test\/caniuse_files\/before-after.png" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 0,
@@ -755,6 +744,17 @@
       "outputAbbreviatedPath" : "\/js\/modernizr\/test\/caniuse_files\/before-after.png",
       "initialSize" : 452,
       "fileType" : 8192
+    },
+    "\/images\/staff\/gage-fisher-nice-lite.jpg" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/images\/staff\/gage-fisher-nice-lite.jpg",
+      "processed" : 0,
+      "outputAbbreviatedPath" : "\/images\/staff\/gage-fisher-nice-lite.jpg",
+      "initialSize" : 8611,
+      "fileType" : 4096
     },
     "\/images\/icons\/icon-youtubePlaylist.jpg" : {
       "ignoreWasSetByUser" : 0,
@@ -779,6 +779,17 @@
       "fileType" : 4,
       "debugStyle" : 1
     },
+    "\/images\/events\/agave-syrup1-nectar-600.jpg" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/images\/events\/agave-syrup1-nectar-600.jpg",
+      "processed" : 0,
+      "outputAbbreviatedPath" : "\/images\/events\/agave-syrup1-nectar-600.jpg",
+      "initialSize" : 12544,
+      "fileType" : 4096
+    },
     "\/scss\/theme\/_defaults.scss" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 1,
@@ -790,17 +801,6 @@
       "outputAbbreviatedPath" : "\/css\/_defaults.css",
       "fileType" : 4,
       "debugStyle" : 1
-    },
-    "\/images\/events\/agave-syrup1-nectar-600.jpg" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/images\/events\/agave-syrup1-nectar-600.jpg",
-      "processed" : 0,
-      "outputAbbreviatedPath" : "\/images\/events\/agave-syrup1-nectar-600.jpg",
-      "initialSize" : 12544,
-      "fileType" : 4096
     },
     "\/images\/events\/cubtrap-500.jpg" : {
       "ignoreWasSetByUser" : 0,
@@ -893,17 +893,6 @@
       "fileType" : 4,
       "debugStyle" : 1
     },
-    "\/images\/icons\/apple-touch-icon-57x57.png" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/images\/icons\/apple-touch-icon-57x57.png",
-      "processed" : 0,
-      "outputAbbreviatedPath" : "\/images\/icons\/apple-touch-icon-57x57.png",
-      "initialSize" : 1921,
-      "fileType" : 8192
-    },
     "\/images\/icons\/facebook.png" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 0,
@@ -913,6 +902,17 @@
       "processed" : 0,
       "outputAbbreviatedPath" : "\/images\/icons\/facebook.png",
       "initialSize" : 1023,
+      "fileType" : 8192
+    },
+    "\/images\/icons\/apple-touch-icon-57x57.png" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/images\/icons\/apple-touch-icon-57x57.png",
+      "processed" : 0,
+      "outputAbbreviatedPath" : "\/images\/icons\/apple-touch-icon-57x57.png",
+      "initialSize" : 1921,
       "fileType" : 8192
     },
     "\/images\/events\/cachorronegro-thumb.jpg" : {
@@ -1355,17 +1355,6 @@
       "initialSize" : 6096,
       "fileType" : 4096
     },
-    "\/images\/events\/memorialdayposter-thumb.jpg" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/images\/events\/memorialdayposter-thumb.jpg",
-      "processed" : 0,
-      "outputAbbreviatedPath" : "\/images\/events\/memorialdayposter-thumb.jpg",
-      "initialSize" : 4225,
-      "fileType" : 4096
-    },
     "\/fetch-tweets\/template\/single\/screenshot.jpg" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 0,
@@ -1375,6 +1364,17 @@
       "processed" : 0,
       "outputAbbreviatedPath" : "\/fetch-tweets\/template\/single\/screenshot.jpg",
       "initialSize" : 60382,
+      "fileType" : 4096
+    },
+    "\/images\/events\/memorialdayposter-thumb.jpg" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/images\/events\/memorialdayposter-thumb.jpg",
+      "processed" : 0,
+      "outputAbbreviatedPath" : "\/images\/events\/memorialdayposter-thumb.jpg",
+      "initialSize" : 4225,
       "fileType" : 4096
     },
     "\/images\/events\/TNL130627-thumb.jpg" : {
@@ -1896,17 +1896,6 @@
       "initialSize" : 6200,
       "fileType" : 4096
     },
-    "\/images\/hankycodes.jpeg" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/images\/hankycodes.jpeg",
-      "processed" : 0,
-      "outputAbbreviatedPath" : "\/images\/hankycodes.jpeg",
-      "initialSize" : 3624,
-      "fileType" : 4096
-    },
     "\/images\/logo.jpg" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 0,
@@ -1916,6 +1905,17 @@
       "processed" : 0,
       "outputAbbreviatedPath" : "\/images\/logo.jpg",
       "initialSize" : 81012,
+      "fileType" : 4096
+    },
+    "\/images\/hankycodes.jpeg" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/images\/hankycodes.jpeg",
+      "processed" : 0,
+      "outputAbbreviatedPath" : "\/images\/hankycodes.jpeg",
+      "initialSize" : 3624,
       "fileType" : 4096
     },
     "\/images\/events\/TorcheNov2011CLR-177-lite.jpg" : {
@@ -2141,15 +2141,15 @@
       "fileType" : 4,
       "debugStyle" : 1
     },
-    "\/images\/events\/TheOhSees060813-thumb.jpg" : {
+    "\/images\/events\/face.jpg" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 0,
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/images\/events\/TheOhSees060813-thumb.jpg",
+      "inputAbbreviatedPath" : "\/images\/events\/face.jpg",
       "processed" : 0,
-      "outputAbbreviatedPath" : "\/images\/events\/TheOhSees060813-thumb.jpg",
-      "initialSize" : 5234,
+      "outputAbbreviatedPath" : "\/images\/events\/face.jpg",
+      "initialSize" : 9553,
       "fileType" : 4096
     },
     "\/images\/merch\/hoodie-black-back.jpg" : {
@@ -2163,6 +2163,17 @@
       "initialSize" : 9423,
       "fileType" : 4096
     },
+    "\/images\/events\/TheOhSees060813-thumb.jpg" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/images\/events\/TheOhSees060813-thumb.jpg",
+      "processed" : 0,
+      "outputAbbreviatedPath" : "\/images\/events\/TheOhSees060813-thumb.jpg",
+      "initialSize" : 5234,
+      "fileType" : 4096
+    },
     "\/images\/events\/TNL130711b-lite.jpg" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 0,
@@ -2173,17 +2184,6 @@
       "outputAbbreviatedPath" : "\/images\/events\/TNL130711b-lite.jpg",
       "initialSize" : 30467,
       "fileType" : 4096
-    },
-    "\/jade\/common\/settings.jade" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 1,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/jade\/common\/settings.jade",
-      "outputStyle" : 0,
-      "compileDebug" : 1,
-      "outputAbbreviatedPath" : "\/settings.html",
-      "fileType" : 512
     },
     "\/images\/events\/flag-butt.jpg" : {
       "ignoreWasSetByUser" : 0,
@@ -2196,16 +2196,16 @@
       "initialSize" : 20284,
       "fileType" : 4096
     },
-    "\/images\/events\/face.jpg" : {
+    "\/jade\/common\/settings.jade" : {
       "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
+      "ignore" : 1,
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/images\/events\/face.jpg",
-      "processed" : 0,
-      "outputAbbreviatedPath" : "\/images\/events\/face.jpg",
-      "initialSize" : 9553,
-      "fileType" : 4096
+      "inputAbbreviatedPath" : "\/jade\/common\/settings.jade",
+      "outputStyle" : 0,
+      "compileDebug" : 1,
+      "outputAbbreviatedPath" : "\/settings.html",
+      "fileType" : 512
     },
     "\/images\/icons\/tom_of_finland.png" : {
       "ignoreWasSetByUser" : 0,
@@ -2328,17 +2328,6 @@
       "initialSize" : 7927,
       "fileType" : 4096
     },
-    "\/js\/modernizr\/test\/caniuse_files\/ruby.png" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/js\/modernizr\/test\/caniuse_files\/ruby.png",
-      "processed" : 0,
-      "outputAbbreviatedPath" : "\/js\/modernizr\/test\/caniuse_files\/ruby.png",
-      "initialSize" : 1272,
-      "fileType" : 8192
-    },
     "\/scss\/partials\/footer\/_flyers.scss" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 1,
@@ -2350,6 +2339,17 @@
       "outputAbbreviatedPath" : "\/css\/_flyers.css",
       "fileType" : 4,
       "debugStyle" : 1
+    },
+    "\/js\/modernizr\/test\/caniuse_files\/ruby.png" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/js\/modernizr\/test\/caniuse_files\/ruby.png",
+      "processed" : 0,
+      "outputAbbreviatedPath" : "\/js\/modernizr\/test\/caniuse_files\/ruby.png",
+      "initialSize" : 1272,
+      "fileType" : 8192
     },
     "\/images\/events\/Lovefur-2415913_advert_san_fb-388x600.jpg" : {
       "ignoreWasSetByUser" : 0,
@@ -2586,17 +2586,6 @@
       "initialSize" : 23853,
       "fileType" : 4096
     },
-    "\/images\/DrinkSpecials\/dickel-250-transparent.png" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/images\/DrinkSpecials\/dickel-250-transparent.png",
-      "processed" : 0,
-      "outputAbbreviatedPath" : "\/images\/DrinkSpecials\/dickel-250-transparent.png",
-      "initialSize" : 10826,
-      "fileType" : 8192
-    },
     "\/images\/events\/DiscoDaddy-130714-600.jpg" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 0,
@@ -2607,6 +2596,17 @@
       "outputAbbreviatedPath" : "\/images\/events\/DiscoDaddy-130714-600.jpg",
       "initialSize" : 51168,
       "fileType" : 4096
+    },
+    "\/images\/DrinkSpecials\/dickel-250-transparent.png" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/images\/DrinkSpecials\/dickel-250-transparent.png",
+      "processed" : 0,
+      "outputAbbreviatedPath" : "\/images\/DrinkSpecials\/dickel-250-transparent.png",
+      "initialSize" : 10826,
+      "fileType" : 8192
     },
     "\/images\/events\/whipping-elvis-lite.jpg" : {
       "ignoreWasSetByUser" : 0,
@@ -2776,6 +2776,17 @@
       "fileType" : 4,
       "debugStyle" : 1
     },
+    "\/images\/logo-transparency-whiteeagle-cutout-400.png" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/images\/logo-transparency-whiteeagle-cutout-400.png",
+      "processed" : 0,
+      "outputAbbreviatedPath" : "\/images\/logo-transparency-whiteeagle-cutout-400.png",
+      "initialSize" : 16021,
+      "fileType" : 8192
+    },
     "\/images\/events\/heartthrob-lite.jpg" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 0,
@@ -2808,17 +2819,6 @@
       "outputAbbreviatedPath" : "\/images\/logo-thumb.jpg",
       "initialSize" : 3686,
       "fileType" : 4096
-    },
-    "\/images\/logo-transparency-whiteeagle-cutout-400.png" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/images\/logo-transparency-whiteeagle-cutout-400.png",
-      "processed" : 0,
-      "outputAbbreviatedPath" : "\/images\/logo-transparency-whiteeagle-cutout-400.png",
-      "initialSize" : 16021,
-      "fileType" : 8192
     },
     "\/images\/events\/PRIDE_CBHS_reduced-thumb.jpg" : {
       "ignoreWasSetByUser" : 0,
@@ -2964,6 +2964,17 @@
       "outputAbbreviatedPath" : "\/content.html",
       "fileType" : 512
     },
+    "\/images\/events\/flag-crucified.jpg" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/images\/events\/flag-crucified.jpg",
+      "processed" : 0,
+      "outputAbbreviatedPath" : "\/images\/events\/flag-crucified.jpg",
+      "initialSize" : 21457,
+      "fileType" : 4096
+    },
     "\/scss\/partials\/footer\/_content.scss" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 1,
@@ -2975,17 +2986,6 @@
       "outputAbbreviatedPath" : "\/css\/_content.css",
       "fileType" : 4,
       "debugStyle" : 1
-    },
-    "\/images\/events\/flag-crucified.jpg" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/images\/events\/flag-crucified.jpg",
-      "processed" : 0,
-      "outputAbbreviatedPath" : "\/images\/events\/flag-crucified.jpg",
-      "initialSize" : 21457,
-      "fileType" : 4096
     },
     "\/images\/events\/SOMAScavengerHunt-thumb.jpg" : {
       "ignoreWasSetByUser" : 0,
