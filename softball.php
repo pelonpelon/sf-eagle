@@ -41,7 +41,7 @@
     <div id="root">
       <div id="page" class="simple softball"><a href="index.php"><img src="images/logo.svg" alt="logo" class="logo"></a>
         <div class="content">
-          <header class="cf"><span>EAGLE SOFTBALL</span></header>
+          <header class="cf"><span>•EAGLE SOFTBALL•</span></header>
           <section class="content"><?php
     global $post;
     $category_id = get_cat_ID('Softball');
