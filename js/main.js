@@ -62,7 +62,25 @@
     filter_calendar("music");
     filter_calendar("bears");
     filter_calendar("leather");
-    return filter_calendar("special");
+    filter_calendar("special");
+    $("a[name]").attr("tabindex", "0");
+    $("a[href*=#]:not([href=#])").click(function() {
+      var $linkElem, target;
+      $linkElem = $(this);
+      if (location.pathname.replace(/^\//, "") === this.pathname.replace(/^\//, "") && location.hostname === this.hostname) {
+        target = $(this.hash);
+        target = (target.length ? target : $("[name=" + this.hash.slice(1) + "]"));
+        if (target.length) {
+          $("html,body").animate({
+            scrollTop: target.offset().top
+          }, 1000, function() {
+            target.focus();
+            window.location.hash = $linkElem.attr("href").substring(1);
+          });
+          return false;
+        }
+      }
+    });
   });
 
 }).call(this);
