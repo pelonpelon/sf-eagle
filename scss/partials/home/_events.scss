@@ -27,7 +27,7 @@
   .event {
     margin-bottom: 0;
     background-color: #282828;
-    @include opacity(0.7);
+    @include opacity(0.8);
     @include border-bottom-radius(0px);
     li {
     overflow: hidden;

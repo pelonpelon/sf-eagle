@@ -464,14 +464,12 @@ html[xmlns] .slides {
   font-weight: 400;
   src: local("Coming Soon"), local("ComingSoon"), url(http://themes.googleusercontent.com/static/fonts/comingsoon/v3/myblyOycMnPMGjfPG-DzP7rIa-7acMAeDBVuclsi6Gc.woff) format("woff");
 }
-
 @font-face {
   font-family: 'Jolly Lodger';
   font-style: normal;
   font-weight: 400;
   src: local("Jolly Lodger"), local("JollyLodger"), url(http://themes.googleusercontent.com/static/fonts/jollylodger/v1/RX8HnkBgaEKQSHQyP9itiaRDOzjiPcYnFooOUGCOsRk.woff) format("woff");
 }
-
 /* line 17, ../scss/theme/_colors.scss */
 body {
   background: black url("../images/backgrounds/gun_metal.png") repeat;
@@ -854,12 +852,12 @@ h6 {
   }
 }
 
-/* line 10, ../../../../../../../Applications/CodeKit.app/Contents/Resources/engines/compass/frameworks/compass/stylesheets/compass/layout/_sticky-footer.scss */
+/* line 10, ../../../../../../../Applications/CodeKit.app/Contents/Resources/engines/compass/compass-core/stylesheets/compass/layout/_sticky-footer.scss */
 html, body {
   height: 100%;
 }
 
-/* line 12, ../../../../../../../Applications/CodeKit.app/Contents/Resources/engines/compass/frameworks/compass/stylesheets/compass/layout/_sticky-footer.scss */
+/* line 12, ../../../../../../../Applications/CodeKit.app/Contents/Resources/engines/compass/compass-core/stylesheets/compass/layout/_sticky-footer.scss */
 #page {
   clear: both;
   min-height: 100%;
@@ -867,12 +865,12 @@ html, body {
   height: 100%;
   margin-bottom: -100%;
 }
-/* line 18, ../../../../../../../Applications/CodeKit.app/Contents/Resources/engines/compass/frameworks/compass/stylesheets/compass/layout/_sticky-footer.scss */
+/* line 18, ../../../../../../../Applications/CodeKit.app/Contents/Resources/engines/compass/compass-core/stylesheets/compass/layout/_sticky-footer.scss */
 #page #page-footer {
   height: 100%;
 }
 
-/* line 20, ../../../../../../../Applications/CodeKit.app/Contents/Resources/engines/compass/frameworks/compass/stylesheets/compass/layout/_sticky-footer.scss */
+/* line 20, ../../../../../../../Applications/CodeKit.app/Contents/Resources/engines/compass/compass-core/stylesheets/compass/layout/_sticky-footer.scss */
 #footer {
   clear: both;
   position: relative;
@@ -906,10 +904,8 @@ html, body {
   width: 70px;
   height: 70px;
   margin: 1px;
-  -webkit-border-radius: 4px;
   -moz-border-radius: 4px;
-  -ms-border-radius: 4px;
-  -o-border-radius: 4px;
+  -webkit-border-radius: 4px;
   border-radius: 4px;
 }
 
@@ -931,10 +927,8 @@ html, body {
   height: auto;
   margin: 1px;
   padding: 0 4px;
-  -webkit-border-radius: 4px;
   -moz-border-radius: 4px;
-  -ms-border-radius: 4px;
-  -o-border-radius: 4px;
+  -webkit-border-radius: 4px;
   border-radius: 4px;
 }
 
@@ -953,7 +947,7 @@ html, body {
 #mast {
   *zoom: 1;
 }
-/* line 38, ../../../../../../../Applications/CodeKit.app/Contents/Resources/engines/compass/frameworks/compass/stylesheets/compass/utilities/general/_clearfix.scss */
+/* line 38, ../../../../../../../Applications/CodeKit.app/Contents/Resources/engines/compass/compass-core/stylesheets/compass/utilities/general/_clearfix.scss */
 #mast:after {
   content: "";
   display: table;
@@ -1015,7 +1009,7 @@ html, body {
   display: inline-block;
   padding: 0;
 }
-/* line 38, ../../../../../../../Applications/CodeKit.app/Contents/Resources/engines/compass/frameworks/compass/stylesheets/compass/utilities/general/_clearfix.scss */
+/* line 38, ../../../../../../../Applications/CodeKit.app/Contents/Resources/engines/compass/compass-core/stylesheets/compass/utilities/general/_clearfix.scss */
 #mast nav:after {
   content: "";
   display: table;
@@ -1031,10 +1025,8 @@ html, body {
 #mast nav a.button {
   margin: 0px 0;
   padding: 0px 0 0 2px;
-  -webkit-border-radius: 40px;
   -moz-border-radius: 40px;
-  -ms-border-radius: 40px;
-  -o-border-radius: 40px;
+  -webkit-border-radius: 40px;
   border-radius: 40px;
   background-color: #660000;
 }
@@ -1077,7 +1069,7 @@ html, body {
   *zoom: 1;
   display: inline-block;
 }
-/* line 38, ../../../../../../../Applications/CodeKit.app/Contents/Resources/engines/compass/frameworks/compass/stylesheets/compass/utilities/general/_clearfix.scss */
+/* line 38, ../../../../../../../Applications/CodeKit.app/Contents/Resources/engines/compass/compass-core/stylesheets/compass/utilities/general/_clearfix.scss */
 #mast ul:after {
   content: "";
   display: table;
@@ -1341,14 +1333,12 @@ html, body {
 #tease .tease_now img, #tease .event img {
   display: block;
   margin: 0px auto 30px auto;
-  -webkit-box-shadow: 0px 0px 20px rgba(85, 85, 85, 0.5);
   -moz-box-shadow: 0px 0px 20px rgba(85, 85, 85, 0.5);
+  -webkit-box-shadow: 0px 0px 20px rgba(85, 85, 85, 0.5);
   box-shadow: 0px 0px 20px rgba(85, 85, 85, 0.5);
   border: solid 10px rgba(85, 85, 85, 0.2);
-  -webkit-border-radius: 35px;
   -moz-border-radius: 35px;
-  -ms-border-radius: 35px;
-  -o-border-radius: 35px;
+  -webkit-border-radius: 35px;
   border-radius: 35px;
   max-width: 450px;
 }
@@ -1455,8 +1445,8 @@ html, body {
 #events .event {
   margin-bottom: 0;
   background-color: #282828;
-  filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=70);
-  opacity: 0.7;
+  filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=80);
+  opacity: 0.8;
   -moz-border-radius-bottomleft: 0px;
   -webkit-border-bottom-left-radius: 0px;
   border-bottom-left-radius: 0px;
@@ -1505,8 +1495,6 @@ html, body {
   float: right;
   width: 30%;
   min-height: 60px;
-  height: auto !important;
-  height: 60px;
   margin: 7px 0 20px 0;
 }
 /* line 69, ../scss/partials/home/_events.scss */
@@ -1514,8 +1502,6 @@ html, body {
   float: right;
   width: 30%;
   min-height: 60px;
-  height: auto !important;
-  height: 60px;
 }
 /* line 74, ../scss/partials/home/_events.scss */
 #events .event .button, #events .event .buttonless {
@@ -2193,10 +2179,8 @@ html, body {
 #page.calendar .content section nav ul li .thumb img {
   background-color: #660000;
   border: solid 5px #cc0000;
-  -webkit-border-radius: 50%;
   -moz-border-radius: 50%;
-  -ms-border-radius: 50%;
-  -o-border-radius: 50%;
+  -webkit-border-radius: 50%;
   border-radius: 50%;
 }
 /* line 30, ../scss/partials/calendar/_calendar.scss */

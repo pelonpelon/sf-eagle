@@ -19,7 +19,7 @@
       if ( $post->post_status == "archived" ) { continue; }
       include 'includes/timegames.php';
       ?>
-      <section class="promo" style="display: block;">
+      <section class="softball" style="display: block;">
           <div class="with_thumbnail"><?php
           the_content();?>
       </section><?php

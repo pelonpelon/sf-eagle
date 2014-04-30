@@ -11,10 +11,10 @@
     <title><?php bloginfo('name'); ?></title>
     <meta http-equiv="Content-Type" content="text/html" charset="utf-8">
     <meta name="viewport" content="width=device-width, minimum-scale=1.0, target-densityDpi=160">
+    <link rel="stylesheet" href="css/main.css">
     <link rel="prefetch" href="images/logo.svg">
     <link rel="prefetch font/woff" href="//themes.googleusercontent.com/static/fonts/comingsoon/v3/myblyOycMnPMGjfPG-DzP4bN6UDyHWBl620a-IRfuBk.woff" type="text/css">
     <link rel="prefetch font/woff" href="//themes.googleusercontent.com/static/fonts/jollylodger/v1/RX8HnkBgaEKQSHQyP9itiXhCUOGz7vYGh680lGh-uXM.woff" type="text/css">
-    <link rel="stylesheet" href="css/main.css">
     <link rel="apple-touch-icon" href="images/icons/apple-touch-icon-57x57.png">
     <link rel="apple-touch-icon" sizes="72x72" href="images/icons/touch-icon-ipad.png">
     <link rel="apple-touch-icon" sizes="114x114" href="images/icons/touch-icon-iphone-retina.png">
@@ -26,15 +26,6 @@
       }
     </style>
     <!-- [endif]-->
-    <script>
-      (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-      (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-      m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-      })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
-      ga('create', 'UA-42163204-1', 'sf-eagle.com');
-      ga('send', 'pageview');
-    </script>
-    <script src="//ajax.googleapis.com/ajax/libs/jquery/1.8.2/jquery.min.js"></script>
   </head>
   <body><!-- hello -->
     <!-- #background-->
@@ -63,7 +54,7 @@
       if ( $post->post_status == "archived" ) { continue; }
       include 'includes/timegames.php';
       ?>
-      <section class="promo" style="display: block;">
+      <section class="softball" style="display: block;">
           <div class="with_thumbnail"><?php
           the_content();?>
       </section><?php
@@ -173,6 +164,16 @@
         </div>
       </div>
     </div>
+    <script src="//ajax.googleapis.com/ajax/libs/jquery/1.8.2/jquery.min.js"></script>
+    <script>
+      (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+      (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+      m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+      })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+      ga('create', 'UA-42163204-1', 'sf-eagle.com');
+      ga('send', 'pageview');
+      
+    </script>
     <script async src="widgets/lightbox/js/lightbox-ck.js"></script>
     <script>
       $(document).ready(function(){

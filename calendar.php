@@ -11,10 +11,10 @@
     <title><?php bloginfo('name'); ?></title>
     <meta http-equiv="Content-Type" content="text/html" charset="utf-8">
     <meta name="viewport" content="width=device-width, minimum-scale=1.0, target-densityDpi=160">
+    <link rel="stylesheet" href="css/main.css">
     <link rel="prefetch" href="images/logo.svg">
     <link rel="prefetch font/woff" href="//themes.googleusercontent.com/static/fonts/comingsoon/v3/myblyOycMnPMGjfPG-DzP4bN6UDyHWBl620a-IRfuBk.woff" type="text/css">
     <link rel="prefetch font/woff" href="//themes.googleusercontent.com/static/fonts/jollylodger/v1/RX8HnkBgaEKQSHQyP9itiXhCUOGz7vYGh680lGh-uXM.woff" type="text/css">
-    <link rel="stylesheet" href="css/main.css">
     <link rel="apple-touch-icon" href="images/icons/apple-touch-icon-57x57.png">
     <link rel="apple-touch-icon" sizes="72x72" href="images/icons/touch-icon-ipad.png">
     <link rel="apple-touch-icon" sizes="114x114" href="images/icons/touch-icon-iphone-retina.png">
@@ -26,15 +26,6 @@
       }
     </style>
     <!-- [endif]-->
-    <script>
-      (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-      (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-      m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-      })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
-      ga('create', 'UA-42163204-1', 'sf-eagle.com');
-      ga('send', 'pageview');
-    </script>
-    <script src="//ajax.googleapis.com/ajax/libs/jquery/1.8.2/jquery.min.js"></script>
   </head>
   <body><!-- hello -->
     <!-- #background-->
@@ -161,20 +152,15 @@ foreach($custom_posts as $post)
               <div class="thumb">
                 <a href="<?php echo $image_large[0] ?>" width="<?php echo $image_large[1]; ?>" height="<?php echo $image_large[2]; ?>" rel="lightbox">
                     <img src="<?php echo $image_thumbnail[0] ?>" width="<?php echo $image_thumbnail[1]; ?>" height="<?php echo $image_thumbnail[2]; ?>" alt="<?php the_title(); ?>">
-                    </a></div><?php
-                if ( $type_of_event[0] === "music" ) { ?>
-                  <div class="thumb youtube"> <?php
-                if ( get_field('youtube_playlist') !== "" )
-                { ?>
-                  <a href="<?php the_field('youtube_playlist'); ?>" target="_blank"> <?php
-                }
-                else{ ?>
-                  <a href="http://www.youtube.com/channel/UCmzgZ3-nEo1S8tnyjGJ3WoQ/playlists" target="_blank"> <?php
+                </a>
+              </div><?php
+                if ( $type_of_event[0] === "music" && get_field('youtube_playlist') ) { ?>
+                  <div class="thumb youtube">
+                    <a href="<?php the_field('youtube_playlist'); ?>" target="_blank">
+                      <img src="images/icons/icon-youtubePlaylist.jpg" alt="Youtube Playlist">
+                    </a>
+                  </div><?php
                 } ?>
-            <img src="images/icons/icon-youtubePlaylist.jpg" alt="Youtube Playlist">
-        </a><?php
-        } ?>
-              </div>
             </td>
         </tr>
 <?php
@@ -285,6 +271,16 @@ foreach($custom_posts as $post)
         </div>
       </div>
     </div>
+    <script src="//ajax.googleapis.com/ajax/libs/jquery/1.8.2/jquery.min.js"></script>
+    <script>
+      (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+      (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+      m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+      })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+      ga('create', 'UA-42163204-1', 'sf-eagle.com');
+      ga('send', 'pageview');
+      
+    </script>
     <script async src="widgets/lightbox/js/lightbox-ck.js"></script>
     <script>
       $(document).ready(function(){
