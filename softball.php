@@ -200,13 +200,8 @@
     </script>
     <script async src="js/main.js"></script>
     <script async src="js/fastclick.min.js"></script>
-    <script>(function() {
-  window.addEventListener('load', function() {
-    return FastClick.attach(document.body, false);
-  });
-
-}).call(this);
-
+    <script>
+      <window load function(){ FastClick.attach(document.body); return false } class="addEventListener"></window>
     </script>
   </body>
 </html>

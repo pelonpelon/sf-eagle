@@ -7,4 +7,9 @@ wp/wp-content/uploads/
 wp/wp-config.php
 wp/wp-content/backup*
 stats/
-
+/STORM.sublime-workspace
+STORM.sublime-project
+STORM.sublime-workspace
+TEACHING.sublime-workspace
+TEACHING.sublime-project
+node_modules/

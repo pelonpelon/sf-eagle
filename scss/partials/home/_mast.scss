@@ -58,7 +58,7 @@
         section {
             // @include filter-gradient(gold, gold, vertical); // IE6-8
             // IE9 SVG, needs conditional override of 'filter' to 'none'
-            $experimental-support-for-svg: true;
+            //$experimental-support-for-svg: true !global
             // @include background-image(linear-gradient(top, yellow 0%, gold 65%, white 75%, gold 85%, yellow 100%));
             // @include background-image(linear-gradient(top, rgba(225,225,225,0.8) 0%,rgba(225,225,225,0.4) 55%,rgba(225,225,225,0.2) 92%,rgba(225,225,225,0.8) 100%));
             // background-color: #000;

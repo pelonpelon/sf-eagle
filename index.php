@@ -32,7 +32,7 @@
     <div id="root">
       <div id="page" class="index"><a name="mast"></a>
         <div id="mast">
-          <header><img src="images/logo.svg" alt="logo" width="200" height="200" class="logo"></header>
+          <header><img src="images/logo.svg" alt="San Francisco Eagle" width="200" height="200" class="logo"></header>
           <nav>
             <ul>
               <li class="thisweek"><a href="#events" class="button"><span>This<br>Week</span></a></li>
@@ -450,13 +450,8 @@ foreach($custom_posts as $post)
     </script>
     <script async src="js/main.js"></script>
     <script async src="js/fastclick.min.js"></script>
-    <script>(function() {
-  window.addEventListener('load', function() {
-    return FastClick.attach(document.body, false);
-  });
-
-}).call(this);
-
+    <script>
+      <window load function(){ FastClick.attach(document.body); return false } class="addEventListener"></window>
     </script>
   </body>
 </html>

@@ -42,7 +42,10 @@ foreach($custom_posts as $post)
         <tr class="<?php echo implode(" ", get_post_meta(get_the_ID(), 'crowd', true)); ?>">
             <td>
               <?php $day = date('l', $begintime);
-                    echo $day; ?> <sup><?php echo date('n/j', $begintime ); ?></sup>
+                    echo $day; ?> 
+<!-- <sup><php echo date('n/j', $begintime ); ></sup>
+                    echo $day; ?> -->
+                <span class="bigdate"><?php echo date('j', $begintime ); ?></span>
                 <p class="time"> <?php
                     echo $start . " - " . $finish;
                     ?>

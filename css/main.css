@@ -852,12 +852,12 @@ h6 {
   }
 }
 
-/* line 10, ../../../../../../../Applications/CodeKit.app/Contents/Resources/engines/compass/compass-core/stylesheets/compass/layout/_sticky-footer.scss */
+/* line 10, ../../../../../../../../Applications/CodeKit.app/Contents/Resources/engines/compass/compass-core/stylesheets/compass/layout/_sticky-footer.scss */
 html, body {
   height: 100%;
 }
 
-/* line 12, ../../../../../../../Applications/CodeKit.app/Contents/Resources/engines/compass/compass-core/stylesheets/compass/layout/_sticky-footer.scss */
+/* line 12, ../../../../../../../../Applications/CodeKit.app/Contents/Resources/engines/compass/compass-core/stylesheets/compass/layout/_sticky-footer.scss */
 #page {
   clear: both;
   min-height: 100%;
@@ -865,12 +865,12 @@ html, body {
   height: 100%;
   margin-bottom: -100%;
 }
-/* line 18, ../../../../../../../Applications/CodeKit.app/Contents/Resources/engines/compass/compass-core/stylesheets/compass/layout/_sticky-footer.scss */
+/* line 18, ../../../../../../../../Applications/CodeKit.app/Contents/Resources/engines/compass/compass-core/stylesheets/compass/layout/_sticky-footer.scss */
 #page #page-footer {
   height: 100%;
 }
 
-/* line 20, ../../../../../../../Applications/CodeKit.app/Contents/Resources/engines/compass/compass-core/stylesheets/compass/layout/_sticky-footer.scss */
+/* line 20, ../../../../../../../../Applications/CodeKit.app/Contents/Resources/engines/compass/compass-core/stylesheets/compass/layout/_sticky-footer.scss */
 #footer {
   clear: both;
   position: relative;
@@ -947,7 +947,7 @@ html, body {
 #mast {
   *zoom: 1;
 }
-/* line 38, ../../../../../../../Applications/CodeKit.app/Contents/Resources/engines/compass/compass-core/stylesheets/compass/utilities/general/_clearfix.scss */
+/* line 38, ../../../../../../../../Applications/CodeKit.app/Contents/Resources/engines/compass/compass-core/stylesheets/compass/utilities/general/_clearfix.scss */
 #mast:after {
   content: "";
   display: table;
@@ -1009,7 +1009,7 @@ html, body {
   display: inline-block;
   padding: 0;
 }
-/* line 38, ../../../../../../../Applications/CodeKit.app/Contents/Resources/engines/compass/compass-core/stylesheets/compass/utilities/general/_clearfix.scss */
+/* line 38, ../../../../../../../../Applications/CodeKit.app/Contents/Resources/engines/compass/compass-core/stylesheets/compass/utilities/general/_clearfix.scss */
 #mast nav:after {
   content: "";
   display: table;
@@ -1069,7 +1069,7 @@ html, body {
   *zoom: 1;
   display: inline-block;
 }
-/* line 38, ../../../../../../../Applications/CodeKit.app/Contents/Resources/engines/compass/compass-core/stylesheets/compass/utilities/general/_clearfix.scss */
+/* line 38, ../../../../../../../../Applications/CodeKit.app/Contents/Resources/engines/compass/compass-core/stylesheets/compass/utilities/general/_clearfix.scss */
 #mast ul:after {
   content: "";
   display: table;
@@ -2207,21 +2207,31 @@ html, body {
   width: 30%;
   background-color: #660000;
 }
+/* line 48, ../scss/partials/calendar/_calendar.scss */
+#page.calendar .content section table tr td:first-of-type .bigdate {
+  font-size: 9em;
+  font-weight: 900;
+  display: block;
+}
 @media screen and (max-width: 641px) {
   /* line 45, ../scss/partials/calendar/_calendar.scss */
   #page.calendar .content section table tr td:first-of-type {
     font-size: 1rem;
   }
-  /* line 50, ../scss/partials/calendar/_calendar.scss */
+  /* line 54, ../scss/partials/calendar/_calendar.scss */
+  #page.calendar .content section table tr td:first-of-type .bigdate {
+    font-size: 4em;
+  }
+  /* line 58, ../scss/partials/calendar/_calendar.scss */
   #page.calendar .content section table tr td:first-of-type sup {
     font-size: .6rem;
   }
-  /* line 53, ../scss/partials/calendar/_calendar.scss */
+  /* line 61, ../scss/partials/calendar/_calendar.scss */
   #page.calendar .content section table tr td:first-of-type .time {
     font-size: .7rem;
   }
 }
-/* line 58, ../scss/partials/calendar/_calendar.scss */
+/* line 66, ../scss/partials/calendar/_calendar.scss */
 #page.calendar .content section table tr td + td {
   font-family: "Jolly Lodger";
   width: 30%;
@@ -2231,20 +2241,20 @@ html, body {
   font-weight: 800;
 }
 @media screen and (max-width: 641px) {
-  /* line 58, ../scss/partials/calendar/_calendar.scss */
+  /* line 66, ../scss/partials/calendar/_calendar.scss */
   #page.calendar .content section table tr td + td {
     font-size: 1.2rem !important;
   }
 }
-/* line 68, ../scss/partials/calendar/_calendar.scss */
+/* line 76, ../scss/partials/calendar/_calendar.scss */
 #page.calendar .content section table tr td + td a:hover {
   color: #cc0000;
 }
-/* line 72, ../scss/partials/calendar/_calendar.scss */
+/* line 80, ../scss/partials/calendar/_calendar.scss */
 #page.calendar .content section table tr td + td + td {
   background-color: #660000;
 }
-/* line 74, ../scss/partials/calendar/_calendar.scss */
+/* line 82, ../scss/partials/calendar/_calendar.scss */
 #page.calendar .content section table tr td + td + td .thumb {
   float: none;
   margin: 0 auto;
@@ -2256,29 +2266,29 @@ html, body {
   vertical-align: middle;
 }
 @media screen and (max-width: 801px) {
-  /* line 74, ../scss/partials/calendar/_calendar.scss */
+  /* line 82, ../scss/partials/calendar/_calendar.scss */
   #page.calendar .content section table tr td + td + td .thumb {
     width: 95%;
   }
 }
-/* line 87, ../scss/partials/calendar/_calendar.scss */
+/* line 95, ../scss/partials/calendar/_calendar.scss */
 #page.calendar .content section table tr td + td + td .youtube {
   width: 30%;
   margin: 0 auto;
 }
 @media screen and (max-width: 801px) {
-  /* line 87, ../scss/partials/calendar/_calendar.scss */
+  /* line 95, ../scss/partials/calendar/_calendar.scss */
   #page.calendar .content section table tr td + td + td .youtube {
     width: 50%;
   }
 }
 @media screen and (max-width: 1025px) {
-  /* line 87, ../scss/partials/calendar/_calendar.scss */
+  /* line 95, ../scss/partials/calendar/_calendar.scss */
   #page.calendar .content section table tr td + td + td .youtube {
     width: 95%;
   }
 }
-/* line 97, ../scss/partials/calendar/_calendar.scss */
+/* line 105, ../scss/partials/calendar/_calendar.scss */
 #page.calendar .content section table tr td + td + td img {
   padding: 0;
 }

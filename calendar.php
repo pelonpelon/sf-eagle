@@ -96,7 +96,10 @@ foreach($custom_posts as $post)
         <tr class="<?php echo implode(" ", get_post_meta(get_the_ID(), 'crowd', true)); ?>">
             <td>
               <?php $day = date('l', $begintime);
-                    echo $day; ?> <sup><?php echo date('n/j', $begintime ); ?></sup>
+                    echo $day; ?> 
+<!-- <sup><php echo date('n/j', $begintime ); ></sup>
+                    echo $day; ?> -->
+                <span class="bigdate"><?php echo date('j', $begintime ); ?></span>
                 <p class="time"> <?php
                     echo $start . " - " . $finish;
                     ?>
@@ -307,13 +310,8 @@ foreach($custom_posts as $post)
     </script>
     <script async src="js/main.js"></script>
     <script async src="js/fastclick.min.js"></script>
-    <script>(function() {
-  window.addEventListener('load', function() {
-    return FastClick.attach(document.body, false);
-  });
-
-}).call(this);
-
+    <script>
+      <window load function(){ FastClick.attach(document.body); return false } class="addEventListener"></window>
     </script>
   </body>
 </html>
