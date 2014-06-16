@@ -41,18 +41,11 @@ foreach($custom_posts as $post)
 
     if ($day != date('l', $begintime)) { ?>
       <li id="<?php echo date('l', $begintime); ?>" class="day">
-      <h3><?php echo date('l', $begintime); ?> <sup><?php echo date('n/j', $begintime); ?></sup> </h3>
-  <?php }
+      <h3><?php echo date('l', $begintime); ?> <sup><?php echo date('n/j', $begintime); ?></sup> </h3> <?php }
 
     $day = date('l', $begintime);
-    $price = "$" . get_field('price');
+    $price = "$" . get_field('price'); ?>
 
-    $image_large = wp_get_attachment_image_src( get_post_thumbnail_id($post->ID), 'large');
-    $image_medium = wp_get_attachment_image_src( get_post_thumbnail_id($post->ID), 'medium');
-    $image_thumbnail = wp_get_attachment_image_src( get_post_thumbnail_id($post->ID), 'thumbnail');
-
-    $title_thumbnail = get_field('title_thumbnail');
-  ?>
     <div class="event cf">
         <p class="time"><?php echo $start . " - " . $finish;
             if ( get_field('price')) { ?>
@@ -66,64 +59,55 @@ foreach($custom_posts as $post)
         if ( get_field('promoter')) { ?>
           <li class="promoter">
               <a href="<?php the_field('promoter_link'); ?>" target="_blank">
-                  <div> <?php the_field('promoter'); ?> </div>
+                  <span> <?php the_field('promoter'); ?> </span>
               </a>
           </li><?php } ?>
 
         <li>
             <a href="<?php the_field('band_#1_link'); ?>" class="button" target="_blank">
-                <div> <?php the_field('band_#1'); ?> </div>
+                <span> <?php the_field('band_#1'); ?> </span>
             </a>
         </li> <?php
 
         if ( get_field('band_#2') !== "" ) { ?>
           <li>
               <a href="<?php the_field('band_#2_link'); ?>" class="button" target="_blank">
-                  <div> <?php the_field('band_#2'); ?> </div>
+                  <span> <?php the_field('band_#2'); ?> </span>
               </a>
           </li><?php }
 
         if ( get_field('band_#3') !== "" ) { ?>
           <li>
               <a href="<?php the_field('band_#3_link'); ?>" class="button" target="_blank">
-                  <div> <?php the_field('band_#3'); ?> </div>
+                  <span> <?php the_field('band_#3'); ?> </span>
               </a>
           </li><?php }
 
         if ( get_field('band_#4') !== "" ) { ?>
           <li>
               <a href="<?php the_field('band_#4_link'); ?>" class="button" target="_blank">
-                  <div> <?php the_field('band_#4'); ?> </div>
+                  <span> <?php the_field('band_#4'); ?> </span>
               </a>
           </li><?php } ?>
 
       </ul><?php
 
     }
-    else
-    { ?>
 
+    else { ?>
         <ul class="event-list">
             <li>
-              <a href="<?php the_field('link'); ?>" class="button" target="_blank">
-                <div> <?php the_title(); ?> </div>
-    <?php 
-    if( $title_thumbnail ):
-                echo wp_get_attachment_image( $title_thumbnail, 'medium' );
-    endif; ?>
-                <span>
-    <?php
-                get_field('dj_name');
-    ?>
-                </span>
-              </a>
+                <a href="<?php the_field('link'); ?>" class="button" target="_blank">
+                    <span> <?php the_title(); ?> </span>
+                </a>
             </li>
-      </ul>
+        </ul><?php }
 
-    <?php } ?>
+    $image_large = wp_get_attachment_image_src( get_post_thumbnail_id($post->ID), 'large');
+    $image_thumbnail = wp_get_attachment_image_src( get_post_thumbnail_id($post->ID), 'thumbnail'); ?>
 
         <a href="<?php echo $image_large[0] ?>" rel="lightbox">
-            <img class="flyer-thumb" src="<?php echo $image_thumbnail[0] ?>" width="<?php echo $image_thumbnail[1]; ?>" height="<?php echo $image_thumbnail[2]; ?>" alt="<?php the_title(); ?>">
+            <img src="<?php echo $image_thumbnail[0] ?>" width="<?php echo $image_thumbnail[1]; ?>" height="<?php echo $image_thumbnail[2]; ?>" alt="<?php the_title(); ?>">
         </a><?php
 
     if ( $type_of_event[0] === "music" && get_field('youtube_playlist') ) { ?>

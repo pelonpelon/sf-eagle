@@ -125,7 +125,7 @@
 
 #tease {
   float: left;
-  width: 54%;
+  width: 50%;
   padding-top: 15px;
   @media screen and (max-width: $netbook) {
     width: 67%;
@@ -141,7 +141,7 @@
 #events {
   float: left;
   clear: right;
-  width: 24%;
+  width: 28%;
   margin: -20px 0 20px 0;
 
   @media screen and (max-width: $netbook) {

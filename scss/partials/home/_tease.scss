@@ -22,9 +22,9 @@
             color: $decor-dark;
             @include text-shadow(2px 2px 3px lighten($decor-dark, 20%));
             font-family: "Coming Soon";
-            line-height: 1em;
+            line-height: 1.2em;
             text-align: center;
-            font-size: 3.8em;
+            font-size: 3em;
             padding: 20px 8% 40px 8%;
             margin: 0;
             @media screen and (max-width: $phone) {

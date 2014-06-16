@@ -311,7 +311,10 @@ foreach($custom_posts as $post)
     <script async src="js/main.js"></script>
     <script async src="js/fastclick.min.js"></script>
     <script>
-      <window load function(){ FastClick.attach(document.body); return false } class="addEventListener"></window>
+      window.addEventListener('load', function(){
+        FastClick.attach(document.body);
+        return false;
+        });
     </script>
   </body>
 </html>

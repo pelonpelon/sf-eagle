@@ -77,14 +77,13 @@ function fill_tease($post, $kind)
 
   }
   if (has_post_thumbnail( $post_id )) {
-    $image_large = wp_get_attachment_image_src( get_post_thumbnail_id($post->ID), 'large');
-    $image_medium = wp_get_attachment_image_src( get_post_thumbnail_id($post->ID), 'medium'); ?>
+    $image_large = wp_get_attachment_image_src( get_post_thumbnail_id($post->ID), 'large'); ?>
 
     <div>
       <a href="<?php echo $image_large[0] ?>" rel="lightbox">
-        <img src="<?php echo $image_medium[0] ?>"
-             width="<?php echo $image_medium[1]; ?>"
-             height="<?php echo $image_medium[2]; ?>"
+        <img src="<?php echo $image_large[0] ?>"
+             width="<?php echo $image_large[1]; ?>"
+             height="<?php echo $image_large[2]; ?>"
              alt="<?php get_the_title($post->ID); ?>" >
       </a>
     </div><?php

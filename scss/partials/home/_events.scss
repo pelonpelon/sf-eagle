@@ -60,7 +60,7 @@
       font-size: .8em;
       padding: 12px 0 8px 0;
     }
-    img {
+    .flyer-thumb {
       float: right;
       width: 30%;
       @include min-height(60px);
@@ -92,10 +92,21 @@
     width:63%;
     padding:5px;
     height: 100%;
+    text-align: center;
     .button, .buttonless {
-      width:90%;
+      display: block;
+      height: auto;
+      min-height: 60px;
+      width:100%;
+      padding: 1em 0;
       color:#DFAE48;
       font-weight:700;
+    }
+    img {
+      display: block;
+      margin: 5% auto;
+      width: inherit;
+      max-width: 80%;
     }
   }
   .tnl {
