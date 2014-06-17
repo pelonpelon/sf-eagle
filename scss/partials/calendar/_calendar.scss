@@ -76,6 +76,14 @@
             a:hover {
               color: $decor-medium;
             }
+            .event-title {
+              padding: 1em 0;
+            }
+            .dj-name {
+              font-weight: 500;
+              font-size: .7em;
+              color: $decor-dark;
+            }
           }
           td+td+td {
             background-color: $decor-dark;

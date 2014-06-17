@@ -96,16 +96,20 @@ foreach($custom_posts as $post)
     } else { ?>
         <td>
           <a href="<?php the_field('link'); ?>" target="_blank" >
-              <?php the_title(); ?>
+          <div class="event-title"> <?php the_title(); ?> </div>
+
+<?php 
+          if( $title_thumbnail ){ 
+            echo wp_get_attachment_image( $title_thumbnail, 'medium' ); 
+          } ?>
+
+          <span class="dj-name"> <?php the_field('dj_name'); ?> </span>
           </a>
         </td>
 <?php } ?>
         <td>
-<?php
-    $image_large = wp_get_attachment_image_src( get_post_thumbnail_id($post->ID), 'large');
-    $image_thumbnail = wp_get_attachment_image_src( get_post_thumbnail_id($post->ID), 'thumbnail'); ?>
           <div class="thumb">
-            <a href="<?php echo $image_large[0] ?>" width="<?php echo $image_large[1]; ?>" height="<?php echo $image_large[2]; ?>" rel="lightbox">
+            <a href="<?php echo $image_full[0] ?>" width="<?php echo $image_full[1]; ?>" height="<?php echo $image_full[2]; ?>" rel="lightbox">
                 <img src="<?php echo $image_thumbnail[0] ?>" width="<?php echo $image_thumbnail[1]; ?>" height="<?php echo $image_thumbnail[2]; ?>" alt="<?php the_title(); ?>">
             </a>
             </div>
