@@ -81,10 +81,10 @@ function fill_tease($post, $kind)
     $image_medium = wp_get_attachment_image_src( get_post_thumbnail_id($post->ID), 'medium'); ?>
 
     <div>
-      <a href="<?php echo $image_large[0] ?>" rel="lightbox">
-        <img src="<?php echo $image_medium[0] ?>"
-             width="<?php echo $image_medium[1]; ?>"
-             height="<?php echo $image_medium[2]; ?>"
+      <a href="<?php echo $image_full[0] ?>" rel="lightbox">
+        <img src="<?php echo $image_large[0] ?>"
+             width="<?php echo $image_large[1]; ?>"
+             height="<?php echo $image_large[2]; ?>"
              alt="<?php get_the_title($post->ID); ?>" >
       </a>
     </div><?php
