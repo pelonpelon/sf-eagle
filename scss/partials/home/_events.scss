@@ -15,15 +15,6 @@
       font: 1rem "Tahoma";
     }
   }
-  .more_events {
-    margin: 20px 0 0 0;
-    padding: 12px 4px 1px 4px;
-    background-color: #444;
-    @include opacity(0.9);
-    @include border-top-radius(0px);
-    @include border-bottom-radius(15px);
-    text-align: right;
-  }
   .event {
     margin-bottom: 0;
     background-color: #282828;
@@ -47,11 +38,39 @@
       clear: left;
       text-align:left;
       margin-bottom: 2px;
+      @media screen and (max-width: $tablet) {
+        font-size: 1em;
+      }
     }
     .price {
       padding-left: 10px;
       color: $content-dark;
       font-weight: 100;
+    }
+  }
+    .event-list {
+      float:left;
+      width:63%;
+      padding:5px;
+      height: 100%;
+      text-align: center;
+      .button, .buttonless {
+        display: block;
+        height: auto;
+        min-height: 60px;
+        width:100%;
+        color:#DFAE48;
+      }
+      .event-title {
+        font-weight:700;
+        padding: 1em 0;
+      }
+      img {
+        display: block;
+        margin: 5% auto;
+        width: inherit;
+        max-width: 80%;
+      }
     }
     .promoter {
       font-family: "Bitstream Charter";
@@ -59,6 +78,11 @@
       text-align: center;
       font-size: .8em;
       padding: 12px 0 8px 0;
+    }
+    .dj-name {
+      font-size: .7em;
+      font-wight: 500;
+      color:#CF9E38;
     }
     .flyer-thumb {
       float: right;
@@ -86,43 +110,26 @@
     .buttonless {
       font-size: 1.1em;
     }
-  }
-  .event-list {
-    float:left;
-    width:63%;
-    padding:5px;
-    height: 100%;
-    text-align: center;
-    .button, .buttonless {
-      display: block;
-      height: auto;
-      min-height: 60px;
-      width:100%;
-      padding: 1em 0;
-      color:#DFAE48;
-      font-weight:700;
+    .tnl {
+      font-family: $tnl-font, cursive;
+      font-size: 1.5em;
+      .buttonless {
+        background-color: $decor-dark;
+      }
     }
-    img {
-      display: block;
-      margin: 5% auto;
-      width: inherit;
-      max-width: 80%;
-    }
-  }
-  .tnl {
-    font-family: $tnl-font, cursive;
-    font-size: 1.5em;
-    .buttonless {
-      background-color: $decor-dark;
-    }
+  .more_events {
+    margin: 20px 0 0 0;
+    padding: 12px 4px 1px 4px;
+    background-color: #444;
+    @include opacity(0.9);
+    @include border-top-radius(0px);
+    @include border-bottom-radius(15px);
+    text-align: right;
   }
   @media screen and (max-width: $tablet) {
-      clear: both;
-      width: 60%;
-      margin: 60px 20%;
-    .time {
-      font-size: 1em;
-    }
+    clear: both;
+    width: 60%;
+    margin: 60px 20%;
     .flexslider .slides {
       zoom: .5;
     }

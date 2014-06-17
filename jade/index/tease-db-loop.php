@@ -76,7 +76,7 @@ function fill_tease($post, $kind)
       <h1> <?php the_title(); ?> </h1> <?php
 
   }
-  if (has_post_thumbnail( $post_id )) {
+  if (has_post_thumbnail( $post->ID )) {
     $image_large = wp_get_attachment_image_src( get_post_thumbnail_id($post->ID), 'large');
     $image_medium = wp_get_attachment_image_src( get_post_thumbnail_id($post->ID), 'medium'); ?>
 
