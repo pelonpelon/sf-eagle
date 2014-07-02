@@ -113,8 +113,12 @@
                 color: $decor-lite;
             }
         }
+        .fetch-tweets-body {
+        }
         .fetch-tweets-item {
-            margin-bottom:40px;
+            padding-bottom:50px;
+            background: #111;
+            margin: 0 0 10px 0;
             @media screen and (max-width:$netbook) {
                 display:none;
             }
@@ -144,10 +148,9 @@
             padding: 0px 4% 0 4%;
         }
         .fetch-tweets-heading {
-            display:none;
             font-size: .6rem !important;
             color: #c90;
-            text-align:right;
+            text-align:left;
             font-family: "Verdana";
             padding:0 0 4px 0;
             &:hover {
@@ -156,6 +159,10 @@
             @media screen and (max-width:$phone) {
                 font-size: 1em;
             }
+        .fetch-tweets-user-name {
+          display: none;
+          font-size: .3rem
+        }
         .fetch-tweets-tweet-created-at {
           font-size: .3rem
         }
@@ -172,18 +179,29 @@
         }
         .fetch-tweets-intent-icon {
             display: inline-block;
-            min-width: 36px;
-            min-height: 36px;
+            min-width: 32px;
+            min-height: 32px;
             margin: 0 4px;
-            background-position: -36px;
+            background-position: 0px;
             background-size: cover;
             @media screen and (max-width:$phone) {
                 min-width:32px;
                 min-height:32px;
-                background-position: -32px;
+                background-position: 0px;
                 margin: 0 8px;
             }
-
+        }
+        .fetch-tweets-intent-retweet {
+            color: #111;
+            &:hover {
+              color: $decor-lite;
+            }
+            &::before {
+              display:block;
+              clear:both;
+              content:"Retweet";
+              font-size: .8em;
+            }
         }
         .fetch-tweets-intent-reply {
             display: none;
@@ -192,6 +210,7 @@
             display: none;
         }
         .fetch-tweets-text {
+            position: relative;
             font-family: "Courier";
             text-shadow: none;
             font-weight: 500;
@@ -200,12 +219,34 @@
             // color: $content-lite;
             text-align: left;
             margin: 0;
-            a{
-                color: $content-dark;
+            a[href*="%23"] {
+              display:none;
+            }
+            a {
+                color: #111;
+              &::after {
+                display: block;
+                content: " ";
+                z-index: 99;
+                padding: 90px 40% 0px 40%;
+                margin: -40px 0 0 0;
+                position: absolute;
+                right: -10px;
+              }
             }
             @media screen and (max-width:$netbook) {
                 font-size:.8rem;
             }
+        }
+        .fetch-tweets-media {
+          +p {
+            display:none;
+          }
+        }
+        .fetch-tweets-media-photo {
+          img {
+            display: none;
+          }
         }
     }
 }

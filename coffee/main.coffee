@@ -4,7 +4,7 @@ jQuery ->
   # keypress to force reload of page
   m = $ ('#mast')
   $(document).bind 'keypress', (e) ->
-      location.reload() if e.which is 114
+    location.reload() if e.which is 114
   # add lightbox to Drink Special img
   $promoImg = $(".promo img")
   $imgsrc = $promoImg.attr("src")
@@ -15,7 +15,7 @@ jQuery ->
 
   calendar_button_on = 1.0
   calendar_button_hover = 0.9
-  calendar_button_dim = 0.7
+  calendar_button_dim = 0.2
   mouseenter_color = "#f00"
   mouseleave_color = "#a00"
 
@@ -25,41 +25,41 @@ jQuery ->
   $tr = $c.find "tr"
 
   $i.each ->
-      $(this).mouseenter ->
-          $(this).css "borderColor", mouseenter_color
-      $(this).mouseleave ->
-          $(this).css "borderColor", mouseleave_color
+    $(this).mouseenter ->
+      $(this).css "borderColor", mouseenter_color
+    $(this).mouseleave ->
+      $(this).css "borderColor", mouseleave_color
 
   hover_reset = ->
-      $i.each ->
-          $(this).css "opacity", calendar_button_dim
-          $(this).data "state", "off"
+    $i.each ->
+      $(this).css "opacity", calendar_button_dim
+      $(this).data "state", "off"
 
   hover_reset()
   $i.each ->
-      $(this).data "state", "off"
+    $(this).data "state", "off"
 #        console.log ($(this).attr "class"),
 #            ($(this).data "state"),
 #            ($(this).css "borderColor")
 
   filter_calendar = (crowd) ->
-      $i.filter("." + crowd).click (e) ->
+    $i.filter("." + crowd).click (e) ->
 #            console.log crowd + " " + $(this).data "state"
-          e.preventDefault()
-          oldButtonState = $(this).data("state")
-          if ($(this).data "state") == "off"
-              hover_reset()
-              $(this).data "state", "on"
-              $(this).css "opacity", calendar_button_on
+      e.preventDefault()
+      oldButtonState = $(this).data("state")
+      if ($(this).data "state") == "off"
+        hover_reset()
+        $(this).data "state", "on"
+        $(this).css "opacity", calendar_button_on
 #                console.log crowd + " is " + $(this).data "state"
-              $tr.fadeOut 100
-              $tr.filter("."+ crowd).each ->
+        $tr.fadeOut 100
+        $tr.filter("."+ crowd).each ->
 #                    console.log $(this)
-                  $(this).fadeIn 500
-          else
-              hover_reset()
-              $tr.each ->
-                  $(this).fadeIn 500
+          $(this).fadeIn 500
+      else
+        hover_reset()
+        $tr.each ->
+          $(this).fadeIn 500
 
   filter_calendar "music"
   filter_calendar "bears"
@@ -81,9 +81,7 @@ jQuery ->
       target = $(@hash)
       target = (if target.length then target else $("[name=" + @hash.slice(1) + "]"))
       if target.length
-        $("html,body").animate
-          scrollTop: target.offset().top
-        , 1000, ->
+        $("html,body").animate { scrollTop: target.offset().top } , 1000, ->
           # ADDED: focus the target
           target.focus()
           # end ADDED

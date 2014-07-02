@@ -84,6 +84,29 @@
               font-size: .7em;
               color: $decor-dark;
             }
+            .promoter {
+              display: block;
+              padding: 10px 0 20px 0;
+              font-family: sans-serif;
+              font-size: 0.7em;
+              font-variant: small-caps;
+              line-height: 1em;
+            }
+            a {
+              display: block;
+            }
+            >a {
+              background: #bbb;
+            }
+            a+a {
+              background: #999;
+            }
+            a+a+a {
+              background: #777;
+            }
+            a+a+a+a {
+              background: #555;
+            }
           }
           td+td+td {
             background-color: $decor-dark;

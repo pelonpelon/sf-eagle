@@ -66,25 +66,22 @@ foreach($custom_posts as $post)
 <?php
     if ( get_field('promoter')) { ?>
           <a href="<?php the_field('promoter_link'); ?>" target="_blank">
-             <div> <?php the_field('promoter'); ?> </div>
+             <div class="promoter"> <?php the_field('promoter'); ?> </div>
           </a>
 <?php } ?>
           <a href="<?php the_field('band_#1_link'); ?>" target="_blank" >
             <?php the_field('band_#1'); ?>
           </a>
-          <hr>
 <?php
     if ( get_field('band_#2') !== "" ) { ?>
           <a href="<?php the_field('band_#2_link'); ?>" target="_blank" >
               <?php the_field('band_#2'); ?>
           </a>
-          <hr>
 <?php
     } if ( get_field('band_#3') !== "" ) { ?>
           <a href="<?php the_field('band_#3_link'); ?>" target="_blank" >
               <?php the_field('band_#3'); ?>
           </a>
-          <hr>
 <?php
     } if ( get_field('band_#4') !== "" ) { ?>
           <a href="<?php the_field('band_#4_link'); ?>" target="_blank">

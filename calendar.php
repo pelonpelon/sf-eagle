@@ -75,25 +75,22 @@ foreach($custom_posts as $post)
 <?php
     if ( get_field('promoter')) { ?>
           <a href="<?php the_field('promoter_link'); ?>" target="_blank">
-             <div> <?php the_field('promoter'); ?> </div>
+             <div class="promoter"> <?php the_field('promoter'); ?> </div>
           </a>
 <?php } ?>
           <a href="<?php the_field('band_#1_link'); ?>" target="_blank" >
             <?php the_field('band_#1'); ?>
           </a>
-          <hr>
 <?php
     if ( get_field('band_#2') !== "" ) { ?>
           <a href="<?php the_field('band_#2_link'); ?>" target="_blank" >
               <?php the_field('band_#2'); ?>
           </a>
-          <hr>
 <?php
     } if ( get_field('band_#3') !== "" ) { ?>
           <a href="<?php the_field('band_#3_link'); ?>" target="_blank" >
               <?php the_field('band_#3'); ?>
           </a>
-          <hr>
 <?php
     } if ( get_field('band_#4') !== "" ) { ?>
           <a href="<?php the_field('band_#4_link'); ?>" target="_blank">
@@ -159,7 +156,7 @@ foreach($custom_posts as $post)
           <div class="footer-widget-content"><?php the_content(); ?></div>
         </section><?php
     }?>
-</div></div></div><script src="//ajax.googleapis.com/ajax/libs/jquery/1.8.2/jquery.min.js"></script><script>(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+</div><div class="back-to-the-top"><a href="#top">Back To The Top</a></div></div></div><script src="//ajax.googleapis.com/ajax/libs/jquery/1.8.2/jquery.min.js"></script><script>(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
 (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
 m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
 })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
