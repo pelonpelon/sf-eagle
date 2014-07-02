@@ -5,8 +5,11 @@
 codekit-config.json
 config.codekit
 db/
-wp/
+wp/wp-admin/
+wp/wp-includes/
 wp/wp-content/uploads/
+wp/wp-content/plugins/
+wp/wp-content/upgrade/
 wp/wp-config.php
 wp/wp-content/backup*
 stats/
