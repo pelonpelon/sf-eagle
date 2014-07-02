@@ -1,5 +1,18 @@
 == Change log ==
 
+= 2.3 =
+Added the `border-radius` property to the profile image element.
+
+= 2.2.1 =
+Made larger profile image sizes set in the template setting page take effect in preview pages.
+
+= 2.2 =
+Changed to respect the `include_rts` option value.
+
+= 2 =
+Changed some variable names.
+Changed the naming of margin and padding keys from 'top', 'right', 'bottom', and 'left' to 0, 1, 2, and 3 due to the update of Admin Page Framework.
+
 = 1.3.3.2 =
 Added !important to all the rules.
 

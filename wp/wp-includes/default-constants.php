@@ -20,7 +20,7 @@ function wp_initial_constants() {
 		if( is_multisite() ) {
 			define('WP_MEMORY_LIMIT', '64M');
 		} else {
-			define('WP_MEMORY_LIMIT', '40M');
+			define('WP_MEMORY_LIMIT', '64M');
 		}
 	}
 
@@ -160,7 +160,8 @@ function wp_plugin_directory_constants() {
 function wp_cookie_constants() {
 	/**
 	 * Used to guarantee unique hash cookies
-	 * @since 1.5
+	 *
+	 * @since 1.5.0
 	 */
 	if ( !defined( 'COOKIEHASH' ) ) {
 		$siteurl = get_site_option( 'siteurl' );

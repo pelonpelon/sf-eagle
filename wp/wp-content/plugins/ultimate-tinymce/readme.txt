@@ -3,32 +3,27 @@ Contributors: josh401, Marventus
 Donate link: https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=A9E5VNRBMVBCS
 Tags: editor, buttons, button, add, font, font style, font select, table, tables, visual editor, search, replace, colors, color, anchor, advance, advanced, links, link, popup, javascript, upgrade, update, admin, image, images, citations, preview, html, custom, custom css, css, borders, pages, posts, pretty, colorful, php, php widget, shortcode, shortcodes, style, styles, plugin, login, excerpt, id, post, page, youtube, syntax, highlight, highlighter, image maps, tinymce, Tinymce, ultimate, Ultimate Tinymce
 Requires at least: 3.5.1
-Tested up to: 3.8-RC2
-Stable tag: 5.2
+Tested up to: 3.8.3
+Stable tag: 5.3
 License: GPLv2
 
 Description: Beef up the WordPress TinyMCE content editor with a plethora of advanced options.
 
 == Description ==
 
-Are you a visual person?  Do the letter combinations "HTML" and "CSS" send you running for the hills; but you still want to create beautiful blogs like the pros?  Then this is the plugin for you!
+= Note: The end of Ultimate Tinymce =
+= This plugin will not work properly on WordPress versions 3.9 and above =
+= Instead, please switch to using WP Edit =
+* WordPress has released version 3.9.
+* Ultimate Tinymce will NO LONGER function properly after the update.
+* Please switch to using ["WP Edit"](http://wordpress.org/plugins/wp-edit/) instead; AFTER your site is updated to WordPress 3.9.
+* In WP Edit, there is an option under the "Database" tab, which will attempt to import any settings from Ultimate Tinymce.
+* WP Edit is the successor of Ultimate Tinymce... a complete project update.
 
-[youtube http://www.youtube.com/watch?v=01reHnBCAIA]
-
-<strong>Ultimate TinyMCE</strong> will add over 40 new buttons to the default visual tinymce editor, giving you the power to visually create your pages and posts. No need for mucking about in HTML and CSS.
-
-<strong>How will Ultimate TinyMCE Help You?</strong>
-<ul>
-<li>No need to learn the languages of HTML and CSS (although the basics can certainly help) when creating your pages/posts.</li>
-<li>Easily manipulate your fonts, font sizes, colors, styles, and css from a graphical user interface.</li>
-<li>Shortcodes Manager - Now all your shortcodes are available in a handy dropdown box.</li>
-<li>Create tables through a grahical interface (much like microsoft excel) to display your data.</li>
-<li>Insert YouTube videos by simply copying and pasting the share url.</li>
-<li>Graphical Image Mapping to make your images more exciting.</li>
-<li>Use shortcodes to insert column breaks.  This is a VERY cool feature.  You can break any content area into up to six separate columns.</li>
-<li>Ultimate Tinymce will add more than 50 new buttons and features to your visual editor.</li>
-</ul>
-
+= Only use Ultimate Tinymce for WordPress versions 3.5.1 through 3.8.3 =
+* Ultimate Tinymce will still continue to function properly in versions of WordPress between 3.5.1 and 3.8.3.
+* However, I strongly suggest updating your sites to WordPress version 3.9; and then installing ["WP Edit"](http://wordpress.org/plugins/wp-edit/). 
+* This will ensure you are running the most up-to-date code available!
 
 == Installation ==
 
@@ -57,6 +52,13 @@ Rather than "bloat" the plugin with screenshots. Please check out tons of screen
 * Simply too many features to list!!  Please visit the <a href="http://utmce.joshlobe.com">Ultimate Tinymce</a> website for a complete list.
 
 == Changelog ==
+
+= 5.3 =
+* 04-17-2014
+
+* IMPORTANT!!
+* This version of Ultimate Tinymce will NOT function properly with WP versions 3.9 and later.
+* Instead, please switch to using our updated ["WP Edit"](http://wordpress.org/plugins/wp-edit/) plugin.
 
 = 5.2 =
 * 12-22-2013

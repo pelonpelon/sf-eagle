@@ -3,6 +3,9 @@
 .DS_Store
 .htaccess
 codekit-config.json
+config.codekit
+db/
+wp/
 wp/wp-content/uploads/
 wp/wp-config.php
 wp/wp-content/backup*

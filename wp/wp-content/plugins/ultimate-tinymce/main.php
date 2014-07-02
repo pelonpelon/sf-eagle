@@ -1,14 +1,14 @@
 <?php
 /**
  * @package Ultimate TinyMCE
- * @version 5.2
+ * @version 5.3
  */
 /*
 Plugin Name: Ultimate TinyMCE
 Plugin URI: http://www.plugins.joshlobe.com/
 Description: Beef up your visual tinymce editor with a plethora of advanced options.
 Author: Josh Lobe
-Version: 5.2
+Version: 5.3
 Author URI: http://joshlobe.com
 
 */
@@ -796,7 +796,7 @@ function jwl_update_message_cb( /* $plugin_data, $r */ )
     # echo '<pre>'.var_export( $plugin_data, false ).'<br />'.var_export( $r, false ).'</pre>';
 
     // echo stuff....
-    $output = '<span style="margin-left:10px;color:#FF0000;">Please Read Changelog Details Before Upgrading.</span>';
+    $output = '<span style="margin-left:10px;color:#FF0000;">Ultimate Tinymce will NOT function properly with WordPress 3.9 and above.  Please switch to <a href="http://wordpress.org/plugins/wp-edit/" target="_blank">WP Edit</a> instead.</span>';
 	
     return print $output;
 }

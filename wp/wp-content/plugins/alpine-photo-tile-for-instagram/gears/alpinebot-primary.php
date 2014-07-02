@@ -13,8 +13,8 @@ class PhotoTileForInstagramPrimary {
   private $dir;
   private $cacheUrl;
   private $cacheDir;
-  private $ver = '1.2.6';
-  private $vers = '1-2-6-3';
+  private $ver = '1.2.7';
+  private $vers = '1-2-7';
   private $domain = 'APTFINbyTAP_domain';
   private $settings = 'alpine-photo-tile-for-instagram-settings'; // All lowercase
   private $name = 'Alpine PhotoTile for Instagram';
@@ -24,6 +24,8 @@ class PhotoTileForInstagramPrimary {
   private $page = 'AlpineTile: Instagram';
   private $src = 'instagram';
   private $hook = 'APTFINbyTAP_hook';
+	private $testmode = 0;
+	private $testpoint = 0;
   private $plugins = array('pinterest','tumblr','flickr','picasa-and-google-plus','smugmug');
   private $termsofservice = "By using this plugin, you are agreeing to the Instagram API <a href='http://instagram.com/about/legal/terms/api/' target='_blank'>Terms of Use</a>. This is why the plugin is limited to displaying 30 photos.";
 
@@ -45,10 +47,9 @@ class PhotoTileForInstagramPrimary {
   private $results = array('photos'=>array(),'feed_found'=>false,'success'=>false,'userlink'=>'','hidden'=>'','message'=>'');
   private $output = '';
   private $wid; // Widget id
+	private $cacheid; // Cache id
   
   private $userlink = '';
-  private $cacheLimit = 2;
-  private $cacheAttempts = 0;  
   
   function __construct() {
     $this->url = untrailingslashit( plugins_url( '' , dirname(__FILE__) ) );
@@ -247,11 +248,11 @@ class PhotoTileForInstagramPrimary {
  * Register styles and scripts
  *  
  * @ Since 1.2.3
- * @ Updated 1.2.5
+ * @ Updated 1.2.6.6
  *
  */
   function register_style_and_script(){
-    wp_register_script($this->get_private('wjs'),$this->get_script('widget'),'',$this->get_private('ver'));
+    wp_register_script($this->get_private('wjs'),$this->get_script('widget'),array( 'jquery' ),$this->get_private('ver'));
     wp_register_style($this->get_private('wcss'),$this->get_style('widget'),'',$this->get_private('ver'));  
    
     $lightbox = $this->get_option('general_lightbox');
@@ -261,7 +262,7 @@ class PhotoTileForInstagramPrimary {
     $css = $this->get_style( $lightbox );
     
     if( !empty( $script ) && !empty( $css ) && empty($prevent) ){
-      wp_register_script( $lightbox, $script, '', '', true );
+      wp_register_script( $lightbox, $script, array( 'jquery' ), '', true );
       wp_register_style( $lightbox.'-stylesheet', $css, false, '', 'screen' );
     }
     
@@ -347,60 +348,28 @@ class PhotoTileForInstagramPrimary {
 //////////////////////      Custom Server Functions      /////////////////////////////
 //////////////////////////////////////////////////////////////////////////////////////
 /**
- * JSON Decoder: An PHP4 alternative to PHP5 json_decode() function
- *  
- * @ Since 1.2.6
- * 
- */
-  function json_decoder($json){
-    $comment = false;
-    $out = '$x=';
-
-    for($i=0; $i<strlen($json); $i++){
-      if(!$comment){
-        if( ($json[$i] == '{') || ($json[$i] == '[') ){
-          $out .= ' array(';
-        }elseif( ($json[$i] == '}') || ($json[$i] == ']') ){
-          $out .= ')';
-        }elseif($json[$i] == ':'){
-          $out .= '=>';
-        }else{
-          $out .= $json[$i];
-        }
-      }else{
-        $out .= $json[$i];
-      }
-      
-      if($json[$i] == '"' && $json[($i-1)]!="\\"){
-        $comment = !$comment;
-      }
-    }
-    $out = stripslashes( $out );
-
-    eval($out . ';');
-    return $x;
-  }
-  
-/**
  * cURL Function
  *  
  * @ Since 1.2.6
- * 
+ * @ Updated 1.2.7
  */
-  function manual_cURL( $request, $fields = null ){
+  function manual_cURL( $request, $array_resp = false, $fields = null ){
     if( function_exists('curl_init') ){
+			$v = get_bloginfo( 'version' );
+			$u = get_bloginfo( 'url' );
       $this->append_active_result('hidden','<!-- Try manual_cURL() -->');
       $options = array(
           CURLOPT_RETURNTRANSFER => true,     // return web page
           CURLOPT_HEADER         => false,    // don't return headers
           CURLOPT_FOLLOWLOCATION => true,     // follow redirects
           CURLOPT_ENCODING       => "",       // handle all encodings
-          CURLOPT_USERAGENT      => "spider", // who am i
+          CURLOPT_USERAGENT      => 'WordPress/' . $v . '; ' . $u, // who am i
           CURLOPT_AUTOREFERER    => true,     // set referer on redirect
           CURLOPT_CONNECTTIMEOUT => 120,      // timeout on connect
           CURLOPT_TIMEOUT        => 120,      // timeout on response
           CURLOPT_MAXREDIRS      => 10,       // stop after 10 redirects
-          CURLOPT_SSL_VERIFYPEER => false     // Disabled SSL Cert checks
+          CURLOPT_SSL_VERIFYPEER => false,     // Disabled SSL Cert checks
+					CURLOPT_SSL_VERIFYHOST => false     // Disabled SSL Cert checks
       );
 
       $ch      = curl_init( $request );
@@ -413,14 +382,23 @@ class PhotoTileForInstagramPrimary {
       $err     = curl_errno( $ch );
       $errmsg  = curl_error( $ch );
       $header  = curl_getinfo( $ch );
+			$status = curl_getinfo($ch, CURLINFO_HTTP_CODE);
       curl_close( $ch );
-      
+
       if( $err ){
         $this->append_active_result('hidden','<!-- An error occured: Num '.$err.', Message: '.$errmsg.' -->');
+				$this->echo_point('<span style="color:red">An error occured: Num '.$err.', Message: '.$errmsg.'</span>');
       }
-      if( $content ){
-        return $content;
-      }
+			if( $array_resp ){
+				if( $content ){
+					return array('body'=>$content,'code'=>$status);
+				}
+				return array('body'=>'','code'=>404);
+			}else{
+			  if( $content ){
+					return $content;
+				}
+			}
     }
   }  
 /**
@@ -450,6 +428,23 @@ class PhotoTileForInstagramPrimary {
     
     return $clean_text;
   }
+/**
+ * Print test point
+ *  
+ * @ Since 1.2.7
+ */
+  function echo_point($message=Null) {
+		if( $this->testmode ){
+			$p = $this->testpoint;
+			$this->testpoint = $p + 1;
+			list($usec, $sec) = explode(" ", microtime());
+			$micro = substr(strval($usec),1,5);
+			echo '<br>P'.$p.',  UTC:'.($sec/3600%24).':'.($sec/60%60).':'.($sec%60).$micro;
+			if( $message ){
+				echo ',  '.$message;
+			}
+		}
+	}
 //////////////////////////////////////////////////////////////////////////////////////
 /////////////////////////      Option Functions      /////////////////////////////////
 //////////////////////////////////////////////////////////////////////////////////////
@@ -528,7 +523,7 @@ class PhotoTileForInstagramPrimary {
  * Option positions for settings pages
  *  
  * @ Since 1.2.0
- * @ Updated 1.2.6.3
+ * @ Updated 1.2.7
  */
   function admin_option_positions(){
     $positions = array(
@@ -545,7 +540,11 @@ class PhotoTileForInstagramPrimary {
         'top' => array( 'title' => 'Global Options', 'description' => 'Below are settings that will be applied to every instance of the plugin.' ),
         'center' => array( 'title' => 'Hidden Options', 'description' => 'Below are additional options that you can choose to enable by checking the box. <br>Once enabled, the option will appear in the Widget Menu and Shortcode Generator.' ),
         'bottom' => array( 'title' => 'Cache Options', 'description' => 'The plugin is capable of storing the url addresses to the photos in your feed. Please note that the plugin does not store the image files and that if your website has a cache plugin like WP Super Cache or W3 Total Cache, the cache feature of the Alpine PhotoTile will have no effect.')
-      )
+      ),
+      'plugin-tools' => array(
+        'top' => array( 'title' => 'System Check' ),
+        'center' => array( 'title' => 'Plugin Loading Test' )
+      ),
     );
     return $positions;
   }
@@ -553,7 +552,7 @@ class PhotoTileForInstagramPrimary {
  * Plugin Admin Settings Page Tabs
  *  
  * @ Since 1.2.0
- *
+ * @ Updated 1.2.7
  */
   function admin_settings_page_tabs() {
     $tabs = array( 
@@ -572,6 +571,10 @@ class PhotoTileForInstagramPrimary {
       'plugin-settings' => array(
         'name' => 'plugin-settings',
         'title' => 'Plugin Settings',
+      ),
+      'plugin-tools' => array(
+        'name' => 'plugin-tools',
+        'title' => 'Plugin Tools',
       )
     );
     return $tabs;
@@ -800,6 +803,10 @@ class PhotoTileForInstagramPrimary {
         'title' => 'Style : ',
         'type' => 'select',
         'valid_options' => array(
+          'cascade' => array(
+            'name' => 'cascade',
+            'title' => 'Cascade'
+          ),
           'vertical' => array(
             'name' => 'vertical',
             'title' => 'Vertical'
@@ -812,22 +819,18 @@ class PhotoTileForInstagramPrimary {
             'name' => 'wall',
             'title' => 'Wall'
           ),
-          'cascade' => array(
-            'name' => 'cascade',
-            'title' => 'Cascade'
-          ),
           'gallery' => array(
             'name' => 'gallery',
             'title' => 'Gallery'
-          )           
+          )          
         ),
-         'description' => 'If nothing displays, try Vertical or Cascade. Also, try clicking the box for "Load Styles and Scripts in Header" on the <a href="options-general.php?page='.$this->get_private('settings').'&tab=plugin-settings" target="_blank">settings page</a>.',
+         'description' => 'If nothing displays, try Vertical or Cascade. Also, try clicking the box for "Load Styles and Scripts in Header" on the <a href="options-general.php?page='.$this->get_private('settings').'&tab=plugin-settings" target="_blank">settings page</a>. Visit the <a href="options-general.php?page='.$this->get_private('settings').'&tab=plugin-tools" target="_blank">tools page</a> to check for errors.',
         'parent' => 'AlpinePhotoTiles-parent',
         'trigger' => 'style_option',
         'widget' => true,
         'tab' => 'generator',
         'position' => 'right',
-        'default' => 'vertical'
+        'default' => 'cascade'
       ),      
       'style_photo_per_row' => array(
         'name' => 'style_photo_per_row',
@@ -1084,7 +1087,17 @@ class PhotoTileForInstagramPrimary {
         'tab' => 'plugin-settings',
         'position' => 'top',
         'default' => ""
-      ),       
+      ), 
+      'general_images_ssl' => array(
+        'name' => 'general_images_ssl',
+        'title' => 'Load Images with SSL: ',
+        'type' => 'checkbox',
+        'description' => 'Use https:// in the image link instead of http://.',
+        'since' => '1.2.1',
+        'tab' => 'plugin-settings',
+        'position' => 'top',
+        'default' => ""
+      ),      
       'general_load_header' => array(
         'name' => 'general_load_header',
         'title' => 'Load Styles and <br>Scripts in Header: ',
@@ -1228,7 +1241,7 @@ class PhotoTileForInstagramPrimary {
         'tab' => 'plugin-settings',
         'position' => 'bottom',
         'default' => '4'
-      ), 
+      ),
       
       'client_id' => array(
         'name' => 'client_id',
@@ -1255,5 +1268,6 @@ class PhotoTileForInstagramPrimary {
     return $options;
   }
 }
+
 
 ?>

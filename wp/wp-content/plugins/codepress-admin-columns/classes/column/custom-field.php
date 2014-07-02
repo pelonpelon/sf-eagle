@@ -30,6 +30,7 @@ class CPAC_Column_Custom_Field extends CPAC_Column {
 		$this->options['excerpt_length']	= 15;
 
 		$this->options['date_format']		= '';
+		$this->options['date_save_format']	= '';
 
 		// for retireving sorting preference
 		$this->user_settings = get_option( 'cpac_general_options' );
@@ -43,12 +44,6 @@ class CPAC_Column_Custom_Field extends CPAC_Column {
 	 * @since 1.0
 	 */
 	function sanitize_options( $options ) {
-
-		//if ( ! empty( $options['before'] ) )
-		//	$options['before'] = trim( $options['before'] );
-
-		//if ( ! empty( $options['after'] ) )
-		//	$options['after'] = trim( $options['after'] );
 
 		if ( empty( $options['date_format'] ) ) {
 			$options['date_format'] = get_option( 'date_format' );
@@ -84,7 +79,13 @@ class CPAC_Column_Custom_Field extends CPAC_Column {
 		// deprecated. do not use, will be removed.
 		$custom_field_types = apply_filters( 'cpac_custom_field_types', $custom_field_types );
 
-		// Filter
+		/**
+		 * Filter the available custom field types for the meta (custom field) field
+		 *
+		 * @since 2.0
+		 *
+		 * @param array $custom_field_types Available custom field types ([type] => [label])
+		 */
 		$custom_field_types = apply_filters( 'cac/column/meta/types', $custom_field_types );
 
 		return $custom_field_types;
@@ -125,14 +126,15 @@ class CPAC_Column_Custom_Field extends CPAC_Column {
 	 */
 	private function get_titles_by_id( $meta ) {
 
-		$ids = $this->get_ids_from_meta( $meta );
+		$titles = array();
 
 		// display title with link
-		if ( $ids && is_array( $ids ) ) {
-			foreach ( $ids as $id ) {
+		if ( $ids = $this->get_ids_from_meta( $meta ) ) {
+			foreach ( (array) $ids as $id ) {
+
 				if ( ! is_numeric( $id ) ) continue;
 
-				$link  = get_edit_post_link( $id );
+				$link = get_edit_post_link( $id );
 				if ( $title = get_the_title( $id ) )
 					$titles[] = $link ? "<a href='{$link}'>{$title}</a>" : $title;
 			}
@@ -151,11 +153,11 @@ class CPAC_Column_Custom_Field extends CPAC_Column {
 	 */
 	private function get_users_by_id( $meta )	{
 
-		$ids = $this->get_ids_from_meta( $meta );
+		$names = array();
 
 		// display username
-		if ( $ids && is_array( $ids ) ) {
-			foreach ( $ids as $id ) {
+		if ( $ids = $this->get_ids_from_meta( $meta ) ) {
+			foreach ( (array) $ids as $id ) {
 				if ( ! is_numeric( $id ) ) continue;
 
 				$userdata = get_userdata( $id );
@@ -203,19 +205,17 @@ class CPAC_Column_Custom_Field extends CPAC_Column {
 				break;
 
 			case "title_by_id" :
-				if ( $titles = $this->get_titles_by_id( $meta ) )
-					$meta = $titles;
+				$meta = $this->get_titles_by_id( $meta );
 				break;
 
 			case "user_by_id" :
-				if ( $names = $this->get_users_by_id( $meta ) )
-					$meta = $names;
+				$meta = $this->get_users_by_id( $meta );
 				break;
 
 			case "checkmark" :
 				$checkmark = $this->get_asset_image( 'checkmark.png' );
 
-				if ( empty($meta) || 'false' === $meta || '0' === $meta ) {
+				if ( empty( $meta ) || 'false' === $meta || '0' === $meta ) {
 					$checkmark = '';
 				}
 
@@ -256,8 +256,8 @@ class CPAC_Column_Custom_Field extends CPAC_Column {
 	 *
 	 * @since 1.0
 	 */
-	function hex2rgb($hex) {
-		$hex = str_replace("#", "", $hex);
+	function hex2rgb( $hex ) {
+		$hex = str_replace( "#", "", $hex );
 
 		if(strlen($hex) == 3) {
 			$r = hexdec(substr($hex,0,1).substr($hex,0,1));
@@ -335,7 +335,11 @@ class CPAC_Column_Custom_Field extends CPAC_Column {
 	 */
 	function get_raw_value( $id, $single = true ) {
 
-		return get_metadata( $this->storage_model->type, $id, $this->get_field_key(), $single );
+		$field_key = $this->get_field_key();
+
+		$raw_value = get_metadata( $this->storage_model->type, $id, $field_key, $single );
+
+		return apply_filters( 'cac/column/meta/raw_value', $raw_value, $id, $field_key, $this );
 	}
 
 	/**
@@ -371,7 +375,8 @@ class CPAC_Column_Custom_Field extends CPAC_Column {
 	 */
 	function display_settings() {
 
-		$show_hidden_meta = isset( $this->user_settings['show_hidden'] ) && '1' === $this->user_settings['show_hidden'] ? true : false;
+		//$show_hidden_meta = isset( $this->user_settings['show_hidden'] ) && '1' === $this->user_settings['show_hidden'] ? true : false;
+		$show_hidden_meta = true;
 
 		?>
 
@@ -404,50 +409,19 @@ class CPAC_Column_Custom_Field extends CPAC_Column {
 		</tr>
 
 		<?php
+		switch ( $this->options->field_type ) {
+			case 'date':
+				$this->display_field_date_format();
+				break;
+			 case 'image':
+			 case 'library_id':
+			 	$this->display_field_preview_size();
+			 	break;
+			 case 'excerpt':
+			 	$this->display_field_excerpt_length();
+			 	break;
+		}
 
-		/**
-		 * Add Date Format
-		 *
-		 */
-		$is_hidden = in_array( $this->options->field_type, array( 'date' ) ) ? false : true;
-
-		$this->display_field_date_format( $is_hidden );
-
-		/**
-		 * Add Preview size
-		 *
-		 */
-		$is_hidden = in_array( $this->options->field_type, array( 'image', 'library_id' ) ) ? false : true;
-
-		$this->display_field_preview_size( $is_hidden );
-
-		/**
-		 * Add Excerpt length
-		 *
-		 */
-		$is_hidden = in_array( $this->options->field_type, array( 'excerpt' ) ) ? false : true;
-
-		$this->display_field_excerpt_length( $is_hidden );
-
-		/**
-		 * Before / After
-		 *
-		 */
-		?>
-
-		<tr class="column_before">
-			<?php $this->label_view( __( "Before", 'cpac' ), __( 'This text will appear before the custom field value.', 'cpac' ), 'before' ); ?>
-			<td class="input">
-				<input type="text" class="cpac-before" name="<?php $this->attr_name( 'before' ); ?>" id="<?php $this->attr_id( 'before' ); ?>" value="<?php echo esc_attr( stripslashes( $this->options->before ) ); ?>"/>
-			</td>
-		</tr>
-		<tr class="column_after">
-			<?php $this->label_view( __( "After", 'cpac' ), __( 'This text will appear after the custom field value.', 'cpac' ), 'after' ); ?>
-			<td class="input">
-				<input type="text" class="cpac-after" name="<?php $this->attr_name( 'after' ); ?>" id="<?php $this->attr_id( 'after' ); ?>" value="<?php echo esc_attr( stripslashes( $this->options->after ) ); ?>"/>
-			</td>
-		</tr>
-		<?php
-
+		$this->display_field_before_after();
 	}
 }

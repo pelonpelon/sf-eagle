@@ -47,6 +47,15 @@
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
+	"\/archives.php": {
+		"fileType": 8192,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/archives.php",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
 	"\/bearweekend.php": {
 		"fileType": 8192,
 		"ignore": 0,
@@ -61,6 +70,15 @@
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/bw.php",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/calendar.php": {
+		"fileType": 8192,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/calendar.php",
 		"outputAbbreviatedPath": "No Output Path",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
@@ -1091,6 +1109,28 @@
 		"initialSize": 18712,
 		"inputAbbreviatedPath": "\/images\/carousel\/cigar-lite.jpg",
 		"outputAbbreviatedPath": "\/images\/carousel\/cigar-lite.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/images\/carousel\/cigardick-275.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 26784,
+		"inputAbbreviatedPath": "\/images\/carousel\/cigardick-275.jpg",
+		"outputAbbreviatedPath": "\/images\/carousel\/cigardick-275.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/images\/carousel\/cigardick.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 44670,
+		"inputAbbreviatedPath": "\/images\/carousel\/cigardick.jpg",
+		"outputAbbreviatedPath": "\/images\/carousel\/cigardick.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
@@ -4743,6 +4783,15 @@
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
+	"\/jade\/docs\/GayHankyCodes.html": {
+		"fileType": 8192,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/jade\/docs\/GayHankyCodes.html",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
 	"\/jade\/docs\/GayHankyCodes.jade": {
 		"compileDebug": 0,
 		"fileType": 512,
@@ -4939,6 +4988,15 @@
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
+	"\/jade\/singles\/bearweekend.html": {
+		"fileType": 8192,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/jade\/singles\/bearweekend.html",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
 	"\/jade\/singles\/bearweekend.jade": {
 		"compileDebug": 0,
 		"fileType": 512,
@@ -4960,6 +5018,15 @@
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 1,
 		"outputStyle": 1
+		},
+	"\/jade\/singles\/gotfur.html": {
+		"fileType": 8192,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/jade\/singles\/gotfur.html",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
 		},
 	"\/jade\/singles\/gotfur.jade": {
 		"compileDebug": 0,
@@ -5026,6 +5093,15 @@
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/jade\/wordpress.html",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/jobs.php": {
+		"fileType": 8192,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/jobs.php",
 		"outputAbbreviatedPath": "No Output Path",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
@@ -6699,6 +6775,15 @@
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
+	"\/merch.php": {
+		"fileType": 8192,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/merch.php",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
 	"\/missing.html": {
 		"fileType": 8192,
 		"ignore": 0,
@@ -7751,6 +7836,24 @@
 		"shouldRunAutoprefixer": 0,
 		"shouldRunBless": 0,
 		"useLibsass": 0
+		},
+	"\/softball.php": {
+		"fileType": 8192,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/softball.php",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/staff.php": {
+		"fileType": 8192,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/staff.php",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
 		},
 	"\/stats\/BROWSERREP.html": {
 		"fileType": 8192,
@@ -39206,6 +39309,17 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+	"\/wp\/wp-content\/uploads\/2014\/04\/Pound-Puppy-3375x5175-644K.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 659298,
+		"inputAbbreviatedPath": "\/wp\/wp-content\/uploads\/2014\/04\/Pound-Puppy-3375x5175-644K.jpg",
+		"outputAbbreviatedPath": "\/wp\/wp-content\/uploads\/2014\/04\/Pound-Puppy-3375x5175-644K.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/wp\/wp-content\/uploads\/2014\/04\/Pound-Puppy-423x650.jpg": {
 		"fileType": 16384,
 		"ignore": 0,
@@ -39228,13 +39342,68 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
-	"\/wp\/wp-content\/uploads\/2014\/04\/Pound-Puppy.jpg": {
+	"\/wp\/wp-content\/uploads\/2014\/04\/Pound-Puppy\/Pound-Puppy-24K-424x650.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 24793,
+		"inputAbbreviatedPath": "\/wp\/wp-content\/uploads\/2014\/04\/Pound-Puppy\/Pound-Puppy-24K-424x650.jpg",
+		"outputAbbreviatedPath": "\/wp\/wp-content\/uploads\/2014\/04\/Pound-Puppy\/Pound-Puppy-24K-424x650.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/wp\/wp-content\/uploads\/2014\/04\/Pound-Puppy\/Pound-Puppy-31K-424x650.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 31469,
+		"inputAbbreviatedPath": "\/wp\/wp-content\/uploads\/2014\/04\/Pound-Puppy\/Pound-Puppy-31K-424x650.jpg",
+		"outputAbbreviatedPath": "\/wp\/wp-content\/uploads\/2014\/04\/Pound-Puppy\/Pound-Puppy-31K-424x650.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/wp\/wp-content\/uploads\/2014\/04\/Pound-Puppy\/Pound-Puppy-44K-424x650.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 44989,
+		"inputAbbreviatedPath": "\/wp\/wp-content\/uploads\/2014\/04\/Pound-Puppy\/Pound-Puppy-44K-424x650.jpg",
+		"outputAbbreviatedPath": "\/wp\/wp-content\/uploads\/2014\/04\/Pound-Puppy\/Pound-Puppy-44K-424x650.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/wp\/wp-content\/uploads\/2014\/04\/Pound-Puppy\/Pound-Puppy-banner.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 931025,
+		"inputAbbreviatedPath": "\/wp\/wp-content\/uploads\/2014\/04\/Pound-Puppy\/Pound-Puppy-banner.jpg",
+		"outputAbbreviatedPath": "\/wp\/wp-content\/uploads\/2014\/04\/Pound-Puppy\/Pound-Puppy-banner.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/wp\/wp-content\/uploads\/2014\/04\/Pound-Puppy\/Pound-Puppy-instagram.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 238399,
+		"inputAbbreviatedPath": "\/wp\/wp-content\/uploads\/2014\/04\/Pound-Puppy\/Pound-Puppy-instagram.jpg",
+		"outputAbbreviatedPath": "\/wp\/wp-content\/uploads\/2014\/04\/Pound-Puppy\/Pound-Puppy-instagram.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/wp\/wp-content\/uploads\/2014\/04\/Pound-Puppy\/Pound-Puppy.jpg": {
 		"fileType": 16384,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
 		"initialSize": 2.37566e+06,
-		"inputAbbreviatedPath": "\/wp\/wp-content\/uploads\/2014\/04\/Pound-Puppy.jpg",
-		"outputAbbreviatedPath": "\/wp\/wp-content\/uploads\/2014\/04\/Pound-Puppy.jpg",
+		"inputAbbreviatedPath": "\/wp\/wp-content\/uploads\/2014\/04\/Pound-Puppy\/Pound-Puppy.jpg",
+		"outputAbbreviatedPath": "\/wp\/wp-content\/uploads\/2014\/04\/Pound-Puppy\/Pound-Puppy.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0

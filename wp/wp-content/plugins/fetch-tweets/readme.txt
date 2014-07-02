@@ -3,8 +3,8 @@ Contributors: Michael Uno, miunosoft
 Donate link: http://en.michaeluno.jp/donate
 Tags: twitter, twitter widget, tweets, tweet, widget, widgets, post, posts, page, pages, custom post type, API, Twitter API, REST, oAuth, shortcode, sidebar, plugin, template
 Requires at least: 3.3
-Tested up to: 3.8
-Stable tag: 1.3.3.6
+Tested up to: 3.9.1
+Stable tag: 2.3.3
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 Fetches and displays tweets from twitter.com with the Twitter API.
@@ -20,17 +20,18 @@ It allows developers to write additional add-ons and templates. One of the exten
 
 If you are a theme developer, you can easily customize the template for the tweet outputs. Just copy the existing template and modify the copied files and rename the template name. Then place the copied folder into the theme folder. And there you go! Your own template will be listed in the plugin’s setting page. This way, when the plugin updates, you won’t loose your modifications.
 
-
 <h4>Features</h4>
-* **User Timeline** - by specifying the user name, the timeline can be fetched and displayed.
+* **Fetching Timeline** - by specifying the user name, the timeline can be fetched and displayed as well as your account's home timeline.
 * **Search Results** - by specifying the search keyword, the results can be fetched and displayed.
 * **Lists**	- tweet timeline for members of the specified list can be fetched and displayed.
+* **Custom API Query** - if you are a developer and familiar with Twitter API, you can directly specify the query url to send to Twitter.
+* **Tweet ID** - you can fetch tweets by Tweet ID.
 * **Mashups** - you can display the combined results from multiple rule sets of your choosing.
 * **Widget** - tweets can be displayed in the widgets that the plugin provides.
 * **Shortcode** - with the shortcode, the fetched tweets can be displayed in posts and pages.
 * **PHP Code** - with the PHP function, the fetched tweets can be embedded in the templates.
 * **Custom Templates** - you can change the design by modifying/creating the template file.
-* **Background Cache Renewal** - it renews the caches in the background so it will prevent the page load from suddenly getting stuck for fetching external sources. 
+* **Background Cache Renewal** - it renews the caches in the background so it will prevent the page load from suddenly getting stuck for fetching external sources.
 * **Embedded Media** - urls of media elements can be automatically converted to embedded elements.
  
 == Installation ==
@@ -41,9 +42,10 @@ If you are a theme developer, you can easily customize the template for the twee
 2. Activate the plugin through the 'Plugins' menu in WordPress.
 
 = How to Use = 
-1. Set a rule via **Dashboard** -> **Fetch Tweets** -> **Add Rule by USer Name** / **Add Rule by Keyword Search**.
-2. To use it as a widget, go to **Appearance** -> **Widgets** and add **Fetch Tweets by Rule Set** to the desired sidebar. And select the rule in the widget form.
-3. To use the shortcode to display tweets in posts and pages, simply enter the shortcode like below in the post,
+1. Authenticate the plugin via **Dashboard** -> **Fetch Tweets** -> **Settings** ( -> **Authentication** ( the default tab ) ) -> the **Connect** button.
+2. Set a rule via **Dashboard** -> **Fetch Tweets** -> **Add Rule by USer Name** / **Add Rule by Keyword Search**.
+3. To use it as a widget, go to **Appearance** -> **Widgets** and add **Fetch Tweets by Rule Set** to the desired sidebar. And select the rule in the widget form.
+4. To use the shortcode to display tweets in posts and pages, simply enter the shortcode like below in the post,
 
 `[fetch_tweets id="123"]` 
 
@@ -123,7 +125,6 @@ In order to set multiple tags, pass them with commas as the delimiter. e.g.
 
 = How to Create Own Template =
 
-
 **Step 1**
 
 Copy the folder named ***plain*** or ***single*** in the plugin's template folder. Rename the copied folder to something you like.
@@ -132,10 +133,10 @@ Copy the folder named ***plain*** or ***single*** in the plugin's template folde
 
 Edit the following files.
 
-* **style.css**
-* **template.php**
-* **functions.php** ( optional ) - if not edited, do not include it. Be careful not to declare any PHP function or class that is already declared in the original file.
-* **settings.php** ( optional ) - if not edited, do not include it. Be careful not to declare any PHP function or class that is already declared in the original file.
+* **style.css** - defines the template's CSS rules. Also some of the information in the header comment sections will appear in the template listing table.
+* **template.php** - defines the layout of the tweets. PHP coding skill is required.
+* **functions.php** ( optional ) - loaded if the template is activated when the plugin starts. If you don't edit this file, do not include it. Be careful not to declare any PHP function or class that is already declared in the original file.
+* **settings.php** ( optional ) - loaded only in the admin area if the template is activated. If you don't edit this file, do not include it. Be careful not to declare any PHP function or class that is already declared in the original file.
 
 In the *style.css* file, include the comment area ( with /* */ ) at the top of the file with the following entries.
 
@@ -177,10 +178,11 @@ function FetchTweets_AddSampleTemplateDirPath( $arrDirPaths ) {
 	
 }`
 
+You can check an example template [here](https://github.com/michaeluno/fetch-tweets-sample-template).
 
 == Frequently Asked Questions ==
 
-= Do I need to API keys to use the plugin ? =
+= Do I need API keys to use the plugin ? =
 They are not necessary as of v1.3.0. Just click on the *Connect* button in the Authentication page of the plugin and it will redirect you to the Twitter's authentication page. Then you log in to Twitter there and authorize the plugin.
 
 Though you can use your own keys with the existing method. In that case, click on the *Set Keys Manually* button that redirects you to the page to set the keys manually.
@@ -196,6 +198,10 @@ See the How to Create Own Template section of the **[Other Notes](http://wordpre
 * Type `#HASHTAG AND from:SCREENNAME` in the Search Keyword meta box option field. Change the part, `#HASHTAG`, to your searching hash tag and the part, `SCREENNAME`, to the account's screen name to fetch tweets from.
 * Create a rule by pressing the Publish button.
 
+= Why don't tweets update? =
+
+It could be that your host disables WP Cron. In that case, try the intense caching mode which can be configured via `Dashboard` -> `Fetch Tweets` -> `Settings` -> `General` -> `Cache Settings` -> `Caching Mode`.
+
 == Screenshots ==
 
 1. ***Tweets Displayed in Page and Sidebar***
@@ -205,6 +211,91 @@ See the How to Create Own Template section of the **[Other Notes](http://wordpre
 5. ***Authentication***
 
 == Changelog ==
+
+= 2.3.4 - 05/15/2014 =
+- Fixed an issue on some non GNU systems, like Solaris, that a fatal error occurred when the plugin is loaded.
+
+= 2.3.3 - 05/14/2014 =
+- Fixed an issue that when the `include retweet` option is unchecked, the count parameter was not accurately reflected in the `search` rule type.
+- Fixed an undefined index warning that occurred by specifying an excessive value in the count parameter. 
+- Added the visibility options for media elements to the widget forms.
+
+= 2.3.2 - 05/04/2014 =
+- Fixed a bug that some profile images without the file extension in the url were not shown.
+
+= 2.3.1 - 05/03/2014 =
+- Changed not to retrieve oembed element in the front end to prevent delays in page load.
+
+= 2.3.0 - 05/01/2014 =
+- Changed to display an error message for tweets of not authorized accounts.
+- Added some more status items in the rate limit status table in the setting page.
+- Added the `Template` column in the rule listing table.
+- Added the `border-radius` property to the profile image element in the built-in templates.
+- Added the ability to create a rule by tweet ID.
+- Tweaked the styling of the `debug` template and added a screen-shot.
+- Updated the [Admin Page Framework](http://wordpress.org/plugins/admin-page-framework/) library to v3.0.5 which includes patches for issues with [WordPress MU](https://codex.wordpress.org/WordPress_MU).
+
+= 2.2.1 - 04/26/2014 =
+- Rephrased a label of an option item.
+- Made larger profile image sizes set in the template setting page take effect in preview pages.
+
+= 2.2.0 - 04/24/2014 =
+- Made the built-in templates respect the `Include Retweets` option value.
+- Added the `Include Retweets` option for the `Search` and `Home Timeline` rule type. 
+- Updated the [Admin Page Framework](http://wordpress.org/plugins/admin-page-framework/) library to v3.0.5b.
+- Added an option that determines whether the rule pages should be searchable with the WordPress search form.
+- Added the `Debug` template.
+- Added the ability to add a rule by custom API request.
+
+= 2.1.1.1 - 03/25/2014 =
+* Fixed the warnings: `Invalid argument supplied for foreach() in ...wp-content/plugins/fetch-tweets/include/class/boot/registry/FetchTweets_AutoLoad.php on line 93`, which occurred on some servers.
+
+= 2.1.1 - 03/25/2014 =
+* Tweaked the routines of plugin setting pages.
+
+= 2.1 - 03/23/2014 =
+* Added the ability to create a rule by external JSON feed source.
+* Added the `Caching Mode` option.
+
+= 2 - 03/19/2014 =
+* Added the ability to create a rule by home timeline.
+* Added the geometry coordinate picker field for the search tweet type.
+* Renewed the positions of meta boxes in the rule definition page. 
+* (Breaking change) Changed the internal options structure. Accordingly, options of custom templates may be affected.
+* (Breaking change) Updated the [Admin Page Framework](http://wordpress.org/plugins/admin-page-framework/) library to v3.0.2b. Accordingly, setting pages of custom templates may be affected.
+
+= 1.3.5.1 - 03/06/2014 =
+* Fixed a bug that caused a fatal error when newly connecting to Twitter introduced since v1.3.5.
+
+= 1.3.5 - 03/06/2014 =
+* Fixed the issue of TwitteroAuth library version conflicts.
+* Refactored the code. 
+
+= 1.3.4.1 - 03/05/2014 =
+* Fixed the warning that occurs when a user with the insufficient access level to the plugin setting pages logged in to the admin page, `Warning: Invalid argument supplied for foreach() in ...\wp-content\plugins\fetch-tweets\class\FetchTweets_AdminPage_.php on line 544`
+
+= 1.3.4 - 02/28/2014 = 
+* Improved the caching mechanism.
+
+= 1.3.3.11 - 02/26/2014 =
+* Improved the caching mechanism by reducing the number of background processes.
+
+= 1.3.3.10 - 02/21/2014 =
+* Fixed a possible issue that caused extra database queries.
+
+= 1.3.3.9 - 02/02/2014 =
+* Fixed a fatal error caused since v1.3.3.8.
+
+= 1.3.3.8 - 02/01/2014 =
+* Fixed a bug that the date picker ui did not appear in the date option input field.
+
+= 1.3.3.7 - 01/26/2014 =
+* Fixed a bug that the link of the setting page in the plugin listing table was pointing not to the Setting page.
+* Improved the caching mechanism not to entirely rely on WP Cron.
+* Updated the [Admin Page Framework](http://wordpress.org/plugins/admin-page-framework/) library to v2.1.7.2.
+* Fixed the warning: `Strict standards: Declaration of ... should be compatible with ...`.
+* Fixed a possible security issue in the plugin admin pages.
+* Fixed a possible issue caused by locked transients that could prevent caches from updating.
 
 = 1.3.3.6 - 01/15/2014 =
 * Fixed a bug that setting 0 for the height or width did not set no limit but setting 0px.
