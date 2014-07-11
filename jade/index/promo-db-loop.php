@@ -21,6 +21,7 @@
       ?>
       <section class="promo" style="display: block;">
           <div class="with_thumbnail"><?php
-          the_content();?>
+            the_content();?>
+          </div>
       </section><?php
     }?>

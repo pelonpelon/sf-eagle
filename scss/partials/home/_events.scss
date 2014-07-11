@@ -117,14 +117,19 @@
         background-color: $decor-dark;
       }
     }
-  .more_events {
-    margin: 20px 0 0 0;
-    padding: 12px 4px 1px 4px;
-    background-color: #444;
-    @include opacity(0.9);
-    @include border-top-radius(0px);
-    @include border-bottom-radius(15px);
-    text-align: right;
+  .to-calendar {
+    float: none;
+    margin: 0 auto 20px auto;
+    /* margin: 20px 0 0 0; */
+    width: 80%;
+    height: 80px;
+    border-radius: 50px;
+    /* padding: 12px 4px 1px 4px; */
+    /* background-color: #444; */
+    /* @include opacity(0.9); */
+    /* @include border-top-radius(0px); */
+    /* @include border-bottom-radius(15px); */
+    /* text-align: right; */
   }
   @media screen and (max-width: $tablet) {
     clear: both;

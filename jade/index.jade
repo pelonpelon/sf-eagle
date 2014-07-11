@@ -1,4 +1,5 @@
 include common/header
+
   a(name="top")
   #root
     #page.index
@@ -11,8 +12,15 @@ include common/header
       a(name="events")
       #events
         include index/events
+      #pics
+          include ../jade/index/tumblr-loop.php
       #page-footer
     a(name="footer")
     #footer
       include common/footer
+
+    .backtothetop
+      a.button(href="#top")
+        span Back To The Top
+
   include common/scripts
