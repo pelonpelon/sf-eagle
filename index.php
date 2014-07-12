@@ -145,7 +145,7 @@ function fill_tease($post, $kind)
 <?php
   global $post;
   $day = '';
-  $max_posts = 2;
+  $max_posts = 1;
 
  $args=array('post_type'=>'event','numberposts'=>-1);
  $custom_posts=get_posts($args);
@@ -176,7 +176,6 @@ function fill_tease($post, $kind)
               );
   $custom_posts = get_posts($args);
   foreach($custom_posts as $post) {
-    if ( $max_posts == 0 ) {break;}
     setup_postdata($post);
     $type_of_event = get_field('type_of_event');
     if ( $post->post_status == "private" ) { continue; }
@@ -184,7 +183,8 @@ function fill_tease($post, $kind)
     // if ( $begintime > $now + 60*60*24*9 || $now > $endtime ) { continue; }
     if ( $now > $endtime-60 ) { continue; }
     if ($day != date('l', $begintime)) {
-      --$max_posts ?>
+      if ( $max_posts-- == 0 ) {break;}
+     ?>
 
   <li id="<?php echo date('l', $begintime); ?>" class="day">
     <h3><?php echo date('l', $begintime); ?> <sup><?php echo date('n/j', $begintime); ?></sup> </h3>
@@ -291,10 +291,12 @@ function fill_tease($post, $kind)
 
   </div>
 
-<?php } 
+<?php  
+}
     if ($day != date('l', $begintime)) {
       echo "</li>";
     } ?>
+
 
 </ul>
 
