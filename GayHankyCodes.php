@@ -46,7 +46,7 @@
           </header>
           <article>
             <p id="intro">
-              The Hanky Code is a traditional form of signalling to others what your
+              The Hanky Code is a traditional form of signaling to others what your
               sexual preferences and interests are. Gay men used this code to communicate
               with each other in the noisy and distracting environment of gay bars. Although
               not as widely used these days, it is still a worthwhile resource and is,
