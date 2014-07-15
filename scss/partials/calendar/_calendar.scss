@@ -81,10 +81,11 @@
             }
             .dj-name {
               display: block;
-              line-height: 1em;
-              font-family: sans-serif;
-              font-weight: 500;
+              line-height: 1.1em;
+              font-family: $content-font;
+              font-weight: 600;
               font-size: .6em;
+              font-variant: small-caps;
               color: $decor-dark;
             }
             .promoter {
@@ -146,6 +147,15 @@
               padding:0;
             }
           }
+        }
+        tr.month {
+          td {
+            font-family: $tnl-font;
+            font-size: 3em !important;
+            color: $decor-medium;
+            background: rgba(0,0,0,0) ;
+            border-color: rgba(0,0,0,0) ;
+           }
         }
       }
     }

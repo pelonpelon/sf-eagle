@@ -55,7 +55,7 @@ foreach($custom_posts as $post)
     if ( get_field('tease') )
     {
         include 'includes/timegames.php';
-        if ( $begintime > ($now + 60*60*24*7) || $now > $endtime ) { continue; } ?>
+        if ( $begintime > ($now + 60*60*24*7) || ($now + 60*60*2) > $endtime ) { continue; } ?>
 
         <section class="event" style="display: block;"> <?php
         if ( get_field('lead') )

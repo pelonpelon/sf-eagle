@@ -28,6 +28,9 @@ $args = array(
             'numberposts'   => -1
                );
 $custom_posts = get_posts($args);
+
+$monthlabel = false;
+
 foreach($custom_posts as $post)
 {
     setup_postdata($post);
@@ -46,7 +49,19 @@ foreach($custom_posts as $post)
     $image_medium = wp_get_attachment_image_src( get_post_thumbnail_id($post->ID), 'medium');
     $image_thumbnail = wp_get_attachment_image_src( get_post_thumbnail_id($post->ID), 'thumbnail');
 
-    $title_thumbnail = get_field('title_thumbnail'); ?>
+    $title_thumbnail = get_field('title_thumbnail');
+
+    $month = date('F', $begintime); 
+    if ( $monthlabel != $month ) { 
+      ?>
+      <tr class="month">
+        <td></td>
+        <td><?php echo $month; ?></td>
+        <td></td>
+      </tr>
+<?php
+      $monthlabel = $month;
+    } ?>
 
     <tr class="<?php echo implode(" ", get_post_meta(get_the_ID(), 'crowd', true)); ?>">
       <td>

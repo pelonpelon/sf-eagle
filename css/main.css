@@ -2311,13 +2311,14 @@ h6 {
 /* line 82, ../scss/partials/calendar/_calendar.scss */
 #page.calendar .content section table tr td + td .dj-name {
   display: block;
-  line-height: 1em;
-  font-family: sans-serif;
-  font-weight: 500;
+  line-height: 1.1em;
+  font-family: "Coming Soon";
+  font-weight: 600;
   font-size: .6em;
+  font-variant: small-caps;
   color: #660000;
 }
-/* line 90, ../scss/partials/calendar/_calendar.scss */
+/* line 91, ../scss/partials/calendar/_calendar.scss */
 #page.calendar .content section table tr td + td .promoter {
   display: block;
   padding: 10px 0 20px 0;
@@ -2326,39 +2327,39 @@ h6 {
   font-variant: small-caps;
   line-height: 1em;
 }
-/* line 98, ../scss/partials/calendar/_calendar.scss */
+/* line 99, ../scss/partials/calendar/_calendar.scss */
 #page.calendar .content section table tr td + td a {
   display: block;
 }
-/* line 101, ../scss/partials/calendar/_calendar.scss */
+/* line 102, ../scss/partials/calendar/_calendar.scss */
 #page.calendar .content section table tr td + td > a {
   background: #bbb;
 }
-/* line 104, ../scss/partials/calendar/_calendar.scss */
+/* line 105, ../scss/partials/calendar/_calendar.scss */
 #page.calendar .content section table tr td + td a + a {
   background: #999;
 }
-/* line 107, ../scss/partials/calendar/_calendar.scss */
+/* line 108, ../scss/partials/calendar/_calendar.scss */
 #page.calendar .content section table tr td + td a + a + a {
   background: #777;
 }
-/* line 110, ../scss/partials/calendar/_calendar.scss */
+/* line 111, ../scss/partials/calendar/_calendar.scss */
 #page.calendar .content section table tr td + td a + a + a + a {
   background: #666;
 }
-/* line 113, ../scss/partials/calendar/_calendar.scss */
+/* line 114, ../scss/partials/calendar/_calendar.scss */
 #page.calendar .content section table tr td + td a + a + a + a {
   background: #555;
 }
-/* line 116, ../scss/partials/calendar/_calendar.scss */
+/* line 117, ../scss/partials/calendar/_calendar.scss */
 #page.calendar .content section table tr td + td a + a + a + a + a {
   background: #444;
 }
-/* line 120, ../scss/partials/calendar/_calendar.scss */
+/* line 121, ../scss/partials/calendar/_calendar.scss */
 #page.calendar .content section table tr td + td + td {
   background-color: #660000;
 }
-/* line 122, ../scss/partials/calendar/_calendar.scss */
+/* line 123, ../scss/partials/calendar/_calendar.scss */
 #page.calendar .content section table tr td + td + td .thumb {
   float: none;
   margin: 0 auto;
@@ -2370,31 +2371,39 @@ h6 {
   vertical-align: middle;
 }
 @media screen and (max-width: 801px) {
-  /* line 122, ../scss/partials/calendar/_calendar.scss */
+  /* line 123, ../scss/partials/calendar/_calendar.scss */
   #page.calendar .content section table tr td + td + td .thumb {
     width: 95%;
   }
 }
-/* line 135, ../scss/partials/calendar/_calendar.scss */
+/* line 136, ../scss/partials/calendar/_calendar.scss */
 #page.calendar .content section table tr td + td + td .youtube {
   width: 30%;
   margin: 0 auto;
 }
 @media screen and (max-width: 801px) {
-  /* line 135, ../scss/partials/calendar/_calendar.scss */
+  /* line 136, ../scss/partials/calendar/_calendar.scss */
   #page.calendar .content section table tr td + td + td .youtube {
     width: 50%;
   }
 }
 @media screen and (max-width: 1025px) {
-  /* line 135, ../scss/partials/calendar/_calendar.scss */
+  /* line 136, ../scss/partials/calendar/_calendar.scss */
   #page.calendar .content section table tr td + td + td .youtube {
     width: 95%;
   }
 }
-/* line 145, ../scss/partials/calendar/_calendar.scss */
+/* line 146, ../scss/partials/calendar/_calendar.scss */
 #page.calendar .content section table tr td + td + td img {
   padding: 0;
+}
+/* line 152, ../scss/partials/calendar/_calendar.scss */
+#page.calendar .content section table tr.month td {
+  font-family: "Jolly Lodger";
+  font-size: 3em !important;
+  color: #cc0000;
+  background: transparent;
+  border-color: transparent;
 }
 
 /* line 3, ../scss/partials/jobs/_jobs.scss */
