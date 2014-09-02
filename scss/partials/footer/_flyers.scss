@@ -51,6 +51,7 @@
   @media screen and (max-width: $phone) {
     img {
         margin: 0 auto;
+        max-width: 100%;
     }
     p {
       font-size: 1.5em;

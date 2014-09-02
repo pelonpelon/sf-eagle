@@ -24,14 +24,17 @@ foreach($custom_posts as $post)
         <section class="event" style="display: block;"> <?php
         if ( get_field('lead') )
         { ?>
-            <div class="lead"><?php echo (get_field('lead')); ?> </div> <?php
-        }
+          <div class="lead"><?php echo (get_field('lead')); ?> </div> <?php
+        } ?>
+          <div class="post-content">  
+<?php
         if ( get_field('include_title') )
         { ?>
-            <h1> <?php echo $post->post_title; ?> </h1> <?php
+          <h2> <?php echo $post->post_title; ?> </h2> <?php
         }
         fill_tease($post, "scheduled");
         ?>
+          </div>
         </section>
         <?php
         break;
@@ -45,7 +48,7 @@ $args = array(
     'orderby'       => 'post_date',
     'order'         => 'DESC',
     'post_type'     => 'post',
-    'post_status'   => 'published',
+    'post_status'   => 'publish',
     'numberposts'   => -1
 );
 $posts = get_posts($args);
@@ -58,10 +61,12 @@ foreach($posts as $post)
     include 'includes/timegames.php'; ?>
 
     <hr>
-    <section class="tease_now custom" style="display: block;"> <?php
-      fill_tease($post, "custom"); ?>
-    </section> <?php
-}
+      <section class="tease_now custom" style="display: block;">
+        <div class="post-content">
+          <?php fill_tease($post, "custom"); ?>
+        </div>
+      </section>
+<?php }
 
 /**
  * fill the center of the top of the home page with
@@ -73,7 +78,7 @@ function fill_tease($post, $kind)
 {
   if ( has_category( "print-post-title", $post ) ) { ?>
 
-      <h1> <?php the_title(); ?> </h1> <?php
+      <h2> <?php the_title(); ?> </h2> <?php
 
   }
   if (has_post_thumbnail( $post->ID )) {
@@ -82,7 +87,7 @@ function fill_tease($post, $kind)
     $image_full = wp_get_attachment_image_src( get_post_thumbnail_id($post->ID), 'full'); ?>
 
     <div>
-      <a href="<?php echo $image_full[0] ?>" rel="lightbox">
+      <a href="<?php the_field('link'); ?>" target="_blank">
         <img src="<?php echo $image_large[0] ?>"
              width="<?php echo $image_large[1]; ?>"
              height="<?php echo $image_large[2]; ?>"
@@ -91,11 +96,9 @@ function fill_tease($post, $kind)
     </div><?php
 
   }
-  if($post->post_content != "") { ?>
+  if($post->post_content != "") {
 
-    <div class="post-content">
-      <?php the_content(); ?>
-    </div> <?php
+      the_content();
 
   }
   if (the_field('blurb') != "") { ?>

@@ -1,20 +1,24 @@
+log = (string)->
+  if console
+    console.log string
 
-jQuery ->
-#    console.log "start"
+(($) ->
+
+  console.log "start"
   # keypress to force reload of page
-  m = $ ('#mast')
+  m = $('#mast')
   $(document).bind 'keypress', (e) ->
     location.reload() if e.which is 114
   # add lightbox to Drink Special img
-  $promoImg = $(".promo img")
-  $imgsrc = $promoImg.attr("src")
-  $promoImg.wrap("<a href=\""+$imgsrc+"\" rel=\"lightbox\"></a>")
+  #$promoImg = $(".promo img")
+  #$imgsrc = $promoImg.attr("src")
+  #$promoImg.wrap("<a href=\""+$imgsrc+"\" rel=\"lightbox\"></a>")
 
 
   # Calendar filtering
 
   calendar_button_on = 1.0
-  calendar_button_hover = 0.9
+  calendar_button_hover = 0.6
   calendar_button_dim = 0.2
   mouseenter_color = "#f00"
   mouseleave_color = "#a00"
@@ -26,40 +30,49 @@ jQuery ->
 
   $i.each ->
     $(this).mouseenter ->
-      $(this).css "borderColor", mouseenter_color
+      $(this).css "borderColor", "#c00"
+      log "mouse entered"
     $(this).mouseleave ->
       $(this).css "borderColor", mouseleave_color
+    $(this).data "state", false
 
-  hover_reset = ->
+  dimButtons = ->
     $i.each ->
       $(this).css "opacity", calendar_button_dim
-      $(this).data "state", "off"
 
-  hover_reset()
-  $i.each ->
-    $(this).data "state", "off"
-#        console.log ($(this).attr "class"),
-#            ($(this).data "state"),
-#            ($(this).css "borderColor")
+
+  hideAll = ->
+    $tr.each ->
+      if (($(this).css "opacity") > 0)
+        $(this).fadeTo 500, 0, ->
+          $(this).css "display", "none"
+
+  revealAll = ->
+    $tr.each ->
+      if (($(this).css "opacity") < 1)
+        $(this).fadeTo 500, 1
 
   filter_calendar = (crowd) ->
     $i.filter("." + crowd).click (e) ->
-#            console.log crowd + " " + $(this).data "state"
       e.preventDefault()
-      oldButtonState = $(this).data("state")
-      if ($(this).data "state") == "off"
-        hover_reset()
-        $(this).data "state", "on"
-        $(this).css "opacity", calendar_button_on
-#                console.log crowd + " is " + $(this).data "state"
-        $tr.fadeOut 100
+      dimButtons()
+
+      if (($(this).data "state") == false)
+        $tr.not("."+ crowd).not(".month").each ->
+          $(this).fadeTo 500, 0, ->
+            $(this).css "display", "none"
         $tr.filter("."+ crowd).each ->
-#                    console.log $(this)
-          $(this).fadeIn 500
+          $(this).fadeTo 500, 1, ->
+            $(this).css "display", "table-row"
+        $i.each ->
+          $(this).data "state", false
+        $(this).data "state", true
+        $(this).css "opacity", calendar_button_on
       else
-        hover_reset()
-        $tr.each ->
-          $(this).fadeIn 500
+        revealAll()
+        dimButtons()
+        $i.each ->
+          $(this).data "state", false
 
   filter_calendar "music"
   filter_calendar "bears"
@@ -95,3 +108,4 @@ jQuery ->
 
   return
 
+) jQuery

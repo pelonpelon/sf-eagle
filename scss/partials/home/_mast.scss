@@ -1,13 +1,10 @@
 #mast {
 
-    @include pie-clearfix;
-
     header {
         float: left;
         clear: right;
         img.logo {
             width: 80%;
-            @include opacity(0.9);
             @media screen and (max-width:$tablet) {
                 width: 60%;
             }
@@ -36,7 +33,6 @@
     @import "mast/nav";
 
     ul {
-        @include pie-clearfix;
         display: inline-block;
         @media screen and (max-width:$phone) {
             float: right;
@@ -68,12 +64,8 @@
           // background-color: #000;
           float: left;
           clear: right;
-          width: 96%;
-          margin: 0 auto;
-          &:nth-of-type(0n+1) {
-            margin: 0 auto
-            /* margin: 0 auto 40px auto; */
-          }
+          width: 90%;
+          margin: 0;
           padding: 0;
           overflow: hidden;
           text-align: center;
@@ -104,14 +96,23 @@
               margin: 5px auto 0 auto;
           }
           p {
-              color: $decor-medium;
-              font-family: "Coming Soon";
+              color: $decor-highlight;
+              font-size: 1.4em;
               font-weight: 900;
               text-shadow: 1px 1px $decor-dark;
               @media screen and (max-width:$phone) {
-                  font-size: 1.4em;
+                  font-size: 1.6em;
                   margin-top: 0;
               }
+          }
+          .wp-caption {
+            width: 100% !important;
+          }
+          .wp-caption-text {
+            font-family: $content-font;
+            color: $content-lite;
+            font-size: .8em;
+            text-align: center;
           }
           a:hover {
               color: $decor-lite;
