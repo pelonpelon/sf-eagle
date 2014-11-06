@@ -9,7 +9,12 @@ $args = array(
 'post_type'     => 'event',
 'numberposts'   => -1
 );
-$custom_posts = get_posts($args);
+  $query_starttime = microtime(true); 
+  $custom_posts = get_posts($args);
+  $query_endtime = microtime(true); 
+  $querytime = $query_endtime - $query_starttime; ?>
+  <span id="event-loop-query-time" style="display:none;"><?php echo $querytime; ?></span>
+<?php
 foreach($custom_posts as $post)
 {
     setup_postdata($post);

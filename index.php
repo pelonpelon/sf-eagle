@@ -58,7 +58,12 @@
     'post_status'   => 'publish',
     'numberposts'   => 2
     );
-    $custom_posts = get_posts($args);
+  $query_starttime = microtime(true); 
+  $custom_posts = get_posts($args);
+  $query_endtime = microtime(true); 
+  $querytime = $query_endtime - $query_starttime; ?>
+  <span id="event-loop-query-time" style="display:none;"><?php echo $querytime; ?></span>
+<?php
     if ( $custom_posts[1] ) {
       $post = $custom_posts[1];
       setup_postdata($post);
@@ -89,7 +94,12 @@ $args = array(
 'post_type'     => 'event',
 'numberposts'   => -1
 );
-$custom_posts = get_posts($args);
+  $query_starttime = microtime(true); 
+  $custom_posts = get_posts($args);
+  $query_endtime = microtime(true); 
+  $querytime = $query_endtime - $query_starttime; ?>
+  <span id="event-loop-query-time" style="display:none;"><?php echo $querytime; ?></span>
+<?php
 foreach($custom_posts as $post)
 {
     setup_postdata($post);
@@ -223,7 +233,12 @@ function fill_tease($post, $kind)
               'post_type'     => 'event',
               'numberposts'   => -1
               );
+  $query_starttime = microtime(true); 
   $custom_posts = get_posts($args);
+  $query_endtime = microtime(true); 
+  $querytime = $query_endtime - $query_starttime; ?>
+  <span id="event-loop-query-time" style="display:none;"><?php echo $querytime; ?></span>
+<?php
   /* fill events list */
   foreach($custom_posts as $post) {
     setup_postdata($post);
@@ -378,7 +393,12 @@ function fill_tease($post, $kind)
     'post_status'   => 'scheduled',
     'numberposts'   => 1
     );
-    $posts = get_posts($args);
+  $query_starttime = microtime(true); 
+  $posts = get_posts($args);
+  $query_endtime = microtime(true); 
+  $querytime = $query_endtime - $query_starttime; ?>
+  <span id="event-loop-query-time" style="display:none;"><?php echo $querytime; ?></span>
+<?php
     foreach($posts as $post)
     {
         if ( !$posts) { continue; }
@@ -500,7 +520,7 @@ function fill_tease($post, $kind)
       (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
       m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
       })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
-      ga('create', 'UA-42163204-1', 'sf-eagle.com');
+      ga('create', 'UA-42163204-1', 'sf-eagle.com', 'siteSpeedSampleRate': 100);
       ga('send', 'pageview');
       
     </script>

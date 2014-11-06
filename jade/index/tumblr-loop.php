@@ -9,7 +9,12 @@
     'post_status'   => 'scheduled',
     'numberposts'   => 1
     );
-    $posts = get_posts($args);
+  $query_starttime = microtime(true); 
+  $posts = get_posts($args);
+  $query_endtime = microtime(true); 
+  $querytime = $query_endtime - $query_starttime; ?>
+  <span id="event-loop-query-time" style="display:none;"><?php echo $querytime; ?></span>
+<?php
     foreach($posts as $post)
     {
         if ( !$posts) { continue; }
